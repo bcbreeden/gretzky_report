@@ -1,7 +1,11 @@
 :root {
-    --white: #ffffff;
-    --blue: #1d3557;
-    --red: #96121d;
+    --midnight_blue: #050d21;
+    --light_gray: #f0f0f0;
+    --red: #a60037;
+    --light_blue: #479af7;
+    --yellow: #f9d548;
+    --pink: #eb4795;
+    --teal: #6eeffc;
   }
 
 body, html {
@@ -9,7 +13,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: var(--blue);
+    background: var(--midnight_blue);
     overflow: hidden;
     font-family: 'Lato', sans-serif;
   }
@@ -18,8 +22,12 @@ input[type=submit]:hover{
     cursor:pointer;
 }
 
-p, label, input, select, option, td {
-    color: var(--blue);
+p, td {
+    color: var(--light_gray);
+}
+
+label, input, select, option{
+    color: var(--light_gray);
 }
 
 h1 {
@@ -31,7 +39,7 @@ h3 {
 }
 
 th {
-    color: var(--red);
+    color: var(--light_blue);
 }
 
 
@@ -62,13 +70,13 @@ th {
 }
 
 .above_avg {
-    background-color: var(--blue);
-    color: var(--white) !important;
+    background-color: var(--light_blue);
+    color: var(--midnight_blue) !important;
 }
 
 .below_avg {
     background-color: var(--red);
-    color: var(--white) !important;
+    color: var(--light_gray) !important;
 }
 
 /* Button Animation */
@@ -105,8 +113,9 @@ th {
 .form_link {
     background: transparent;
     border: 0;
-    color: var(--red);
+    color: var(--light_blue);
     text-decoration:underline;
+    font-size: 15px;
 }
 
 .hidden {
