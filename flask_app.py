@@ -17,14 +17,14 @@ Renders the index template.
 '''
 @app.route('/')
 def index():
-    return('index')                          
+    return render_template('index.html')                        
 
 @app.route('/skater_today/')
 def skater_today():
     SKATER_DATA = get_skater_data_by_team_id(get_teams_playing_today())
     features = ['playername', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'timeonicepergame', 'id']
     view_data = SKATER_DATA[features]
-    return render_template('index.html',
+    return render_template('skater_table_today.html',
                             skaters = view_data,
                             headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'id'])) #We dont need these column headers
 
