@@ -4,16 +4,12 @@
     --red: #96121d;
   }
 
-a {
-    color: var(--red) !important;
-}
-
 body, html {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    background: var(--white);
+    background: var(--blue);
     overflow: hidden;
     font-family: 'Lato', sans-serif;
   }
@@ -76,64 +72,25 @@ th {
 }
 
 /* Button Animation */
-.button_container{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .link_wrapper{
-    position: relative;
-  }
-  
-  a{
-    display: block;
-    width: 250px;
-    height: 50px;
-    line-height: 50px;
-    font-weight: bold;
-    text-decoration: none;
-    background: #333;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
+.button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
     letter-spacing: 1px;
-    border: 3px solid #333;
-    transition: all .35s;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
   }
-  
-  .icon{
-    width: 50px;
-    height: 50px;
-    border: 3px solid transparent;
-    position: absolute;
-    transform: rotate(45deg);
-    right: 0;
-    top: 0;
-    z-index: -1;
-    transition: all .35s;
-  }
-  
-  .icon svg{
-    width: 30px;
-    position: absolute;
-    top: calc(50% - 15px);
-    left: calc(50% - 15px);
-    transform: rotate(-45deg);
-    fill: #2ecc71;
-    transition: all .35s;
-  }
-  
-  a:hover{
-    width: 200px;
-    border: 3px solid #2ecc71;
-    background: transparent;
-    color: #2ecc71;
-  }
-  
-  a:hover + .icon{
-    border: 3px solid #2ecc71;
-    right: -25%;
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+    color: yellow;
   }
 /* End Button Animation */
 
