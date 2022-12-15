@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="player_container">
+    <section id="player_header">
+    {% for _, skater in skater.iterrows() %}
+        <h1>{{skater['playername']}}</h1>
+
+        {% if skater['position'] == "Defenseman" %}
+            <img src="{{ url_for('static', filename='img/shield-lrg.gif') }}">
+        {% elif skater['position'] == "Right Wing" %}
+            <img src="{{ url_for('static', filename='img/wing-r-lrg.gif') }}">
+        {% elif skater['position'] == "Left Wing" %}
+            <img src="{{ url_for('static', filename='img/wing-l-lrg.gif') }}">                
+        {% else %}
+            <img src="{{ url_for('static', filename='img/sticks-lrg.gif') }}">
+        {% endif %}
+    </section>
+    <section id="skater_stats_container_all">
+        <section id ="skater_card_stats_container">
+
+            <!-- GPG -->
+            {% if skater['GPGDIF'] > 0 %}
+                <section class="skater_card_positive skater_card">
+                    <h3>Goals Per Game</h3>
+                    <p class="player_card_white">{{skater['GPG']}} ({{skater['GPGDIF']}})</p>
+                </section>
+            {% elif skater['GPGDIF'] < 0 %}
+                <section class="skater_card_negative skater_card">
+                    <h3>Goals Per Game</h3>
+                    <p class="player_card_white">{{skater['GPG']}} ({{skater['GPGDIF']}})</p>
+                </section>
+            {% else %}
+                <section class="skater_card_neutral skater_card">
+                    <h3 class="h3_neutral">Goals Per Game</h3>
+                    <p>{{skater['GPG']}} ({{skater['GPGDIF']}})</p>
+                </section>
+            {% endif %}
+
+            <!-- APG -->
+            {% if skater['APGDIF'] > 0 %}
+                <section class="skater_card_positive skater_card">
+                    <h3>Assists Per Game</h3>
+                    <p class="player_card_white">{{skater['APG']}} ({{skater['APGDIF']}})</p>
+                </section> 
+            {% elif skater['APGDIF'] < 0 %}
+                <section class="skater_card_negative skater_card">
+                    <h3>Assists Per Game</h3>
+                    <p class="player_card_white">{{skater['APG']}} ({{skater['APGDIF']}})</p>
+                </section> 
+            {% else %}
+                <section class="skater_card_neutral skater_card">
+                    <h3 class="h3_neutral">Assists Per Game</h3>
+                    <p>{{skater['APG']}} ({{skater['APGDIF']}})</p>
+                </section> 
+            {% endif %}
+            
+            <!-- SPG -->
+            {% if skater['SPGDIF'] > 0 %}
+                <section class="skater_card_positive skater_card">
+                    <h3>Shots Per Game</h3>
+                    <p class="player_card_white">{{skater['SPG']}} ({{skater['SPGDIF']}})</p>
+                </section>
+            {% elif skater['SPGDIF'] < 0 %}
+                <section class="skater_card_negative skater_card">
+                    <h3>Shots Per Game</h3>
+                    <p class="player_card_white">{{skater['SPG']}} ({{skater['SPGDIF']}})</p>
+                </section>
+            {% else %}
+                <section class="skater_card_neutral skater_card">
+                    <h3 class="h3_neutral">Shots Per Game</h3>
+                    <p>{{skater['SPG']}} ({{skater['SPGDIF']}})</p>
+                </section>
+            {% endif %}
+
+            <!-- PPG -->
+            {% if skater['PPGDIF'] > 0 %}
+                <section class="skater_card_positive skater_card">
+                    <h3>Points Per Game</h3>
+                    <p class="player_card_white">{{skater['PPG']}} ({{skater['PPGDIF']}})</p>
+                </section>
+            {% elif skater['PPGDIF'] < 0 %}
+                <section class="skater_card_negative skater_card">
+                    <h3>Points Per Game</h3>
+                    <p class="player_card_white">{{skater['PPG']}} ({{skater['PPGDIF']}})</p>
+                </section>
+            {% else %}
+                <section class="skater_card_neutral skater_card">
+                    <h3 class="h3_neutral">Points Per Game</h3>
+                    <p>{{skater['PPG']}} ({{skater['PPGDIF']}})</p>
+                </section>
+            {% endif %}
+        </section>
+        <section id="skater_card_stats_detailed">
+            <table id="skater_details_table">
+                <thead>
+                    <tr>
+                        <th>Goals</th>
+                        <th>Assists</th>
+                        <th>Shots</th>
+                        <th>Games</th>
+                        <th>Points</th>
+                        <th>Time on Ice/Game</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>{{skater['goals']}}</td>
+                    <td>{{skater['assists']}}</td>
+                    <td>{{skater['shots']}}</td>
+                    <td>{{skater['games']}}</td>
+                    <td>{{skater['points']}}</td>
+                    <td>{{skater['timeonicepergame']}}</td>
+                </tr>
+
+            </table>
+
+        </section>
+    </section>
+
+    {% endfor %}
+</main>
+{% endblock %}
