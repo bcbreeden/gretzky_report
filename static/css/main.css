@@ -106,7 +106,7 @@ th {
 }
 
 .h3_neutral {
-    color: var(--blue);
+    color: var(--light_gray);
 }
 
 .form_link {
@@ -140,17 +140,22 @@ th {
 
 .skater_card{
     padding: 20px;
-    min-width: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .skater_card_positive {
-    background-color: var(--blue);
+    background-color: var(--teal);
 }
 
 .skater_card_negative {
     background-color: var(--red);
 }
 
+.player_card_p_negative {
+    color: var(--light_gray)
+}
+
 .skater_card_neutral {
-    background-color: white;
+    background-color: var(--midnight_blue);
 }
