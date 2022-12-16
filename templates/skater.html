@@ -5,15 +5,16 @@
     <section id="player_header">
     {% for _, skater in skater.iterrows() %}
         <h1>{{skater['playername']}}</h1>
+        <h3 class="skater_team_header">{{skater['currentteam']}}</h3>
 
         {% if skater['position'] == "Defenseman" %}
-            <img src="{{ url_for('static', filename='img/shield.png') }}">
+            <img src="{{ url_for('static', filename='img/red-shield.png') }}">
         {% elif skater['position'] == "Right Wing" %}
-            <img src="{{ url_for('static', filename='img/wing-r.png') }}">
+            <img src="{{ url_for('static', filename='img/red-wing-r.png') }}">
         {% elif skater['position'] == "Left Wing" %}
-            <img src="{{ url_for('static', filename='img/wing-l.png') }}">                
+            <img src="{{ url_for('static', filename='img/red-wing-l.png') }}">                
         {% else %}
-            <img src="{{ url_for('static', filename='img/sticks.png') }}">
+            <img src="{{ url_for('static', filename='img/red-sticks.png') }}">
         {% endif %}
     </section>
     <section id="skater_stats_container_all">
@@ -23,17 +24,17 @@
             {% if skater['GPGDIF'] > 0 %}
                 <section class="skater_card_positive skater_card">
                     <h3>GPG</h3>
-                    <p class="player_card_white">{{skater['GPG']}} ({{skater['GPGDIF']}})</p>
+                    <p class="player_card_white player_p">{{skater['GPG']}} <br /> ({{skater['GPGDIF']}})</p>
                 </section>
             {% elif skater['GPGDIF'] < 0 %}
                 <section class="skater_card_negative skater_card">
                     <h3>GPG</h3>
-                    <p class="player_card_p_negative">{{skater['GPG']}} ({{skater['GPGDIF']}})</p>
+                    <p class="player_card_p_negative player_p">{{skater['GPG']}} <br /> ({{skater['GPGDIF']}})</p>
                 </section>
             {% else %}
                 <section class="skater_card_neutral skater_card">
                     <h3 class="h3_neutral">GPG</h3>
-                    <p>{{skater['GPG']}} ({{skater['GPGDIF']}})</p>
+                    <p class="player_p">{{skater['GPG']}} <br /> ({{skater['GPGDIF']}})</p>
                 </section>
             {% endif %}
 
@@ -41,17 +42,17 @@
             {% if skater['APGDIF'] > 0 %}
                 <section class="skater_card_positive skater_card">
                     <h3>APG</h3>
-                    <p class="player_card_white">{{skater['APG']}} ({{skater['APGDIF']}})</p>
+                    <p class="player_card_white player_p">{{skater['APG']}} <br /> ({{skater['APGDIF']}})</p>
                 </section> 
             {% elif skater['APGDIF'] < 0 %}
                 <section class="skater_card_negative skater_card">
                     <h3>APG</h3>
-                    <p class="player_card_p_negative">{{skater['APG']}} ({{skater['APGDIF']}})</p>
+                    <p class="player_card_p_negative player_p">{{skater['APG']}} <br /> ({{skater['APGDIF']}})</p>
                 </section> 
             {% else %}
                 <section class="skater_card_neutral skater_card">
                     <h3 class="h3_neutral">APG</h3>
-                    <p>{{skater['APG']}} ({{skater['APGDIF']}})</p>
+                    <p class="player_p">{{skater['APG']}} <br /> ({{skater['APGDIF']}})</p>
                 </section> 
             {% endif %}
             
@@ -59,17 +60,17 @@
             {% if skater['SPGDIF'] > 0 %}
                 <section class="skater_card_positive skater_card">
                     <h3>SPG</h3>
-                    <p class="player_card_white">{{skater['SPG']}} ({{skater['SPGDIF']}})</p>
+                    <p class="player_card_white player_p">{{skater['SPG']}} <br /> ({{skater['SPGDIF']}})</p>
                 </section>
             {% elif skater['SPGDIF'] < 0 %}
                 <section class="skater_card_negative skater_card">
                     <h3>SPG</h3>
-                    <p class="player_card_p_negative">{{skater['SPG']}} ({{skater['SPGDIF']}})</p>
+                    <p class="player_card_p_negative player_p">{{skater['SPG']}} <br /> ({{skater['SPGDIF']}})</p>
                 </section>
             {% else %}
                 <section class="skater_card_neutral skater_card">
                     <h3 class="h3_neutral">SPG</h3>
-                    <p>{{skater['SPG']}} ({{skater['SPGDIF']}})</p>
+                    <p class="player_p">{{skater['SPG']}} <br /> ({{skater['SPGDIF']}})</p>
                 </section>
             {% endif %}
 
@@ -77,17 +78,17 @@
             {% if skater['PPGDIF'] > 0 %}
                 <section class="skater_card_positive skater_card">
                     <h3>PPG</h3>
-                    <p class="player_card_white">{{skater['PPG']}} ({{skater['PPGDIF']}})</p>
+                    <p class="player_card_white player_p">{{skater['PPG']}} <br /> ({{skater['PPGDIF']}})</p>
                 </section>
             {% elif skater['PPGDIF'] < 0 %}
                 <section class="skater_card_negative skater_card">
                     <h3>PPG</h3>
-                    <p class="player_card_p_negative">{{skater['PPG']}} ({{skater['PPGDIF']}})</p>
+                    <p class="player_card_p_negative player_p">{{skater['PPG']}} <br /> ({{skater['PPGDIF']}})</p>
                 </section>
             {% else %}
                 <section class="skater_card_neutral skater_card">
                     <h3 class="h3_neutral">PPG</h3>
-                    <p>{{skater['PPG']}} ({{skater['PPGDIF']}})</p>
+                    <p class="player_p">{{skater['PPG']}} <br /> ({{skater['PPGDIF']}})</p>
                 </section>
             {% endif %}
         </section>

@@ -30,11 +30,12 @@ label, input, select, option{
 }
 
 h1 {
-    color: var(--blue);
+    color: var(--light_gray);
 }
 
 h3 {
-    color: var(--white);
+    color: var(--light_gray);
+    margin: 0px;
 }
 
 th {
@@ -138,18 +139,27 @@ th {
     align-items: center;
 }
 
+.player_p {
+    font-size: 24px;
+    text-align: center;
+}
+
 .skater_card{
-    padding: 20px;
-    width: 125px;
-    height: 125px;
+    width: 140px;
+    height: 140px;
+    padding: 5px;
 }
 
 .skater_card_positive {
-    background-color: var(--teal);
+    background-color: var(--light_blue);
 }
 
 .skater_card_negative {
     background-color: var(--red);
+}
+
+.skater_team_header{
+    font-style: italic;
 }
 
 .player_card_p_negative {
