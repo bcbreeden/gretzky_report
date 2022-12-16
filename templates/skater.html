@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<main class="player_container">
+<main>
+<div class="player_container">
     <section id="player_header">
     {% for _, skater in skater.iterrows() %}
         <h1>{{skater['playername']}}</h1>
@@ -99,7 +100,7 @@
                         <th>Goals</th>
                         <th>Assists</th>
                         <th>Shots</th>
-                        <th>Games</th>
+                        <th>Games Played</th>
                         <th>Points</th>
                         <th>Time on Ice/Game</th>
                     </tr>
@@ -119,5 +120,17 @@
     </section>
 
     {% endfor %}
+</div>
+
+<div class="team_container">
+
+    {% for _, team in team.iterrows() %}
+    <section id="player_header">
+        <h1>{{team['name']}}</h1>
+        <h3 class="skater_team_header">{{team['division']}}</h3>
+        <h3 class="skater_team_header">{{team['gamesplayed']}} Games Played</h3>
+    </section>
+    {% endfor %}
+</div>
 </main>
 {% endblock %}
