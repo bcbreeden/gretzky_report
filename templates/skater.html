@@ -8,13 +8,13 @@
         <h3 class="skater_team_header">{{skater['currentteam']}}</h3>
 
         {% if skater['position'] == "Defenseman" %}
-            <img src="{{ url_for('static', filename='img/red-shield.png') }}">
+            <img class="skater_card_icon"" src="{{ url_for('static', filename='img/red-shield.png') }}">
         {% elif skater['position'] == "Right Wing" %}
-            <img src="{{ url_for('static', filename='img/red-wing-r.png') }}">
+            <img class="skater_card_icon" src="{{ url_for('static', filename='img/red-wing-r.png') }}">
         {% elif skater['position'] == "Left Wing" %}
-            <img src="{{ url_for('static', filename='img/red-wing-l.png') }}">                
+            <img class="skater_card_icon" src="{{ url_for('static', filename='img/red-wing-l.png') }}">                
         {% else %}
-            <img src="{{ url_for('static', filename='img/red-sticks.png') }}">
+            <img class="skater_card_icon" src="{{ url_for('static', filename='img/red-sticks.png') }}">
         {% endif %}
     </section>
     <section id="skater_stats_container_all">

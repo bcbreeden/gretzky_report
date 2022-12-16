@@ -31,6 +31,7 @@ label, input, select, option{
 
 h1 {
     color: var(--light_gray);
+    margin: 0;
 }
 
 h3 {
@@ -148,6 +149,10 @@ th {
     width: 140px;
     height: 140px;
     padding: 5px;
+}
+
+.skater_card_icon{
+    margin: 20px;
 }
 
 .skater_card_positive {
