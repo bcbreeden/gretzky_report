@@ -7,15 +7,16 @@
     {% for _, skater in skater.iterrows() %}
         <h1>{{skater['playername']}}</h1>
         <h3 class="skater_team_header">{{skater['currentteam']}}</h3>
+        <h3 class="skater_team_header">{{skater['position']}}</h3>
 
         {% if skater['position'] == "Defenseman" %}
-            <img class="skater_card_icon"" src="{{ url_for('static', filename='img/red-shield.png') }}">
+            <img class="skater_card_icon"" src="{{ url_for('static', filename='img/white-shield.png') }}">
         {% elif skater['position'] == "Right Wing" %}
-            <img class="skater_card_icon" src="{{ url_for('static', filename='img/red-wing-r.png') }}">
+            <img class="skater_card_icon" src="{{ url_for('static', filename='img/white-wing-r.png') }}">
         {% elif skater['position'] == "Left Wing" %}
-            <img class="skater_card_icon" src="{{ url_for('static', filename='img/red-wing-l.png') }}">                
+            <img class="skater_card_icon" src="{{ url_for('static', filename='img/white-wing-l.png') }}">                
         {% else %}
-            <img class="skater_card_icon" src="{{ url_for('static', filename='img/red-sticks.png') }}">
+            <img class="skater_card_icon" src="{{ url_for('static', filename='img/white-sticks.png') }}">
         {% endif %}
     </section>
     <section id="skater_stats_container_all">
@@ -100,9 +101,9 @@
                         <th>Goals</th>
                         <th>Assists</th>
                         <th>Shots</th>
-                        <th>Games Played</th>
-                        <th>Points</th>
-                        <th>Time on Ice/Game</th>
+                        <th>GP</th>
+                        <th>Pts</th>
+                        <th>Time/Game</th>
                     </tr>
                 </thead>
                 <tr>
@@ -130,6 +131,54 @@
         <h3 class="skater_team_header">{{team['division']}}</h3>
         <h3 class="skater_team_header">{{team['gamesplayed']}} Games Played</h3>
     </section>
+    <img class="skater_card_icon" src="{{ url_for('static', filename='img/' + team['id']|string + '.png') }}">
+
+
+    <table id="team_details_table">
+        <tr>
+            <td class="team_table_label">Wins</td><td>{{team['wins']}} (Rank - {{team['wins_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">Losses</td><td>{{team['losses']}} (Rank - {{team['losses_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">OTs</td><td>{{team['ot']}} (Rank - {{team['ot_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">PTS</td><td>{{team['pts']}} (Rank - {{team['pts_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">Goals/Game</td><td>{{team['goalspergame']}} (Rank - {{team['goalspergame_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">Goals Against/Game</td><td>{{team['goalsagainstpergame']}} (Rank - {{team['goalsagainstpergame_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">PP %</td><td>{{team['powerplaypercentage']}} (Rank - {{team['powerplaypercentage_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">PP Goals</td><td>{{team['powerplaygoals']}} (Rank - {{team['powerplaygoals_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">PP Goals Against</td><td>{{team['powerplaygoalsagainst']}} (Rank - {{team['powerplaygoalsagainst_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">PP Opportunities</td><td>{{team['powerplayopportunities']}} (Rank - {{team['powerplayopportunities_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">PK %</td><td>{{team['penaltykillpercentage']}} (Rank - {{team['penaltykillpercentage_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">Shots/Game</td><td>{{team['shotspergame']}} (Rank - {{team['shotspergame_r']}})</td>
+        </tr>
+        <tr>
+            <td class="team_table_label">Shots Allowed</td><td>{{team['shotsallowed']}} (Rank - {{team['shotsallowed_r']}})</td>
+        </tr>
+        <tr>
+            <td  class="team_table_label">Faceoff Win %</td><td>{{team['faceoffwinpercentage']}} (Rank - {{team['faceoffwinpercentage_r']}})</td>
+        </tr
+
+    </table>
     {% endfor %}
 </div>
 </main>

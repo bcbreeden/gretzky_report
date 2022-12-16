@@ -47,7 +47,7 @@ main {
     justify-content: space-around;
 }
 
-th {
+th, .team_table_label {
     color: var(--light_blue);
 }
 
@@ -58,6 +58,7 @@ th {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 20px;
 }
 
 #skater_details_table {
@@ -148,6 +149,10 @@ th {
     align-items: center;
 }
 
+.player_container, .team_container {
+    padding-top: 15px;
+}
+
 .player_p {
     font-size: 24px;
     text-align: center;
@@ -181,4 +186,14 @@ th {
 
 .skater_card_neutral {
     background-color: var(--midnight_blue);
+}
+
+.team_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.team_table_label{
+    font-weight: bold;
+    text-align: end;
 }
