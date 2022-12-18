@@ -19,12 +19,12 @@ Renders the index template.
 def index():
     return render_template('index.html')                        
 
-@app.route('/skater_today/')
-def skater_today():
+@app.route('/skaters_today/')
+def skaters_today():
     SKATER_DATA = get_skater_data_by_team_id(get_teams_playing_today())
     features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'timeonicepergame', 'id']
     view_data = SKATER_DATA[features]
-    return render_template('skater_table_today.html',
+    return render_template('skaters_today.html',
                             skaters = view_data,
                             headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'id', 'teamid'])) #We dont need these column headers
 

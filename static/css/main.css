@@ -166,6 +166,7 @@ th, .team_table_label {
 
 .skater_card_icon{
     margin: 20px;
+    width: fit-content;
 }
 
 .skater_card_positive {
