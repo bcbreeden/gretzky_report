@@ -78,18 +78,18 @@ Renders the comparison page for teams.
 def compare_teams():
 
     if request.method == 'POST':
-        teams_data_by_id = get_teams_data_by_team_ids([1,5,15])
+        team_ids_get = request.form.getlist('team') # returned as strings
+        team_ids = list(map(int, team_ids_get)) # cast to integer
+        teams_data_by_id = get_teams_data_by_team_ids(team_ids)
         teams_data_all = get_team_data_all()
         return render_template('teams_comparison.html',
                         teams_all = teams_data_all,
                         teams = teams_data_by_id
         )
     else:
-        teams_data_by_id = get_teams_data_by_team_ids([1,5,15])
         teams_data_all = get_team_data_all()
         return render_template('teams_comparison.html',
-                        teams_all = teams_data_all,
-                        teams = teams_data_by_id
+                        teams_all = teams_data_all
         )
 
 @cache.cached(timeout=260, key_prefix='function')

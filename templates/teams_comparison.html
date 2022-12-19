@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form action="{{ url_for('skater_results') }}" method="post">
+<form action="{{ url_for('compare_teams') }}" method="post">
     <input type="checkbox" onClick="toggle(this)" /> Toggle All<br/><br/>
     {% for _,team in teams_all.iterrows() %}
         <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
