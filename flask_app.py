@@ -53,18 +53,6 @@ def skater_form():
                             teams = TEAMS_DATA)
 
 '''
-Renders a template with the skater team selection form.
-'''
-@app.route('/team_comparison/')
-def team_comparison():
-    TEAMS_DATA = get_team_data_all()
-    if request.method == 'POST':
-        return("POST")
-    else:
-        return render_template("team_comparison.html",
-                                teams = TEAMS_DATA)
-
-'''
 Renders the results from the skater form into a table.
 '''
 @app.route('/skater_results/', methods=('GET', 'POST'))
