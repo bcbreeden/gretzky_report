@@ -1,5 +1,23 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<form action="{{ url_for('skater_results') }}" method="post">
+    <input type="checkbox" onClick="toggle(this)" /> Toggle All<br/><br/>
+    {% for _,team in teams_all.iterrows() %}
+        <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
+        <label for="team"> {{team['name']}}</label><br>
+    {% endfor %}
+    <input type="submit" value="Go!">
+</form>
+
+<script language="JavaScript">
+    function toggle(source) {
+        checkboxes = document.getElementsByName('team');
+        for(var i=0, n=checkboxes.length;i<n;i++) {
+        checkboxes[i].checked = source.checked;
+        }
+    }
+</script>
+
     {% include 'template_team_card.html' %}
 {% endblock %}

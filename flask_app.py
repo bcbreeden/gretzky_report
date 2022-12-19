@@ -39,7 +39,7 @@ def skater_card():
         skater_data = get_skater_data_by_id(skater_id)
         return render_template('skater.html',
                                 skater = skater_data,
-                                team = skater_team_data)
+                                teams = skater_team_data)
     else:
         return redirect(url_for('index'))
 
@@ -88,15 +88,20 @@ Renders the comparison page for teams.
 '''
 @app.route('/compare_teams/', methods=('GET', 'POST'))
 def compare_teams():
+
     if request.method == 'POST':
-        teams_data = get_teams_data_by_team_ids([1,5,15])
+        teams_data_by_id = get_teams_data_by_team_ids([1,5,15])
+        teams_data_all = get_team_data_all()
         return render_template('teams_comparison.html',
-                        team = teams_data
+                        teams_all = teams_data_all,
+                        teams = teams_data_by_id
         )
     else:
-        teams_data = get_teams_data_by_team_ids([1,5,15])
+        teams_data_by_id = get_teams_data_by_team_ids([1,5,15])
+        teams_data_all = get_team_data_all()
         return render_template('teams_comparison.html',
-                        team = teams_data
+                        teams_all = teams_data_all,
+                        teams = teams_data_by_id
         )
 
 @cache.cached(timeout=260, key_prefix='function')
