@@ -1,7 +1,8 @@
 import pandas as pd
 from datetime import date, datetime
 
-DATA = pd.read_csv('static/data/data_schedule.csv')
+# DATA = pd.read_csv('static/data/data_schedule.csv')
+DATA = pd.read_csv('/home/breedenb/pyhl-io/static/data/data_schedule.csv')
 
 '''
 Returns the ids of all teams playing today.

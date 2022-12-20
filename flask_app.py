@@ -1,16 +1,16 @@
 from flask import Flask, render_template, request, redirect, url_for
-from flask_caching import Cache
+# from flask_caching import Cache
 import pandas as pd
 from skaters import get_skater_data_by_id, get_skaters_data_by_team_id, get_top_skaters
 from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids
 from schedule import get_teams_playing_today
 
 app = Flask(__name__)
-cache = Cache()
+# cache = Cache()
 
 app.config["DEBUG"] = True
 app.config["CACHE_TYPE"] = 'simple'
-cache.init_app(app)
+# cache.init_app(app)
 
 '''
 Renders the index template.
@@ -92,8 +92,8 @@ def compare_teams():
                         teams_all = teams_data_all
         )
 
-@cache.cached(timeout=260, key_prefix='function')
-def function():
-    '''Caches the data that is updated every ~5 minutes.'''
-    data = 5
-    return data
+# @cache.cached(timeout=260, key_prefix='function')
+# def function():
+#     '''Caches the data that is updated every ~5 minutes.'''
+#     data = 5
+#     return data
