@@ -1,10 +1,9 @@
 import json
 import requests
 from task_teams import get_team_ids
+from script_utils import get_min_games
 from datetime import datetime
 import pandas as pd
-
-MIN_GAMES = 5
 
 '''
 Calls the nhl team api and returns a list of all active player ids.
@@ -126,7 +125,7 @@ def get_player_stats():
                 record['timeonicepergame'] = 0
             # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
-            if record['games'] >= MIN_GAMES:
+            if record['games'] >= get_min_games():
                 print('Player added:', player_data['people'][0]['fullName'])
                 player_stats_skaters.append(record)
             else:

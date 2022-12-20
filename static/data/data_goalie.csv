@@ -1,9 +1,7 @@
 id,currentteamid,fullname,currentteam,wins,losses,ties,shutouts,savepercentage,goalagainstaverage
 8473541,1,Jonathan Bernier,New Jersey Devils,0,0,0,0,0.0,0.0
-8478406,1,Mackenzie Blackwood,New Jersey Devils,4,2,0,0,0.880282,2.786124
-8482076,1,Nico Daws,New Jersey Devils,0,0,0,0,0.0,0.0
 8477970,1,Vitek Vanecek,New Jersey Devils,12,3,0,2,0.912065,2.374342
-8481033,1,Akira Schmid,New Jersey Devils,5,3,0,0,0.931937,1.958897
+8478406,1,Mackenzie Blackwood,New Jersey Devils,4,2,0,0,0.880282,2.786124
 8471239,2,Cory Schneider,New York Islanders,0,0,0,0,0.0,0.0
 8473575,2,Semyon Varlamov,New York Islanders,8,3,0,1,0.918635,2.648127
 8478009,2,Ilya Sorokin,New York Islanders,10,10,0,2,0.920761,2.486978
@@ -31,9 +29,9 @@ id,currentteamid,fullname,currentteam,wins,losses,ties,shutouts,savepercentage,g
 8481519,13,Spencer Knight,Florida Panthers,8,4,0,1,0.919037,2.638617
 8470880,14,Brian Elliott,Tampa Bay Lightning,7,1,0,0,0.901575,3.095549
 8476883,14,Andrei Vasilevskiy,Tampa Bay Lightning,13,8,0,0,0.914894,2.553094
+8482411,15,Hunter Shepard,Washington Capitals,0,0,0,0,0.0,0.0
 8475311,15,Darcy Kuemper,Washington Capitals,8,9,0,2,0.915789,2.557424
 8479292,15,Charlie Lindgren,Washington Capitals,8,4,0,0,0.912644,2.701475
-8482411,15,Hunter Shepard,Washington Capitals,0,0,0,0,0.0,0.0
 8471774,16,Alex Stalock,Chicago Blackhawks,3,2,0,0,0.914439,2.925046
 8475852,16,Petr Mrazek,Chicago Blackhawks,2,7,0,0,0.872093,4.23722
 8476433,17,Magnus Hellberg,Detroit Red Wings,1,1,0,0,0.903846,2.54417
