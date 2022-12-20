@@ -6,11 +6,9 @@ from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team
 from schedule import get_teams_playing_today
 
 app = Flask(__name__)
-# cache = Cache()
 
 app.config["DEBUG"] = True
 app.config["CACHE_TYPE"] = 'simple'
-# cache.init_app(app)
 
 '''
 Renders the index template.
@@ -53,25 +51,6 @@ def skater_form():
                             teams = TEAMS_DATA)
 
 '''
-Renders the results from the skater form into a table.
-'''
-# @app.route('/skater_results/', methods=('GET', 'POST'))
-# def skater_results():
-#     if request.method == 'POST':
-#         form_data = request.form.getlist('team')
-#         ids = [eval(i) for i in form_data]
-#         SKATER_DATA = get_skaters_data_by_team_id(ids)
-#         features = ['playername', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'BPG', 'timeonicepergame', 'id']
-#         view_data = SKATER_DATA[features]
-#         print(view_data)
-#         return render_template('skater_results_table.html',
-#                             skaters = view_data,
-#                             headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'id']))
-                                
-#     else:
-#         return redirect(url_for('index'))
-
-'''
 Renders the comparison page for teams.
 '''
 @app.route('/compare_teams/', methods=('GET', 'POST'))
@@ -91,9 +70,3 @@ def compare_teams():
         return render_template('teams_comparison.html',
                         teams_all = teams_data_all
         )
-
-# @cache.cached(timeout=260, key_prefix='function')
-# def function():
-#     '''Caches the data that is updated every ~5 minutes.'''
-#     data = 5
-#     return data

@@ -1,7 +1,7 @@
 import pandas as pd
 
-# DATA = pd.read_csv('static/data/data_teams.csv')
-DATA = pd.read_csv('/home/breedenb/pyhl-io/static/data/data_teams.csv')
+DATA = pd.read_csv('static/data/data_teams.csv', float_precision='round_trip')
+# DATA = pd.read_csv('/home/breedenb/pyhl-io/static/data/data_teams.csv', float_precision='round_trip')
 
 '''
 Fetches team data from the CSV file via a list of team ids. The data is then returned in a list.
