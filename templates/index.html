@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="button_slide slide_right">Players Today</div>
+<a href='{{ url_for('skaters_today') }}'><div class="button_slide slide_right">Skaters Today</div></a>
+<a href='{{ url_for('compare_teams') }}'><div class="button_slide slide_right">Compare Teams</div></a>
 {% endblock %}

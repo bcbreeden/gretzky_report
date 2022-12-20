@@ -22,7 +22,7 @@ def index():
 @app.route('/skaters_today/')
 def skaters_today():
     SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-    features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'timeonicepergame', 'id']
+    features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'BPG', 'timeonicepergame', 'id']
     view_data = SKATER_DATA[features]
     return render_template('skaters_today.html',
                             skaters = view_data,
@@ -55,21 +55,21 @@ def skater_form():
 '''
 Renders the results from the skater form into a table.
 '''
-@app.route('/skater_results/', methods=('GET', 'POST'))
-def skater_results():
-    if request.method == 'POST':
-        form_data = request.form.getlist('team')
-        ids = [eval(i) for i in form_data]
-        SKATER_DATA = get_skaters_data_by_team_id(ids)
-        features = ['playername', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'timeonicepergame', 'id']
-        view_data = SKATER_DATA[features]
-        print(view_data)
-        return render_template('skater_results_table.html',
-                            skaters = view_data,
-                            headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'id']))
+# @app.route('/skater_results/', methods=('GET', 'POST'))
+# def skater_results():
+#     if request.method == 'POST':
+#         form_data = request.form.getlist('team')
+#         ids = [eval(i) for i in form_data]
+#         SKATER_DATA = get_skaters_data_by_team_id(ids)
+#         features = ['playername', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'BPG', 'timeonicepergame', 'id']
+#         view_data = SKATER_DATA[features]
+#         print(view_data)
+#         return render_template('skater_results_table.html',
+#                             skaters = view_data,
+#                             headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'id']))
                                 
-    else:
-        return redirect(url_for('index'))
+#     else:
+#         return redirect(url_for('index'))
 
 '''
 Renders the comparison page for teams.

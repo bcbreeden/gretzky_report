@@ -15,13 +15,9 @@
                         <input class="hidden" type="checkbox" id="{{skater['id']}}" name="skater_id" value="{{skater['id']}}" checked>
                         <input class="hidden" type="checkbox" id="{{skater['teamid']}}" name="skater_team_id" value="{{skater['teamid']}}" checked>
                         <input class="form_link" type="submit" value="{{skater['playername']}}">
-                        {{skater['id']}}
-                        {{skater['teamid']}}
+                        <p class="hidden">{{skater['playername']}}</p>
                     </form>
                 </td>
-
-
-
 
                 <td class="non_stat_cell">{{skater['currentteam']}}</td>
 
@@ -47,10 +43,6 @@
                 </td>
                 {% endif %}
 
-                <!-- <td>{{skater['position']}} <br/>
-                    <img src="{{ url_for('static', filename='img/shield.gif') }}"
-                </td> -->
-                <!-- <td>{{skater['goals']}}</td> -->
 
                 {% if skater['GPGDIF'] > 0.0  %}
                     <td class="above_avg">{{skater['GPG']}} ({{skater['GPGDIF']}})</td>
@@ -86,6 +78,7 @@
                     <td class="avg">{{skater['PPG']}} ({{skater['PPGDIF']}})</td>
                 {% endif %}
 
+                <td class="non_stat_cell">{{skater['BPG']}}</td>
                 <td class="non_stat_cell">{{skater['timeonicepergame']}}</td>
             </tr>
         {% endfor %}
