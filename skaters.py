@@ -1,8 +1,10 @@
 import pandas as pd
 from script_utils import get_min_games
+from script_utils import get_data_path
 
 # DATA = pd.read_csv('static/data/data_skater.csv', float_precision='round_trip')
-DATA = pd.read_csv('/home/breedenb/pyhl-io/static/data/data_skater.csv', float_precision='round_trip')
+# DATA = pd.read_csv('/home/breedenb/pyhl-io/static/data/data_skater.csv', float_precision='round_trip')
+DATA = pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip')
 
 
 '''

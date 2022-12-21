@@ -4,6 +4,7 @@ from task_teams import get_team_ids
 from script_utils import get_min_games
 from datetime import datetime
 import pandas as pd
+from script_utils import get_data_path
 
 '''
 Calls the nhl team api and returns a list of all active player ids.
@@ -141,5 +142,5 @@ def write_player_data():
     data_all = get_player_stats()
     skater_df = pd.DataFrame(data_all[0])
     goalie_df = pd.DataFrame(data_all[1])
-    skater_df.to_csv('static/data/data_skater.csv', encoding='utf-8', index=False)
-    goalie_df.to_csv('static/data/data_goalie.csv', encoding='utf-8', index=False)
+    skater_df.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)
+    goalie_df.to_csv(get_data_path('data_goalie.csv'), encoding='utf-8', index=False)
