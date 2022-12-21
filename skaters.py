@@ -104,4 +104,4 @@ def add_skater_averages_to_csv():
                 data_add_df.at[index,'PPGDIF'] = round((row['PPG'] - center_ppg_avg), 2)
 
     # Write the new DF to the CSV file.
-    data_add_df.to_csv('static/data/data_skater.csv', encoding='utf-8', index=False)
+    data_add_df.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)
