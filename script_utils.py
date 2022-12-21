@@ -1,5 +1,5 @@
 MIN_GAMES = 10
-DEV = False
+DEV = True
 
 '''
 Gets the minimum game requirement

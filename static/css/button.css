@@ -1,0 +1,23 @@
+/* Button Animation */
+.button_slide {
+    color: #FFF;
+    border: 2px solid var(--light_blue);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 var(--light_blue);
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
+  }
+
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 var(--teal);
+    border: 2px solid var(--teal);
+    color: var(--midnight_blue);
+  }
+/* End Button Animation */
