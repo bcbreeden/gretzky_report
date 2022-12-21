@@ -9,38 +9,13 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/data_table.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/button.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/nav.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&family=Karla:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Navigation Demo</h1>
-
-    <nav id="mainnav">
-    <ul>
-        <li>
-        <a href="/home">Home</a>
-        </li>
-        <li>
-        <a href="/about-us" aria-current="page">About us</a>
-        </li>
-        <li>
-        <a href="/pricing">Pricing</a>
-        </li>
-        <li>
-        <a href="/contact">Contact</a>
-        </li>
-    </ul>
-    </nav>
-
-    <template id="burger-template">
-    <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="mainnav">
-        <svg width="24" height="24" aria-hidden="true">
-        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
-        </svg>
-    </button>
-    </template>
     {% block content %} {% endblock %}
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="{{ url_for('static', filename='js/nav.js') }}"></script>
+
 
 </html>

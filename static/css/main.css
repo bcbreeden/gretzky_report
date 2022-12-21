@@ -14,7 +14,8 @@ body, html {
     margin: 0;
     padding: 0;
     background: var(--midnight_blue);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
   }
 
 input[type=submit]:hover{
@@ -32,6 +33,7 @@ label, input, select, option{
 h1 {
     color: var(--light_gray);
     margin: 0;
+    font-family: 'Karla', sans-serif;
 }
 
 h3 {
@@ -79,11 +81,7 @@ th, .team_table_label {
     align-items: center;
 }
 
-#teams_container_all {
-    display: flex;
-    flex-direction:row;
 
-}
 
 .above_avg {
     background-color: var(--light_blue);
@@ -130,6 +128,7 @@ th, .team_table_label {
     flex-direction: column;
     max-width: 600px;
     align-items: center;
+    justify-content: center;
 }
 
 .player_container, .team_container {
@@ -159,9 +158,8 @@ th, .team_table_label {
     background-color: var(--red);
 }
 
-.skater_team_header{
-    font-style: italic;
-}
+/* .skater_team_header{
+} */
 
 .player_card_p_negative {
     color: var(--light_gray)
@@ -179,6 +177,11 @@ th, .team_table_label {
     justify-content: center;
 }
 
+.teams_container_all {
+    display: flex;
+    flex-direction:row;
+}
+
 .team_logo_container {
     min-height: 200px;
     display: flex;
@@ -186,6 +189,10 @@ th, .team_table_label {
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+.team_table_data {
+    min-width: 100px;
 }
 
 .team_table_label{
