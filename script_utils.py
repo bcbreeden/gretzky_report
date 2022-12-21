@@ -1,4 +1,4 @@
-MIN_GAMES = 20
+MIN_GAMES = 10
 
 '''
 Gets the minimum game requirement
