@@ -190,5 +190,3 @@ def write_player_game_history_data():
     print('Skater game history file written successfully!')
     goalie_df.to_csv(get_data_path('data_game_history_goalie.csv'), encoding='utf-8', index=False)
     print('Goalie game history file written successfully!')
-
-write_player_game_history_data()
