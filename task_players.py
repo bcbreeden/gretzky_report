@@ -147,11 +147,13 @@ def write_player_data():
 
 def get_player_game_history():
     GAMES_NEEDED = 5
-    player_ids = ['8471214'] #this is for testing, will replace with all ids
+    player_ids = get_player_ids()
+    # player_ids = [8477970]
 
     player_game_history_skaters = []
     player_game_history_goalies = []
     for player_id in player_ids:
+        print('Player ID:', player_id)
         record= {}
         request_string = 'https://statsapi.web.nhl.com/api/v1/people/{}/stats?stats=gameLog&season={}'.format(player_id, get_current_season())
         player_game_history_data = json.loads(requests.get(request_string).text)
@@ -162,12 +164,24 @@ def get_player_game_history():
             record['opp_id'] = game['opponent']['id']
             record['home_game'] = game['isHome']
             record['TOI'] = game['stat']['timeOnIce']
-            record['assists'] = game['stat']['assists']
-            record['goals'] = game['stat']['goals']
-            record['shots'] = game['stat']['shots']
-            record['PPTOI'] = game['stat']['powerPlayTimeOnIce']
-            record['blocked'] = game['stat']['blocked']
-            player_game_history_skaters.append(record)
-        print(player_game_history_skaters)
+            try:
+                record['assists'] = game['stat']['assists']
+                record['goals'] = game['stat']['goals']
+                record['shots'] = game['stat']['shots']
+                record['PPTOI'] = game['stat']['powerPlayTimeOnIce']
+                record['blocked'] = game['stat']['blocked']
+                player_game_history_skaters.append(record)
+                print('Skater record add for:', player_id)
+            except KeyError:
+                record['saves'] = game['stat']['saves']
+                record['save_perc'] = game['stat']['savePercentage']
+                record['goals_against'] = game['stat']['goalsAgainst']
+                record['shots_against'] = game['stat']['shotsAgainst']
+                player_game_history_goalies.append(record)
+                print('Goalie record add for:', player_id)
+
+    print(player_game_history_skaters)
+    print('*******************')
+    print(player_game_history_goalies)
 
 get_player_game_history()
