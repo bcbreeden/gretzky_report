@@ -154,11 +154,11 @@ def get_player_game_history():
     player_game_history_goalies = []
     for player_id in player_ids:
         print('Player ID:', player_id)
-        record= {}
         request_string = 'https://statsapi.web.nhl.com/api/v1/people/{}/stats?stats=gameLog&season={}'.format(player_id, get_current_season())
         player_game_history_data = json.loads(requests.get(request_string).text)
         games = player_game_history_data['stats'][0]['splits']
         for game in games[:GAMES_NEEDED]:
+            record= {}
             record['player_id'] = player_id
             record['date'] = game['date']
             record['opp_id'] = game['opponent']['id']
@@ -171,17 +171,24 @@ def get_player_game_history():
                 record['PPTOI'] = game['stat']['powerPlayTimeOnIce']
                 record['blocked'] = game['stat']['blocked']
                 player_game_history_skaters.append(record)
-                print('Skater record add for:', player_id)
+                print('Skater record add for {} {}.'.format(player_id, record['date']))
             except KeyError:
                 record['saves'] = game['stat']['saves']
                 record['save_perc'] = game['stat']['savePercentage']
                 record['goals_against'] = game['stat']['goalsAgainst']
                 record['shots_against'] = game['stat']['shotsAgainst']
                 player_game_history_goalies.append(record)
-                print('Goalie record add for:', player_id)
+                print('Goalie record add for {}.'.format(player_id))
 
-    print(player_game_history_skaters)
-    print('*******************')
-    print(player_game_history_goalies)
+    return(player_game_history_skaters, player_game_history_goalies)
 
-get_player_game_history()
+def write_player_game_history_data():
+    data_all = get_player_game_history()
+    skater_df = pd.DataFrame(data_all[0])
+    goalie_df = pd.DataFrame(data_all[1])
+    skater_df.to_csv(get_data_path('data_game_history_skater.csv'), encoding='utf-8', index=False)
+    print('Skater game history file written successfully!')
+    goalie_df.to_csv(get_data_path('data_game_history_goalie.csv'), encoding='utf-8', index=False)
+    print('Goalie game history file written successfully!')
+
+write_player_game_history_data()
