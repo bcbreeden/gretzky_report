@@ -1,5 +1,6 @@
 MIN_GAMES = 10
 DEV = True
+CURRENT_SEASON = '20222023'
 
 '''
 Gets the minimum game requirement
@@ -18,3 +19,9 @@ def get_data_path(file_name):
         return('static/data/{}'.format(file_name))
     else:
         return('/home/breedenb/pyhl-io/static/data/{}'.format(file_name))
+
+'''
+Gets the current season as a string
+'''
+def get_current_season():
+    return CURRENT_SEASON

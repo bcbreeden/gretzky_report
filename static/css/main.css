@@ -107,6 +107,12 @@ th, .team_table_label {
     color: var(--light_blue);
     text-decoration:underline;
     font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+.form_link:hover {
+    color: var(--pink);
 }
 
 .hidden {
