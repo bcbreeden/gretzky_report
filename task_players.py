@@ -4,7 +4,7 @@ from task_teams import get_team_ids
 from script_utils import get_min_games
 from datetime import datetime
 import pandas as pd
-from script_utils import get_data_path
+from script_utils import get_data_path, get_current_season
 
 '''
 Calls the nhl team api and returns a list of all active player ids.
@@ -144,3 +144,30 @@ def write_player_data():
     goalie_df = pd.DataFrame(data_all[1])
     skater_df.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)
     goalie_df.to_csv(get_data_path('data_goalie.csv'), encoding='utf-8', index=False)
+
+def get_player_game_history():
+    GAMES_NEEDED = 5
+    player_ids = ['8471214'] #this is for testing, will replace with all ids
+
+    player_game_history_skaters = []
+    player_game_history_goalies = []
+    for player_id in player_ids:
+        record= {}
+        request_string = 'https://statsapi.web.nhl.com/api/v1/people/{}/stats?stats=gameLog&season={}'.format(player_id, get_current_season())
+        player_game_history_data = json.loads(requests.get(request_string).text)
+        games = player_game_history_data['stats'][0]['splits']
+        for game in games[:GAMES_NEEDED]:
+            record['player_id'] = player_id
+            record['date'] = game['date']
+            record['opp_id'] = game['opponent']['id']
+            record['home_game'] = game['isHome']
+            record['TOI'] = game['stat']['timeOnIce']
+            record['assists'] = game['stat']['assists']
+            record['goals'] = game['stat']['goals']
+            record['shots'] = game['stat']['shots']
+            record['PPTOI'] = game['stat']['powerPlayTimeOnIce']
+            record['blocked'] = game['stat']['blocked']
+            player_game_history_skaters.append(record)
+        print(player_game_history_skaters)
+
+get_player_game_history()
