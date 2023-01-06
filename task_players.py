@@ -39,7 +39,7 @@ def get_player_stats():
 
             # People Info
             log_string = 'Goalie Record Found: {} {}'.format(str(player_data['people'][0]['id']), player_data['people'][0]['fullName'])
-            print(log_string)
+            print(log_string, flush=True)
 
             record['id'] = player_data['people'][0]['id']
             record['currentteamid'] = player_data['people'][0]['currentTeam']['id']
@@ -75,7 +75,7 @@ def get_player_stats():
 
             # People Info
             log_string = 'Skater Record Found: {} {}'.format(str(player_data['people'][0]['id']), player_data['people'][0]['fullName'])
-            print(log_string)
+            print(log_string, flush=True)
 
             record['id'] = player_data['people'][0]['id']
             record['teamid'] = player_data['people'][0]['currentTeam']['id']
@@ -129,10 +129,10 @@ def get_player_stats():
             # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
             if record['games'] >= get_min_games():
-                print('Player added:', player_data['people'][0]['fullName'])
+                print('Player added:', player_data['people'][0]['fullName'], flush=True)
                 player_stats_skaters.append(record)
             else:
-                print('Not enough games for:', player_data['people'][0]['fullName'])
+                print('Not enough games for:', player_data['people'][0]['fullName'], flush=True)
     return(player_stats_skaters, player_stats_goalies)
 
 '''
@@ -153,7 +153,7 @@ def get_player_game_history():
     player_game_history_skaters = []
     player_game_history_goalies = []
     for player_id in player_ids:
-        print('Player ID:', player_id)
+        print('Player ID:', player_id, flush=True)
         request_string = 'https://statsapi.web.nhl.com/api/v1/people/{}/stats?stats=gameLog&season={}'.format(player_id, get_current_season())
         player_game_history_data = json.loads(requests.get(request_string).text)
         games = player_game_history_data['stats'][0]['splits']
@@ -171,14 +171,17 @@ def get_player_game_history():
                 record['PPTOI'] = game['stat']['powerPlayTimeOnIce']
                 record['blocked'] = game['stat']['blocked']
                 player_game_history_skaters.append(record)
-                print('Skater record add for {} {}.'.format(player_id, record['date']))
+                print('Skater record add for {} {}.'.format(player_id, record['date']), flush=True)
             except KeyError:
-                record['saves'] = game['stat']['saves']
-                record['save_perc'] = game['stat']['savePercentage']
-                record['goals_against'] = game['stat']['goalsAgainst']
-                record['shots_against'] = game['stat']['shotsAgainst']
-                player_game_history_goalies.append(record)
-                print('Goalie record add for {}.'.format(player_id))
+                try:
+                    record['saves'] = game['stat']['saves']
+                    record['save_perc'] = game['stat']['savePercentage']
+                    record['goals_against'] = game['stat']['goalsAgainst']
+                    record['shots_against'] = game['stat']['shotsAgainst']
+                    player_game_history_goalies.append(record)
+                    print('Goalie record add for {}.'.format(player_id), flush=True)
+                except Exception:
+                    print('Data not found or data corrupt for this game. Skipping record', flush=True)
 
     return(player_game_history_skaters, player_game_history_goalies)
 
@@ -187,6 +190,6 @@ def write_player_game_history_data():
     skater_df = pd.DataFrame(data_all[0])
     goalie_df = pd.DataFrame(data_all[1])
     skater_df.to_csv(get_data_path('data_game_history_skater.csv'), encoding='utf-8', index=False)
-    print('Skater game history file written successfully!')
+    print('Skater game history file written successfully!', flush=True)
     goalie_df.to_csv(get_data_path('data_game_history_goalie.csv'), encoding='utf-8', index=False)
-    print('Goalie game history file written successfully!')
+    print('Goalie game history file written successfully!', flush=True)
