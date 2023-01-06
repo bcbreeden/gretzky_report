@@ -2,8 +2,6 @@ import pandas as pd
 from datetime import date, datetime
 from script_utils import get_data_path
 
-# DATA = pd.read_csv('static/data/data_schedule.csv', float_precision='round_trip')
-# DATA = pd.read_csv('/home/breedenb/pyhl-io/static/data/data_schedule.csv', float_precision='round_trip')
 DATA = pd.read_csv(get_data_path('data_schedule.csv'), float_precision='round_trip')
 
 '''
