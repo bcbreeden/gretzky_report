@@ -17,7 +17,6 @@ Fetches team data from the CSV file via a list of team ids. The data is then ret
 def get_team_data_all():
     # teams = DATA
     teams = DATA.sort_values(by=['name'])
-    print(teams.head())
     return(teams)
 
 '''
