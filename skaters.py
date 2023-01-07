@@ -70,8 +70,18 @@ def add_skater_averages_to_csv():
     defense_data_ppg = DATA.loc[(DATA['games'] >= get_min_games()) & (DATA['position'] == 'Defenseman')]
     defense_ppg_avg = defense_data_ppg['PPG'].mean()
 
+    # Blocks per game average. We dont want players with less than the min games because they can skew the averages.
+    wing_data_bpg = DATA.loc[(DATA['games'] >= get_min_games()) & ((DATA['position'] == 'Left Wing') | (DATA['position'] == 'Right Wing'))]
+    wing_bpg_avg = wing_data_gpg['BPG'].mean()
+
+    center_data_bpg = DATA.loc[(DATA['games'] >= get_min_games()) & (DATA['position'] == 'Center')]
+    center_bpg_avg = center_data_gpg['BPG'].mean()
+
+    defense_data_bpg = DATA.loc[(DATA['games'] >= get_min_games()) & (DATA['position'] == 'Defenseman')]
+    defense_bpg_avg = defense_data_gpg['BPG'].mean()
+
     # Create new columns for metric differences and calculate the new values for said columns.
-    data_add_df = DATA.assign(GPGDIF=0.0,APGDIF=0.0,SPGDIF=0.0, PPGDIF=0.0)
+    data_add_df = DATA.assign(GPGDIF=0.0,APGDIF=0.0,SPGDIF=0.0, PPGDIF=0.0, BPGDIF=0.0)
     for index, row in data_add_df.iterrows():
         if row['games'] <= get_min_games():
             print('Minimum games not reached:', row['playername'])
@@ -82,24 +92,28 @@ def add_skater_averages_to_csv():
                 data_add_df.at[index,'APGDIF'] = round((row['APG'] - defense_apg_avg), 2)
                 data_add_df.at[index,'SPGDIF'] = round((row['SPG'] - defense_spg_avg), 2)
                 data_add_df.at[index,'PPGDIF'] = round((row['PPG'] - defense_ppg_avg), 2)
+                data_add_df.at[index,'BPGDIF'] = round((row['BPG'] - defense_bpg_avg), 2)
 
             if row['position'] == ('Left Wing'):
                 data_add_df.at[index,'GPGDIF'] = round((row['GPG'] - wing_gpg_avg), 2)
                 data_add_df.at[index,'APGDIF'] = round((row['APG'] - wing_apg_avg), 2)
                 data_add_df.at[index,'SPGDIF'] = round((row['SPG'] - wing_spg_avg), 2)
                 data_add_df.at[index,'PPGDIF'] = round((row['PPG'] - wing_ppg_avg), 2)
+                data_add_df.at[index,'BPGDIF'] = round((row['BPG'] - wing_bpg_avg), 2)
             
             if row['position'] == ('Right Wing'):
                 data_add_df.at[index,'GPGDIF'] = round((row['GPG'] - wing_gpg_avg), 2)
                 data_add_df.at[index,'APGDIF'] = round((row['APG'] - wing_apg_avg), 2)
                 data_add_df.at[index,'SPGDIF'] = round((row['SPG'] - wing_spg_avg), 2)
                 data_add_df.at[index,'PPGDIF'] = round((row['PPG'] - wing_ppg_avg), 2)
+                data_add_df.at[index,'BPGDIF'] = round((row['BPG'] - wing_bpg_avg), 2)
             
             if row['position'] == 'Center':
                 data_add_df.at[index,'GPGDIF'] = round((row['GPG'] - center_gpg_avg), 2)
                 data_add_df.at[index,'APGDIF'] = round((row['APG'] - center_apg_avg), 2)
                 data_add_df.at[index,'SPGDIF'] = round((row['SPG'] - center_spg_avg), 2)
                 data_add_df.at[index,'PPGDIF'] = round((row['PPG'] - center_ppg_avg), 2)
+                data_add_df.at[index,'BPGDIF'] = round((row['BPG'] - center_bpg_avg), 2)
 
     # Write the new DF to the CSV file.
     data_add_df.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)

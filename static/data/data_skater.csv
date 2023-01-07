@@ -1,652 +1,652 @@
-id,teamid,playername,currentteam,position,goals,GPG,assists,APG,shots,SPG,games,points,PPG,blocked,BPG,timeonicepergame,GPGDIF,APGDIF,SPGDIF,PPGDIF
-8478507,1,John Marino,New Jersey Devils,Defenseman,3,0.09,6,0.19,42,1.31,32,9,0.28,43,1.34,21.19,0.02,-0.07,-0.09,-0.05
-8479414,1,Nathan Bastian,New Jersey Devils,Right Wing,3,0.14,5,0.24,26,1.24,21,8,0.38,18,0.86,13.43,-0.09,-0.06,-0.69,-0.15
-8474090,1,Brendan Smith,New Jersey Devils,Defenseman,0,0.0,4,0.11,36,0.95,38,4,0.11,46,1.21,15.17,-0.07,-0.15,-0.45,-0.22
-8475193,1,Tomas Tatar,New Jersey Devils,Left Wing,9,0.23,15,0.38,78,2.0,39,24,0.62,23,0.59,15.24,0.0,0.08,0.07,0.09
-8475287,1,Erik Haula,New Jersey Devils,Left Wing,2,0.05,16,0.41,75,1.92,39,18,0.46,33,0.85,17.02,-0.18,0.11,-0.01,-0.07
-8476462,1,Dougie Hamilton,New Jersey Devils,Defenseman,9,0.23,25,0.64,136,3.49,39,34,0.87,36,0.92,22.06,0.16,0.38,2.09,0.54
-8476923,1,Damon Severson,New Jersey Devils,Defenseman,2,0.05,6,0.16,39,1.03,38,8,0.21,45,1.18,19.28,-0.02,-0.1,-0.37,-0.12
-8477425,1,Miles Wood,New Jersey Devils,Left Wing,7,0.18,9,0.24,95,2.5,38,16,0.42,9,0.24,13.18,-0.05,-0.06,0.57,-0.11
-8477435,1,Ryan Graves,New Jersey Devils,Defenseman,3,0.08,7,0.19,55,1.53,36,10,0.28,59,1.64,18.37,0.01,-0.07,0.13,-0.05
-8478399,1,Jonas Siegenthaler,New Jersey Devils,Defenseman,1,0.03,12,0.31,46,1.18,39,13,0.33,71,1.82,20.5,-0.04,0.05,-0.22,-0.0
-8479407,1,Jesper Bratt,New Jersey Devils,Left Wing,14,0.36,25,0.64,99,2.54,39,39,1.0,14,0.36,17.32,0.13,0.34,0.61,0.47
-8479415,1,Michael McLeod,New Jersey Devils,Center,4,0.1,12,0.31,49,1.26,39,16,0.41,23,0.59,12.08,-0.11,0.0,-0.55,-0.11
-8480002,1,Nico Hischier,New Jersey Devils,Center,18,0.47,19,0.5,120,3.16,38,37,0.97,25,0.66,19.38,0.26,0.19,1.35,0.45
-8480003,1,Jesper Boqvist,New Jersey Devils,Center,3,0.09,1,0.03,28,0.85,33,4,0.12,9,0.27,10.31,-0.12,-0.28,-0.96,-0.4
-8480188,1,Fabian Zetterlund,New Jersey Devils,Left Wing,5,0.15,9,0.27,64,1.94,33,14,0.42,9,0.27,12.58,-0.08,-0.03,0.01,-0.11
-8480860,1,Kevin Bahl,New Jersey Devils,Defenseman,1,0.08,1,0.08,10,0.77,13,2,0.15,16,1.23,11.3,0.01,-0.18,-0.63,-0.18
-8481068,1,Yegor Sharangovich,New Jersey Devils,Center,10,0.26,7,0.18,70,1.79,39,17,0.44,23,0.59,14.12,0.05,-0.13,-0.02,-0.08
-8481559,1,Jack Hughes,New Jersey Devils,Center,24,0.62,22,0.56,174,4.46,39,46,1.18,8,0.21,19.57,0.41,0.25,2.65,0.66
-8482110,1,Dawson Mercer,New Jersey Devils,Center,8,0.21,13,0.33,75,1.92,39,21,0.54,32,0.82,15.22,-0.0,0.02,0.11,0.02
-8482125,1,Alexander Holtz,New Jersey Devils,Right Wing,3,0.18,1,0.06,20,1.18,17,4,0.24,4,0.24,10.22,-0.05,-0.24,-0.75,-0.29
-8475151,2,Kyle Palmieri,New York Islanders,Center,6,0.29,3,0.14,39,1.86,21,9,0.43,6,0.29,16.04,0.08,-0.17,0.05,-0.09
-8476917,2,Adam Pelech,New York Islanders,Defenseman,3,0.11,8,0.3,35,1.3,27,11,0.41,41,1.52,20.49,0.04,0.04,-0.1,0.08
-8480789,2,Oliver Wahlstrom,New York Islanders,Right Wing,7,0.2,9,0.26,70,2.0,35,16,0.46,15,0.43,12.09,-0.03,-0.04,0.07,-0.07
-8481601,2,Simon Holmstrom,New York Islanders,Right Wing,1,0.07,1,0.07,8,0.57,14,2,0.14,6,0.43,11.28,-0.16,-0.23,-1.36,-0.39
-8470610,2,Zach Parise,New York Islanders,Left Wing,11,0.28,7,0.17,90,2.25,40,18,0.45,38,0.95,16.18,0.05,-0.13,0.32,-0.08
-8473504,2,Cal Clutterbuck,New York Islanders,Right Wing,4,0.15,2,0.07,23,0.85,27,6,0.22,22,0.81,12.12,-0.08,-0.23,-1.08,-0.31
-8474573,2,Josh Bailey,New York Islanders,Right Wing,6,0.17,11,0.31,47,1.31,36,17,0.47,16,0.44,15.41,-0.06,0.01,-0.62,-0.06
-8474709,2,Matt Martin,New York Islanders,Left Wing,3,0.08,7,0.18,29,0.74,39,10,0.26,17,0.44,10.34,-0.15,-0.12,-1.19,-0.27
-8475231,2,Casey Cizikas,New York Islanders,Center,3,0.08,8,0.21,44,1.13,39,11,0.28,30,0.77,13.31,-0.13,-0.1,-0.68,-0.24
-8475314,2,Anders Lee,New York Islanders,Left Wing,14,0.35,15,0.38,116,2.9,40,29,0.72,30,0.75,17.12,0.12,0.08,0.97,0.19
-8475754,2,Brock Nelson,New York Islanders,Center,15,0.38,23,0.57,117,2.92,40,38,0.95,24,0.6,18.44,0.17,0.26,1.11,0.43
-8476419,2,Jean-Gabriel Pageau,New York Islanders,Center,10,0.25,13,0.33,73,1.82,40,23,0.57,34,0.85,18.18,0.04,0.02,0.01,0.05
-8476429,2,Scott Mayfield,New York Islanders,Defenseman,4,0.1,5,0.12,62,1.55,40,9,0.23,80,2.0,20.25,0.03,-0.14,0.15,-0.1
-8477392,2,Hudson Fasching,New York Islanders,Right Wing,2,0.15,2,0.15,12,0.92,13,4,0.31,5,0.38,12.28,-0.08,-0.15,-1.01,-0.22
-8477506,2,Ryan Pulock,New York Islanders,Defenseman,2,0.05,13,0.33,58,1.45,40,15,0.38,71,1.77,20.05,-0.02,0.07,0.05,0.05
-8478445,2,Mathew Barzal,New York Islanders,Center,11,0.28,30,0.75,96,2.4,40,41,1.02,21,0.53,18.47,0.07,0.44,0.59,0.5
-8478463,2,Anthony Beauvillier,New York Islanders,Left Wing,8,0.22,8,0.22,75,2.03,37,16,0.43,14,0.38,15.29,-0.01,-0.08,0.1,-0.1
-8480071,2,Robin Salo,New York Islanders,Defenseman,2,0.18,2,0.18,9,0.82,11,4,0.36,13,1.18,11.1,0.11,-0.08,-0.58,0.03
-8480222,2,Sebastian Aho,New York Islanders,Defenseman,3,0.08,5,0.14,45,1.25,36,8,0.22,29,0.81,16.02,0.01,-0.12,-0.15,-0.11
-8480865,2,Noah Dobson,New York Islanders,Defenseman,10,0.25,14,0.35,113,2.83,40,24,0.6,57,1.43,20.49,0.18,0.09,1.43,0.27
-8481014,2,Alexander Romanov,New York Islanders,Defenseman,1,0.03,12,0.3,53,1.32,40,13,0.33,78,1.95,20.17,-0.04,0.04,-0.08,-0.0
-8475184,3,Chris Kreider,New York Rangers,Left Wing,18,0.45,11,0.28,132,3.3,40,29,0.72,14,0.35,19.2,0.22,-0.02,1.37,0.19
-8476389,3,Vincent Trocheck,New York Rangers,Center,13,0.33,17,0.42,119,2.98,40,30,0.75,18,0.45,20.13,0.12,0.11,1.17,0.23
-8476459,3,Mika Zibanejad,New York Rangers,Center,19,0.47,24,0.6,148,3.7,40,43,1.07,15,0.38,20.48,0.26,0.29,1.89,0.55
-8476624,3,Barclay Goodrow,New York Rangers,Center,8,0.2,10,0.25,49,1.23,40,18,0.45,28,0.7,14.59,-0.01,-0.06,-0.58,-0.07
-8476885,3,Jacob Trouba,New York Rangers,Defenseman,3,0.07,10,0.25,111,2.77,40,13,0.33,97,2.42,21.13,-0.0,-0.01,1.37,-0.0
-8476918,3,Jimmy Vesey,New York Rangers,Left Wing,6,0.15,7,0.18,62,1.59,39,13,0.33,26,0.67,13.36,-0.08,-0.12,-0.34,-0.2
-8477380,3,Jonny Brodzinski,New York Rangers,Center,1,0.09,1,0.09,18,1.64,11,2,0.18,3,0.27,9.41,-0.12,-0.22,-0.17,-0.34
-8478104,3,Sammy Blais,New York Rangers,Left Wing,0,0.0,5,0.15,28,0.82,34,5,0.15,9,0.26,9.49,-0.23,-0.15,-1.11,-0.38
-8478550,3,Artemi Panarin,New York Rangers,Left Wing,11,0.28,34,0.85,104,2.6,40,45,1.12,7,0.17,20.16,0.05,0.55,0.67,0.59
-8479323,3,Adam Fox,New York Rangers,Defenseman,7,0.17,32,0.8,82,2.05,40,39,0.97,56,1.4,24.58,0.1,0.54,0.65,0.64
-8479324,3,Ryan Lindgren,New York Rangers,Defenseman,0,0.0,13,0.34,45,1.18,38,13,0.34,65,1.71,18.51,-0.07,0.08,-0.22,0.01
-8479328,3,Julien Gauthier,New York Rangers,Right Wing,5,0.17,3,0.1,28,0.97,29,8,0.28,5,0.17,8.53,-0.06,-0.2,-0.96,-0.25
-8479333,3,Libor Hajek,New York Rangers,Defenseman,1,0.06,0,0.0,13,0.81,16,1,0.06,20,1.25,13.15,-0.01,-0.26,-0.59,-0.27
-8480078,3,Filip Chytil,New York Rangers,Center,11,0.34,10,0.31,62,1.94,32,21,0.66,20,0.62,13.58,0.13,0.0,0.13,0.14
-8480817,3,K'Andre Miller,New York Rangers,Defenseman,3,0.07,16,0.4,59,1.48,40,19,0.47,48,1.2,22.04,-0.0,0.14,0.08,0.14
-8480833,3,Vitali Kravtsov,New York Rangers,Right Wing,2,0.1,3,0.15,17,0.85,20,5,0.25,4,0.2,11.11,-0.13,-0.15,-1.08,-0.28
-8481554,3,Kaapo Kakko,New York Rangers,Right Wing,9,0.23,9,0.23,69,1.73,40,18,0.45,18,0.45,15.29,0.0,-0.07,-0.2,-0.08
-8482073,3,Braden Schneider,New York Rangers,Defenseman,5,0.12,5,0.12,41,1.02,40,10,0.25,60,1.5,15.0,0.05,-0.14,-0.38,-0.08
-8482109,3,Alexis Lafrenière,New York Rangers,Left Wing,5,0.13,12,0.31,68,1.74,39,17,0.44,12,0.31,14.5,-0.1,0.01,-0.19,-0.09
-8479550,4,Tanner Laczynski,Philadelphia Flyers,Center,2,0.11,2,0.11,14,0.74,19,4,0.21,5,0.26,10.12,-0.1,-0.2,-1.07,-0.31
-8474027,4,Justin Braun,Philadelphia Flyers,Defenseman,0,0.0,0,0.0,28,0.85,33,0,0.0,35,1.06,16.12,-0.07,-0.26,-0.55,-0.33
-8474037,4,James van Riemsdyk,Philadelphia Flyers,Left Wing,6,0.32,10,0.53,43,2.26,19,16,0.84,5,0.26,16.31,0.09,0.23,0.33,0.31
-8475235,4,Nicolas Deslauriers,Philadelphia Flyers,Left Wing,1,0.03,4,0.1,26,0.67,39,5,0.13,13,0.33,10.18,-0.2,-0.2,-1.26,-0.4
-8475763,4,Kevin Hayes,Philadelphia Flyers,Center,10,0.26,25,0.66,102,2.68,38,35,0.92,14,0.37,18.14,0.05,0.35,0.87,0.4
-8476372,4,Nick Seeler,Philadelphia Flyers,Defenseman,3,0.08,5,0.14,41,1.14,36,8,0.22,58,1.61,14.12,0.01,-0.12,-0.26,-0.11
-8476872,4,Scott Laughton,Philadelphia Flyers,Center,9,0.26,11,0.31,77,2.2,35,20,0.57,23,0.66,18.37,0.05,0.0,0.39,0.05
-8477499,4,Rasmus Ristolainen,Philadelphia Flyers,Defenseman,0,0.0,2,0.06,32,1.0,32,2,0.06,77,2.41,18.19,-0.07,-0.2,-0.4,-0.27
-8477887,4,Patrick Brown,Philadelphia Flyers,Center,1,0.05,1,0.05,21,1.05,20,2,0.1,18,0.9,11.19,-0.16,-0.26,-0.76,-0.42
-8477948,4,Travis Sanheim,Philadelphia Flyers,Defenseman,4,0.1,10,0.26,57,1.46,39,14,0.36,65,1.67,21.03,0.03,0.0,0.06,0.03
-8477950,4,Tony DeAngelo,Philadelphia Flyers,Defenseman,7,0.21,16,0.47,83,2.44,34,23,0.68,41,1.21,24.05,0.14,0.21,1.04,0.35
-8478439,4,Travis Konecny,Philadelphia Flyers,Right Wing,20,0.61,20,0.61,104,3.15,33,40,1.21,24,0.73,20.25,0.38,0.31,1.22,0.68
-8478500,4,Ivan Provorov,Philadelphia Flyers,Defenseman,2,0.05,12,0.31,77,1.97,39,14,0.36,94,2.41,23.13,-0.02,0.05,0.57,0.03
-8479322,4,Wade Allison,Philadelphia Flyers,Right Wing,4,0.19,1,0.05,31,1.48,21,5,0.24,23,1.1,12.08,-0.04,-0.25,-0.45,-0.29
-8479356,4,Kieffer Bellows,Philadelphia Flyers,Left Wing,0,0.0,0,0.0,19,1.46,13,0,0.0,5,0.38,11.3,-0.23,-0.3,-0.47,-0.53
-8479772,4,Zack MacEwen,Philadelphia Flyers,Center,3,0.09,5,0.14,57,1.63,35,8,0.23,19,0.54,13.14,-0.12,-0.17,-0.18,-0.29
-8480015,4,Owen Tippett,Philadelphia Flyers,Right Wing,12,0.35,9,0.26,79,2.32,34,21,0.62,24,0.71,15.59,0.12,-0.04,0.39,0.09
-8480028,4,Morgan Frost,Philadelphia Flyers,Center,8,0.21,11,0.29,66,1.74,38,19,0.5,23,0.61,15.19,-0.0,-0.02,-0.07,-0.02
-8480220,4,Noah Cates,Philadelphia Flyers,Left Wing,4,0.1,12,0.31,42,1.08,39,16,0.41,34,0.87,17.47,-0.13,0.01,-0.85,-0.12
-8480797,4,Joel Farabee,Philadelphia Flyers,Left Wing,8,0.21,13,0.33,71,1.82,39,21,0.54,24,0.62,17.19,-0.02,0.03,-0.11,0.01
-8481546,4,Cam York,Philadelphia Flyers,Defenseman,1,0.08,7,0.58,7,0.58,12,8,0.67,17,1.42,18.31,0.01,0.32,-0.82,0.34
-8473507,5,Jeff Petry,Pittsburgh Penguins,Defenseman,3,0.11,9,0.32,44,1.57,28,12,0.43,54,1.93,22.2,0.04,0.06,0.17,0.1
-8476326,5,Josh Archibald,Pittsburgh Penguins,Right Wing,4,0.13,2,0.07,41,1.37,30,6,0.2,11,0.37,10.14,-0.1,-0.23,-0.56,-0.33
-8470604,5,Jeff Carter,Pittsburgh Penguins,Center,6,0.17,12,0.34,60,1.71,35,18,0.51,35,1.0,14.45,-0.04,0.03,-0.1,-0.01
-8471215,5,Evgeni Malkin,Pittsburgh Penguins,Center,12,0.32,22,0.58,109,2.87,38,34,0.89,12,0.32,18.11,0.11,0.27,1.06,0.37
-8471675,5,Sidney Crosby,Pittsburgh Penguins,Center,20,0.53,25,0.66,108,2.84,38,45,1.18,18,0.47,20.08,0.32,0.35,1.03,0.66
-8475208,5,Brian Dumoulin,Pittsburgh Penguins,Defenseman,0,0.0,8,0.21,24,0.63,38,8,0.21,72,1.89,19.43,-0.07,-0.05,-0.77,-0.12
-8475722,5,Jason Zucker,Pittsburgh Penguins,Left Wing,8,0.24,15,0.44,80,2.35,34,23,0.68,10,0.29,15.25,0.01,0.14,0.42,0.15
-8475810,5,Bryan Rust,Pittsburgh Penguins,Right Wing,9,0.24,14,0.37,100,2.63,38,23,0.61,18,0.47,17.45,0.01,0.07,0.7,0.08
-8476483,5,Rickard Rakell,Pittsburgh Penguins,Right Wing,13,0.34,11,0.29,116,3.05,38,24,0.63,26,0.68,18.26,0.11,-0.01,1.12,0.1
-8476927,5,Teddy Blueger,Pittsburgh Penguins,Center,1,0.04,6,0.26,28,1.22,23,7,0.3,16,0.7,12.21,-0.17,-0.05,-0.59,-0.22
-8476934,5,Brock McGinn,Pittsburgh Penguins,Left Wing,10,0.26,5,0.13,57,1.5,38,15,0.39,23,0.61,13.14,0.03,-0.17,-0.43,-0.14
-8477244,5,Chad Ruhwedel,Pittsburgh Penguins,Defenseman,0,0.0,1,0.05,10,0.53,19,1,0.05,16,0.84,13.11,-0.07,-0.21,-0.87,-0.28
-8477404,5,Jake Guentzel,Pittsburgh Penguins,Left Wing,15,0.44,20,0.59,96,2.82,34,35,1.03,11,0.32,20.02,0.21,0.29,0.89,0.5
-8477953,5,Kasperi Kapanen,Pittsburgh Penguins,Right Wing,6,0.21,10,0.34,42,1.45,29,16,0.55,6,0.21,11.44,-0.02,0.04,-0.48,0.02
-8477969,5,Marcus Pettersson,Pittsburgh Penguins,Defenseman,0,0.0,11,0.29,49,1.29,38,11,0.29,78,2.05,20.44,-0.07,0.03,-0.11,-0.04
-8478046,5,Danton Heinen,Pittsburgh Penguins,Left Wing,3,0.09,8,0.24,48,1.45,33,11,0.33,12,0.36,11.43,-0.14,-0.06,-0.48,-0.2
-8480058,5,Pierre-Olivier Joseph,Pittsburgh Penguins,Defenseman,2,0.06,9,0.26,52,1.53,34,11,0.32,16,0.47,15.06,-0.01,0.0,0.13,-0.01
-8480068,5,Ryan Poehling,Pittsburgh Penguins,Center,4,0.13,4,0.13,34,1.1,31,8,0.26,22,0.71,11.07,-0.08,-0.18,-0.71,-0.26
-8480172,5,Jan Rutta,Pittsburgh Penguins,Defenseman,3,0.08,3,0.08,50,1.32,38,6,0.16,50,1.32,17.36,0.01,-0.18,-0.08,-0.17
-8478498,6,Jake DeBrusk,Boston Bruins,Left Wing,16,0.44,14,0.39,109,3.03,36,30,0.83,14,0.39,17.08,0.21,0.09,1.1,0.3
-8470638,6,Patrice Bergeron,Boston Bruins,Center,15,0.39,15,0.39,135,3.55,38,30,0.79,30,0.79,18.11,0.18,0.08,1.74,0.27
-8471276,6,David Krejci,Boston Bruins,Center,10,0.3,18,0.55,51,1.55,33,28,0.85,20,0.61,17.17,0.09,0.24,-0.26,0.33
-8473419,6,Brad Marchand,Boston Bruins,Left Wing,11,0.37,22,0.73,81,2.7,30,33,1.1,11,0.37,18.58,0.14,0.43,0.77,0.57
-8473422,6,Nick Foligno,Boston Bruins,Left Wing,6,0.16,11,0.29,43,1.13,38,17,0.45,21,0.55,12.09,-0.07,-0.01,-0.8,-0.08
-8475225,6,Craig Smith,Boston Bruins,Center,1,0.04,3,0.12,28,1.17,24,4,0.17,3,0.12,9.32,-0.17,-0.19,-0.64,-0.35
-8475745,6,Charlie Coyle,Boston Bruins,Center,9,0.24,11,0.29,65,1.71,38,20,0.53,23,0.61,16.37,0.03,-0.02,-0.1,0.01
-8475762,6,Derek Forbort,Boston Bruins,Defenseman,2,0.07,5,0.19,21,0.78,27,7,0.26,38,1.41,18.19,-0.0,-0.07,-0.62,-0.07
-8475791,6,Taylor Hall,Boston Bruins,Left Wing,13,0.34,15,0.39,103,2.71,38,28,0.74,21,0.55,16.02,0.11,0.09,0.78,0.21
-8476854,6,Hampus Lindholm,Boston Bruins,Defenseman,4,0.11,23,0.61,83,2.18,38,27,0.71,51,1.34,23.51,0.04,0.35,0.78,0.38
-8476891,6,Matt Grzelcyk,Boston Bruins,Defenseman,1,0.03,9,0.26,49,1.44,34,10,0.29,47,1.38,17.22,-0.04,0.0,0.04,-0.04
-8477365,6,Connor Clifton,Boston Bruins,Defenseman,3,0.08,9,0.24,57,1.5,38,12,0.32,50,1.32,18.42,0.01,-0.02,0.1,-0.01
-8477931,6,Tomas Nosek,Boston Bruins,Left Wing,3,0.08,4,0.11,36,1.0,36,7,0.19,14,0.39,12.25,-0.15,-0.19,-0.93,-0.34
-8477956,6,David Pastrnak,Boston Bruins,Right Wing,27,0.71,25,0.66,188,4.95,38,52,1.37,13,0.34,19.54,0.48,0.36,3.02,0.84
-8478401,6,Pavel Zacha,Boston Bruins,Center,5,0.13,18,0.47,61,1.61,38,23,0.61,11,0.29,15.54,-0.08,0.16,-0.2,0.09
-8478415,6,Jakub Zboril,Boston Bruins,Defenseman,1,0.08,0,0.0,8,0.62,13,1,0.08,11,0.85,13.34,0.01,-0.26,-0.78,-0.25
-8478421,6,A.J. Greer,Boston Bruins,Left Wing,3,0.12,4,0.15,23,0.88,26,7,0.27,10,0.38,9.04,-0.11,-0.15,-1.05,-0.26
-8478443,6,Brandon Carlo,Boston Bruins,Defenseman,1,0.03,6,0.18,46,1.35,34,7,0.21,55,1.62,18.41,-0.04,-0.08,-0.05,-0.12
-8479325,6,Charlie McAvoy,Boston Bruins,Defenseman,2,0.08,19,0.76,46,1.84,25,21,0.84,44,1.76,22.59,0.01,0.5,0.44,0.51
-8479365,6,Trent Frederic,Boston Bruins,Center,9,0.26,7,0.2,50,1.43,35,16,0.46,15,0.43,11.07,0.05,-0.11,-0.38,-0.06
-8480035,7,Henri Jokiharju,Buffalo Sabres,Defenseman,1,0.06,3,0.19,20,1.25,16,4,0.25,19,1.19,20.23,-0.01,-0.07,-0.15,-0.08
-8473449,7,Kyle Okposo,Buffalo Sabres,Right Wing,6,0.21,10,0.34,61,2.1,29,16,0.55,10,0.34,14.54,-0.02,0.04,0.17,0.02
-8475784,7,Jeff Skinner,Buffalo Sabres,Left Wing,17,0.52,22,0.67,106,3.21,33,39,1.18,6,0.18,17.17,0.29,0.37,1.28,0.65
-8476878,7,Zemgus Girgensons,Buffalo Sabres,Left Wing,4,0.11,6,0.17,37,1.06,35,10,0.29,22,0.63,12.3,-0.12,-0.13,-0.87,-0.24
-8476994,7,Vinnie Hinostroza,Buffalo Sabres,Center,0,0.0,8,0.5,17,1.06,16,8,0.5,3,0.19,12.24,-0.21,0.19,-0.75,-0.02
-8477949,7,Alex Tuch,Buffalo Sabres,Right Wing,18,0.5,24,0.67,103,2.86,36,42,1.17,21,0.58,18.55,0.27,0.37,0.93,0.64
-8478109,7,Victor Olofsson,Buffalo Sabres,Left Wing,13,0.36,5,0.14,74,2.06,36,18,0.5,8,0.22,14.06,0.13,-0.16,0.13,-0.03
-8479335,7,Rasmus Asplund,Buffalo Sabres,Center,2,0.1,6,0.29,25,1.19,21,8,0.38,7,0.33,11.58,-0.11,-0.02,-0.62,-0.14
-8479348,7,Kale Clague,Buffalo Sabres,Defenseman,0,0.0,2,0.12,12,0.75,16,2,0.12,14,0.88,15.59,-0.07,-0.14,-0.65,-0.21
-8479370,7,Tyson Jost,Buffalo Sabres,Center,3,0.1,7,0.23,33,1.1,30,10,0.33,11,0.37,13.08,-0.11,-0.08,-0.71,-0.19
-8479420,7,Tage Thompson,Buffalo Sabres,Center,30,0.83,25,0.69,158,4.39,36,55,1.53,10,0.28,19.05,0.62,0.38,2.58,1.01
-8479578,7,Casey Fitzgerald,Buffalo Sabres,Defenseman,0,0.0,3,0.13,12,0.52,23,3,0.13,12,0.52,13.03,-0.07,-0.13,-0.88,-0.2
-8479999,7,Casey Mittelstadt,Buffalo Sabres,Center,7,0.19,13,0.36,52,1.44,36,20,0.56,5,0.14,15.28,-0.02,0.05,-0.37,0.04
-8480196,7,Jacob Bryson,Buffalo Sabres,Defenseman,1,0.03,7,0.24,14,0.48,29,8,0.28,43,1.48,16.2,-0.04,-0.02,-0.92,-0.05
-8480807,7,Mattias Samuelsson,Buffalo Sabres,Defenseman,1,0.04,2,0.09,36,1.57,23,3,0.13,42,1.83,22.44,-0.03,-0.17,0.17,-0.2
-8480839,7,Rasmus Dahlin,Buffalo Sabres,Defenseman,10,0.29,29,0.83,108,3.09,35,39,1.11,65,1.86,26.21,0.22,0.57,1.69,0.78
-8480950,7,Ilya Lyubushkin,Buffalo Sabres,Defenseman,0,0.0,4,0.18,9,0.41,22,4,0.18,33,1.5,14.57,-0.07,-0.08,-0.99,-0.15
-8481522,7,Peyton Krebs,Buffalo Sabres,Center,3,0.1,5,0.17,26,0.87,30,8,0.27,7,0.23,12.1,-0.11,-0.14,-0.94,-0.25
-8481528,7,Dylan Cozens,Buffalo Sabres,Center,12,0.33,23,0.64,92,2.56,36,35,0.97,13,0.36,17.03,0.12,0.33,0.75,0.45
-8482097,7,Jack Quinn,Buffalo Sabres,Right Wing,6,0.19,11,0.35,49,1.58,31,17,0.55,2,0.06,13.48,-0.04,0.05,-0.35,0.02
-8482175,7,JJ Peterka,Buffalo Sabres,Right Wing,7,0.19,10,0.28,55,1.53,36,17,0.47,4,0.11,14.12,-0.04,-0.02,-0.4,-0.06
-8482671,7,Owen Power,Buffalo Sabres,Defenseman,0,0.0,13,0.39,46,1.39,33,13,0.39,43,1.3,23.41,-0.07,0.13,-0.01,0.06
-8477497,8,Sean Monahan,Montréal Canadiens,Center,6,0.24,11,0.44,55,2.2,25,17,0.68,8,0.32,17.22,0.03,0.13,0.39,0.16
-8482087,8,Kaiden Guhle,Montréal Canadiens,Defenseman,2,0.06,12,0.33,36,1.0,36,14,0.39,65,1.81,20.46,-0.01,0.07,-0.4,0.06
-8474149,8,Evgenii Dadonov,Montréal Canadiens,Right Wing,2,0.07,6,0.2,39,1.3,30,8,0.27,21,0.7,14.02,-0.16,-0.1,-0.63,-0.26
-8474884,8,Mike Hoffman,Montréal Canadiens,Left Wing,7,0.25,5,0.18,61,2.18,28,12,0.43,10,0.36,14.23,0.02,-0.12,0.25,-0.1
-8475227,8,Chris Wideman,Montréal Canadiens,Defenseman,0,0.0,4,0.17,24,1.0,24,4,0.17,30,1.25,14.54,-0.07,-0.09,-0.4,-0.16
-8475233,8,David Savard,Montréal Canadiens,Defenseman,1,0.04,7,0.27,27,1.04,26,8,0.31,79,3.04,22.23,-0.03,0.01,-0.36,-0.02
-8475848,8,Brendan Gallagher,Montréal Canadiens,Right Wing,4,0.16,5,0.2,57,2.28,25,9,0.36,8,0.32,14.11,-0.07,-0.1,0.35,-0.17
-8476441,8,Joel Edmundson,Montréal Canadiens,Defenseman,1,0.03,4,0.14,38,1.31,29,5,0.17,84,2.9,20.02,-0.04,-0.12,-0.09,-0.16
-8476469,8,Joel Armia,Montréal Canadiens,Right Wing,1,0.04,3,0.11,48,1.78,27,4,0.15,16,0.59,14.43,-0.19,-0.19,-0.15,-0.38
-8476981,8,Josh Anderson,Montréal Canadiens,Right Wing,10,0.27,3,0.08,85,2.3,37,13,0.35,15,0.41,15.47,0.04,-0.22,0.37,-0.18
-8477494,8,Jonathan Drouin,Montréal Canadiens,Left Wing,0,0.0,7,0.3,25,1.09,23,7,0.3,7,0.3,13.53,-0.23,-0.0,-0.84,-0.23
-8477989,8,Christian Dvorak,Montréal Canadiens,Center,7,0.18,9,0.23,55,1.41,39,16,0.41,40,1.03,16.53,-0.03,-0.08,-0.4,-0.11
-8478133,8,Jake Evans,Montréal Canadiens,Center,1,0.03,7,0.18,37,0.95,39,8,0.21,30,0.77,14.15,-0.18,-0.13,-0.86,-0.31
-8479543,8,Michael Pezzetta,Montréal Canadiens,Left Wing,2,0.09,1,0.05,25,1.14,22,3,0.14,3,0.14,8.07,-0.14,-0.25,-0.79,-0.39
-8480018,8,Nick Suzuki,Montréal Canadiens,Center,15,0.38,17,0.44,70,1.79,39,32,0.82,23,0.59,20.55,0.17,0.13,-0.02,0.3
-8480192,8,Johnathan Kovacevic,Montréal Canadiens,Defenseman,1,0.03,4,0.11,41,1.17,35,5,0.14,39,1.11,17.31,-0.04,-0.15,-0.23,-0.19
-8480887,8,Jordan Harris,Montréal Canadiens,Defenseman,1,0.03,10,0.29,39,1.11,35,11,0.31,53,1.51,18.36,-0.04,0.03,-0.29,-0.02
-8481523,8,Kirby Dach,Montréal Canadiens,Center,5,0.13,18,0.46,68,1.74,39,23,0.59,20,0.51,17.44,-0.08,0.15,-0.07,0.07
-8481540,8,Cole Caufield,Montréal Canadiens,Right Wing,22,0.56,9,0.23,130,3.33,39,31,0.79,8,0.21,17.56,0.33,-0.07,1.4,0.26
-8482964,8,Arber Xhekaj,Montréal Canadiens,Defenseman,5,0.14,8,0.22,62,1.68,37,13,0.35,33,0.89,15.28,0.07,-0.04,0.28,0.02
-8483515,8,Juraj Slafkovsky,Montréal Canadiens,Left Wing,4,0.12,6,0.18,35,1.03,34,10,0.29,19,0.56,12.01,-0.11,-0.12,-0.9,-0.24
-8477353,9,Tyler Motte,Ottawa Senators,Left Wing,3,0.09,6,0.19,61,1.91,32,9,0.28,32,1.0,13.5,-0.14,-0.11,-0.02,-0.25
-8478472,9,Mathieu Joseph,Ottawa Senators,Right Wing,2,0.08,7,0.28,28,1.12,25,9,0.36,15,0.6,14.2,-0.15,-0.02,-0.81,-0.17
-8479458,9,Nikita Zaitsev,Ottawa Senators,Defenseman,0,0.0,3,0.16,6,0.32,19,3,0.16,33,1.74,16.44,-0.07,-0.1,-1.08,-0.17
-8473512,9,Claude Giroux,Ottawa Senators,Right Wing,15,0.39,21,0.55,90,2.37,38,36,0.95,15,0.39,18.12,0.16,0.25,0.44,0.42
-8473544,9,Derick Brassard,Ottawa Senators,Center,5,0.17,5,0.17,44,1.52,29,10,0.34,6,0.21,13.25,-0.04,-0.14,-0.29,-0.18
-8474207,9,Nick Holden,Ottawa Senators,Defenseman,1,0.03,5,0.15,31,0.94,33,6,0.18,36,1.09,16.33,-0.04,-0.11,-0.46,-0.15
-8474612,9,Travis Hamonic,Ottawa Senators,Defenseman,3,0.08,4,0.11,61,1.61,38,7,0.18,63,1.66,18.49,0.01,-0.15,0.21,-0.15
-8475766,9,Austin Watson,Ottawa Senators,Left Wing,4,0.11,2,0.05,40,1.05,38,6,0.16,26,0.68,10.19,-0.12,-0.25,-0.88,-0.37
-8478469,9,Thomas Chabot,Ottawa Senators,Defenseman,7,0.21,13,0.39,84,2.55,33,20,0.61,52,1.58,26.08,0.14,0.13,1.15,0.28
-8479337,9,Alex DeBrincat,Ottawa Senators,Right Wing,13,0.34,23,0.61,136,3.58,38,36,0.95,17,0.45,19.36,0.11,0.31,1.65,0.42
-8479580,9,Dylan Gambrell,Ottawa Senators,Center,1,0.05,0,0.0,17,0.85,20,1,0.05,16,0.8,10.51,-0.16,-0.31,-0.96,-0.47
-8480073,9,Erik Brannstrom,Ottawa Senators,Defenseman,0,0.0,3,0.09,33,1.0,33,3,0.09,57,1.73,15.45,-0.07,-0.17,-0.4,-0.24
-8480208,9,Drake Batherson,Ottawa Senators,Right Wing,13,0.34,23,0.61,119,3.13,38,36,0.95,17,0.45,18.4,0.11,0.31,1.2,0.42
-8480355,9,Mark Kastelic,Ottawa Senators,Center,3,0.09,1,0.03,36,1.03,35,4,0.11,23,0.66,9.2,-0.12,-0.28,-0.78,-0.41
-8480448,9,Parker Kelly,Ottawa Senators,Left Wing,1,0.03,3,0.08,37,1.03,36,4,0.11,14,0.39,9.58,-0.2,-0.22,-0.9,-0.42
-8480801,9,Brady Tkachuk,Ottawa Senators,Left Wing,13,0.34,26,0.68,165,4.34,38,39,1.03,5,0.13,18.33,0.11,0.38,2.41,0.5
-8481596,9,Shane Pinto,Ottawa Senators,Center,10,0.26,7,0.18,76,2.0,38,17,0.45,16,0.42,15.53,0.05,-0.13,0.19,-0.07
-8482105,9,Jake Sanderson,Ottawa Senators,Defenseman,2,0.05,12,0.32,60,1.58,38,14,0.37,66,1.74,21.01,-0.02,0.06,0.18,0.04
-8482116,9,Tim Stützle,Ottawa Senators,Left Wing,15,0.44,20,0.59,87,2.56,34,35,1.03,25,0.74,20.22,0.21,0.29,0.63,0.5
-8482245,9,Artem Zub,Ottawa Senators,Defenseman,2,0.12,2,0.12,16,0.94,17,4,0.24,21,1.24,21.35,0.05,-0.14,-0.46,-0.09
-8479376,10,Victor Mete,Toronto Maple Leafs,Defenseman,0,0.0,2,0.18,7,0.64,11,2,0.18,9,0.82,13.04,-0.07,-0.08,-0.76,-0.15
-8481582,10,Nicholas Robertson,Toronto Maple Leafs,Left Wing,2,0.13,3,0.2,27,1.8,15,5,0.33,7,0.47,10.53,-0.1,-0.1,-0.13,-0.2
-8470966,10,Mark Giordano,Toronto Maple Leafs,Defenseman,1,0.03,11,0.28,49,1.26,39,12,0.31,78,2.0,19.38,-0.04,0.02,-0.14,-0.02
-8474673,10,TJ Brodie,Toronto Maple Leafs,Defenseman,2,0.07,5,0.19,36,1.33,27,7,0.26,45,1.67,21.14,-0.0,-0.07,-0.07,-0.07
-8475166,10,John Tavares,Toronto Maple Leafs,Center,16,0.41,19,0.49,126,3.23,39,35,0.9,16,0.41,17.22,0.2,0.18,1.42,0.38
-8475714,10,Calle Jarnkrok,Toronto Maple Leafs,Center,8,0.25,8,0.25,43,1.34,32,16,0.5,8,0.25,13.18,0.04,-0.06,-0.47,-0.02
-8475718,10,Justin Holl,Toronto Maple Leafs,Defenseman,2,0.05,4,0.1,33,0.85,39,6,0.15,67,1.72,21.15,-0.02,-0.16,-0.55,-0.18
-8476853,10,Morgan Rielly,Toronto Maple Leafs,Defenseman,0,0.0,17,0.71,41,1.71,24,17,0.71,31,1.29,22.35,-0.07,0.45,0.31,0.38
-8477021,10,Alexander Kerfoot,Toronto Maple Leafs,Center,6,0.15,13,0.33,68,1.74,39,19,0.49,25,0.64,14.59,-0.06,0.02,-0.07,-0.03
-8477939,10,William Nylander,Toronto Maple Leafs,Right Wing,22,0.56,23,0.59,137,3.51,39,45,1.15,11,0.28,18.37,0.33,0.29,1.58,0.62
-8478047,10,Michael Bunting,Toronto Maple Leafs,Left Wing,13,0.33,16,0.41,82,2.1,39,29,0.74,12,0.31,16.06,0.1,0.11,0.17,0.21
-8478115,10,Pierre Engvall,Toronto Maple Leafs,Left Wing,8,0.22,7,0.19,65,1.76,37,15,0.41,4,0.11,12.4,-0.01,-0.11,-0.17,-0.12
-8478211,10,Dryden Hunt,Toronto Maple Leafs,Left Wing,2,0.06,0,0.0,21,0.66,32,2,0.06,4,0.12,8.13,-0.17,-0.3,-1.27,-0.47
-8478483,10,Mitchell Marner,Toronto Maple Leafs,Right Wing,14,0.36,30,0.77,97,2.49,39,44,1.13,25,0.64,21.13,0.13,0.47,0.56,0.6
-8479318,10,Auston Matthews,Toronto Maple Leafs,Center,19,0.49,26,0.67,167,4.28,39,45,1.15,44,1.13,20.21,0.28,0.36,2.47,0.63
-8479944,10,Zach Aston-Reese,Toronto Maple Leafs,Center,3,0.08,1,0.03,37,1.0,37,4,0.11,25,0.68,11.35,-0.13,-0.28,-0.81,-0.41
-8479982,10,Conor Timmins,Toronto Maple Leafs,Defenseman,0,0.0,8,0.62,11,0.85,13,8,0.62,6,0.46,15.34,-0.07,0.36,-0.55,0.29
-8480043,10,Timothy Liljegren,Toronto Maple Leafs,Defenseman,2,0.07,5,0.18,27,0.96,28,7,0.25,39,1.39,18.3,-0.0,-0.08,-0.44,-0.08
-8480144,10,David Kampf,Toronto Maple Leafs,Center,4,0.1,11,0.28,44,1.13,39,15,0.38,18,0.46,15.0,-0.11,-0.03,-0.68,-0.14
-8480873,10,Rasmus Sandin,Toronto Maple Leafs,Defenseman,2,0.06,12,0.34,37,1.06,35,14,0.4,39,1.11,18.04,-0.01,0.08,-0.34,0.07
-8480995,10,Pontus Holmberg,Toronto Maple Leafs,Right Wing,3,0.12,6,0.25,15,0.62,24,9,0.38,12,0.5,10.24,-0.11,-0.05,-1.31,-0.15
-8470613,12,Brent Burns,Carolina Hurricanes,Defenseman,5,0.13,23,0.59,126,3.23,39,28,0.72,45,1.15,23.43,0.06,0.33,1.83,0.39
-8471669,12,Paul Stastny,Carolina Hurricanes,Center,2,0.05,10,0.26,42,1.11,38,12,0.32,9,0.24,12.4,-0.16,-0.05,-0.7,-0.2
-8473533,12,Jordan Staal,Carolina Hurricanes,Center,11,0.28,8,0.21,60,1.54,39,19,0.49,16,0.41,16.25,0.07,-0.1,-0.27,-0.03
-8474613,12,Derek Stepan,Carolina Hurricanes,Center,4,0.11,2,0.06,60,1.67,36,6,0.17,9,0.25,9.1,-0.1,-0.25,-0.14,-0.35
-8475177,12,Calvin de Haan,Carolina Hurricanes,Defenseman,1,0.03,6,0.19,29,0.91,32,7,0.22,34,1.06,12.55,-0.04,-0.07,-0.49,-0.11
-8475855,12,Jesper Fast,Carolina Hurricanes,Right Wing,5,0.14,10,0.27,35,0.95,37,15,0.41,18,0.49,14.54,-0.09,-0.03,-0.98,-0.12
-8476474,12,Stefan Noesen,Carolina Hurricanes,Right Wing,8,0.22,12,0.32,75,2.03,37,20,0.54,12,0.32,12.18,-0.01,0.02,0.1,0.01
-8476869,12,Brady Skjei,Carolina Hurricanes,Defenseman,7,0.18,9,0.24,90,2.37,38,16,0.42,30,0.79,21.28,0.11,-0.02,0.97,0.09
-8476882,12,Teuvo Teravainen,Carolina Hurricanes,Left Wing,3,0.1,12,0.41,68,2.34,29,15,0.52,8,0.28,16.27,-0.13,0.11,0.41,-0.01
-8476921,12,Jordan Martinook,Carolina Hurricanes,Left Wing,9,0.23,11,0.28,78,2.0,39,20,0.51,11,0.28,15.24,0.0,-0.02,0.07,-0.02
-8476958,12,Jaccob Slavin,Carolina Hurricanes,Defenseman,2,0.05,9,0.23,65,1.67,39,11,0.28,61,1.56,22.28,-0.02,-0.03,0.27,-0.05
-8477488,12,Brett Pesce,Carolina Hurricanes,Defenseman,2,0.05,12,0.31,66,1.69,39,14,0.36,64,1.64,22.28,-0.02,0.05,0.29,0.03
-8478427,12,Sebastian Aho,Carolina Hurricanes,Center,12,0.38,18,0.56,94,2.94,32,30,0.94,9,0.28,19.42,0.17,0.25,1.13,0.42
-8478970,12,Jalen Chatfield,Carolina Hurricanes,Defenseman,2,0.05,1,0.03,42,1.08,39,3,0.08,39,1.0,13.06,-0.02,-0.23,-0.32,-0.25
-8480039,12,Martin Necas,Carolina Hurricanes,Center,17,0.44,21,0.54,137,3.51,39,38,0.97,9,0.23,19.26,0.23,0.23,1.7,0.45
-8480829,12,Jesperi Kotkaniemi,Carolina Hurricanes,Center,6,0.15,7,0.18,57,1.46,39,13,0.33,8,0.21,14.2,-0.06,-0.13,-0.35,-0.19
-8480830,12,Andrei Svechnikov,Carolina Hurricanes,Right Wing,19,0.49,14,0.36,129,3.31,39,33,0.85,6,0.15,18.22,0.26,0.06,1.38,0.32
-8482093,12,Seth Jarvis,Carolina Hurricanes,Center,6,0.15,13,0.33,86,2.21,39,19,0.49,23,0.59,15.36,-0.06,0.02,0.4,-0.03
-8471887,13,Patric Hornqvist,Florida Panthers,Right Wing,1,0.05,2,0.09,40,1.82,22,3,0.14,8,0.36,9.16,-0.18,-0.21,-0.11,-0.39
-8470595,13,Eric Staal,Florida Panthers,Center,6,0.19,6,0.19,55,1.72,32,12,0.38,21,0.66,13.58,-0.02,-0.12,-0.09,-0.14
-8471686,13,Marc Staal,Florida Panthers,Defenseman,0,0.0,4,0.1,28,0.72,39,4,0.1,56,1.44,18.1,-0.07,-0.16,-0.68,-0.23
-8474610,13,Zac Dalpe,Florida Panthers,Center,2,0.18,2,0.18,14,1.27,11,4,0.36,6,0.55,9.31,-0.03,-0.13,-0.54,-0.16
-8475462,13,Radko Gudas,Florida Panthers,Defenseman,2,0.07,4,0.14,53,1.83,29,6,0.21,47,1.62,18.3,-0.0,-0.12,0.43,-0.12
-8476393,13,Nick Cousins,Florida Panthers,Center,4,0.11,8,0.22,53,1.47,36,12,0.33,17,0.47,11.13,-0.1,-0.09,-0.34,-0.19
-8477409,13,Carter Verhaeghe,Florida Panthers,Center,18,0.47,13,0.34,109,2.87,38,31,0.82,14,0.37,17.22,0.26,0.03,1.06,0.3
-8477493,13,Aleksander Barkov,Florida Panthers,Center,9,0.31,19,0.66,92,3.17,29,28,0.97,20,0.69,21.25,0.1,0.35,1.36,0.45
-8477932,13,Aaron Ekblad,Florida Panthers,Defenseman,4,0.14,10,0.36,79,2.82,28,14,0.5,38,1.36,23.51,0.07,0.1,1.42,0.17
-8477933,13,Sam Reinhart,Florida Panthers,Center,12,0.31,14,0.36,104,2.67,39,26,0.67,19,0.49,19.29,0.1,0.05,0.86,0.15
-8477935,13,Sam Bennett,Florida Panthers,Center,8,0.21,17,0.44,121,3.1,39,25,0.64,27,0.69,18.05,-0.0,0.13,1.29,0.12
-8477986,13,Brandon Montour,Florida Panthers,Defenseman,6,0.16,24,0.65,100,2.7,37,30,0.81,47,1.27,24.52,0.09,0.39,1.3,0.48
-8478055,13,Gustav Forsling,Florida Panthers,Defenseman,5,0.13,20,0.51,109,2.79,39,25,0.64,49,1.26,24.01,0.06,0.25,1.39,0.31
-8478400,13,Colin White,Florida Panthers,Center,5,0.14,7,0.2,40,1.14,35,12,0.34,15,0.43,11.41,-0.07,-0.11,-0.67,-0.18
-8479066,13,Ryan Lomberg,Florida Panthers,Left Wing,4,0.1,5,0.13,53,1.36,39,9,0.23,10,0.26,10.35,-0.13,-0.17,-0.57,-0.3
-8479314,13,Matthew Tkachuk,Florida Panthers,Left Wing,20,0.56,27,0.75,134,3.72,36,47,1.31,12,0.33,20.21,0.33,0.45,1.79,0.78
-8479372,13,Josh Mahura,Florida Panthers,Defenseman,3,0.08,6,0.15,44,1.13,39,9,0.23,27,0.69,14.15,0.01,-0.11,-0.27,-0.1
-8480185,13,Eetu Luostarinen,Florida Panthers,Center,9,0.23,10,0.26,68,1.74,39,19,0.49,22,0.56,15.32,0.02,-0.05,-0.07,-0.03
-8482113,13,Anton Lundell,Florida Panthers,Center,4,0.13,10,0.33,66,2.2,30,14,0.47,17,0.57,16.29,-0.08,0.02,0.39,-0.05
-8482641,13,Matt Kiersted,Florida Panthers,Defenseman,1,0.05,3,0.15,14,0.7,20,4,0.2,7,0.35,9.5,-0.02,-0.11,-0.7,-0.13
-8478870,14,Rudolfs Balcers,Tampa Bay Lightning,Left Wing,3,0.18,2,0.12,24,1.41,17,5,0.29,4,0.24,10.12,-0.05,-0.18,-0.52,-0.24
-8470621,14,Corey Perry,Tampa Bay Lightning,Right Wing,5,0.14,9,0.24,59,1.59,37,14,0.38,12,0.32,12.16,-0.09,-0.06,-0.34,-0.15
-8473986,14,Alex Killorn,Tampa Bay Lightning,Left Wing,12,0.32,14,0.38,63,1.7,37,26,0.7,14,0.38,17.13,0.09,0.08,-0.23,0.17
-8474013,14,Ian Cole,Tampa Bay Lightning,Defenseman,3,0.09,9,0.26,49,1.44,34,12,0.35,61,1.79,19.03,0.02,0.0,0.04,0.02
-8474034,14,Pat Maroon,Tampa Bay Lightning,Left Wing,2,0.05,4,0.11,36,0.97,37,6,0.16,4,0.11,10.03,-0.18,-0.19,-0.96,-0.37
-8474564,14,Steven Stamkos,Tampa Bay Lightning,Center,17,0.46,25,0.68,121,3.27,37,42,1.14,27,0.73,19.05,0.25,0.37,1.46,0.62
-8474567,14,Zach Bogosian,Tampa Bay Lightning,Defenseman,0,0.0,1,0.07,13,0.93,14,1,0.07,11,0.79,14.09,-0.07,-0.19,-0.47,-0.26
-8475167,14,Victor Hedman,Tampa Bay Lightning,Defenseman,1,0.03,24,0.69,73,2.09,35,25,0.71,64,1.83,24.13,-0.04,0.43,0.69,0.38
-8476453,14,Nikita Kucherov,Tampa Bay Lightning,Right Wing,13,0.35,41,1.11,133,3.59,37,54,1.46,14,0.38,20.53,0.12,0.81,1.66,0.93
-8476480,14,Vladislav Namestnikov,Tampa Bay Lightning,Center,2,0.06,6,0.17,50,1.43,35,8,0.23,12,0.34,12.36,-0.15,-0.14,-0.38,-0.29
-8477426,14,Nicholas Paul,Tampa Bay Lightning,Left Wing,14,0.38,8,0.22,68,1.84,37,22,0.59,31,0.84,16.59,0.15,-0.08,-0.09,0.06
-8477930,14,Pierre-Edouard Bellemare,Tampa Bay Lightning,Left Wing,1,0.03,3,0.09,23,0.66,35,4,0.11,28,0.8,11.39,-0.2,-0.21,-1.27,-0.42
-8477938,14,Haydn Fleury,Tampa Bay Lightning,Defenseman,0,0.0,1,0.06,16,0.94,17,1,0.06,15,0.88,12.07,-0.07,-0.2,-0.46,-0.27
-8478010,14,Brayden Point,Tampa Bay Lightning,Center,22,0.59,17,0.46,114,3.08,37,39,1.05,13,0.35,20.1,0.38,0.15,1.27,0.53
-8478416,14,Erik Cernak,Tampa Bay Lightning,Defenseman,1,0.03,6,0.18,29,0.88,33,7,0.21,57,1.73,19.3,-0.04,-0.08,-0.52,-0.12
-8478519,14,Anthony Cirelli,Tampa Bay Lightning,Center,1,0.07,6,0.43,37,2.64,14,7,0.5,10,0.71,15.54,-0.14,0.12,0.83,-0.02
-8479410,14,Mikhail Sergachev,Tampa Bay Lightning,Defenseman,6,0.17,23,0.66,59,1.69,35,29,0.83,72,2.06,23.52,0.1,0.4,0.29,0.5
-8479525,14,Ross Colton,Tampa Bay Lightning,Center,8,0.22,7,0.19,58,1.61,36,15,0.42,12,0.33,11.57,0.01,-0.12,-0.2,-0.1
-8479542,14,Brandon Hagel,Tampa Bay Lightning,Left Wing,15,0.41,16,0.43,79,2.14,37,31,0.84,28,0.76,18.53,0.18,0.13,0.21,0.31
-8479984,14,Cal Foote,Tampa Bay Lightning,Defenseman,1,0.06,2,0.11,15,0.83,18,3,0.17,13,0.72,14.34,-0.01,-0.15,-0.57,-0.16
-8480246,14,Nick Perbix,Tampa Bay Lightning,Defenseman,3,0.1,5,0.16,50,1.61,31,8,0.26,31,1.0,15.12,0.03,-0.1,0.21,-0.07
-8474590,15,John Carlson,Washington Capitals,Defenseman,8,0.27,13,0.43,101,3.37,30,21,0.7,70,2.33,23.23,0.2,0.17,1.97,0.37
-8471214,15,Alex Ovechkin,Washington Capitals,Left Wing,29,0.71,19,0.46,178,4.34,41,48,1.17,12,0.29,20.26,0.48,0.16,2.41,0.64
-8471698,15,T.J. Oshie,Washington Capitals,Right Wing,7,0.29,6,0.25,53,2.21,24,13,0.54,14,0.58,16.33,0.06,-0.05,0.28,0.01
-8474189,15,Lars Eller,Washington Capitals,Center,7,0.17,8,0.2,62,1.55,40,15,0.38,23,0.57,15.26,-0.04,-0.11,-0.26,-0.14
-8475149,15,Marcus Johansson,Washington Capitals,Left Wing,10,0.24,10,0.24,67,1.63,41,20,0.49,9,0.22,16.06,0.01,-0.06,-0.3,-0.04
-8475200,15,Dmitry Orlov,Washington Capitals,Defenseman,2,0.08,9,0.36,48,1.92,25,11,0.44,40,1.6,22.13,0.01,0.1,0.52,0.11
-8475324,15,Nick Jensen,Washington Capitals,Defenseman,1,0.02,17,0.41,50,1.22,41,18,0.44,78,1.9,20.57,-0.05,0.15,-0.18,0.11
-8475343,15,Nic Dowd,Washington Capitals,Center,10,0.26,7,0.18,38,0.97,39,17,0.44,34,0.87,13.13,0.05,-0.13,-0.84,-0.08
-8475625,15,Matt Irwin,Washington Capitals,Defenseman,0,0.0,2,0.07,36,1.2,30,2,0.07,40,1.33,13.18,-0.07,-0.19,-0.2,-0.26
-8475744,15,Evgeny Kuznetsov,Washington Capitals,Center,6,0.15,30,0.75,100,2.5,40,36,0.9,14,0.35,18.33,-0.06,0.44,0.69,0.38
-8476979,15,Erik Gustafsson,Washington Capitals,Defenseman,6,0.15,17,0.42,67,1.68,40,23,0.57,38,0.95,19.34,0.08,0.16,0.28,0.24
-8477511,15,Anthony Mantha,Washington Capitals,Right Wing,9,0.22,14,0.34,78,1.9,41,23,0.56,14,0.34,14.23,-0.01,0.04,-0.03,0.03
-8477839,15,Conor Sheary,Washington Capitals,Left Wing,11,0.27,16,0.39,84,2.05,41,27,0.66,16,0.39,16.22,0.04,0.09,0.12,0.13
-8477845,15,Trevor van Riemsdyk,Washington Capitals,Defenseman,4,0.1,5,0.12,36,0.88,41,9,0.22,77,1.88,17.47,0.03,-0.14,-0.52,-0.11
-8477903,15,Garnet Hathaway,Washington Capitals,Right Wing,5,0.12,6,0.15,47,1.15,41,11,0.27,45,1.1,12.17,-0.11,-0.15,-0.78,-0.26
-8477947,15,Sonny Milano,Washington Capitals,Left Wing,6,0.21,12,0.43,42,1.5,28,18,0.64,5,0.18,13.29,-0.02,0.13,-0.43,0.11
-8477979,15,Nicolas Aube-Kubel,Washington Capitals,Right Wing,1,0.05,4,0.21,23,1.21,19,5,0.26,1,0.05,10.1,-0.18,-0.09,-0.72,-0.27
-8478440,15,Dylan Strome,Washington Capitals,Center,8,0.2,23,0.56,74,1.8,41,31,0.76,23,0.56,16.5,-0.01,0.25,-0.01,0.24
-8480796,15,Martin Fehervary,Washington Capitals,Defenseman,3,0.1,3,0.1,40,1.38,29,6,0.21,46,1.59,19.52,0.03,-0.16,-0.02,-0.12
-8481656,15,Aliaksei Protas,Washington Capitals,Center,3,0.07,7,0.17,51,1.24,41,10,0.24,8,0.2,10.52,-0.14,-0.14,-0.57,-0.28
-8475797,16,Jarred Tinordi,Chicago Blackhawks,Defenseman,2,0.08,3,0.12,17,0.68,25,5,0.2,37,1.48,16.46,0.01,-0.14,-0.72,-0.13
-8476915,16,Jujhar Khaira,Chicago Blackhawks,Left Wing,3,0.1,3,0.1,29,1.0,29,6,0.21,18,0.62,13.16,-0.13,-0.2,-0.93,-0.32
-8480025,16,MacKenzie Entwistle,Chicago Blackhawks,Right Wing,2,0.06,3,0.09,25,0.76,33,5,0.15,14,0.42,11.38,-0.17,-0.21,-1.17,-0.38
-8471677,16,Jack Johnson,Chicago Blackhawks,Defenseman,0,0.0,4,0.11,46,1.24,37,4,0.11,61,1.65,20.06,-0.07,-0.15,-0.16,-0.22
-8473604,16,Jonathan Toews,Chicago Blackhawks,Center,11,0.31,9,0.25,65,1.81,36,20,0.56,18,0.5,17.53,0.1,-0.06,0.0,0.04
-8474141,16,Patrick Kane,Chicago Blackhawks,Right Wing,7,0.19,20,0.54,133,3.59,37,27,0.73,8,0.22,19.54,-0.04,0.24,1.66,0.2
-8474870,16,Tyler Johnson,Chicago Blackhawks,Center,3,0.21,5,0.36,25,1.79,14,8,0.57,5,0.36,14.57,-0.0,0.05,-0.02,0.05
-8476278,16,Colin Blackwell,Chicago Blackhawks,Center,0,0.0,3,0.1,34,1.1,31,3,0.1,14,0.45,11.57,-0.21,-0.21,-0.71,-0.42
-8476473,16,Connor Murphy,Chicago Blackhawks,Defenseman,3,0.08,2,0.05,45,1.22,37,5,0.14,79,2.14,19.23,0.01,-0.21,-0.18,-0.19
-8476931,16,Jake McCabe,Chicago Blackhawks,Defenseman,1,0.03,8,0.24,32,0.94,34,9,0.26,80,2.35,19.02,-0.04,-0.02,-0.46,-0.07
-8476960,16,Andreas Athanasiou,Chicago Blackhawks,Center,8,0.22,4,0.11,66,1.83,36,12,0.33,28,0.78,15.53,0.01,-0.2,0.02,-0.19
-8477450,16,Jason Dickinson,Chicago Blackhawks,Center,4,0.12,6,0.18,47,1.42,33,10,0.3,33,1.0,15.12,-0.09,-0.13,-0.39,-0.22
-8477495,16,Seth Jones,Chicago Blackhawks,Defenseman,2,0.07,9,0.33,73,2.7,27,11,0.41,57,2.11,24.4,-0.0,0.07,1.3,0.08
-8477503,16,Max Domi,Chicago Blackhawks,Center,11,0.3,14,0.38,78,2.11,37,25,0.68,10,0.27,18.35,0.09,0.07,0.3,0.16
-8478043,16,Sam Lafferty,Chicago Blackhawks,Center,4,0.13,6,0.19,37,1.19,31,10,0.32,11,0.35,14.31,-0.08,-0.12,-0.62,-0.2
-8478452,16,Caleb Jones,Chicago Blackhawks,Defenseman,1,0.04,8,0.29,35,1.25,28,9,0.32,39,1.39,18.11,-0.03,0.03,-0.15,-0.01
-8479383,16,Boris Katchouk,Chicago Blackhawks,Left Wing,1,0.05,2,0.09,16,0.73,22,3,0.14,4,0.18,9.33,-0.18,-0.21,-1.2,-0.39
-8479390,16,Taylor Raddysh,Chicago Blackhawks,Right Wing,10,0.27,5,0.14,53,1.43,37,15,0.41,18,0.49,16.14,0.04,-0.16,-0.5,-0.12
-8480798,16,Philipp Kurashev,Chicago Blackhawks,Center,4,0.11,10,0.27,66,1.78,37,14,0.38,14,0.38,17.05,-0.1,-0.04,-0.03,-0.14
-8481147,16,Reese Johnson,Chicago Blackhawks,Center,2,0.07,1,0.04,22,0.79,28,3,0.11,9,0.32,10.14,-0.14,-0.27,-1.02,-0.41
-8477462,17,Robert Hagg,Detroit Red Wings,Defenseman,0,0.0,2,0.15,19,1.46,13,2,0.15,17,1.31,15.42,-0.07,-0.11,0.06,-0.18
-8474102,17,David Perron,Detroit Red Wings,Left Wing,12,0.33,15,0.42,99,2.75,36,27,0.75,13,0.36,16.57,0.1,0.12,0.82,0.22
-8475279,17,Ben Chiarot,Detroit Red Wings,Defenseman,2,0.06,7,0.19,54,1.5,36,9,0.25,77,2.14,21.01,-0.01,-0.07,0.1,-0.08
-8476874,17,Olli Maatta,Detroit Red Wings,Defenseman,3,0.09,10,0.31,25,0.78,32,13,0.41,55,1.72,19.03,0.02,0.05,-0.62,0.08
-8476897,17,Oskar Sundqvist,Detroit Red Wings,Center,5,0.17,9,0.31,34,1.17,29,14,0.48,15,0.52,15.52,-0.04,0.0,-0.64,-0.04
-8477330,17,Dominik Kubalik,Detroit Red Wings,Left Wing,12,0.33,16,0.44,100,2.78,36,28,0.78,12,0.33,16.0,0.1,0.14,0.85,0.25
-8477429,17,Andrew Copp,Detroit Red Wings,Center,3,0.08,17,0.47,47,1.31,36,20,0.56,14,0.39,17.12,-0.13,0.16,-0.5,0.04
-8477454,17,Adam Erne,Detroit Red Wings,Left Wing,5,0.14,8,0.23,34,0.97,35,13,0.37,34,0.97,14.25,-0.09,-0.07,-0.96,-0.16
-8477851,17,Jordan Oesterle,Detroit Red Wings,Defenseman,2,0.08,1,0.04,26,1.0,26,3,0.12,32,1.23,15.28,0.01,-0.22,-0.4,-0.21
-8477946,17,Dylan Larkin,Detroit Red Wings,Center,13,0.37,20,0.57,112,3.2,35,33,0.94,18,0.51,20.02,0.16,0.26,1.39,0.42
-8478013,17,Jake Walman,Detroit Red Wings,Defenseman,2,0.1,2,0.1,41,2.05,20,4,0.2,39,1.95,17.34,0.03,-0.16,0.65,-0.13
-8479425,17,Filip Hronek,Detroit Red Wings,Defenseman,7,0.19,19,0.53,79,2.19,36,26,0.72,27,0.75,21.59,0.12,0.27,0.79,0.39
-8479992,17,Michael Rasmussen,Detroit Red Wings,Center,7,0.21,10,0.29,59,1.74,34,17,0.5,29,0.85,14.53,-0.0,-0.02,-0.07,-0.02
-8480184,17,Gustav Lindstrom,Detroit Red Wings,Defenseman,0,0.0,1,0.06,9,0.53,17,1,0.06,12,0.71,14.02,-0.07,-0.2,-0.87,-0.27
-8480459,17,Pius Suter,Detroit Red Wings,Center,5,0.14,6,0.17,49,1.4,35,11,0.31,18,0.51,13.04,-0.07,-0.14,-0.41,-0.21
-8480813,17,Joe Veleno,Detroit Red Wings,Center,5,0.14,7,0.2,32,0.91,35,12,0.34,18,0.51,12.12,-0.07,-0.11,-0.9,-0.18
-8481013,17,Jonatan Berggren,Detroit Red Wings,Right Wing,5,0.22,8,0.35,35,1.52,23,13,0.57,10,0.43,12.47,-0.01,0.05,-0.41,0.04
-8481542,17,Moritz Seider,Detroit Red Wings,Defenseman,2,0.06,11,0.31,59,1.64,36,13,0.36,87,2.42,22.44,-0.01,0.05,0.24,0.03
-8481725,17,Elmer Soderblom,Detroit Red Wings,Left Wing,5,0.25,3,0.15,30,1.5,20,8,0.4,11,0.55,12.15,0.02,-0.15,-0.43,-0.13
-8482078,17,Lucas Raymond,Detroit Red Wings,Left Wing,10,0.28,13,0.36,63,1.75,36,23,0.64,6,0.17,17.18,0.05,0.06,-0.18,0.11
-8474151,18,Ryan McDonagh,Nashville Predators,Defenseman,0,0.0,8,0.27,27,0.9,30,8,0.27,67,2.23,20.29,-0.07,0.01,-0.5,-0.06
-8474600,18,Roman Josi,Nashville Predators,Defenseman,9,0.24,22,0.59,159,4.3,37,31,0.84,86,2.32,25.14,0.17,0.33,2.9,0.51
-8475168,18,Matt Duchene,Nashville Predators,Center,11,0.31,18,0.5,83,2.31,36,29,0.81,17,0.47,17.59,0.1,0.19,0.5,0.29
-8475218,18,Mattias Ekholm,Nashville Predators,Defenseman,4,0.11,10,0.27,66,1.78,37,14,0.38,48,1.3,21.4,0.04,0.01,0.38,0.05
-8475793,18,Ryan Johansen,Nashville Predators,Center,9,0.24,10,0.27,52,1.41,37,19,0.51,17,0.46,15.33,0.03,-0.04,-0.4,-0.01
-8475798,18,Mikael Granlund,Nashville Predators,Center,4,0.11,21,0.57,48,1.3,37,25,0.68,30,0.81,19.07,-0.1,0.26,-0.51,0.16
-8475799,18,Nino Niederreiter,Nashville Predators,Right Wing,12,0.32,9,0.24,84,2.27,37,21,0.57,13,0.35,15.43,0.09,-0.06,0.34,0.04
-8476873,18,Mark Jankowski,Nashville Predators,Center,4,0.19,3,0.14,23,1.1,21,7,0.33,20,0.95,12.08,-0.02,-0.17,-0.71,-0.19
-8476887,18,Filip Forsberg,Nashville Predators,Left Wing,15,0.41,19,0.51,116,3.14,37,34,0.92,15,0.41,17.49,0.18,0.21,1.21,0.39
-8476925,18,Colton Sissons,Nashville Predators,Center,6,0.16,7,0.19,34,0.92,37,13,0.35,25,0.68,15.2,-0.05,-0.12,-0.89,-0.17
-8477446,18,Michael McCarron,Nashville Predators,Right Wing,1,0.07,1,0.07,21,1.4,15,2,0.13,13,0.87,9.5,-0.16,-0.23,-0.53,-0.4
-8478468,18,Jeremy Lauzon,Nashville Predators,Defenseman,1,0.03,2,0.07,35,1.17,30,3,0.1,28,0.93,15.41,-0.04,-0.19,-0.23,-0.23
-8478508,18,Yakov Trenin,Nashville Predators,Center,4,0.12,6,0.19,60,1.88,32,10,0.31,15,0.47,14.11,-0.09,-0.12,0.07,-0.21
-8478851,18,Alexandre Carrier,Nashville Predators,Defenseman,2,0.06,3,0.1,38,1.23,31,5,0.16,43,1.39,18.36,-0.01,-0.16,-0.17,-0.17
-8479371,18,Dante Fabbro,Nashville Predators,Defenseman,1,0.03,6,0.18,49,1.44,34,7,0.21,50,1.47,16.29,-0.04,-0.08,0.04,-0.12
-8479661,18,Tanner Jeannot,Nashville Predators,Left Wing,3,0.08,5,0.14,59,1.59,37,8,0.22,36,0.97,15.29,-0.15,-0.16,-0.34,-0.31
-8479996,18,Cody Glass,Nashville Predators,Center,4,0.15,7,0.26,44,1.63,27,11,0.41,7,0.26,12.43,-0.06,-0.05,-0.18,-0.11
-8481704,18,Juuso Parssinen,Nashville Predators,Center,3,0.13,8,0.35,27,1.17,23,11,0.48,7,0.3,15.38,-0.08,0.04,-0.64,-0.04
-8482062,18,Cole Smith,Nashville Predators,Left Wing,0,0.0,8,0.24,37,1.09,34,8,0.24,13,0.38,11.49,-0.23,-0.06,-0.84,-0.29
-8475158,19,Ryan O'Reilly,St. Louis Blues,Center,10,0.27,6,0.16,73,1.97,37,16,0.43,18,0.49,18.25,0.06,-0.15,0.16,-0.09
-8475765,19,Vladimir Tarasenko,St. Louis Blues,Right Wing,10,0.29,19,0.56,90,2.65,34,29,0.85,14,0.41,17.29,0.06,0.26,0.72,0.32
-8476792,19,Torey Krug,St. Louis Blues,Defenseman,5,0.16,12,0.39,65,2.1,31,17,0.55,43,1.39,19.36,0.09,0.13,0.7,0.22
-8474145,19,Robert Bortuzzo,St. Louis Blues,Defenseman,1,0.03,0,0.0,19,0.66,29,1,0.03,29,1.0,12.19,-0.04,-0.26,-0.74,-0.3
-8475170,19,Brayden Schenn,St. Louis Blues,Center,8,0.21,22,0.56,72,1.85,39,30,0.77,8,0.21,17.49,-0.0,0.25,0.04,0.25
-8475181,19,Nick Leddy,St. Louis Blues,Defenseman,0,0.0,11,0.28,43,1.1,39,11,0.28,48,1.23,21.15,-0.07,0.02,-0.3,-0.05
-8475752,19,Tyler Pitlick,St. Louis Blues,Center,1,0.04,1,0.04,12,0.5,24,2,0.08,10,0.42,8.54,-0.17,-0.27,-1.31,-0.44
-8475753,19,Justin Faulk,St. Louis Blues,Defenseman,6,0.15,16,0.41,100,2.56,39,22,0.56,64,1.64,23.34,0.08,0.15,1.16,0.23
-8476410,19,Josh Leivo,St. Louis Blues,Left Wing,4,0.14,7,0.24,58,2.0,29,11,0.38,9,0.31,12.47,-0.09,-0.06,0.07,-0.15
-8476438,19,Brandon Saad,St. Louis Blues,Left Wing,11,0.34,4,0.12,63,1.97,32,15,0.47,13,0.41,16.44,0.11,-0.18,0.04,-0.06
-8476892,19,Colton Parayko,St. Louis Blues,Defenseman,2,0.06,10,0.28,73,2.03,36,12,0.33,64,1.78,23.34,-0.01,0.02,0.63,-0.0
-8477402,19,Pavel Buchnevich,St. Louis Blues,Left Wing,12,0.4,20,0.67,61,2.03,30,32,1.07,8,0.27,19.18,0.17,0.37,0.1,0.54
-8477573,19,Nathan Walker,St. Louis Blues,Left Wing,1,0.05,2,0.09,12,0.55,22,3,0.14,19,0.86,9.4,-0.18,-0.21,-1.38,-0.39
-8477964,19,Ivan Barbashev,St. Louis Blues,Center,6,0.15,12,0.31,61,1.56,39,18,0.46,17,0.44,16.07,-0.06,0.0,-0.25,-0.06
-8478569,19,Noel Acciari,St. Louis Blues,Center,9,0.23,7,0.18,51,1.31,39,16,0.41,42,1.08,13.52,0.02,-0.13,-0.5,-0.11
-8478859,19,Niko Mikkola,St. Louis Blues,Defenseman,0,0.0,2,0.05,23,0.61,38,2,0.05,55,1.45,16.11,-0.07,-0.21,-0.79,-0.28
-8479385,19,Jordan Kyrou,St. Louis Blues,Center,19,0.53,19,0.53,122,3.39,36,38,1.06,19,0.53,18.12,0.32,0.22,1.58,0.54
-8480023,19,Robert Thomas,St. Louis Blues,Center,10,0.26,27,0.71,57,1.5,38,37,0.97,16,0.42,19.21,0.05,0.4,-0.31,0.45
-8480157,19,Calle Rosen,St. Louis Blues,Defenseman,5,0.23,4,0.18,26,1.18,22,9,0.41,27,1.23,13.49,0.16,-0.08,-0.22,0.08
-8480281,19,Alexey Toropchenko,St. Louis Blues,Right Wing,1,0.04,3,0.12,26,1.0,26,4,0.15,11,0.42,10.16,-0.19,-0.18,-0.93,-0.38
-8481543,19,Nikita Alexandrov,St. Louis Blues,Center,0,0.0,1,0.09,10,0.91,11,1,0.09,5,0.45,8.52,-0.21,-0.22,-0.9,-0.43
-8482089,19,Jake Neighbours,St. Louis Blues,Left Wing,1,0.07,1,0.07,17,1.13,15,2,0.13,5,0.33,11.53,-0.16,-0.23,-0.8,-0.4
-8473453,20,Trevor Lewis,Calgary Flames,Center,7,0.18,5,0.13,81,2.08,39,12,0.31,13,0.33,12.45,-0.03,-0.18,0.27,-0.21
-8473473,20,Milan Lucic,Calgary Flames,Left Wing,2,0.06,7,0.19,36,1.0,36,9,0.25,7,0.19,11.14,-0.17,-0.11,-0.93,-0.28
-8474150,20,Mikael Backlund,Calgary Flames,Center,8,0.21,12,0.31,119,3.05,39,20,0.51,13,0.33,17.34,-0.0,0.0,1.24,-0.01
-8474628,20,Michael Stone,Calgary Flames,Defenseman,4,0.14,4,0.14,52,1.79,29,8,0.28,27,0.93,12.46,0.07,-0.12,0.39,-0.05
-8475172,20,Nazem Kadri,Calgary Flames,Center,14,0.36,15,0.38,124,3.18,39,29,0.74,21,0.54,17.39,0.15,0.07,1.37,0.22
-8475690,20,Chris Tanev,Calgary Flames,Defenseman,0,0.0,6,0.19,30,0.97,31,6,0.19,71,2.29,20.11,-0.07,-0.07,-0.43,-0.14
-8475726,20,Tyler Toffoli,Calgary Flames,Right Wing,15,0.38,16,0.41,117,3.0,39,31,0.79,6,0.15,16.58,0.15,0.11,1.07,0.26
-8476399,20,Blake Coleman,Calgary Flames,Center,6,0.15,8,0.21,77,1.97,39,14,0.36,23,0.59,14.36,-0.06,-0.1,0.16,-0.16
-8476439,20,Brett Ritchie,Calgary Flames,Right Wing,6,0.2,2,0.07,41,1.37,30,8,0.27,4,0.13,9.12,-0.03,-0.23,-0.56,-0.26
-8476456,20,Jonathan Huberdeau,Calgary Flames,Center,7,0.19,18,0.5,60,1.67,36,25,0.69,15,0.42,17.08,-0.02,0.19,-0.14,0.17
-8477346,20,MacKenzie Weegar,Calgary Flames,Defenseman,1,0.03,8,0.21,65,1.71,38,9,0.24,56,1.47,20.58,-0.04,-0.05,0.31,-0.09
-8477496,20,Elias Lindholm,Calgary Flames,Center,12,0.32,23,0.61,89,2.34,38,35,0.92,20,0.53,19.02,0.11,0.3,0.53,0.4
-8477507,20,Nikita Zadorov,Calgary Flames,Defenseman,5,0.13,3,0.08,68,1.74,39,8,0.21,43,1.1,19.24,0.06,-0.18,0.34,-0.12
-8478233,20,Andrew Mangiapane,Calgary Flames,Left Wing,7,0.18,9,0.23,80,2.05,39,16,0.41,16,0.41,16.33,-0.05,-0.07,0.12,-0.12
-8478396,20,Noah Hanifin,Calgary Flames,Defenseman,3,0.08,13,0.34,91,2.39,38,16,0.42,70,1.84,22.29,0.01,0.08,0.99,0.09
-8478397,20,Rasmus Andersson,Calgary Flames,Defenseman,5,0.13,22,0.56,83,2.13,39,27,0.69,69,1.77,24.54,0.06,0.3,0.73,0.36
-8479346,20,Dillon Dube,Calgary Flames,Center,8,0.21,13,0.33,64,1.64,39,21,0.54,10,0.26,15.3,-0.0,0.02,-0.17,0.02
-8480008,20,Adam Ruzicka,Calgary Flames,Center,6,0.21,14,0.48,47,1.62,29,20,0.69,3,0.1,12.31,-0.0,0.17,-0.19,0.17
-8476312,21,Josh Manson,Colorado Avalanche,Defenseman,2,0.1,4,0.19,30,1.43,21,6,0.29,23,1.1,16.57,0.03,-0.07,0.03,-0.04
-8471699,21,Andrew Cogliano,Colorado Avalanche,Center,5,0.14,3,0.09,47,1.34,35,8,0.23,22,0.63,13.44,-0.07,-0.22,-0.47,-0.29
-8473446,21,Erik Johnson,Colorado Avalanche,Defenseman,0,0.0,7,0.19,63,1.7,37,7,0.19,64,1.73,17.48,-0.07,-0.07,0.3,-0.14
-8476779,21,Brad Hunt,Colorado Avalanche,Defenseman,0,0.0,1,0.08,17,1.31,13,1,0.08,5,0.38,10.3,-0.07,-0.18,-0.09,-0.25
-8477073,21,Kurtis MacDermid,Colorado Avalanche,Defenseman,0,0.0,1,0.06,5,0.31,16,1,0.06,2,0.12,5.36,-0.07,-0.2,-1.09,-0.27
-8477456,21,J.T. Compher,Colorado Avalanche,Left Wing,7,0.19,15,0.41,70,1.89,37,22,0.59,34,0.92,20.12,-0.04,0.11,-0.04,0.06
-8477476,21,Artturi Lehkonen,Colorado Avalanche,Left Wing,9,0.26,17,0.5,83,2.44,34,26,0.76,27,0.79,21.24,0.03,0.2,0.51,0.23
-8477492,21,Nathan MacKinnon,Colorado Avalanche,Center,9,0.35,27,1.04,134,5.15,26,36,1.38,14,0.54,22.15,0.14,0.73,3.34,0.86
-8477501,21,Valeri Nichushkin,Colorado Avalanche,Right Wing,7,0.47,9,0.6,46,3.07,15,16,1.07,10,0.67,20.4,0.24,0.3,1.14,0.54
-8477971,21,Andreas Englund,Colorado Avalanche,Defenseman,0,0.0,2,0.1,7,0.35,20,2,0.1,11,0.55,11.34,-0.07,-0.16,-1.05,-0.23
-8478038,21,Devon Toews,Colorado Avalanche,Defenseman,3,0.09,17,0.49,65,1.86,35,20,0.57,60,1.71,25.22,0.02,0.23,0.46,0.24
-8478420,21,Mikko Rantanen,Colorado Avalanche,Right Wing,26,0.7,22,0.59,140,3.78,37,48,1.3,18,0.49,23.07,0.47,0.29,1.85,0.77
-8478542,21,Evan Rodrigues,Colorado Avalanche,Center,9,0.35,7,0.27,78,3.0,26,16,0.62,8,0.31,18.57,0.14,-0.04,1.19,0.1
-8478843,21,Denis Malgin,Colorado Avalanche,Center,2,0.07,3,0.1,59,1.97,30,5,0.17,5,0.17,11.59,-0.14,-0.21,0.16,-0.35
-8479398,21,Samuel Girard,Colorado Avalanche,Defenseman,3,0.1,5,0.16,51,1.65,31,8,0.26,37,1.19,20.33,0.03,-0.1,0.25,-0.07
-8479439,21,Jacob MacDonald,Colorado Avalanche,Defenseman,0,0.0,1,0.04,24,0.92,26,1,0.04,11,0.42,8.54,-0.07,-0.22,-0.48,-0.29
-8480069,21,Cale Makar,Colorado Avalanche,Defenseman,9,0.24,26,0.7,119,3.22,37,35,0.95,51,1.38,27.14,0.17,0.44,1.82,0.62
-8480822,21,Martin Kaut,Colorado Avalanche,Right Wing,1,0.04,2,0.09,21,0.91,23,3,0.13,4,0.17,9.31,-0.19,-0.21,-1.02,-0.4
-8481186,21,Logan O'Connor,Colorado Avalanche,Right Wing,5,0.14,6,0.16,54,1.46,37,11,0.3,29,0.78,15.11,-0.09,-0.14,-0.47,-0.23
-8481618,21,Alex Newhook,Colorado Avalanche,Center,7,0.19,6,0.16,54,1.46,37,13,0.35,8,0.22,15.04,-0.02,-0.15,-0.35,-0.17
-8483570,21,Ben Meyers,Colorado Avalanche,Center,1,0.06,0,0.0,15,0.88,17,1,0.06,4,0.24,12.21,-0.15,-0.31,-0.93,-0.46
-8475169,22,Evander Kane,Edmonton Oilers,Left Wing,5,0.36,8,0.57,50,3.57,14,13,0.93,8,0.57,19.29,0.13,0.27,1.64,0.4
-8476850,22,Ryan Murray,Edmonton Oilers,Defenseman,0,0.0,3,0.23,8,0.62,13,3,0.23,12,0.92,13.07,-0.07,-0.03,-0.78,-0.1
-8475197,22,Tyson Barrie,Edmonton Oilers,Defenseman,5,0.12,23,0.57,80,2.0,40,28,0.7,50,1.25,20.09,0.05,0.31,0.6,0.37
-8475786,22,Zach Hyman,Edmonton Oilers,Left Wing,18,0.46,24,0.62,148,3.79,39,42,1.08,11,0.28,20.41,0.23,0.32,1.86,0.55
-8476454,22,Ryan Nugent-Hopkins,Edmonton Oilers,Center,19,0.47,29,0.72,95,2.38,40,48,1.2,15,0.38,19.44,0.26,0.41,0.57,0.68
-8476879,22,Cody Ceci,Edmonton Oilers,Defenseman,1,0.03,6,0.15,41,1.02,40,7,0.17,58,1.45,20.53,-0.04,-0.11,-0.38,-0.16
-8476913,22,Devin Shore,Edmonton Oilers,Center,0,0.0,3,0.1,17,0.59,29,3,0.1,16,0.55,8.42,-0.21,-0.21,-1.22,-0.42
-8476967,22,Brett Kulak,Edmonton Oilers,Defenseman,2,0.05,7,0.17,49,1.23,40,9,0.23,61,1.52,18.13,-0.02,-0.09,-0.17,-0.1
-8477406,22,Mattias Janmark,Edmonton Oilers,Center,3,0.12,6,0.23,26,1.0,26,9,0.35,9,0.35,15.21,-0.09,-0.08,-0.81,-0.17
-8477498,22,Darnell Nurse,Edmonton Oilers,Defenseman,6,0.15,14,0.35,101,2.52,40,20,0.5,75,1.88,23.59,0.08,0.09,1.12,0.17
-8477934,22,Leon Draisaitl,Edmonton Oilers,Center,22,0.58,38,1.0,127,3.34,38,60,1.58,28,0.74,22.15,0.37,0.69,1.53,1.06
-8477998,22,Warren Foegele,Edmonton Oilers,Left Wing,4,0.14,3,0.11,42,1.5,28,7,0.25,10,0.36,12.22,-0.09,-0.19,-0.43,-0.28
-8478402,22,Connor McDavid,Edmonton Oilers,Center,33,0.82,42,1.05,154,3.85,40,75,1.88,24,0.6,22.46,0.61,0.74,2.04,1.36
-8478585,22,Derek Ryan,Edmonton Oilers,Center,5,0.13,4,0.1,40,1.03,39,9,0.23,22,0.56,10.35,-0.08,-0.21,-0.78,-0.29
-8479338,22,Markus Niemelainen,Edmonton Oilers,Defenseman,0,0.0,0,0.0,16,0.73,22,0,0.0,16,0.73,10.2,-0.07,-0.26,-0.67,-0.33
-8479344,22,Jesse Puljujarvi,Edmonton Oilers,Right Wing,3,0.07,6,0.15,60,1.5,40,9,0.23,14,0.35,13.04,-0.16,-0.15,-0.43,-0.3
-8479977,22,Kailer Yamamoto,Edmonton Oilers,Right Wing,3,0.11,7,0.25,36,1.29,28,10,0.36,10,0.36,16.43,-0.12,-0.05,-0.64,-0.17
-8480011,22,Klim Kostin,Edmonton Oilers,Center,5,0.21,4,0.17,30,1.25,24,9,0.38,8,0.33,10.09,-0.0,-0.14,-0.56,-0.14
-8480802,22,Ryan McLeod,Edmonton Oilers,Center,3,0.11,6,0.22,32,1.19,27,9,0.33,9,0.33,14.14,-0.1,-0.09,-0.62,-0.19
-8480803,22,Evan Bouchard,Edmonton Oilers,Defenseman,3,0.07,11,0.28,82,2.05,40,14,0.35,37,0.93,18.23,-0.0,0.02,0.65,0.02
-8481598,22,Philip Broberg,Edmonton Oilers,Defenseman,0,0.0,2,0.14,9,0.64,14,2,0.14,15,1.07,12.26,-0.07,-0.12,-0.76,-0.19
-8482077,22,Dylan Holloway,Edmonton Oilers,Left Wing,2,0.06,3,0.08,25,0.69,36,5,0.14,9,0.25,8.53,-0.17,-0.22,-1.24,-0.39
-8476871,23,Tanner Pearson,Vancouver Canucks,Left Wing,1,0.07,4,0.29,17,1.21,14,5,0.36,3,0.21,13.29,-0.16,-0.01,-0.72,-0.17
-8481617,23,Vasily Podkolzin,Vancouver Canucks,Right Wing,0,0.0,3,0.19,18,1.12,16,3,0.19,7,0.44,12.34,-0.23,-0.11,-0.81,-0.34
-8474568,23,Luke Schenn,Vancouver Canucks,Defenseman,2,0.05,8,0.21,49,1.29,38,10,0.26,66,1.74,17.2,-0.02,-0.05,-0.11,-0.07
-8474574,23,Tyler Myers,Vancouver Canucks,Defenseman,0,0.0,9,0.26,40,1.14,35,9,0.26,58,1.66,20.4,-0.07,0.0,-0.26,-0.07
-8475171,23,Oliver Ekman-Larsson,Vancouver Canucks,Defenseman,1,0.03,17,0.45,63,1.66,38,18,0.47,27,0.71,20.3,-0.04,0.19,0.26,0.14
-8476468,23,J.T. Miller,Vancouver Canucks,Center,14,0.37,18,0.47,95,2.5,38,32,0.84,23,0.61,20.4,0.16,0.16,0.69,0.32
-8477335,23,Kyle Burroughs,Vancouver Canucks,Defenseman,2,0.12,0,0.0,15,0.88,17,2,0.12,36,2.12,17.31,0.05,-0.26,-0.52,-0.21
-8477500,23,Bo Horvat,Vancouver Canucks,Center,28,0.74,15,0.39,116,3.05,38,43,1.13,24,0.63,20.48,0.53,0.08,1.24,0.61
-8477508,23,Curtis Lazar,Vancouver Canucks,Center,1,0.04,1,0.04,33,1.18,28,2,0.07,34,1.21,12.36,-0.17,-0.27,-0.63,-0.45
-8478057,23,Dakota Joshua,Vancouver Canucks,Center,6,0.17,2,0.06,31,0.89,35,8,0.23,10,0.29,10.15,-0.04,-0.25,-0.92,-0.29
-8478444,23,Brock Boeser,Vancouver Canucks,Right Wing,7,0.23,15,0.5,68,2.27,30,22,0.73,12,0.4,16.18,0.0,0.2,0.34,0.2
-8478451,23,Ethan Bear,Vancouver Canucks,Defenseman,2,0.07,6,0.21,31,1.11,28,8,0.29,39,1.39,18.3,-0.0,-0.05,-0.29,-0.04
-8478856,23,Conor Garland,Vancouver Canucks,Right Wing,6,0.16,12,0.32,74,2.0,37,18,0.49,10,0.27,15.05,-0.07,0.02,0.07,-0.04
-8479388,23,Riley Stillman,Vancouver Canucks,Defenseman,0,0.0,3,0.15,21,1.05,20,3,0.15,20,1.0,15.16,-0.07,-0.11,-0.35,-0.18
-8480012,23,Elias Pettersson,Vancouver Canucks,Center,17,0.47,29,0.81,117,3.25,36,46,1.28,37,1.03,19.43,0.26,0.5,1.44,0.76
-8480021,23,Jack Studnicka,Vancouver Canucks,Center,2,0.1,1,0.05,27,1.35,20,3,0.15,9,0.45,10.1,-0.11,-0.26,-0.46,-0.37
-8480326,23,Sheldon Dries,Vancouver Canucks,Center,4,0.18,4,0.18,38,1.73,22,8,0.36,13,0.59,11.19,-0.03,-0.13,-0.08,-0.16
-8480800,23,Quinn Hughes,Vancouver Canucks,Defenseman,1,0.03,30,0.88,66,1.94,34,31,0.91,33,0.97,24.56,-0.04,0.62,0.54,0.58
-8481624,23,Ilya Mikheyev,Vancouver Canucks,Right Wing,12,0.34,12,0.34,71,2.03,35,24,0.69,12,0.34,17.08,0.11,0.04,0.1,0.16
-8483808,23,Andrei Kuzmenko,Vancouver Canucks,Left Wing,17,0.46,17,0.46,66,1.78,37,34,0.92,11,0.3,15.56,0.23,0.16,-0.15,0.39
-8474683,24,Derek Grant,Anaheim Ducks,Center,2,0.13,1,0.07,22,1.47,15,3,0.2,10,0.67,13.47,-0.08,-0.24,-0.34,-0.32
-8479368,24,Max Jones,Anaheim Ducks,Left Wing,2,0.07,3,0.11,39,1.39,28,5,0.18,4,0.14,11.47,-0.16,-0.19,-0.54,-0.35
-8480806,24,Isac Lundestrom,Anaheim Ducks,Center,1,0.04,5,0.21,28,1.17,24,6,0.25,12,0.5,14.02,-0.17,-0.1,-0.64,-0.27
-8474031,24,Kevin Shattenkirk,Anaheim Ducks,Defenseman,0,0.0,9,0.26,72,2.06,35,9,0.26,49,1.4,18.05,-0.07,0.0,0.66,-0.07
-8474641,24,Adam Henrique,Anaheim Ducks,Center,12,0.32,8,0.21,77,2.03,38,20,0.53,33,0.87,18.26,0.11,-0.1,0.22,0.01
-8475164,24,Jakob Silfverberg,Anaheim Ducks,Right Wing,5,0.13,4,0.11,69,1.82,38,9,0.24,33,0.87,15.22,-0.1,-0.19,-0.11,-0.29
-8475179,24,Dmitry Kulikov,Anaheim Ducks,Defenseman,2,0.05,7,0.18,52,1.33,39,9,0.23,71,1.82,20.18,-0.02,-0.08,-0.07,-0.1
-8475764,24,Cam Fowler,Anaheim Ducks,Defenseman,4,0.1,14,0.36,60,1.54,39,18,0.46,41,1.05,24.12,0.03,0.1,0.14,0.13
-8475842,24,Sam Carrick,Anaheim Ducks,Center,2,0.08,2,0.08,24,1.0,24,4,0.17,12,0.5,10.17,-0.13,-0.23,-0.81,-0.35
-8475906,24,John Klingberg,Anaheim Ducks,Defenseman,4,0.12,7,0.22,46,1.44,32,11,0.34,39,1.22,21.15,0.05,-0.04,0.04,0.01
-8476458,24,Ryan Strome,Anaheim Ducks,Center,9,0.23,10,0.26,63,1.62,39,19,0.49,14,0.36,17.02,0.02,-0.05,-0.19,-0.03
-8476470,24,Nathan Beaulieu,Anaheim Ducks,Defenseman,0,0.0,3,0.14,10,0.45,22,3,0.14,36,1.64,13.14,-0.07,-0.12,-0.95,-0.19
-8477126,24,Jayson Megna,Anaheim Ducks,Center,0,0.0,2,0.08,10,0.38,26,2,0.08,10,0.38,8.2,-0.21,-0.23,-1.43,-0.44
-8478366,24,Frank Vatrano,Anaheim Ducks,Right Wing,6,0.15,9,0.23,114,2.92,39,15,0.38,38,0.97,17.44,-0.08,-0.07,0.99,-0.15
-8478841,24,Colton White,Anaheim Ducks,Defenseman,0,0.0,1,0.06,10,0.62,16,1,0.06,13,0.81,12.35,-0.07,-0.2,-0.78,-0.27
-8478873,24,Troy Terry,Anaheim Ducks,Right Wing,12,0.31,20,0.51,113,2.9,39,32,0.82,14,0.36,20.01,0.08,0.21,0.97,0.29
-8480001,24,Urho Vaakanainen,Anaheim Ducks,Defenseman,0,0.0,1,0.08,12,0.92,13,1,0.08,15,1.15,16.54,-0.07,-0.18,-0.48,-0.25
-8480031,24,Max Comtois,Anaheim Ducks,Left Wing,5,0.18,0,0.0,37,1.32,28,5,0.18,13,0.46,13.21,-0.05,-0.3,-0.61,-0.35
-8481122,24,Simon Benoit,Anaheim Ducks,Defenseman,0,0.0,1,0.03,34,0.97,35,1,0.03,60,1.71,18.33,-0.07,-0.23,-0.43,-0.3
-8481517,24,Brett Leason,Anaheim Ducks,Right Wing,3,0.09,1,0.03,26,0.79,33,4,0.12,12,0.36,11.17,-0.14,-0.27,-1.14,-0.41
-8481533,24,Trevor Zegras,Anaheim Ducks,Center,10,0.26,19,0.49,95,2.44,39,29,0.74,13,0.33,19.49,0.05,0.18,0.63,0.22
-8482745,24,Mason McTavish,Anaheim Ducks,Center,7,0.18,15,0.38,82,2.1,39,22,0.56,19,0.49,14.41,-0.03,0.07,0.29,0.04
-8470600,25,Ryan Suter,Dallas Stars,Defenseman,0,0.0,9,0.23,49,1.23,40,9,0.23,58,1.45,21.07,-0.07,-0.03,-0.17,-0.1
-8470794,25,Joe Pavelski,Dallas Stars,Center,12,0.3,26,0.65,98,2.45,40,38,0.95,31,0.78,17.25,0.09,0.34,0.64,0.43
-8473994,25,Jamie Benn,Dallas Stars,Left Wing,15,0.38,21,0.53,91,2.27,40,36,0.9,19,0.47,15.21,0.15,0.23,0.34,0.37
-8475794,25,Tyler Seguin,Dallas Stars,Center,9,0.23,17,0.42,93,2.33,40,26,0.65,14,0.35,16.34,0.02,0.11,0.52,0.13
-8475825,25,Jani Hakanpää,Dallas Stars,Defenseman,4,0.1,4,0.1,39,0.97,40,8,0.2,65,1.62,18.56,0.03,-0.16,-0.43,-0.13
-8476525,25,Colin Miller,Dallas Stars,Defenseman,2,0.05,7,0.18,40,1.05,38,9,0.24,29,0.76,16.12,-0.02,-0.08,-0.35,-0.09
-8476822,25,Luke Glendening,Dallas Stars,Center,2,0.05,2,0.05,34,0.85,40,4,0.1,32,0.8,12.13,-0.16,-0.26,-0.96,-0.42
-8476889,25,Radek Faksa,Dallas Stars,Center,3,0.07,4,0.1,31,0.78,40,7,0.17,35,0.88,13.1,-0.14,-0.21,-1.03,-0.35
-8476902,25,Esa Lindell,Dallas Stars,Defenseman,4,0.1,7,0.17,57,1.43,40,11,0.28,71,1.77,19.47,0.03,-0.09,0.03,-0.05
-8478449,25,Roope Hintz,Dallas Stars,Center,19,0.49,25,0.64,96,2.46,39,44,1.13,31,0.79,17.24,0.28,0.33,0.65,0.61
-8478495,25,Denis Gurianov,Dallas Stars,Right Wing,2,0.08,3,0.12,41,1.64,25,5,0.2,12,0.48,12.54,-0.15,-0.18,-0.29,-0.33
-8478975,25,Mason Marchment,Dallas Stars,Left Wing,9,0.23,12,0.3,99,2.48,40,21,0.53,19,0.47,15.49,0.0,-0.0,0.55,-0.0
-8480027,25,Jason Robertson,Dallas Stars,Left Wing,26,0.65,29,0.72,162,4.05,40,55,1.38,7,0.17,18.35,0.42,0.42,2.12,0.85
-8480036,25,Miro Heiskanen,Dallas Stars,Defenseman,6,0.16,24,0.65,101,2.73,37,30,0.81,46,1.24,25.24,0.09,0.39,1.33,0.48
-8480848,25,Ty Dellandrea,Dallas Stars,Center,5,0.12,9,0.23,47,1.18,40,14,0.35,24,0.6,14.05,-0.09,-0.08,-0.63,-0.17
-8480878,25,Nils Lundkvist,Dallas Stars,Defenseman,3,0.08,8,0.22,59,1.59,37,11,0.3,43,1.16,17.31,0.01,-0.04,0.19,-0.03
-8481641,25,Joel Kiviranta,Dallas Stars,Left Wing,5,0.12,0,0.0,53,1.32,40,5,0.12,14,0.35,12.19,-0.11,-0.3,-0.61,-0.41
-8482740,25,Wyatt Johnston,Dallas Stars,Center,11,0.28,6,0.15,74,1.85,40,17,0.42,17,0.42,14.35,0.07,-0.16,0.04,-0.1
-8481560,26,Arthur Kaliyev,Los Angeles Kings,Right Wing,9,0.26,10,0.29,79,2.32,34,19,0.56,8,0.24,12.18,0.03,-0.01,0.39,0.03
-8471303,26,Alexander Edler,Los Angeles Kings,Defenseman,1,0.03,5,0.14,35,0.97,36,6,0.17,66,1.83,15.12,-0.04,-0.12,-0.43,-0.16
-8471685,26,Anze Kopitar,Los Angeles Kings,Center,11,0.26,20,0.48,84,2.0,42,31,0.74,50,1.19,20.21,0.05,0.17,0.19,0.22
-8474563,26,Drew Doughty,Los Angeles Kings,Defenseman,2,0.05,20,0.49,75,1.83,41,22,0.54,62,1.51,26.21,-0.02,0.23,0.43,0.21
-8476479,26,Phillip Danault,Los Angeles Kings,Center,13,0.31,17,0.4,82,1.95,42,30,0.71,43,1.02,18.15,0.1,0.09,0.14,0.19
-8477942,26,Kevin Fiala,Los Angeles Kings,Left Wing,10,0.24,29,0.69,125,2.98,42,39,0.93,14,0.33,17.4,0.01,0.39,1.05,0.4
-8477960,26,Adrian Kempe,Los Angeles Kings,Right Wing,15,0.36,10,0.24,114,2.71,42,25,0.6,18,0.43,18.54,0.13,-0.06,0.78,0.07
-8477962,26,Brendan Lemieux,Los Angeles Kings,Left Wing,0,0.0,3,0.17,16,0.89,18,3,0.17,7,0.39,9.04,-0.23,-0.13,-1.04,-0.36
-8478042,26,Viktor Arvidsson,Los Angeles Kings,Right Wing,10,0.26,20,0.53,94,2.47,38,30,0.79,20,0.53,16.35,0.03,0.23,0.54,0.26
-8478911,26,Matt Roy,Los Angeles Kings,Defenseman,4,0.1,9,0.21,75,1.79,42,13,0.31,79,1.88,18.24,0.03,-0.05,0.39,-0.02
-8479336,26,Carl Grundstrom,Los Angeles Kings,Right Wing,6,0.17,4,0.11,53,1.47,36,10,0.28,9,0.25,11.08,-0.06,-0.19,-0.46,-0.25
-8479675,26,Trevor Moore,Los Angeles Kings,Left Wing,7,0.19,12,0.32,115,3.11,37,19,0.51,12,0.32,17.39,-0.04,0.02,1.18,-0.02
-8479994,26,Jaret Anderson-Dolan,Los Angeles Kings,Center,3,0.11,3,0.11,30,1.11,27,6,0.22,17,0.63,9.53,-0.1,-0.2,-0.7,-0.3
-8479998,26,Mikey Anderson,Los Angeles Kings,Defenseman,2,0.05,8,0.19,49,1.17,42,10,0.24,68,1.62,21.46,-0.02,-0.07,-0.23,-0.09
-8480014,26,Gabriel Vilardi,Los Angeles Kings,Right Wing,16,0.39,9,0.22,82,2.0,41,25,0.61,20,0.49,15.49,0.16,-0.08,0.07,0.08
-8480113,26,Alex Iafallo,Los Angeles Kings,Left Wing,6,0.32,9,0.47,38,2.0,19,15,0.79,9,0.47,16.17,0.09,0.17,0.07,0.26
-8480336,26,Sean Walker,Los Angeles Kings,Defenseman,2,0.06,6,0.17,45,1.29,35,8,0.23,45,1.29,14.52,-0.01,-0.09,-0.11,-0.1
-8480434,26,Sean Durzi,Los Angeles Kings,Defenseman,5,0.13,17,0.44,56,1.44,39,22,0.56,75,1.92,20.09,0.06,0.18,0.04,0.23
-8480845,26,Rasmus Kupari,Los Angeles Kings,Center,3,0.12,3,0.12,20,0.77,26,6,0.23,15,0.58,10.04,-0.09,-0.19,-1.04,-0.29
-8481481,26,Blake Lizotte,Los Angeles Kings,Center,7,0.17,10,0.24,55,1.31,42,17,0.4,21,0.5,12.01,-0.04,-0.07,-0.5,-0.12
-8482124,26,Quinton Byfield,Los Angeles Kings,Center,0,0.0,4,0.31,9,0.69,13,4,0.31,5,0.38,12.15,-0.21,0.0,-1.12,-0.21
-8479316,28,Luke Kunin,San Jose Sharks,Center,5,0.16,8,0.26,58,1.87,31,13,0.42,27,0.87,15.25,-0.05,-0.05,0.06,-0.1
-8480160,28,Radim Simek,San Jose Sharks,Defenseman,1,0.03,1,0.03,31,1.0,31,2,0.06,52,1.68,14.43,-0.04,-0.23,-0.4,-0.27
-8471709,28,Marc-Edouard Vlasic,San Jose Sharks,Defenseman,1,0.03,9,0.23,31,0.79,39,10,0.26,60,1.54,18.21,-0.04,-0.03,-0.61,-0.07
-8474009,28,Nick Bonino,San Jose Sharks,Center,4,0.11,6,0.17,45,1.25,36,10,0.28,53,1.47,15.59,-0.1,-0.14,-0.56,-0.24
-8474053,28,Logan Couture,San Jose Sharks,Center,14,0.36,18,0.46,89,2.28,39,32,0.82,37,0.95,18.55,0.15,0.15,0.47,0.3
-8474578,28,Erik Karlsson,San Jose Sharks,Defenseman,13,0.33,40,1.03,108,2.77,39,53,1.36,38,0.97,25.12,0.26,0.77,1.37,1.03
-8476442,28,Matt Nieto,San Jose Sharks,Left Wing,6,0.17,6,0.17,55,1.57,35,12,0.34,16,0.46,15.34,-0.06,-0.13,-0.36,-0.19
-8476449,28,Scott Harrington,San Jose Sharks,Defenseman,1,0.08,5,0.42,11,0.92,12,6,0.5,20,1.67,15.24,0.01,0.16,-0.48,0.17
-8476881,28,Tomas Hertl,San Jose Sharks,Center,13,0.35,23,0.62,91,2.46,37,36,0.97,26,0.7,19.31,0.14,0.31,0.65,0.45
-8476988,28,Matt Benning,San Jose Sharks,Defenseman,1,0.03,15,0.39,27,0.71,38,16,0.42,62,1.63,19.23,-0.04,0.13,-0.69,0.09
-8477034,28,Jaycob Megna,San Jose Sharks,Defenseman,0,0.0,9,0.25,35,0.97,36,9,0.25,48,1.33,18.33,-0.07,-0.01,-0.43,-0.08
-8478067,28,Oskar Lindblom,San Jose Sharks,Left Wing,3,0.08,6,0.16,33,0.89,37,9,0.24,10,0.27,10.01,-0.15,-0.14,-1.04,-0.29
-8478099,28,Kevin Labanc,San Jose Sharks,Right Wing,9,0.24,12,0.32,67,1.76,38,21,0.55,15,0.39,15.29,0.01,0.02,-0.17,0.02
-8478414,28,Timo Meier,San Jose Sharks,Right Wing,21,0.54,17,0.44,178,4.56,39,38,0.97,14,0.36,20.1,0.31,0.14,2.63,0.44
-8478431,28,Evgeny Svechnikov,San Jose Sharks,Left Wing,4,0.13,4,0.13,33,1.06,31,8,0.26,11,0.35,11.0,-0.1,-0.17,-0.87,-0.27
-8478904,28,Steven Lorentz,San Jose Sharks,Center,3,0.08,3,0.08,49,1.32,37,6,0.16,16,0.43,11.09,-0.13,-0.23,-0.49,-0.36
-8479393,28,Noah Gregor,San Jose Sharks,Center,2,0.11,0,0.0,36,1.89,19,2,0.11,11,0.58,11.58,-0.1,-0.31,0.08,-0.41
-8479591,28,Michael Eyssimont,San Jose Sharks,Center,1,0.05,4,0.21,26,1.37,19,5,0.26,7,0.37,10.11,-0.16,-0.1,-0.44,-0.26
-8479981,28,Jonah Gadjovich,San Jose Sharks,Left Wing,2,0.09,1,0.05,22,1.0,22,3,0.14,3,0.14,8.52,-0.14,-0.25,-0.93,-0.39
-8479983,28,Mario Ferraro,San Jose Sharks,Defenseman,1,0.03,4,0.14,30,1.03,29,5,0.17,57,1.97,22.27,-0.04,-0.12,-0.37,-0.16
-8481477,28,Nico Sturm,San Jose Sharks,Center,9,0.29,3,0.1,51,1.65,31,12,0.39,23,0.74,14.48,0.08,-0.21,-0.16,-0.13
-8482222,28,Alexander Barabanov,San Jose Sharks,Left Wing,6,0.18,17,0.5,68,2.0,34,23,0.68,23,0.68,18.06,-0.05,0.2,0.07,0.15
-8474161,29,Jakub Voracek,Columbus Blue Jackets,Right Wing,1,0.09,5,0.45,17,1.55,11,6,0.55,7,0.64,15.57,-0.14,0.15,-0.38,0.02
-8476432,29,Boone Jenner,Columbus Blue Jackets,Center,11,0.37,11,0.37,93,3.1,30,22,0.73,34,1.13,20.11,0.16,0.06,1.29,0.21
-8478460,29,Zach Werenski,Columbus Blue Jackets,Defenseman,3,0.23,5,0.38,41,3.15,13,8,0.62,24,1.85,23.35,0.16,0.12,1.75,0.29
-8479402,29,Jake Bean,Columbus Blue Jackets,Defenseman,1,0.07,5,0.36,16,1.14,14,6,0.43,21,1.5,15.42,-0.0,0.1,-0.26,0.1
-8482475,29,Yegor Chinakhov,Columbus Blue Jackets,Right Wing,4,0.13,9,0.3,44,1.47,30,13,0.43,17,0.57,13.15,-0.1,-0.0,-0.46,-0.1
-8474679,29,Gustav Nyquist,Columbus Blue Jackets,Left Wing,8,0.22,10,0.27,76,2.05,37,18,0.49,23,0.62,17.44,-0.01,-0.03,0.12,-0.04
-8475790,29,Erik Gudbranson,Columbus Blue Jackets,Defenseman,1,0.03,7,0.19,52,1.44,36,8,0.22,68,1.89,20.3,-0.04,-0.07,0.04,-0.11
-8476346,29,Johnny Gaudreau,Columbus Blue Jackets,Left Wing,11,0.3,27,0.73,100,2.7,37,38,1.03,8,0.22,19.33,0.07,0.43,0.77,0.5
-8476374,29,Sean Kuraly,Columbus Blue Jackets,Center,7,0.2,4,0.11,57,1.63,35,11,0.31,26,0.74,14.1,-0.01,-0.2,-0.18,-0.21
-8478458,29,Jack Roslovic,Columbus Blue Jackets,Center,3,0.09,16,0.47,54,1.59,34,19,0.56,24,0.71,16.48,-0.12,0.16,-0.22,0.04
-8478882,29,Vladislav Gavrikov,Columbus Blue Jackets,Defenseman,2,0.05,7,0.19,42,1.14,37,9,0.24,69,1.86,22.31,-0.02,-0.07,-0.26,-0.09
-8479339,29,Patrik Laine,Columbus Blue Jackets,Left Wing,9,0.41,7,0.32,74,3.36,22,16,0.73,10,0.45,19.38,0.18,0.02,1.43,0.2
-8479369,29,Andrew Peeke,Columbus Blue Jackets,Defenseman,3,0.09,2,0.06,35,1.0,35,5,0.14,69,1.97,20.16,0.02,-0.2,-0.4,-0.19
-8479671,29,Mathieu Olivier,Columbus Blue Jackets,Right Wing,2,0.06,3,0.09,35,1.09,32,5,0.16,28,0.88,11.28,-0.17,-0.21,-0.84,-0.37
-8479945,29,Gavin Bayreuther,Columbus Blue Jackets,Defenseman,1,0.07,2,0.13,17,1.13,15,3,0.2,23,1.53,15.37,-0.0,-0.13,-0.27,-0.13
-8480205,29,Emil Bemstrom,Columbus Blue Jackets,Right Wing,4,0.36,4,0.36,27,2.45,11,8,0.73,2,0.18,13.49,0.13,0.06,0.52,0.2
-8480762,29,Eric Robinson,Columbus Blue Jackets,Left Wing,3,0.09,7,0.21,47,1.38,34,10,0.29,15,0.44,13.45,-0.14,-0.09,-0.55,-0.24
-8480853,29,Liam Foudy,Columbus Blue Jackets,Center,0,0.0,3,0.14,13,0.62,21,3,0.14,7,0.33,10.42,-0.21,-0.17,-1.19,-0.38
-8480893,29,Kirill Marchenko,Columbus Blue Jackets,Right Wing,5,0.36,0,0.0,19,1.36,14,5,0.36,9,0.64,12.33,0.13,-0.3,-0.57,-0.17
-8481072,29,Tim Berni,Columbus Blue Jackets,Defenseman,0,0.0,0,0.0,21,1.5,14,0,0.0,18,1.29,18.36,-0.07,-0.26,0.1,-0.33
-8482660,29,Kent Johnson,Columbus Blue Jackets,Center,8,0.24,8,0.24,45,1.32,34,16,0.47,14,0.41,13.45,0.03,-0.07,-0.49,-0.05
-8482705,29,Cole Sillinger,Columbus Blue Jackets,Center,2,0.06,4,0.12,45,1.32,34,6,0.18,17,0.5,12.5,-0.15,-0.19,-0.49,-0.34
-8483620,29,Marcus Bjork,Columbus Blue Jackets,Defenseman,3,0.13,7,0.3,25,1.09,23,10,0.43,40,1.74,19.19,0.06,0.04,-0.31,0.1
-8479520,30,Brandon Duhaime,Minnesota Wild,Right Wing,3,0.21,1,0.07,21,1.5,14,4,0.29,5,0.36,9.28,-0.02,-0.23,-0.43,-0.24
-8471274,30,Alex Goligoski,Minnesota Wild,Defenseman,1,0.06,2,0.12,28,1.75,16,3,0.19,23,1.44,17.16,-0.01,-0.14,0.35,-0.14
-8471817,30,Ryan Reaves,Minnesota Wild,Right Wing,0,0.0,4,0.13,13,0.43,30,4,0.13,9,0.3,9.31,-0.23,-0.17,-1.5,-0.4
-8474716,30,Jared Spurgeon,Minnesota Wild,Defenseman,5,0.14,14,0.38,65,1.76,37,19,0.51,82,2.22,21.02,0.07,0.12,0.36,0.18
-8475220,30,Marcus Foligno,Minnesota Wild,Left Wing,3,0.1,9,0.31,38,1.31,29,12,0.41,13,0.45,15.05,-0.13,0.01,-0.62,-0.12
-8475692,30,Mats Zuccarello,Minnesota Wild,Right Wing,16,0.43,24,0.65,105,2.84,37,40,1.08,24,0.65,20.18,0.2,0.35,0.91,0.55
-8475750,30,Jon Merrill,Minnesota Wild,Defenseman,1,0.03,7,0.21,26,0.79,33,8,0.24,38,1.15,15.59,-0.04,-0.05,-0.61,-0.09
-8476463,30,Jonas Brodin,Minnesota Wild,Defenseman,0,0.0,4,0.13,43,1.39,31,4,0.13,62,2.0,22.05,-0.07,-0.13,-0.01,-0.2
-8476856,30,Matt Dumba,Minnesota Wild,Defenseman,4,0.11,6,0.16,52,1.41,37,10,0.27,51,1.38,21.06,0.04,-0.1,0.01,-0.06
-8477451,30,Ryan Hartman,Minnesota Wild,Right Wing,4,0.25,6,0.38,37,2.31,16,10,0.62,7,0.44,14.48,0.02,0.08,0.38,0.09
-8477919,30,Frederick Gaudreau,Minnesota Wild,Center,9,0.24,8,0.22,72,1.95,37,17,0.46,25,0.68,15.54,0.03,-0.09,0.14,-0.06
-8478136,30,Jake Middleton,Minnesota Wild,Defenseman,2,0.06,4,0.11,31,0.86,36,6,0.17,69,1.92,18.13,-0.01,-0.15,-0.54,-0.16
-8478413,30,Jordan Greenway,Minnesota Wild,Left Wing,2,0.1,3,0.14,28,1.33,21,5,0.24,12,0.57,13.52,-0.13,-0.16,-0.6,-0.29
-8478493,30,Joel Eriksson Ek,Minnesota Wild,Center,13,0.35,16,0.43,112,3.03,37,29,0.78,25,0.68,19.23,0.14,0.12,1.22,0.26
-8478864,30,Kirill Kaprizov,Minnesota Wild,Left Wing,22,0.59,25,0.68,146,3.95,37,47,1.27,14,0.38,20.39,0.36,0.38,2.02,0.74
-8479351,30,Sam Steel,Minnesota Wild,Center,7,0.19,10,0.27,52,1.41,37,17,0.46,6,0.16,14.13,-0.02,-0.04,-0.4,-0.06
-8479972,30,Mason Shaw,Minnesota Wild,Center,4,0.13,7,0.23,50,1.67,30,11,0.37,11,0.37,11.42,-0.08,-0.08,-0.14,-0.15
-8480884,30,Calen Addison,Minnesota Wild,Defenseman,3,0.08,16,0.44,41,1.14,36,19,0.53,22,0.61,16.35,0.01,0.18,-0.26,0.2
-8480980,30,Connor Dewar,Minnesota Wild,Center,5,0.14,6,0.17,42,1.17,36,11,0.31,20,0.56,11.26,-0.07,-0.14,-0.64,-0.21
-8481557,30,Matt Boldy,Minnesota Wild,Left Wing,12,0.32,17,0.46,104,2.81,37,29,0.78,11,0.3,17.36,0.09,0.16,0.88,0.25
-8477357,52,Saku Maenalanen,Winnipeg Jets,Right Wing,4,0.16,2,0.08,30,1.2,25,6,0.24,11,0.44,11.3,-0.07,-0.22,-0.73,-0.29
-8478891,52,Mason Appleton,Winnipeg Jets,Center,1,0.07,5,0.36,23,1.64,14,6,0.43,3,0.21,16.34,-0.14,0.05,-0.17,-0.09
-8471218,52,Blake Wheeler,Winnipeg Jets,Right Wing,9,0.31,17,0.59,66,2.28,29,26,0.9,14,0.48,17.49,0.08,0.29,0.35,0.37
-8474040,52,Sam Gagner,Winnipeg Jets,Center,7,0.2,5,0.14,63,1.8,35,12,0.34,12,0.34,13.02,-0.01,-0.17,-0.01,-0.18
-8475455,52,Brenden Dillon,Winnipeg Jets,Defenseman,1,0.03,9,0.24,50,1.32,38,10,0.26,51,1.34,20.05,-0.04,-0.02,-0.08,-0.07
-8476331,52,Dylan DeMelo,Winnipeg Jets,Defenseman,1,0.03,9,0.26,43,1.26,34,10,0.29,42,1.24,19.2,-0.04,0.0,-0.14,-0.04
-8476392,52,Adam Lowry,Winnipeg Jets,Center,7,0.18,14,0.37,64,1.68,38,21,0.55,19,0.5,15.23,-0.03,0.06,-0.13,0.03
-8476460,52,Mark Scheifele,Winnipeg Jets,Center,23,0.61,9,0.24,104,2.74,38,32,0.84,17,0.45,20.5,0.4,-0.07,0.93,0.32
-8477220,52,Nate Schmidt,Winnipeg Jets,Defenseman,3,0.1,3,0.1,37,1.28,29,6,0.21,40,1.38,19.54,0.03,-0.16,-0.12,-0.12
-8477504,52,Josh Morrissey,Winnipeg Jets,Defenseman,7,0.18,36,0.95,61,1.61,38,43,1.13,51,1.34,23.19,0.11,0.69,0.21,0.8
-8478398,52,Kyle Connor,Winnipeg Jets,Left Wing,16,0.42,28,0.74,130,3.42,38,44,1.16,15,0.39,20.27,0.19,0.44,1.49,0.63
-8478831,52,Kevin Stenlund,Winnipeg Jets,Center,2,0.18,1,0.09,19,1.73,11,3,0.27,6,0.55,13.48,-0.03,-0.22,-0.08,-0.25
-8479400,52,Pierre-Luc Dubois,Winnipeg Jets,Left Wing,17,0.45,24,0.63,96,2.53,38,41,1.08,27,0.71,18.19,0.22,0.33,0.6,0.55
-8479536,52,Axel Jonsson-Fjallby,Winnipeg Jets,Left Wing,2,0.06,4,0.12,41,1.24,33,6,0.18,13,0.39,11.02,-0.17,-0.18,-0.69,-0.35
-8480049,52,Dylan Samberg,Winnipeg Jets,Defenseman,1,0.03,5,0.17,28,0.97,29,6,0.21,54,1.86,15.24,-0.04,-0.09,-0.43,-0.12
-8480145,52,Neal Pionk,Winnipeg Jets,Defenseman,6,0.16,10,0.26,63,1.66,38,16,0.42,65,1.71,21.54,0.09,0.0,0.26,0.09
-8480289,52,Morgan Barron,Winnipeg Jets,Center,3,0.11,6,0.21,44,1.57,28,9,0.32,22,0.79,14.12,-0.1,-0.1,-0.24,-0.2
-8480901,52,Karson Kuhlman,Winnipeg Jets,Center,1,0.04,4,0.17,23,1.0,23,5,0.22,11,0.48,11.38,-0.17,-0.14,-0.81,-0.3
-8481019,52,David Gustafsson,Winnipeg Jets,Center,0,0.0,4,0.11,34,0.92,37,4,0.11,17,0.46,10.13,-0.21,-0.2,-0.89,-0.41
-8482149,52,Cole Perfetti,Winnipeg Jets,Center,6,0.18,14,0.42,62,1.88,33,20,0.61,15,0.45,15.06,-0.03,0.11,0.07,0.09
-8475178,53,Zack Kassian,Arizona Coyotes,Right Wing,1,0.05,0,0.0,11,0.55,20,1,0.05,4,0.2,9.46,-0.18,-0.3,-1.38,-0.48
-8475747,53,Patrik Nemeth,Arizona Coyotes,Defenseman,0,0.0,3,0.09,22,0.69,32,3,0.09,43,1.34,15.42,-0.07,-0.17,-0.71,-0.24
-8475760,53,Nick Bjugstad,Arizona Coyotes,Center,10,0.27,7,0.19,66,1.78,37,17,0.46,19,0.51,16.37,0.06,-0.12,-0.03,-0.06
-8476329,53,Travis Boyd,Arizona Coyotes,Center,4,0.11,10,0.27,44,1.19,37,14,0.38,22,0.59,17.36,-0.1,-0.04,-0.62,-0.14
-8476906,53,Shayne Gostisbehere,Arizona Coyotes,Defenseman,9,0.24,17,0.46,80,2.16,37,26,0.7,49,1.32,22.17,0.17,0.2,0.76,0.37
-8477070,53,Liam O'Brien,Arizona Coyotes,Center,1,0.04,4,0.14,16,0.57,28,5,0.18,15,0.54,12.01,-0.17,-0.17,-1.24,-0.34
-8477384,53,Josh Brown,Arizona Coyotes,Defenseman,3,0.09,2,0.06,29,0.88,33,5,0.15,62,1.88,16.39,0.02,-0.2,-0.52,-0.18
-8477941,53,Nick Ritchie,Arizona Coyotes,Left Wing,8,0.24,9,0.26,50,1.47,34,17,0.5,16,0.47,13.52,0.01,-0.04,-0.46,-0.03
-8477951,53,Nick Schmaltz,Arizona Coyotes,Center,7,0.33,11,0.52,41,1.95,21,18,0.86,10,0.48,18.34,0.12,0.21,0.14,0.34
-8478432,53,Christian Fischer,Arizona Coyotes,Right Wing,7,0.19,6,0.16,61,1.65,37,13,0.35,22,0.59,15.29,-0.04,-0.14,-0.28,-0.18
-8478474,53,Lawson Crouse,Arizona Coyotes,Left Wing,14,0.39,8,0.22,68,1.89,36,22,0.61,29,0.81,17.42,0.16,-0.08,-0.04,0.08
-8479343,53,Clayton Keller,Arizona Coyotes,Right Wing,14,0.38,22,0.59,81,2.19,37,36,0.97,15,0.41,20.39,0.15,0.29,0.26,0.44
-8479345,53,Jakob Chychrun,Arizona Coyotes,Defenseman,5,0.24,13,0.62,71,3.38,21,18,0.86,30,1.43,22.52,0.17,0.36,1.98,0.53
-8479442,53,Troy Stecher,Arizona Coyotes,Defenseman,0,0.0,2,0.05,40,1.08,37,2,0.05,53,1.43,16.14,-0.07,-0.21,-0.32,-0.28
-8479976,53,Juuso Valimaki,Arizona Coyotes,Defenseman,2,0.06,8,0.24,28,0.85,33,10,0.3,27,0.82,15.06,-0.01,-0.02,-0.55,-0.03
-8480849,53,Barrett Hayton,Arizona Coyotes,Center,2,0.05,9,0.24,64,1.73,37,11,0.3,13,0.35,15.18,-0.16,-0.07,-0.08,-0.22
-8480855,53,Jack McBain,Arizona Coyotes,Center,6,0.16,3,0.08,42,1.14,37,9,0.24,21,0.57,13.31,-0.05,-0.23,-0.67,-0.28
-8481711,53,Matias Maccelli,Arizona Coyotes,Left Wing,3,0.1,19,0.63,23,0.77,30,22,0.73,7,0.23,15.05,-0.13,0.33,-1.16,0.2
-8482655,53,J.J. Moser,Arizona Coyotes,Defenseman,5,0.14,13,0.35,41,1.11,37,18,0.49,67,1.81,21.26,0.07,0.09,-0.29,0.16
-8474166,54,Alec Martinez,Vegas Golden Knights,Defenseman,0,0.0,5,0.14,33,0.89,37,5,0.14,132,3.57,19.38,-0.07,-0.12,-0.51,-0.19
-8476539,54,Jonathan Marchessault,Vegas Golden Knights,Center,14,0.4,13,0.37,121,3.46,35,27,0.77,6,0.17,16.42,0.19,0.06,1.65,0.25
-8479353,54,Brett Howden,Vegas Golden Knights,Center,1,0.05,2,0.1,21,1.0,21,3,0.14,16,0.76,13.05,-0.16,-0.21,-0.81,-0.38
-8480727,54,Zach Whitecloud,Vegas Golden Knights,Defenseman,1,0.03,5,0.17,26,0.87,30,6,0.2,56,1.87,16.39,-0.04,-0.09,-0.53,-0.13
-8473548,54,Phil Kessel,Vegas Golden Knights,Center,7,0.17,9,0.22,76,1.85,41,16,0.39,10,0.24,12.2,-0.04,-0.09,0.04,-0.13
-8474565,54,Alex Pietrangelo,Vegas Golden Knights,Defenseman,4,0.12,24,0.75,75,2.34,32,28,0.88,84,2.62,24.37,0.05,0.49,0.94,0.55
-8475188,54,Brayden McNabb,Vegas Golden Knights,Defenseman,1,0.02,12,0.29,58,1.41,41,13,0.32,96,2.34,20.11,-0.05,0.03,0.01,-0.01
-8475191,54,Reilly Smith,Vegas Golden Knights,Right Wing,18,0.44,11,0.27,104,2.54,41,29,0.71,16,0.39,17.21,0.21,-0.03,0.61,0.18
-8475913,54,Mark Stone,Vegas Golden Knights,Right Wing,17,0.41,21,0.51,111,2.71,41,38,0.93,21,0.51,19.44,0.18,0.21,0.78,0.4
-8476448,54,William Karlsson,Vegas Golden Knights,Center,7,0.17,21,0.51,77,1.88,41,28,0.68,27,0.66,17.53,-0.04,0.2,0.07,0.16
-8476905,54,Chandler Stephenson,Vegas Golden Knights,Center,11,0.27,29,0.71,67,1.63,41,40,0.98,29,0.71,19.54,0.06,0.4,-0.18,0.46
-8477018,54,Ben Hutton,Vegas Golden Knights,Defenseman,1,0.08,1,0.08,27,2.08,13,2,0.15,11,0.85,14.16,0.01,-0.18,0.68,-0.18
-8477447,54,Shea Theodore,Vegas Golden Knights,Defenseman,4,0.14,18,0.62,74,2.55,29,22,0.76,41,1.41,21.5,0.07,0.36,1.15,0.43
-8477478,54,William Carrier,Vegas Golden Knights,Left Wing,10,0.25,4,0.1,84,2.1,40,14,0.35,16,0.4,12.26,0.02,-0.2,0.17,-0.18
-8478020,54,Michael Amadio,Vegas Golden Knights,Center,6,0.22,5,0.19,42,1.56,27,11,0.41,9,0.33,11.36,0.01,-0.12,-0.25,-0.11
-8478403,54,Jack Eichel,Vegas Golden Knights,Center,14,0.5,18,0.64,104,3.71,28,32,1.14,23,0.82,18.48,0.29,0.33,1.9,0.62
-8478434,54,Keegan Kolesar,Vegas Golden Knights,Right Wing,4,0.1,3,0.08,31,0.79,39,7,0.18,20,0.51,11.27,-0.13,-0.22,-1.14,-0.35
-8478462,54,Nicolas Roy,Vegas Golden Knights,Center,7,0.18,9,0.24,48,1.26,38,16,0.42,27,0.71,15.43,-0.03,-0.07,-0.55,-0.1
-8479980,54,Nicolas Hague,Vegas Golden Knights,Defenseman,2,0.05,7,0.17,56,1.4,40,9,0.23,69,1.73,17.56,-0.02,-0.09,-0.0,-0.1
-8479991,54,Jake Leschyshyn,Vegas Golden Knights,Center,0,0.0,0,0.0,23,1.05,22,0,0.0,8,0.36,9.35,-0.21,-0.31,-0.76,-0.52
-8481032,54,Paul Cotter,Vegas Golden Knights,Center,5,0.22,3,0.13,32,1.39,23,8,0.35,10,0.43,11.42,0.01,-0.18,-0.42,-0.17
-8482624,54,Daniil Miromanov,Vegas Golden Knights,Defenseman,2,0.14,4,0.29,22,1.57,14,6,0.43,13,0.93,17.02,0.07,0.03,0.17,0.1
-8474586,55,Jordan Eberle,Seattle Kraken,Right Wing,8,0.22,20,0.54,82,2.22,37,28,0.76,9,0.24,16.17,-0.01,0.24,0.29,0.23
-8474602,55,Justin Schultz,Seattle Kraken,Defenseman,3,0.09,16,0.46,50,1.43,35,19,0.54,39,1.11,18.28,0.02,0.2,0.03,0.21
-8475768,55,Jaden Schwartz,Seattle Kraken,Center,9,0.25,12,0.33,76,2.11,36,21,0.58,9,0.25,17.46,0.04,0.02,0.3,0.06
-8476457,55,Adam Larsson,Seattle Kraken,Defenseman,4,0.11,12,0.32,68,1.84,37,16,0.43,78,2.11,24.05,0.04,0.06,0.44,0.1
-8476467,55,Jamie Oleksiak,Seattle Kraken,Defenseman,5,0.17,4,0.13,23,0.77,30,9,0.3,51,1.7,19.01,0.1,-0.13,-0.63,-0.03
-8476826,55,Yanni Gourde,Seattle Kraken,Center,5,0.14,18,0.5,62,1.72,36,23,0.64,20,0.56,16.45,-0.07,0.19,-0.09,0.12
-8477369,55,Carson Soucy,Seattle Kraken,Defenseman,2,0.05,6,0.16,39,1.05,37,8,0.22,41,1.11,16.27,-0.02,-0.1,-0.35,-0.11
-8477416,55,Oliver Bjorkstrand,Seattle Kraken,Right Wing,5,0.14,12,0.32,94,2.54,37,17,0.46,26,0.7,15.17,-0.09,0.02,0.61,-0.07
-8477444,55,Andre Burakovsky,Seattle Kraken,Left Wing,10,0.27,19,0.51,88,2.38,37,29,0.78,10,0.27,17.15,0.04,0.21,0.45,0.25
-8477505,55,Alex Wennberg,Seattle Kraken,Center,8,0.22,10,0.27,49,1.32,37,18,0.49,30,0.81,19.1,0.01,-0.04,-0.49,-0.03
-8477955,55,Jared McCann,Seattle Kraken,Left Wing,18,0.53,8,0.24,67,1.97,34,26,0.76,8,0.24,15.13,0.3,-0.06,0.04,0.23
-8477987,55,Ryan Donato,Seattle Kraken,Center,8,0.25,5,0.16,55,1.72,32,13,0.41,4,0.12,11.03,0.04,-0.15,-0.09,-0.11
-8478407,55,Vince Dunn,Seattle Kraken,Defenseman,5,0.14,19,0.51,61,1.65,37,24,0.65,39,1.05,23.38,0.07,0.25,0.25,0.32
-8478466,55,Daniel Sprong,Seattle Kraken,Right Wing,11,0.37,11,0.37,63,2.1,30,22,0.73,5,0.17,10.57,0.14,0.07,0.17,0.2
-8478840,55,Will Borgen,Seattle Kraken,Defenseman,2,0.05,8,0.22,32,0.86,37,10,0.27,43,1.16,15.38,-0.02,-0.04,-0.54,-0.06
-8479293,55,Brandon Tanev,Seattle Kraken,Left Wing,7,0.19,13,0.35,62,1.68,37,20,0.54,37,1.0,14.42,-0.04,0.05,-0.25,0.01
-8479987,55,Morgan Geekie,Seattle Kraken,Center,4,0.14,10,0.34,29,1.0,29,14,0.48,17,0.59,10.14,-0.07,0.03,-0.81,-0.04
-8480009,55,Eeli Tolvanen,Seattle Kraken,Right Wing,4,0.25,3,0.19,25,1.56,16,7,0.44,19,1.19,12.42,0.02,-0.11,-0.37,-0.09
-8482665,55,Matty Beniers,Seattle Kraken,Center,13,0.35,15,0.41,70,1.89,37,28,0.76,27,0.73,17.09,0.14,0.1,0.08,0.24
+id,teamid,playername,currentteam,position,goals,GPG,assists,APG,shots,SPG,games,points,PPG,blocked,BPG,timeonicepergame,GPGDIF,APGDIF,SPGDIF,PPGDIF,BPGDIF
+8478507,1,John Marino,New Jersey Devils,Defenseman,3,0.09,6,0.19,42,1.31,32,9,0.28,43,1.34,21.19,0.02,-0.07,-0.1,-0.05,-0.12
+8479414,1,Nathan Bastian,New Jersey Devils,Right Wing,3,0.14,5,0.24,26,1.24,21,8,0.38,18,0.86,13.43,-0.09,-0.07,-0.7,-0.16,0.42
+8474090,1,Brendan Smith,New Jersey Devils,Defenseman,0,0.0,4,0.11,36,0.95,38,4,0.11,46,1.21,15.17,-0.07,-0.15,-0.46,-0.22,-0.25
+8475193,1,Tomas Tatar,New Jersey Devils,Left Wing,9,0.23,15,0.38,78,2.0,39,24,0.62,23,0.59,15.24,-0.0,0.07,0.06,0.08,0.15
+8475287,1,Erik Haula,New Jersey Devils,Left Wing,2,0.05,16,0.41,75,1.92,39,18,0.46,33,0.85,17.02,-0.18,0.1,-0.02,-0.08,0.41
+8476462,1,Dougie Hamilton,New Jersey Devils,Defenseman,9,0.23,25,0.64,136,3.49,39,34,0.87,36,0.92,22.06,0.16,0.38,2.08,0.54,-0.54
+8476923,1,Damon Severson,New Jersey Devils,Defenseman,2,0.05,6,0.16,39,1.03,38,8,0.21,45,1.18,19.28,-0.02,-0.1,-0.38,-0.12,-0.28
+8477425,1,Miles Wood,New Jersey Devils,Left Wing,7,0.18,9,0.24,95,2.5,38,16,0.42,9,0.24,13.18,-0.05,-0.07,0.56,-0.12,-0.2
+8477435,1,Ryan Graves,New Jersey Devils,Defenseman,3,0.08,7,0.19,55,1.53,36,10,0.28,59,1.64,18.37,0.01,-0.07,0.12,-0.05,0.18
+8478399,1,Jonas Siegenthaler,New Jersey Devils,Defenseman,1,0.03,12,0.31,46,1.18,39,13,0.33,71,1.82,20.5,-0.04,0.05,-0.23,0.0,0.36
+8479407,1,Jesper Bratt,New Jersey Devils,Left Wing,14,0.36,25,0.64,99,2.54,39,39,1.0,14,0.36,17.32,0.13,0.33,0.6,0.46,-0.08
+8479415,1,Michael McLeod,New Jersey Devils,Center,4,0.1,12,0.31,49,1.26,39,16,0.41,23,0.59,12.08,-0.11,0.0,-0.55,-0.11,0.06
+8480002,1,Nico Hischier,New Jersey Devils,Center,18,0.47,19,0.5,120,3.16,38,37,0.97,25,0.66,19.38,0.26,0.19,1.35,0.45,0.13
+8480003,1,Jesper Boqvist,New Jersey Devils,Center,3,0.09,1,0.03,28,0.85,33,4,0.12,9,0.27,10.31,-0.12,-0.28,-0.96,-0.4,-0.26
+8480188,1,Fabian Zetterlund,New Jersey Devils,Left Wing,5,0.15,9,0.27,64,1.94,33,14,0.42,9,0.27,12.58,-0.08,-0.04,0.0,-0.12,-0.17
+8480860,1,Kevin Bahl,New Jersey Devils,Defenseman,1,0.08,1,0.08,10,0.77,13,2,0.15,16,1.23,11.3,0.01,-0.18,-0.64,-0.18,-0.23
+8481068,1,Yegor Sharangovich,New Jersey Devils,Center,10,0.26,7,0.18,70,1.79,39,17,0.44,23,0.59,14.12,0.05,-0.13,-0.02,-0.08,0.06
+8481559,1,Jack Hughes,New Jersey Devils,Center,24,0.62,22,0.56,174,4.46,39,46,1.18,8,0.21,19.57,0.41,0.25,2.65,0.66,-0.32
+8482110,1,Dawson Mercer,New Jersey Devils,Center,8,0.21,13,0.33,75,1.92,39,21,0.54,32,0.82,15.22,-0.0,0.02,0.11,0.02,0.29
+8482125,1,Alexander Holtz,New Jersey Devils,Right Wing,3,0.18,1,0.06,20,1.18,17,4,0.24,4,0.24,10.22,-0.05,-0.25,-0.76,-0.3,-0.2
+8475151,2,Kyle Palmieri,New York Islanders,Center,6,0.29,3,0.14,39,1.86,21,9,0.43,6,0.29,16.04,0.08,-0.17,0.05,-0.09,-0.24
+8476917,2,Adam Pelech,New York Islanders,Defenseman,3,0.11,8,0.3,35,1.3,27,11,0.41,41,1.52,20.49,0.04,0.04,-0.11,0.08,0.06
+8480789,2,Oliver Wahlstrom,New York Islanders,Right Wing,7,0.2,9,0.26,70,2.0,35,16,0.46,15,0.43,12.09,-0.03,-0.05,0.06,-0.08,-0.01
+8481601,2,Simon Holmstrom,New York Islanders,Right Wing,1,0.07,1,0.07,8,0.57,14,2,0.14,6,0.43,11.28,-0.16,-0.24,-1.37,-0.4,-0.01
+8470610,2,Zach Parise,New York Islanders,Left Wing,11,0.28,7,0.17,90,2.25,40,18,0.45,38,0.95,16.18,0.05,-0.14,0.31,-0.09,0.51
+8473504,2,Cal Clutterbuck,New York Islanders,Right Wing,4,0.15,2,0.07,23,0.85,27,6,0.22,22,0.81,12.12,-0.08,-0.24,-1.09,-0.32,0.37
+8474573,2,Josh Bailey,New York Islanders,Right Wing,6,0.17,11,0.31,47,1.31,36,17,0.47,16,0.44,15.41,-0.06,0.0,-0.63,-0.07,-0.0
+8474709,2,Matt Martin,New York Islanders,Left Wing,3,0.08,7,0.18,29,0.74,39,10,0.26,17,0.44,10.34,-0.15,-0.13,-1.2,-0.28,-0.0
+8475231,2,Casey Cizikas,New York Islanders,Center,3,0.08,8,0.21,44,1.13,39,11,0.28,30,0.77,13.31,-0.13,-0.1,-0.68,-0.24,0.24
+8475314,2,Anders Lee,New York Islanders,Left Wing,14,0.35,15,0.38,116,2.9,40,29,0.72,30,0.75,17.12,0.12,0.07,0.96,0.18,0.31
+8475754,2,Brock Nelson,New York Islanders,Center,15,0.38,23,0.57,117,2.92,40,38,0.95,24,0.6,18.44,0.17,0.26,1.11,0.43,0.07
+8476419,2,Jean-Gabriel Pageau,New York Islanders,Center,10,0.25,13,0.33,73,1.82,40,23,0.57,34,0.85,18.18,0.04,0.02,0.01,0.05,0.32
+8476429,2,Scott Mayfield,New York Islanders,Defenseman,4,0.1,5,0.12,62,1.55,40,9,0.23,80,2.0,20.25,0.03,-0.14,0.14,-0.1,0.54
+8477392,2,Hudson Fasching,New York Islanders,Right Wing,2,0.15,2,0.15,12,0.92,13,4,0.31,5,0.38,12.28,-0.08,-0.16,-1.02,-0.23,-0.06
+8477506,2,Ryan Pulock,New York Islanders,Defenseman,2,0.05,13,0.33,58,1.45,40,15,0.38,71,1.77,20.05,-0.02,0.07,0.04,0.05,0.31
+8478445,2,Mathew Barzal,New York Islanders,Center,11,0.28,30,0.75,96,2.4,40,41,1.02,21,0.53,18.47,0.07,0.44,0.59,0.5,0.0
+8478463,2,Anthony Beauvillier,New York Islanders,Left Wing,8,0.22,8,0.22,75,2.03,37,16,0.43,14,0.38,15.29,-0.01,-0.09,0.09,-0.11,-0.06
+8480071,2,Robin Salo,New York Islanders,Defenseman,2,0.18,2,0.18,9,0.82,11,4,0.36,13,1.18,11.1,0.11,-0.08,-0.59,0.03,-0.28
+8480222,2,Sebastian Aho,New York Islanders,Defenseman,3,0.08,5,0.14,45,1.25,36,8,0.22,29,0.81,16.02,0.01,-0.12,-0.16,-0.11,-0.65
+8480865,2,Noah Dobson,New York Islanders,Defenseman,10,0.25,14,0.35,113,2.83,40,24,0.6,57,1.43,20.49,0.18,0.09,1.42,0.27,-0.03
+8481014,2,Alexander Romanov,New York Islanders,Defenseman,1,0.03,12,0.3,53,1.32,40,13,0.33,78,1.95,20.17,-0.04,0.04,-0.09,0.0,0.49
+8475184,3,Chris Kreider,New York Rangers,Left Wing,18,0.45,11,0.28,132,3.3,40,29,0.72,14,0.35,19.2,0.22,-0.03,1.36,0.18,-0.09
+8476389,3,Vincent Trocheck,New York Rangers,Center,13,0.33,17,0.42,119,2.98,40,30,0.75,18,0.45,20.13,0.12,0.11,1.17,0.23,-0.08
+8476459,3,Mika Zibanejad,New York Rangers,Center,19,0.47,24,0.6,148,3.7,40,43,1.07,15,0.38,20.48,0.26,0.29,1.89,0.55,-0.15
+8476624,3,Barclay Goodrow,New York Rangers,Center,8,0.2,10,0.25,49,1.23,40,18,0.45,28,0.7,14.59,-0.01,-0.06,-0.58,-0.07,0.17
+8476885,3,Jacob Trouba,New York Rangers,Defenseman,3,0.07,10,0.25,111,2.77,40,13,0.33,97,2.42,21.13,-0.0,-0.01,1.36,0.0,0.96
+8476918,3,Jimmy Vesey,New York Rangers,Left Wing,6,0.15,7,0.18,62,1.59,39,13,0.33,26,0.67,13.36,-0.08,-0.13,-0.35,-0.21,0.23
+8477380,3,Jonny Brodzinski,New York Rangers,Center,1,0.09,1,0.09,18,1.64,11,2,0.18,3,0.27,9.41,-0.12,-0.22,-0.17,-0.34,-0.26
+8478104,3,Sammy Blais,New York Rangers,Left Wing,0,0.0,5,0.15,28,0.82,34,5,0.15,9,0.26,9.49,-0.23,-0.16,-1.12,-0.39,-0.18
+8478550,3,Artemi Panarin,New York Rangers,Left Wing,11,0.28,34,0.85,104,2.6,40,45,1.12,7,0.17,20.16,0.05,0.54,0.66,0.58,-0.27
+8479323,3,Adam Fox,New York Rangers,Defenseman,7,0.17,32,0.8,82,2.05,40,39,0.97,56,1.4,24.58,0.1,0.54,0.64,0.64,-0.06
+8479324,3,Ryan Lindgren,New York Rangers,Defenseman,0,0.0,13,0.34,45,1.18,38,13,0.34,65,1.71,18.51,-0.07,0.08,-0.23,0.01,0.25
+8479328,3,Julien Gauthier,New York Rangers,Right Wing,5,0.17,3,0.1,28,0.97,29,8,0.28,5,0.17,8.53,-0.06,-0.21,-0.97,-0.26,-0.27
+8479333,3,Libor Hajek,New York Rangers,Defenseman,1,0.06,0,0.0,13,0.81,16,1,0.06,20,1.25,13.15,-0.01,-0.26,-0.6,-0.27,-0.21
+8480078,3,Filip Chytil,New York Rangers,Center,11,0.34,10,0.31,62,1.94,32,21,0.66,20,0.62,13.58,0.13,0.0,0.13,0.14,0.09
+8480817,3,K'Andre Miller,New York Rangers,Defenseman,3,0.07,16,0.4,59,1.48,40,19,0.47,48,1.2,22.04,-0.0,0.14,0.07,0.14,-0.26
+8480833,3,Vitali Kravtsov,New York Rangers,Right Wing,2,0.1,3,0.15,17,0.85,20,5,0.25,4,0.2,11.11,-0.13,-0.16,-1.09,-0.29,-0.24
+8481554,3,Kaapo Kakko,New York Rangers,Right Wing,9,0.23,9,0.23,69,1.73,40,18,0.45,18,0.45,15.29,-0.0,-0.08,-0.21,-0.09,0.01
+8482073,3,Braden Schneider,New York Rangers,Defenseman,5,0.12,5,0.12,41,1.02,40,10,0.25,60,1.5,15.0,0.05,-0.14,-0.39,-0.08,0.04
+8482109,3,Alexis Lafrenière,New York Rangers,Left Wing,5,0.13,12,0.31,68,1.74,39,17,0.44,12,0.31,14.5,-0.1,0.0,-0.2,-0.1,-0.13
+8479550,4,Tanner Laczynski,Philadelphia Flyers,Center,2,0.11,2,0.11,14,0.74,19,4,0.21,5,0.26,10.12,-0.1,-0.2,-1.07,-0.31,-0.27
+8474027,4,Justin Braun,Philadelphia Flyers,Defenseman,0,0.0,0,0.0,28,0.85,33,0,0.0,35,1.06,16.12,-0.07,-0.26,-0.56,-0.33,-0.4
+8474037,4,James van Riemsdyk,Philadelphia Flyers,Left Wing,6,0.32,10,0.53,43,2.26,19,16,0.84,5,0.26,16.31,0.09,0.22,0.32,0.3,-0.18
+8475235,4,Nicolas Deslauriers,Philadelphia Flyers,Left Wing,1,0.03,4,0.1,26,0.67,39,5,0.13,13,0.33,10.18,-0.2,-0.21,-1.27,-0.41,-0.11
+8475763,4,Kevin Hayes,Philadelphia Flyers,Center,10,0.26,25,0.66,102,2.68,38,35,0.92,14,0.37,18.14,0.05,0.35,0.87,0.4,-0.16
+8476372,4,Nick Seeler,Philadelphia Flyers,Defenseman,3,0.08,5,0.14,41,1.14,36,8,0.22,58,1.61,14.12,0.01,-0.12,-0.27,-0.11,0.15
+8476872,4,Scott Laughton,Philadelphia Flyers,Center,9,0.26,11,0.31,77,2.2,35,20,0.57,23,0.66,18.37,0.05,0.0,0.39,0.05,0.13
+8477499,4,Rasmus Ristolainen,Philadelphia Flyers,Defenseman,0,0.0,2,0.06,32,1.0,32,2,0.06,77,2.41,18.19,-0.07,-0.2,-0.41,-0.27,0.95
+8477887,4,Patrick Brown,Philadelphia Flyers,Center,1,0.05,1,0.05,21,1.05,20,2,0.1,18,0.9,11.19,-0.16,-0.26,-0.76,-0.42,0.37
+8477948,4,Travis Sanheim,Philadelphia Flyers,Defenseman,4,0.1,10,0.26,57,1.46,39,14,0.36,65,1.67,21.03,0.03,0.0,0.05,0.03,0.21
+8477950,4,Tony DeAngelo,Philadelphia Flyers,Defenseman,7,0.21,16,0.47,83,2.44,34,23,0.68,41,1.21,24.05,0.14,0.21,1.03,0.35,-0.25
+8478439,4,Travis Konecny,Philadelphia Flyers,Right Wing,20,0.61,20,0.61,104,3.15,33,40,1.21,24,0.73,20.25,0.38,0.3,1.21,0.67,0.29
+8478500,4,Ivan Provorov,Philadelphia Flyers,Defenseman,2,0.05,12,0.31,77,1.97,39,14,0.36,94,2.41,23.13,-0.02,0.05,0.56,0.03,0.95
+8479322,4,Wade Allison,Philadelphia Flyers,Right Wing,4,0.19,1,0.05,31,1.48,21,5,0.24,23,1.1,12.08,-0.04,-0.26,-0.46,-0.3,0.66
+8479356,4,Kieffer Bellows,Philadelphia Flyers,Left Wing,0,0.0,0,0.0,19,1.46,13,0,0.0,5,0.38,11.3,-0.23,-0.31,-0.48,-0.54,-0.06
+8479772,4,Zack MacEwen,Philadelphia Flyers,Center,3,0.09,5,0.14,57,1.63,35,8,0.23,19,0.54,13.14,-0.12,-0.17,-0.18,-0.29,0.01
+8480015,4,Owen Tippett,Philadelphia Flyers,Right Wing,12,0.35,9,0.26,79,2.32,34,21,0.62,24,0.71,15.59,0.12,-0.05,0.38,0.08,0.27
+8480028,4,Morgan Frost,Philadelphia Flyers,Center,8,0.21,11,0.29,66,1.74,38,19,0.5,23,0.61,15.19,-0.0,-0.02,-0.07,-0.02,0.08
+8480220,4,Noah Cates,Philadelphia Flyers,Left Wing,4,0.1,12,0.31,42,1.08,39,16,0.41,34,0.87,17.47,-0.13,0.0,-0.86,-0.13,0.43
+8480797,4,Joel Farabee,Philadelphia Flyers,Left Wing,8,0.21,13,0.33,71,1.82,39,21,0.54,24,0.62,17.19,-0.02,0.02,-0.12,0.0,0.18
+8481546,4,Cam York,Philadelphia Flyers,Defenseman,1,0.08,7,0.58,7,0.58,12,8,0.67,17,1.42,18.31,0.01,0.32,-0.83,0.34,-0.04
+8473507,5,Jeff Petry,Pittsburgh Penguins,Defenseman,3,0.11,9,0.32,44,1.57,28,12,0.43,54,1.93,22.2,0.04,0.06,0.16,0.1,0.47
+8476326,5,Josh Archibald,Pittsburgh Penguins,Right Wing,4,0.13,2,0.07,41,1.37,30,6,0.2,11,0.37,10.14,-0.1,-0.24,-0.57,-0.34,-0.07
+8470604,5,Jeff Carter,Pittsburgh Penguins,Center,6,0.17,12,0.34,60,1.71,35,18,0.51,35,1.0,14.45,-0.04,0.03,-0.1,-0.01,0.47
+8471215,5,Evgeni Malkin,Pittsburgh Penguins,Center,12,0.32,22,0.58,109,2.87,38,34,0.89,12,0.32,18.11,0.11,0.27,1.06,0.37,-0.21
+8471675,5,Sidney Crosby,Pittsburgh Penguins,Center,20,0.53,25,0.66,108,2.84,38,45,1.18,18,0.47,20.08,0.32,0.35,1.03,0.66,-0.06
+8475208,5,Brian Dumoulin,Pittsburgh Penguins,Defenseman,0,0.0,8,0.21,24,0.63,38,8,0.21,72,1.89,19.43,-0.07,-0.05,-0.78,-0.12,0.43
+8475722,5,Jason Zucker,Pittsburgh Penguins,Left Wing,8,0.24,15,0.44,80,2.35,34,23,0.68,10,0.29,15.25,0.01,0.13,0.41,0.14,-0.15
+8475810,5,Bryan Rust,Pittsburgh Penguins,Right Wing,9,0.24,14,0.37,100,2.63,38,23,0.61,18,0.47,17.45,0.01,0.06,0.69,0.07,0.03
+8476483,5,Rickard Rakell,Pittsburgh Penguins,Right Wing,13,0.34,11,0.29,116,3.05,38,24,0.63,26,0.68,18.26,0.11,-0.02,1.11,0.09,0.24
+8476927,5,Teddy Blueger,Pittsburgh Penguins,Center,1,0.04,6,0.26,28,1.22,23,7,0.3,16,0.7,12.21,-0.17,-0.05,-0.59,-0.22,0.17
+8476934,5,Brock McGinn,Pittsburgh Penguins,Left Wing,10,0.26,5,0.13,57,1.5,38,15,0.39,23,0.61,13.14,0.03,-0.18,-0.44,-0.15,0.17
+8477244,5,Chad Ruhwedel,Pittsburgh Penguins,Defenseman,0,0.0,1,0.05,10,0.53,19,1,0.05,16,0.84,13.11,-0.07,-0.21,-0.88,-0.28,-0.62
+8477404,5,Jake Guentzel,Pittsburgh Penguins,Left Wing,15,0.44,20,0.59,96,2.82,34,35,1.03,11,0.32,20.02,0.21,0.28,0.88,0.49,-0.12
+8477953,5,Kasperi Kapanen,Pittsburgh Penguins,Right Wing,6,0.21,10,0.34,42,1.45,29,16,0.55,6,0.21,11.44,-0.02,0.03,-0.49,0.01,-0.23
+8477969,5,Marcus Pettersson,Pittsburgh Penguins,Defenseman,0,0.0,11,0.29,49,1.29,38,11,0.29,78,2.05,20.44,-0.07,0.03,-0.12,-0.04,0.59
+8478046,5,Danton Heinen,Pittsburgh Penguins,Left Wing,3,0.09,8,0.24,48,1.45,33,11,0.33,12,0.36,11.43,-0.14,-0.07,-0.49,-0.21,-0.08
+8480058,5,Pierre-Olivier Joseph,Pittsburgh Penguins,Defenseman,2,0.06,9,0.26,52,1.53,34,11,0.32,16,0.47,15.06,-0.01,0.0,0.12,-0.01,-0.99
+8480068,5,Ryan Poehling,Pittsburgh Penguins,Center,4,0.13,4,0.13,34,1.1,31,8,0.26,22,0.71,11.07,-0.08,-0.18,-0.71,-0.26,0.18
+8480172,5,Jan Rutta,Pittsburgh Penguins,Defenseman,3,0.08,3,0.08,50,1.32,38,6,0.16,50,1.32,17.36,0.01,-0.18,-0.09,-0.17,-0.14
+8478498,6,Jake DeBrusk,Boston Bruins,Left Wing,16,0.44,14,0.39,109,3.03,36,30,0.83,14,0.39,17.08,0.21,0.08,1.09,0.29,-0.05
+8470638,6,Patrice Bergeron,Boston Bruins,Center,15,0.39,15,0.39,135,3.55,38,30,0.79,30,0.79,18.11,0.18,0.08,1.74,0.27,0.26
+8471276,6,David Krejci,Boston Bruins,Center,10,0.3,18,0.55,51,1.55,33,28,0.85,20,0.61,17.17,0.09,0.24,-0.26,0.33,0.08
+8473419,6,Brad Marchand,Boston Bruins,Left Wing,11,0.37,22,0.73,81,2.7,30,33,1.1,11,0.37,18.58,0.14,0.42,0.76,0.56,-0.07
+8473422,6,Nick Foligno,Boston Bruins,Left Wing,6,0.16,11,0.29,43,1.13,38,17,0.45,21,0.55,12.09,-0.07,-0.02,-0.81,-0.09,0.11
+8475225,6,Craig Smith,Boston Bruins,Center,1,0.04,3,0.12,28,1.17,24,4,0.17,3,0.12,9.32,-0.17,-0.19,-0.64,-0.35,-0.41
+8475745,6,Charlie Coyle,Boston Bruins,Center,9,0.24,11,0.29,65,1.71,38,20,0.53,23,0.61,16.37,0.03,-0.02,-0.1,0.01,0.08
+8475762,6,Derek Forbort,Boston Bruins,Defenseman,2,0.07,5,0.19,21,0.78,27,7,0.26,38,1.41,18.19,-0.0,-0.07,-0.63,-0.07,-0.05
+8475791,6,Taylor Hall,Boston Bruins,Left Wing,13,0.34,15,0.39,103,2.71,38,28,0.74,21,0.55,16.02,0.11,0.08,0.77,0.2,0.11
+8476854,6,Hampus Lindholm,Boston Bruins,Defenseman,4,0.11,23,0.61,83,2.18,38,27,0.71,51,1.34,23.51,0.04,0.35,0.77,0.38,-0.12
+8476891,6,Matt Grzelcyk,Boston Bruins,Defenseman,1,0.03,9,0.26,49,1.44,34,10,0.29,47,1.38,17.22,-0.04,0.0,0.03,-0.04,-0.08
+8477365,6,Connor Clifton,Boston Bruins,Defenseman,3,0.08,9,0.24,57,1.5,38,12,0.32,50,1.32,18.42,0.01,-0.02,0.09,-0.01,-0.14
+8477931,6,Tomas Nosek,Boston Bruins,Left Wing,3,0.08,4,0.11,36,1.0,36,7,0.19,14,0.39,12.25,-0.15,-0.2,-0.94,-0.35,-0.05
+8477956,6,David Pastrnak,Boston Bruins,Right Wing,27,0.71,25,0.66,188,4.95,38,52,1.37,13,0.34,19.54,0.48,0.35,3.01,0.83,-0.1
+8478401,6,Pavel Zacha,Boston Bruins,Center,5,0.13,18,0.47,61,1.61,38,23,0.61,11,0.29,15.54,-0.08,0.16,-0.2,0.09,-0.24
+8478415,6,Jakub Zboril,Boston Bruins,Defenseman,1,0.08,0,0.0,8,0.62,13,1,0.08,11,0.85,13.34,0.01,-0.26,-0.79,-0.25,-0.61
+8478421,6,A.J. Greer,Boston Bruins,Left Wing,3,0.12,4,0.15,23,0.88,26,7,0.27,10,0.38,9.04,-0.11,-0.16,-1.06,-0.27,-0.06
+8478443,6,Brandon Carlo,Boston Bruins,Defenseman,1,0.03,6,0.18,46,1.35,34,7,0.21,55,1.62,18.41,-0.04,-0.08,-0.06,-0.12,0.16
+8479325,6,Charlie McAvoy,Boston Bruins,Defenseman,2,0.08,19,0.76,46,1.84,25,21,0.84,44,1.76,22.59,0.01,0.5,0.43,0.51,0.3
+8479365,6,Trent Frederic,Boston Bruins,Center,9,0.26,7,0.2,50,1.43,35,16,0.46,15,0.43,11.07,0.05,-0.11,-0.38,-0.06,-0.1
+8480035,7,Henri Jokiharju,Buffalo Sabres,Defenseman,1,0.06,3,0.19,20,1.25,16,4,0.25,19,1.19,20.23,-0.01,-0.07,-0.16,-0.08,-0.27
+8473449,7,Kyle Okposo,Buffalo Sabres,Right Wing,6,0.21,10,0.34,61,2.1,29,16,0.55,10,0.34,14.54,-0.02,0.03,0.16,0.01,-0.1
+8475784,7,Jeff Skinner,Buffalo Sabres,Left Wing,17,0.52,22,0.67,106,3.21,33,39,1.18,6,0.18,17.17,0.29,0.36,1.27,0.64,-0.26
+8476878,7,Zemgus Girgensons,Buffalo Sabres,Left Wing,4,0.11,6,0.17,37,1.06,35,10,0.29,22,0.63,12.3,-0.12,-0.14,-0.88,-0.25,0.19
+8476994,7,Vinnie Hinostroza,Buffalo Sabres,Center,0,0.0,8,0.5,17,1.06,16,8,0.5,3,0.19,12.24,-0.21,0.19,-0.75,-0.02,-0.34
+8477949,7,Alex Tuch,Buffalo Sabres,Right Wing,18,0.5,24,0.67,103,2.86,36,42,1.17,21,0.58,18.55,0.27,0.36,0.92,0.63,0.14
+8478109,7,Victor Olofsson,Buffalo Sabres,Left Wing,13,0.36,5,0.14,74,2.06,36,18,0.5,8,0.22,14.06,0.13,-0.17,0.12,-0.04,-0.22
+8479335,7,Rasmus Asplund,Buffalo Sabres,Center,2,0.1,6,0.29,25,1.19,21,8,0.38,7,0.33,11.58,-0.11,-0.02,-0.62,-0.14,-0.2
+8479348,7,Kale Clague,Buffalo Sabres,Defenseman,0,0.0,2,0.12,12,0.75,16,2,0.12,14,0.88,15.59,-0.07,-0.14,-0.66,-0.21,-0.58
+8479370,7,Tyson Jost,Buffalo Sabres,Center,3,0.1,7,0.23,33,1.1,30,10,0.33,11,0.37,13.08,-0.11,-0.08,-0.71,-0.19,-0.16
+8479420,7,Tage Thompson,Buffalo Sabres,Center,30,0.83,25,0.69,158,4.39,36,55,1.53,10,0.28,19.05,0.62,0.38,2.58,1.01,-0.25
+8479578,7,Casey Fitzgerald,Buffalo Sabres,Defenseman,0,0.0,3,0.13,12,0.52,23,3,0.13,12,0.52,13.03,-0.07,-0.13,-0.89,-0.2,-0.94
+8479999,7,Casey Mittelstadt,Buffalo Sabres,Center,7,0.19,13,0.36,52,1.44,36,20,0.56,5,0.14,15.28,-0.02,0.05,-0.37,0.04,-0.39
+8480196,7,Jacob Bryson,Buffalo Sabres,Defenseman,1,0.03,7,0.24,14,0.48,29,8,0.28,43,1.48,16.2,-0.04,-0.02,-0.93,-0.05,0.02
+8480807,7,Mattias Samuelsson,Buffalo Sabres,Defenseman,1,0.04,2,0.09,36,1.57,23,3,0.13,42,1.83,22.44,-0.03,-0.17,0.16,-0.2,0.37
+8480839,7,Rasmus Dahlin,Buffalo Sabres,Defenseman,10,0.29,29,0.83,108,3.09,35,39,1.11,65,1.86,26.21,0.22,0.57,1.68,0.78,0.4
+8480950,7,Ilya Lyubushkin,Buffalo Sabres,Defenseman,0,0.0,4,0.18,9,0.41,22,4,0.18,33,1.5,14.57,-0.07,-0.08,-1.0,-0.15,0.04
+8481522,7,Peyton Krebs,Buffalo Sabres,Center,3,0.1,5,0.17,26,0.87,30,8,0.27,7,0.23,12.1,-0.11,-0.14,-0.94,-0.25,-0.3
+8481528,7,Dylan Cozens,Buffalo Sabres,Center,12,0.33,23,0.64,92,2.56,36,35,0.97,13,0.36,17.03,0.12,0.33,0.75,0.45,-0.17
+8482097,7,Jack Quinn,Buffalo Sabres,Right Wing,6,0.19,11,0.35,49,1.58,31,17,0.55,2,0.06,13.48,-0.04,0.04,-0.36,0.01,-0.38
+8482175,7,JJ Peterka,Buffalo Sabres,Right Wing,7,0.19,10,0.28,55,1.53,36,17,0.47,4,0.11,14.12,-0.04,-0.03,-0.41,-0.07,-0.33
+8482671,7,Owen Power,Buffalo Sabres,Defenseman,0,0.0,13,0.39,46,1.39,33,13,0.39,43,1.3,23.41,-0.07,0.13,-0.02,0.06,-0.16
+8477497,8,Sean Monahan,Montréal Canadiens,Center,6,0.24,11,0.44,55,2.2,25,17,0.68,8,0.32,17.22,0.03,0.13,0.39,0.16,-0.21
+8482087,8,Kaiden Guhle,Montréal Canadiens,Defenseman,2,0.06,12,0.33,36,1.0,36,14,0.39,65,1.81,20.46,-0.01,0.07,-0.41,0.06,0.35
+8474149,8,Evgenii Dadonov,Montréal Canadiens,Right Wing,2,0.07,6,0.2,39,1.3,30,8,0.27,21,0.7,14.02,-0.16,-0.11,-0.64,-0.27,0.26
+8474884,8,Mike Hoffman,Montréal Canadiens,Left Wing,7,0.25,5,0.18,61,2.18,28,12,0.43,10,0.36,14.23,0.02,-0.13,0.24,-0.11,-0.08
+8475227,8,Chris Wideman,Montréal Canadiens,Defenseman,0,0.0,4,0.17,24,1.0,24,4,0.17,30,1.25,14.54,-0.07,-0.09,-0.41,-0.16,-0.21
+8475233,8,David Savard,Montréal Canadiens,Defenseman,1,0.04,7,0.27,27,1.04,26,8,0.31,79,3.04,22.23,-0.03,0.01,-0.37,-0.02,1.58
+8475848,8,Brendan Gallagher,Montréal Canadiens,Right Wing,4,0.16,5,0.2,57,2.28,25,9,0.36,8,0.32,14.11,-0.07,-0.11,0.34,-0.18,-0.12
+8476441,8,Joel Edmundson,Montréal Canadiens,Defenseman,1,0.03,4,0.14,38,1.31,29,5,0.17,84,2.9,20.02,-0.04,-0.12,-0.1,-0.16,1.44
+8476469,8,Joel Armia,Montréal Canadiens,Right Wing,1,0.04,3,0.11,48,1.78,27,4,0.15,16,0.59,14.43,-0.19,-0.2,-0.16,-0.39,0.15
+8476981,8,Josh Anderson,Montréal Canadiens,Right Wing,10,0.27,3,0.08,85,2.3,37,13,0.35,15,0.41,15.47,0.04,-0.23,0.36,-0.19,-0.03
+8477494,8,Jonathan Drouin,Montréal Canadiens,Left Wing,0,0.0,7,0.3,25,1.09,23,7,0.3,7,0.3,13.53,-0.23,-0.01,-0.85,-0.24,-0.14
+8477989,8,Christian Dvorak,Montréal Canadiens,Center,7,0.18,9,0.23,55,1.41,39,16,0.41,40,1.03,16.53,-0.03,-0.08,-0.4,-0.11,0.5
+8478133,8,Jake Evans,Montréal Canadiens,Center,1,0.03,7,0.18,37,0.95,39,8,0.21,30,0.77,14.15,-0.18,-0.13,-0.86,-0.31,0.24
+8479543,8,Michael Pezzetta,Montréal Canadiens,Left Wing,2,0.09,1,0.05,25,1.14,22,3,0.14,3,0.14,8.07,-0.14,-0.26,-0.8,-0.4,-0.3
+8480018,8,Nick Suzuki,Montréal Canadiens,Center,15,0.38,17,0.44,70,1.79,39,32,0.82,23,0.59,20.55,0.17,0.13,-0.02,0.3,0.06
+8480192,8,Johnathan Kovacevic,Montréal Canadiens,Defenseman,1,0.03,4,0.11,41,1.17,35,5,0.14,39,1.11,17.31,-0.04,-0.15,-0.24,-0.19,-0.35
+8480887,8,Jordan Harris,Montréal Canadiens,Defenseman,1,0.03,10,0.29,39,1.11,35,11,0.31,53,1.51,18.36,-0.04,0.03,-0.3,-0.02,0.05
+8481523,8,Kirby Dach,Montréal Canadiens,Center,5,0.13,18,0.46,68,1.74,39,23,0.59,20,0.51,17.44,-0.08,0.15,-0.07,0.07,-0.02
+8481540,8,Cole Caufield,Montréal Canadiens,Right Wing,22,0.56,9,0.23,130,3.33,39,31,0.79,8,0.21,17.56,0.33,-0.08,1.39,0.25,-0.23
+8482964,8,Arber Xhekaj,Montréal Canadiens,Defenseman,5,0.14,8,0.22,62,1.68,37,13,0.35,33,0.89,15.28,0.07,-0.04,0.27,0.02,-0.57
+8483515,8,Juraj Slafkovsky,Montréal Canadiens,Left Wing,4,0.12,6,0.18,35,1.03,34,10,0.29,19,0.56,12.01,-0.11,-0.13,-0.91,-0.25,0.12
+8477353,9,Tyler Motte,Ottawa Senators,Left Wing,3,0.09,6,0.19,61,1.91,32,9,0.28,32,1.0,13.5,-0.14,-0.12,-0.03,-0.26,0.56
+8478472,9,Mathieu Joseph,Ottawa Senators,Right Wing,2,0.08,7,0.28,28,1.12,25,9,0.36,15,0.6,14.2,-0.15,-0.03,-0.82,-0.18,0.16
+8479458,9,Nikita Zaitsev,Ottawa Senators,Defenseman,0,0.0,3,0.16,6,0.32,19,3,0.16,33,1.74,16.44,-0.07,-0.1,-1.09,-0.17,0.28
+8473512,9,Claude Giroux,Ottawa Senators,Right Wing,15,0.39,21,0.55,90,2.37,38,36,0.95,15,0.39,18.12,0.16,0.24,0.43,0.41,-0.05
+8473544,9,Derick Brassard,Ottawa Senators,Center,5,0.17,5,0.17,44,1.52,29,10,0.34,6,0.21,13.25,-0.04,-0.14,-0.29,-0.18,-0.32
+8474207,9,Nick Holden,Ottawa Senators,Defenseman,1,0.03,5,0.15,31,0.94,33,6,0.18,36,1.09,16.33,-0.04,-0.11,-0.47,-0.15,-0.37
+8474612,9,Travis Hamonic,Ottawa Senators,Defenseman,3,0.08,4,0.11,61,1.61,38,7,0.18,63,1.66,18.49,0.01,-0.15,0.2,-0.15,0.2
+8475766,9,Austin Watson,Ottawa Senators,Left Wing,4,0.11,2,0.05,40,1.05,38,6,0.16,26,0.68,10.19,-0.12,-0.26,-0.89,-0.38,0.24
+8478469,9,Thomas Chabot,Ottawa Senators,Defenseman,7,0.21,13,0.39,84,2.55,33,20,0.61,52,1.58,26.08,0.14,0.13,1.14,0.28,0.12
+8479337,9,Alex DeBrincat,Ottawa Senators,Right Wing,13,0.34,23,0.61,136,3.58,38,36,0.95,17,0.45,19.36,0.11,0.3,1.64,0.41,0.01
+8479580,9,Dylan Gambrell,Ottawa Senators,Center,1,0.05,0,0.0,17,0.85,20,1,0.05,16,0.8,10.51,-0.16,-0.31,-0.96,-0.47,0.27
+8480073,9,Erik Brannstrom,Ottawa Senators,Defenseman,0,0.0,3,0.09,33,1.0,33,3,0.09,57,1.73,15.45,-0.07,-0.17,-0.41,-0.24,0.27
+8480208,9,Drake Batherson,Ottawa Senators,Right Wing,13,0.34,23,0.61,119,3.13,38,36,0.95,17,0.45,18.4,0.11,0.3,1.19,0.41,0.01
+8480355,9,Mark Kastelic,Ottawa Senators,Center,3,0.09,1,0.03,36,1.03,35,4,0.11,23,0.66,9.2,-0.12,-0.28,-0.78,-0.41,0.13
+8480448,9,Parker Kelly,Ottawa Senators,Left Wing,1,0.03,3,0.08,37,1.03,36,4,0.11,14,0.39,9.58,-0.2,-0.23,-0.91,-0.43,-0.05
+8480801,9,Brady Tkachuk,Ottawa Senators,Left Wing,13,0.34,26,0.68,165,4.34,38,39,1.03,5,0.13,18.33,0.11,0.37,2.4,0.49,-0.31
+8481596,9,Shane Pinto,Ottawa Senators,Center,10,0.26,7,0.18,76,2.0,38,17,0.45,16,0.42,15.53,0.05,-0.13,0.19,-0.07,-0.11
+8482105,9,Jake Sanderson,Ottawa Senators,Defenseman,2,0.05,12,0.32,60,1.58,38,14,0.37,66,1.74,21.01,-0.02,0.06,0.17,0.04,0.28
+8482116,9,Tim Stützle,Ottawa Senators,Left Wing,15,0.44,20,0.59,87,2.56,34,35,1.03,25,0.74,20.22,0.21,0.28,0.62,0.49,0.3
+8482245,9,Artem Zub,Ottawa Senators,Defenseman,2,0.12,2,0.12,16,0.94,17,4,0.24,21,1.24,21.35,0.05,-0.14,-0.47,-0.09,-0.22
+8479376,10,Victor Mete,Toronto Maple Leafs,Defenseman,0,0.0,2,0.18,7,0.64,11,2,0.18,9,0.82,13.04,-0.07,-0.08,-0.77,-0.15,-0.64
+8481582,10,Nicholas Robertson,Toronto Maple Leafs,Left Wing,2,0.13,3,0.2,27,1.8,15,5,0.33,7,0.47,10.53,-0.1,-0.11,-0.14,-0.21,0.03
+8470966,10,Mark Giordano,Toronto Maple Leafs,Defenseman,1,0.03,11,0.28,49,1.26,39,12,0.31,78,2.0,19.38,-0.04,0.02,-0.15,-0.02,0.54
+8474673,10,TJ Brodie,Toronto Maple Leafs,Defenseman,2,0.07,5,0.19,36,1.33,27,7,0.26,45,1.67,21.14,-0.0,-0.07,-0.08,-0.07,0.21
+8475166,10,John Tavares,Toronto Maple Leafs,Center,16,0.41,19,0.49,126,3.23,39,35,0.9,16,0.41,17.22,0.2,0.18,1.42,0.38,-0.12
+8475714,10,Calle Jarnkrok,Toronto Maple Leafs,Center,8,0.25,8,0.25,43,1.34,32,16,0.5,8,0.25,13.18,0.04,-0.06,-0.47,-0.02,-0.28
+8475718,10,Justin Holl,Toronto Maple Leafs,Defenseman,2,0.05,4,0.1,33,0.85,39,6,0.15,67,1.72,21.15,-0.02,-0.16,-0.56,-0.18,0.26
+8476853,10,Morgan Rielly,Toronto Maple Leafs,Defenseman,0,0.0,17,0.71,41,1.71,24,17,0.71,31,1.29,22.35,-0.07,0.45,0.3,0.38,-0.17
+8477021,10,Alexander Kerfoot,Toronto Maple Leafs,Center,6,0.15,13,0.33,68,1.74,39,19,0.49,25,0.64,14.59,-0.06,0.02,-0.07,-0.03,0.11
+8477939,10,William Nylander,Toronto Maple Leafs,Right Wing,22,0.56,23,0.59,137,3.51,39,45,1.15,11,0.28,18.37,0.33,0.28,1.57,0.61,-0.16
+8478047,10,Michael Bunting,Toronto Maple Leafs,Left Wing,13,0.33,16,0.41,82,2.1,39,29,0.74,12,0.31,16.06,0.1,0.1,0.16,0.2,-0.13
+8478115,10,Pierre Engvall,Toronto Maple Leafs,Left Wing,8,0.22,7,0.19,65,1.76,37,15,0.41,4,0.11,12.4,-0.01,-0.12,-0.18,-0.13,-0.33
+8478211,10,Dryden Hunt,Toronto Maple Leafs,Left Wing,2,0.06,0,0.0,21,0.66,32,2,0.06,4,0.12,8.13,-0.17,-0.31,-1.28,-0.48,-0.32
+8478483,10,Mitchell Marner,Toronto Maple Leafs,Right Wing,14,0.36,30,0.77,97,2.49,39,44,1.13,25,0.64,21.13,0.13,0.46,0.55,0.59,0.2
+8479318,10,Auston Matthews,Toronto Maple Leafs,Center,19,0.49,26,0.67,167,4.28,39,45,1.15,44,1.13,20.21,0.28,0.36,2.47,0.63,0.6
+8479944,10,Zach Aston-Reese,Toronto Maple Leafs,Center,3,0.08,1,0.03,37,1.0,37,4,0.11,25,0.68,11.35,-0.13,-0.28,-0.81,-0.41,0.15
+8479982,10,Conor Timmins,Toronto Maple Leafs,Defenseman,0,0.0,8,0.62,11,0.85,13,8,0.62,6,0.46,15.34,-0.07,0.36,-0.56,0.29,-1.0
+8480043,10,Timothy Liljegren,Toronto Maple Leafs,Defenseman,2,0.07,5,0.18,27,0.96,28,7,0.25,39,1.39,18.3,-0.0,-0.08,-0.45,-0.08,-0.07
+8480144,10,David Kampf,Toronto Maple Leafs,Center,4,0.1,11,0.28,44,1.13,39,15,0.38,18,0.46,15.0,-0.11,-0.03,-0.68,-0.14,-0.07
+8480873,10,Rasmus Sandin,Toronto Maple Leafs,Defenseman,2,0.06,12,0.34,37,1.06,35,14,0.4,39,1.11,18.04,-0.01,0.08,-0.35,0.07,-0.35
+8480995,10,Pontus Holmberg,Toronto Maple Leafs,Right Wing,3,0.12,6,0.25,15,0.62,24,9,0.38,12,0.5,10.24,-0.11,-0.06,-1.32,-0.16,0.06
+8470613,12,Brent Burns,Carolina Hurricanes,Defenseman,5,0.13,23,0.59,126,3.23,39,28,0.72,45,1.15,23.43,0.06,0.33,1.82,0.39,-0.31
+8471669,12,Paul Stastny,Carolina Hurricanes,Center,2,0.05,10,0.26,42,1.11,38,12,0.32,9,0.24,12.4,-0.16,-0.05,-0.7,-0.2,-0.29
+8473533,12,Jordan Staal,Carolina Hurricanes,Center,11,0.28,8,0.21,60,1.54,39,19,0.49,16,0.41,16.25,0.07,-0.1,-0.27,-0.03,-0.12
+8474613,12,Derek Stepan,Carolina Hurricanes,Center,4,0.11,2,0.06,60,1.67,36,6,0.17,9,0.25,9.1,-0.1,-0.25,-0.14,-0.35,-0.28
+8475177,12,Calvin de Haan,Carolina Hurricanes,Defenseman,1,0.03,6,0.19,29,0.91,32,7,0.22,34,1.06,12.55,-0.04,-0.07,-0.5,-0.11,-0.4
+8475855,12,Jesper Fast,Carolina Hurricanes,Right Wing,5,0.14,10,0.27,35,0.95,37,15,0.41,18,0.49,14.54,-0.09,-0.04,-0.99,-0.13,0.05
+8476474,12,Stefan Noesen,Carolina Hurricanes,Right Wing,8,0.22,12,0.32,75,2.03,37,20,0.54,12,0.32,12.18,-0.01,0.01,0.09,0.0,-0.12
+8476869,12,Brady Skjei,Carolina Hurricanes,Defenseman,7,0.18,9,0.24,90,2.37,38,16,0.42,30,0.79,21.28,0.11,-0.02,0.96,0.09,-0.67
+8476882,12,Teuvo Teravainen,Carolina Hurricanes,Left Wing,3,0.1,12,0.41,68,2.34,29,15,0.52,8,0.28,16.27,-0.13,0.1,0.4,-0.02,-0.16
+8476921,12,Jordan Martinook,Carolina Hurricanes,Left Wing,9,0.23,11,0.28,78,2.0,39,20,0.51,11,0.28,15.24,-0.0,-0.03,0.06,-0.03,-0.16
+8476958,12,Jaccob Slavin,Carolina Hurricanes,Defenseman,2,0.05,9,0.23,65,1.67,39,11,0.28,61,1.56,22.28,-0.02,-0.03,0.26,-0.05,0.1
+8477488,12,Brett Pesce,Carolina Hurricanes,Defenseman,2,0.05,12,0.31,66,1.69,39,14,0.36,64,1.64,22.28,-0.02,0.05,0.28,0.03,0.18
+8478427,12,Sebastian Aho,Carolina Hurricanes,Center,12,0.38,18,0.56,94,2.94,32,30,0.94,9,0.28,19.42,0.17,0.25,1.13,0.42,-0.25
+8478970,12,Jalen Chatfield,Carolina Hurricanes,Defenseman,2,0.05,1,0.03,42,1.08,39,3,0.08,39,1.0,13.06,-0.02,-0.23,-0.33,-0.25,-0.46
+8480039,12,Martin Necas,Carolina Hurricanes,Center,17,0.44,21,0.54,137,3.51,39,38,0.97,9,0.23,19.26,0.23,0.23,1.7,0.45,-0.3
+8480829,12,Jesperi Kotkaniemi,Carolina Hurricanes,Center,6,0.15,7,0.18,57,1.46,39,13,0.33,8,0.21,14.2,-0.06,-0.13,-0.35,-0.19,-0.32
+8480830,12,Andrei Svechnikov,Carolina Hurricanes,Right Wing,19,0.49,14,0.36,129,3.31,39,33,0.85,6,0.15,18.22,0.26,0.05,1.37,0.31,-0.29
+8482093,12,Seth Jarvis,Carolina Hurricanes,Center,6,0.15,13,0.33,86,2.21,39,19,0.49,23,0.59,15.36,-0.06,0.02,0.4,-0.03,0.06
+8471887,13,Patric Hornqvist,Florida Panthers,Right Wing,1,0.05,2,0.09,40,1.82,22,3,0.14,8,0.36,9.16,-0.18,-0.22,-0.12,-0.4,-0.08
+8470595,13,Eric Staal,Florida Panthers,Center,6,0.19,6,0.19,55,1.72,32,12,0.38,21,0.66,13.58,-0.02,-0.12,-0.09,-0.14,0.13
+8471686,13,Marc Staal,Florida Panthers,Defenseman,0,0.0,4,0.1,28,0.72,39,4,0.1,56,1.44,18.1,-0.07,-0.16,-0.69,-0.23,-0.02
+8474610,13,Zac Dalpe,Florida Panthers,Center,2,0.18,2,0.18,14,1.27,11,4,0.36,6,0.55,9.31,-0.03,-0.13,-0.54,-0.16,0.02
+8475462,13,Radko Gudas,Florida Panthers,Defenseman,2,0.07,4,0.14,53,1.83,29,6,0.21,47,1.62,18.3,-0.0,-0.12,0.42,-0.12,0.16
+8476393,13,Nick Cousins,Florida Panthers,Center,4,0.11,8,0.22,53,1.47,36,12,0.33,17,0.47,11.13,-0.1,-0.09,-0.34,-0.19,-0.06
+8477409,13,Carter Verhaeghe,Florida Panthers,Center,18,0.47,13,0.34,109,2.87,38,31,0.82,14,0.37,17.22,0.26,0.03,1.06,0.3,-0.16
+8477493,13,Aleksander Barkov,Florida Panthers,Center,9,0.31,19,0.66,92,3.17,29,28,0.97,20,0.69,21.25,0.1,0.35,1.36,0.45,0.16
+8477932,13,Aaron Ekblad,Florida Panthers,Defenseman,4,0.14,10,0.36,79,2.82,28,14,0.5,38,1.36,23.51,0.07,0.1,1.41,0.17,-0.1
+8477933,13,Sam Reinhart,Florida Panthers,Center,12,0.31,14,0.36,104,2.67,39,26,0.67,19,0.49,19.29,0.1,0.05,0.86,0.15,-0.04
+8477935,13,Sam Bennett,Florida Panthers,Center,8,0.21,17,0.44,121,3.1,39,25,0.64,27,0.69,18.05,-0.0,0.13,1.29,0.12,0.16
+8477986,13,Brandon Montour,Florida Panthers,Defenseman,6,0.16,24,0.65,100,2.7,37,30,0.81,47,1.27,24.52,0.09,0.39,1.29,0.48,-0.19
+8478055,13,Gustav Forsling,Florida Panthers,Defenseman,5,0.13,20,0.51,109,2.79,39,25,0.64,49,1.26,24.01,0.06,0.25,1.38,0.31,-0.2
+8478400,13,Colin White,Florida Panthers,Center,5,0.14,7,0.2,40,1.14,35,12,0.34,15,0.43,11.41,-0.07,-0.11,-0.67,-0.18,-0.1
+8479066,13,Ryan Lomberg,Florida Panthers,Left Wing,4,0.1,5,0.13,53,1.36,39,9,0.23,10,0.26,10.35,-0.13,-0.18,-0.58,-0.31,-0.18
+8479314,13,Matthew Tkachuk,Florida Panthers,Left Wing,20,0.56,27,0.75,134,3.72,36,47,1.31,12,0.33,20.21,0.33,0.44,1.78,0.77,-0.11
+8479372,13,Josh Mahura,Florida Panthers,Defenseman,3,0.08,6,0.15,44,1.13,39,9,0.23,27,0.69,14.15,0.01,-0.11,-0.28,-0.1,-0.77
+8480185,13,Eetu Luostarinen,Florida Panthers,Center,9,0.23,10,0.26,68,1.74,39,19,0.49,22,0.56,15.32,0.02,-0.05,-0.07,-0.03,0.03
+8482113,13,Anton Lundell,Florida Panthers,Center,4,0.13,10,0.33,66,2.2,30,14,0.47,17,0.57,16.29,-0.08,0.02,0.39,-0.05,0.04
+8482641,13,Matt Kiersted,Florida Panthers,Defenseman,1,0.05,3,0.15,14,0.7,20,4,0.2,7,0.35,9.5,-0.02,-0.11,-0.71,-0.13,-1.11
+8478870,14,Rudolfs Balcers,Tampa Bay Lightning,Left Wing,3,0.18,2,0.12,24,1.41,17,5,0.29,4,0.24,10.12,-0.05,-0.19,-0.53,-0.25,-0.2
+8470621,14,Corey Perry,Tampa Bay Lightning,Right Wing,5,0.14,9,0.24,59,1.59,37,14,0.38,12,0.32,12.16,-0.09,-0.07,-0.35,-0.16,-0.12
+8473986,14,Alex Killorn,Tampa Bay Lightning,Left Wing,12,0.32,14,0.38,63,1.7,37,26,0.7,14,0.38,17.13,0.09,0.07,-0.24,0.16,-0.06
+8474013,14,Ian Cole,Tampa Bay Lightning,Defenseman,3,0.09,9,0.26,49,1.44,34,12,0.35,61,1.79,19.03,0.02,0.0,0.03,0.02,0.33
+8474034,14,Pat Maroon,Tampa Bay Lightning,Left Wing,2,0.05,4,0.11,36,0.97,37,6,0.16,4,0.11,10.03,-0.18,-0.2,-0.97,-0.38,-0.33
+8474564,14,Steven Stamkos,Tampa Bay Lightning,Center,17,0.46,25,0.68,121,3.27,37,42,1.14,27,0.73,19.05,0.25,0.37,1.46,0.62,0.2
+8474567,14,Zach Bogosian,Tampa Bay Lightning,Defenseman,0,0.0,1,0.07,13,0.93,14,1,0.07,11,0.79,14.09,-0.07,-0.19,-0.48,-0.26,-0.67
+8475167,14,Victor Hedman,Tampa Bay Lightning,Defenseman,1,0.03,24,0.69,73,2.09,35,25,0.71,64,1.83,24.13,-0.04,0.43,0.68,0.38,0.37
+8476453,14,Nikita Kucherov,Tampa Bay Lightning,Right Wing,13,0.35,41,1.11,133,3.59,37,54,1.46,14,0.38,20.53,0.12,0.8,1.65,0.92,-0.06
+8476480,14,Vladislav Namestnikov,Tampa Bay Lightning,Center,2,0.06,6,0.17,50,1.43,35,8,0.23,12,0.34,12.36,-0.15,-0.14,-0.38,-0.29,-0.19
+8477426,14,Nicholas Paul,Tampa Bay Lightning,Left Wing,14,0.38,8,0.22,68,1.84,37,22,0.59,31,0.84,16.59,0.15,-0.09,-0.1,0.05,0.4
+8477930,14,Pierre-Edouard Bellemare,Tampa Bay Lightning,Left Wing,1,0.03,3,0.09,23,0.66,35,4,0.11,28,0.8,11.39,-0.2,-0.22,-1.28,-0.43,0.36
+8477938,14,Haydn Fleury,Tampa Bay Lightning,Defenseman,0,0.0,1,0.06,16,0.94,17,1,0.06,15,0.88,12.07,-0.07,-0.2,-0.47,-0.27,-0.58
+8478010,14,Brayden Point,Tampa Bay Lightning,Center,22,0.59,17,0.46,114,3.08,37,39,1.05,13,0.35,20.1,0.38,0.15,1.27,0.53,-0.18
+8478416,14,Erik Cernak,Tampa Bay Lightning,Defenseman,1,0.03,6,0.18,29,0.88,33,7,0.21,57,1.73,19.3,-0.04,-0.08,-0.53,-0.12,0.27
+8478519,14,Anthony Cirelli,Tampa Bay Lightning,Center,1,0.07,6,0.43,37,2.64,14,7,0.5,10,0.71,15.54,-0.14,0.12,0.83,-0.02,0.18
+8479410,14,Mikhail Sergachev,Tampa Bay Lightning,Defenseman,6,0.17,23,0.66,59,1.69,35,29,0.83,72,2.06,23.52,0.1,0.4,0.28,0.5,0.6
+8479525,14,Ross Colton,Tampa Bay Lightning,Center,8,0.22,7,0.19,58,1.61,36,15,0.42,12,0.33,11.57,0.01,-0.12,-0.2,-0.1,-0.2
+8479542,14,Brandon Hagel,Tampa Bay Lightning,Left Wing,15,0.41,16,0.43,79,2.14,37,31,0.84,28,0.76,18.53,0.18,0.12,0.2,0.3,0.32
+8479984,14,Cal Foote,Tampa Bay Lightning,Defenseman,1,0.06,2,0.11,15,0.83,18,3,0.17,13,0.72,14.34,-0.01,-0.15,-0.58,-0.16,-0.74
+8480246,14,Nick Perbix,Tampa Bay Lightning,Defenseman,3,0.1,5,0.16,50,1.61,31,8,0.26,31,1.0,15.12,0.03,-0.1,0.2,-0.07,-0.46
+8474590,15,John Carlson,Washington Capitals,Defenseman,8,0.27,13,0.43,101,3.37,30,21,0.7,70,2.33,23.23,0.2,0.17,1.96,0.37,0.87
+8471214,15,Alex Ovechkin,Washington Capitals,Left Wing,29,0.71,19,0.46,178,4.34,41,48,1.17,12,0.29,20.26,0.48,0.15,2.4,0.63,-0.15
+8471698,15,T.J. Oshie,Washington Capitals,Right Wing,7,0.29,6,0.25,53,2.21,24,13,0.54,14,0.58,16.33,0.06,-0.06,0.27,0.0,0.14
+8474189,15,Lars Eller,Washington Capitals,Center,7,0.17,8,0.2,62,1.55,40,15,0.38,23,0.57,15.26,-0.04,-0.11,-0.26,-0.14,0.04
+8475149,15,Marcus Johansson,Washington Capitals,Left Wing,10,0.24,10,0.24,67,1.63,41,20,0.49,9,0.22,16.06,0.01,-0.07,-0.31,-0.05,-0.22
+8475200,15,Dmitry Orlov,Washington Capitals,Defenseman,2,0.08,9,0.36,48,1.92,25,11,0.44,40,1.6,22.13,0.01,0.1,0.51,0.11,0.14
+8475324,15,Nick Jensen,Washington Capitals,Defenseman,1,0.02,17,0.41,50,1.22,41,18,0.44,78,1.9,20.57,-0.05,0.15,-0.19,0.11,0.44
+8475343,15,Nic Dowd,Washington Capitals,Center,10,0.26,7,0.18,38,0.97,39,17,0.44,34,0.87,13.13,0.05,-0.13,-0.84,-0.08,0.34
+8475625,15,Matt Irwin,Washington Capitals,Defenseman,0,0.0,2,0.07,36,1.2,30,2,0.07,40,1.33,13.18,-0.07,-0.19,-0.21,-0.26,-0.13
+8475744,15,Evgeny Kuznetsov,Washington Capitals,Center,6,0.15,30,0.75,100,2.5,40,36,0.9,14,0.35,18.33,-0.06,0.44,0.69,0.38,-0.18
+8476979,15,Erik Gustafsson,Washington Capitals,Defenseman,6,0.15,17,0.42,67,1.68,40,23,0.57,38,0.95,19.34,0.08,0.16,0.27,0.24,-0.51
+8477511,15,Anthony Mantha,Washington Capitals,Right Wing,9,0.22,14,0.34,78,1.9,41,23,0.56,14,0.34,14.23,-0.01,0.03,-0.04,0.02,-0.1
+8477839,15,Conor Sheary,Washington Capitals,Left Wing,11,0.27,16,0.39,84,2.05,41,27,0.66,16,0.39,16.22,0.04,0.08,0.11,0.12,-0.05
+8477845,15,Trevor van Riemsdyk,Washington Capitals,Defenseman,4,0.1,5,0.12,36,0.88,41,9,0.22,77,1.88,17.47,0.03,-0.14,-0.53,-0.11,0.42
+8477903,15,Garnet Hathaway,Washington Capitals,Right Wing,5,0.12,6,0.15,47,1.15,41,11,0.27,45,1.1,12.17,-0.11,-0.16,-0.79,-0.27,0.66
+8477947,15,Sonny Milano,Washington Capitals,Left Wing,6,0.21,12,0.43,42,1.5,28,18,0.64,5,0.18,13.29,-0.02,0.12,-0.44,0.1,-0.26
+8477979,15,Nicolas Aube-Kubel,Washington Capitals,Right Wing,1,0.05,4,0.21,23,1.21,19,5,0.26,1,0.05,10.1,-0.18,-0.1,-0.73,-0.28,-0.39
+8478440,15,Dylan Strome,Washington Capitals,Center,8,0.2,23,0.56,74,1.8,41,31,0.76,23,0.56,16.5,-0.01,0.25,-0.01,0.24,0.03
+8480796,15,Martin Fehervary,Washington Capitals,Defenseman,3,0.1,3,0.1,40,1.38,29,6,0.21,46,1.59,19.52,0.03,-0.16,-0.03,-0.12,0.13
+8481656,15,Aliaksei Protas,Washington Capitals,Center,3,0.07,7,0.17,51,1.24,41,10,0.24,8,0.2,10.52,-0.14,-0.14,-0.57,-0.28,-0.33
+8475797,16,Jarred Tinordi,Chicago Blackhawks,Defenseman,2,0.08,3,0.12,17,0.68,25,5,0.2,37,1.48,16.46,0.01,-0.14,-0.73,-0.13,0.02
+8476915,16,Jujhar Khaira,Chicago Blackhawks,Left Wing,3,0.1,3,0.1,29,1.0,29,6,0.21,18,0.62,13.16,-0.13,-0.21,-0.94,-0.33,0.18
+8480025,16,MacKenzie Entwistle,Chicago Blackhawks,Right Wing,2,0.06,3,0.09,25,0.76,33,5,0.15,14,0.42,11.38,-0.17,-0.22,-1.18,-0.39,-0.02
+8471677,16,Jack Johnson,Chicago Blackhawks,Defenseman,0,0.0,4,0.11,46,1.24,37,4,0.11,61,1.65,20.06,-0.07,-0.15,-0.17,-0.22,0.19
+8473604,16,Jonathan Toews,Chicago Blackhawks,Center,11,0.31,9,0.25,65,1.81,36,20,0.56,18,0.5,17.53,0.1,-0.06,0.0,0.04,-0.03
+8474141,16,Patrick Kane,Chicago Blackhawks,Right Wing,7,0.19,20,0.54,133,3.59,37,27,0.73,8,0.22,19.54,-0.04,0.23,1.65,0.19,-0.22
+8474870,16,Tyler Johnson,Chicago Blackhawks,Center,3,0.21,5,0.36,25,1.79,14,8,0.57,5,0.36,14.57,-0.0,0.05,-0.02,0.05,-0.17
+8476278,16,Colin Blackwell,Chicago Blackhawks,Center,0,0.0,3,0.1,34,1.1,31,3,0.1,14,0.45,11.57,-0.21,-0.21,-0.71,-0.42,-0.08
+8476473,16,Connor Murphy,Chicago Blackhawks,Defenseman,3,0.08,2,0.05,45,1.22,37,5,0.14,79,2.14,19.23,0.01,-0.21,-0.19,-0.19,0.68
+8476931,16,Jake McCabe,Chicago Blackhawks,Defenseman,1,0.03,8,0.24,32,0.94,34,9,0.26,80,2.35,19.02,-0.04,-0.02,-0.47,-0.07,0.89
+8476960,16,Andreas Athanasiou,Chicago Blackhawks,Center,8,0.22,4,0.11,66,1.83,36,12,0.33,28,0.78,15.53,0.01,-0.2,0.02,-0.19,0.25
+8477450,16,Jason Dickinson,Chicago Blackhawks,Center,4,0.12,6,0.18,47,1.42,33,10,0.3,33,1.0,15.12,-0.09,-0.13,-0.39,-0.22,0.47
+8477495,16,Seth Jones,Chicago Blackhawks,Defenseman,2,0.07,9,0.33,73,2.7,27,11,0.41,57,2.11,24.4,-0.0,0.07,1.29,0.08,0.65
+8477503,16,Max Domi,Chicago Blackhawks,Center,11,0.3,14,0.38,78,2.11,37,25,0.68,10,0.27,18.35,0.09,0.07,0.3,0.16,-0.26
+8478043,16,Sam Lafferty,Chicago Blackhawks,Center,4,0.13,6,0.19,37,1.19,31,10,0.32,11,0.35,14.31,-0.08,-0.12,-0.62,-0.2,-0.18
+8478452,16,Caleb Jones,Chicago Blackhawks,Defenseman,1,0.04,8,0.29,35,1.25,28,9,0.32,39,1.39,18.11,-0.03,0.03,-0.16,-0.01,-0.07
+8479383,16,Boris Katchouk,Chicago Blackhawks,Left Wing,1,0.05,2,0.09,16,0.73,22,3,0.14,4,0.18,9.33,-0.18,-0.22,-1.21,-0.4,-0.26
+8479390,16,Taylor Raddysh,Chicago Blackhawks,Right Wing,10,0.27,5,0.14,53,1.43,37,15,0.41,18,0.49,16.14,0.04,-0.17,-0.51,-0.13,0.05
+8480798,16,Philipp Kurashev,Chicago Blackhawks,Center,4,0.11,10,0.27,66,1.78,37,14,0.38,14,0.38,17.05,-0.1,-0.04,-0.03,-0.14,-0.15
+8481147,16,Reese Johnson,Chicago Blackhawks,Center,2,0.07,1,0.04,22,0.79,28,3,0.11,9,0.32,10.14,-0.14,-0.27,-1.02,-0.41,-0.21
+8477462,17,Robert Hagg,Detroit Red Wings,Defenseman,0,0.0,2,0.15,19,1.46,13,2,0.15,17,1.31,15.42,-0.07,-0.11,0.05,-0.18,-0.15
+8474102,17,David Perron,Detroit Red Wings,Left Wing,12,0.33,15,0.42,99,2.75,36,27,0.75,13,0.36,16.57,0.1,0.11,0.81,0.21,-0.08
+8475279,17,Ben Chiarot,Detroit Red Wings,Defenseman,2,0.06,7,0.19,54,1.5,36,9,0.25,77,2.14,21.01,-0.01,-0.07,0.09,-0.08,0.68
+8476874,17,Olli Maatta,Detroit Red Wings,Defenseman,3,0.09,10,0.31,25,0.78,32,13,0.41,55,1.72,19.03,0.02,0.05,-0.63,0.08,0.26
+8476897,17,Oskar Sundqvist,Detroit Red Wings,Center,5,0.17,9,0.31,34,1.17,29,14,0.48,15,0.52,15.52,-0.04,0.0,-0.64,-0.04,-0.01
+8477330,17,Dominik Kubalik,Detroit Red Wings,Left Wing,12,0.33,16,0.44,100,2.78,36,28,0.78,12,0.33,16.0,0.1,0.13,0.84,0.24,-0.11
+8477429,17,Andrew Copp,Detroit Red Wings,Center,3,0.08,17,0.47,47,1.31,36,20,0.56,14,0.39,17.12,-0.13,0.16,-0.5,0.04,-0.14
+8477454,17,Adam Erne,Detroit Red Wings,Left Wing,5,0.14,8,0.23,34,0.97,35,13,0.37,34,0.97,14.25,-0.09,-0.08,-0.97,-0.17,0.53
+8477851,17,Jordan Oesterle,Detroit Red Wings,Defenseman,2,0.08,1,0.04,26,1.0,26,3,0.12,32,1.23,15.28,0.01,-0.22,-0.41,-0.21,-0.23
+8477946,17,Dylan Larkin,Detroit Red Wings,Center,13,0.37,20,0.57,112,3.2,35,33,0.94,18,0.51,20.02,0.16,0.26,1.39,0.42,-0.02
+8478013,17,Jake Walman,Detroit Red Wings,Defenseman,2,0.1,2,0.1,41,2.05,20,4,0.2,39,1.95,17.34,0.03,-0.16,0.64,-0.13,0.49
+8479425,17,Filip Hronek,Detroit Red Wings,Defenseman,7,0.19,19,0.53,79,2.19,36,26,0.72,27,0.75,21.59,0.12,0.27,0.78,0.39,-0.71
+8479992,17,Michael Rasmussen,Detroit Red Wings,Center,7,0.21,10,0.29,59,1.74,34,17,0.5,29,0.85,14.53,-0.0,-0.02,-0.07,-0.02,0.32
+8480184,17,Gustav Lindstrom,Detroit Red Wings,Defenseman,0,0.0,1,0.06,9,0.53,17,1,0.06,12,0.71,14.02,-0.07,-0.2,-0.88,-0.27,-0.75
+8480459,17,Pius Suter,Detroit Red Wings,Center,5,0.14,6,0.17,49,1.4,35,11,0.31,18,0.51,13.04,-0.07,-0.14,-0.41,-0.21,-0.02
+8480813,17,Joe Veleno,Detroit Red Wings,Center,5,0.14,7,0.2,32,0.91,35,12,0.34,18,0.51,12.12,-0.07,-0.11,-0.9,-0.18,-0.02
+8481013,17,Jonatan Berggren,Detroit Red Wings,Right Wing,5,0.22,8,0.35,35,1.52,23,13,0.57,10,0.43,12.47,-0.01,0.04,-0.42,0.03,-0.01
+8481542,17,Moritz Seider,Detroit Red Wings,Defenseman,2,0.06,11,0.31,59,1.64,36,13,0.36,87,2.42,22.44,-0.01,0.05,0.23,0.03,0.96
+8481725,17,Elmer Soderblom,Detroit Red Wings,Left Wing,5,0.25,3,0.15,30,1.5,20,8,0.4,11,0.55,12.15,0.02,-0.16,-0.44,-0.14,0.11
+8482078,17,Lucas Raymond,Detroit Red Wings,Left Wing,10,0.28,13,0.36,63,1.75,36,23,0.64,6,0.17,17.18,0.05,0.05,-0.19,0.1,-0.27
+8474151,18,Ryan McDonagh,Nashville Predators,Defenseman,0,0.0,8,0.27,27,0.9,30,8,0.27,67,2.23,20.29,-0.07,0.01,-0.51,-0.06,0.77
+8474600,18,Roman Josi,Nashville Predators,Defenseman,9,0.24,22,0.59,159,4.3,37,31,0.84,86,2.32,25.14,0.17,0.33,2.89,0.51,0.86
+8475168,18,Matt Duchene,Nashville Predators,Center,11,0.31,18,0.5,83,2.31,36,29,0.81,17,0.47,17.59,0.1,0.19,0.5,0.29,-0.06
+8475218,18,Mattias Ekholm,Nashville Predators,Defenseman,4,0.11,10,0.27,66,1.78,37,14,0.38,48,1.3,21.4,0.04,0.01,0.37,0.05,-0.16
+8475793,18,Ryan Johansen,Nashville Predators,Center,9,0.24,10,0.27,52,1.41,37,19,0.51,17,0.46,15.33,0.03,-0.04,-0.4,-0.01,-0.07
+8475798,18,Mikael Granlund,Nashville Predators,Center,4,0.11,21,0.57,48,1.3,37,25,0.68,30,0.81,19.07,-0.1,0.26,-0.51,0.16,0.28
+8475799,18,Nino Niederreiter,Nashville Predators,Right Wing,12,0.32,9,0.24,84,2.27,37,21,0.57,13,0.35,15.43,0.09,-0.07,0.33,0.03,-0.09
+8476873,18,Mark Jankowski,Nashville Predators,Center,4,0.19,3,0.14,23,1.1,21,7,0.33,20,0.95,12.08,-0.02,-0.17,-0.71,-0.19,0.42
+8476887,18,Filip Forsberg,Nashville Predators,Left Wing,15,0.41,19,0.51,116,3.14,37,34,0.92,15,0.41,17.49,0.18,0.2,1.2,0.38,-0.03
+8476925,18,Colton Sissons,Nashville Predators,Center,6,0.16,7,0.19,34,0.92,37,13,0.35,25,0.68,15.2,-0.05,-0.12,-0.89,-0.17,0.15
+8477446,18,Michael McCarron,Nashville Predators,Right Wing,1,0.07,1,0.07,21,1.4,15,2,0.13,13,0.87,9.5,-0.16,-0.24,-0.54,-0.41,0.43
+8478468,18,Jeremy Lauzon,Nashville Predators,Defenseman,1,0.03,2,0.07,35,1.17,30,3,0.1,28,0.93,15.41,-0.04,-0.19,-0.24,-0.23,-0.53
+8478508,18,Yakov Trenin,Nashville Predators,Center,4,0.12,6,0.19,60,1.88,32,10,0.31,15,0.47,14.11,-0.09,-0.12,0.07,-0.21,-0.06
+8478851,18,Alexandre Carrier,Nashville Predators,Defenseman,2,0.06,3,0.1,38,1.23,31,5,0.16,43,1.39,18.36,-0.01,-0.16,-0.18,-0.17,-0.07
+8479371,18,Dante Fabbro,Nashville Predators,Defenseman,1,0.03,6,0.18,49,1.44,34,7,0.21,50,1.47,16.29,-0.04,-0.08,0.03,-0.12,0.01
+8479661,18,Tanner Jeannot,Nashville Predators,Left Wing,3,0.08,5,0.14,59,1.59,37,8,0.22,36,0.97,15.29,-0.15,-0.17,-0.35,-0.32,0.53
+8479996,18,Cody Glass,Nashville Predators,Center,4,0.15,7,0.26,44,1.63,27,11,0.41,7,0.26,12.43,-0.06,-0.05,-0.18,-0.11,-0.27
+8481704,18,Juuso Parssinen,Nashville Predators,Center,3,0.13,8,0.35,27,1.17,23,11,0.48,7,0.3,15.38,-0.08,0.04,-0.64,-0.04,-0.23
+8482062,18,Cole Smith,Nashville Predators,Left Wing,0,0.0,8,0.24,37,1.09,34,8,0.24,13,0.38,11.49,-0.23,-0.07,-0.85,-0.3,-0.06
+8475158,19,Ryan O'Reilly,St. Louis Blues,Center,10,0.27,6,0.16,73,1.97,37,16,0.43,18,0.49,18.25,0.06,-0.15,0.16,-0.09,-0.04
+8475765,19,Vladimir Tarasenko,St. Louis Blues,Right Wing,10,0.29,19,0.56,90,2.65,34,29,0.85,14,0.41,17.29,0.06,0.25,0.71,0.31,-0.03
+8476792,19,Torey Krug,St. Louis Blues,Defenseman,5,0.16,12,0.39,65,2.1,31,17,0.55,43,1.39,19.36,0.09,0.13,0.69,0.22,-0.07
+8474145,19,Robert Bortuzzo,St. Louis Blues,Defenseman,1,0.03,0,0.0,19,0.66,29,1,0.03,29,1.0,12.19,-0.04,-0.26,-0.75,-0.3,-0.46
+8475170,19,Brayden Schenn,St. Louis Blues,Center,8,0.21,22,0.56,72,1.85,39,30,0.77,8,0.21,17.49,-0.0,0.25,0.04,0.25,-0.32
+8475181,19,Nick Leddy,St. Louis Blues,Defenseman,0,0.0,11,0.28,43,1.1,39,11,0.28,48,1.23,21.15,-0.07,0.02,-0.31,-0.05,-0.23
+8475752,19,Tyler Pitlick,St. Louis Blues,Center,1,0.04,1,0.04,12,0.5,24,2,0.08,10,0.42,8.54,-0.17,-0.27,-1.31,-0.44,-0.11
+8475753,19,Justin Faulk,St. Louis Blues,Defenseman,6,0.15,16,0.41,100,2.56,39,22,0.56,64,1.64,23.34,0.08,0.15,1.15,0.23,0.18
+8476410,19,Josh Leivo,St. Louis Blues,Left Wing,4,0.14,7,0.24,58,2.0,29,11,0.38,9,0.31,12.47,-0.09,-0.07,0.06,-0.16,-0.13
+8476438,19,Brandon Saad,St. Louis Blues,Left Wing,11,0.34,4,0.12,63,1.97,32,15,0.47,13,0.41,16.44,0.11,-0.19,0.03,-0.07,-0.03
+8476892,19,Colton Parayko,St. Louis Blues,Defenseman,2,0.06,10,0.28,73,2.03,36,12,0.33,64,1.78,23.34,-0.01,0.02,0.62,0.0,0.32
+8477402,19,Pavel Buchnevich,St. Louis Blues,Left Wing,12,0.4,20,0.67,61,2.03,30,32,1.07,8,0.27,19.18,0.17,0.36,0.09,0.53,-0.17
+8477573,19,Nathan Walker,St. Louis Blues,Left Wing,1,0.05,2,0.09,12,0.55,22,3,0.14,19,0.86,9.4,-0.18,-0.22,-1.39,-0.4,0.42
+8477964,19,Ivan Barbashev,St. Louis Blues,Center,6,0.15,12,0.31,61,1.56,39,18,0.46,17,0.44,16.07,-0.06,0.0,-0.25,-0.06,-0.09
+8478569,19,Noel Acciari,St. Louis Blues,Center,9,0.23,7,0.18,51,1.31,39,16,0.41,42,1.08,13.52,0.02,-0.13,-0.5,-0.11,0.55
+8478859,19,Niko Mikkola,St. Louis Blues,Defenseman,0,0.0,2,0.05,23,0.61,38,2,0.05,55,1.45,16.11,-0.07,-0.21,-0.8,-0.28,-0.01
+8479385,19,Jordan Kyrou,St. Louis Blues,Center,19,0.53,19,0.53,122,3.39,36,38,1.06,19,0.53,18.12,0.32,0.22,1.58,0.54,0.0
+8480023,19,Robert Thomas,St. Louis Blues,Center,10,0.26,27,0.71,57,1.5,38,37,0.97,16,0.42,19.21,0.05,0.4,-0.31,0.45,-0.11
+8480157,19,Calle Rosen,St. Louis Blues,Defenseman,5,0.23,4,0.18,26,1.18,22,9,0.41,27,1.23,13.49,0.16,-0.08,-0.23,0.08,-0.23
+8480281,19,Alexey Toropchenko,St. Louis Blues,Right Wing,1,0.04,3,0.12,26,1.0,26,4,0.15,11,0.42,10.16,-0.19,-0.19,-0.94,-0.39,-0.02
+8481543,19,Nikita Alexandrov,St. Louis Blues,Center,0,0.0,1,0.09,10,0.91,11,1,0.09,5,0.45,8.52,-0.21,-0.22,-0.9,-0.43,-0.08
+8482089,19,Jake Neighbours,St. Louis Blues,Left Wing,1,0.07,1,0.07,17,1.13,15,2,0.13,5,0.33,11.53,-0.16,-0.24,-0.81,-0.41,-0.11
+8473453,20,Trevor Lewis,Calgary Flames,Center,7,0.18,5,0.13,81,2.08,39,12,0.31,13,0.33,12.45,-0.03,-0.18,0.27,-0.21,-0.2
+8473473,20,Milan Lucic,Calgary Flames,Left Wing,2,0.06,7,0.19,36,1.0,36,9,0.25,7,0.19,11.14,-0.17,-0.12,-0.94,-0.29,-0.25
+8474150,20,Mikael Backlund,Calgary Flames,Center,8,0.21,12,0.31,119,3.05,39,20,0.51,13,0.33,17.34,-0.0,0.0,1.24,-0.01,-0.2
+8474628,20,Michael Stone,Calgary Flames,Defenseman,4,0.14,4,0.14,52,1.79,29,8,0.28,27,0.93,12.46,0.07,-0.12,0.38,-0.05,-0.53
+8475172,20,Nazem Kadri,Calgary Flames,Center,14,0.36,15,0.38,124,3.18,39,29,0.74,21,0.54,17.39,0.15,0.07,1.37,0.22,0.01
+8475690,20,Chris Tanev,Calgary Flames,Defenseman,0,0.0,6,0.19,30,0.97,31,6,0.19,71,2.29,20.11,-0.07,-0.07,-0.44,-0.14,0.83
+8475726,20,Tyler Toffoli,Calgary Flames,Right Wing,15,0.38,16,0.41,117,3.0,39,31,0.79,6,0.15,16.58,0.15,0.1,1.06,0.25,-0.29
+8476399,20,Blake Coleman,Calgary Flames,Center,6,0.15,8,0.21,77,1.97,39,14,0.36,23,0.59,14.36,-0.06,-0.1,0.16,-0.16,0.06
+8476439,20,Brett Ritchie,Calgary Flames,Right Wing,6,0.2,2,0.07,41,1.37,30,8,0.27,4,0.13,9.12,-0.03,-0.24,-0.57,-0.27,-0.31
+8476456,20,Jonathan Huberdeau,Calgary Flames,Center,7,0.19,18,0.5,60,1.67,36,25,0.69,15,0.42,17.08,-0.02,0.19,-0.14,0.17,-0.11
+8477346,20,MacKenzie Weegar,Calgary Flames,Defenseman,1,0.03,8,0.21,65,1.71,38,9,0.24,56,1.47,20.58,-0.04,-0.05,0.3,-0.09,0.01
+8477496,20,Elias Lindholm,Calgary Flames,Center,12,0.32,23,0.61,89,2.34,38,35,0.92,20,0.53,19.02,0.11,0.3,0.53,0.4,0.0
+8477507,20,Nikita Zadorov,Calgary Flames,Defenseman,5,0.13,3,0.08,68,1.74,39,8,0.21,43,1.1,19.24,0.06,-0.18,0.33,-0.12,-0.36
+8478233,20,Andrew Mangiapane,Calgary Flames,Left Wing,7,0.18,9,0.23,80,2.05,39,16,0.41,16,0.41,16.33,-0.05,-0.08,0.11,-0.13,-0.03
+8478396,20,Noah Hanifin,Calgary Flames,Defenseman,3,0.08,13,0.34,91,2.39,38,16,0.42,70,1.84,22.29,0.01,0.08,0.98,0.09,0.38
+8478397,20,Rasmus Andersson,Calgary Flames,Defenseman,5,0.13,22,0.56,83,2.13,39,27,0.69,69,1.77,24.54,0.06,0.3,0.72,0.36,0.31
+8479346,20,Dillon Dube,Calgary Flames,Center,8,0.21,13,0.33,64,1.64,39,21,0.54,10,0.26,15.3,-0.0,0.02,-0.17,0.02,-0.27
+8480008,20,Adam Ruzicka,Calgary Flames,Center,6,0.21,14,0.48,47,1.62,29,20,0.69,3,0.1,12.31,-0.0,0.17,-0.19,0.17,-0.43
+8476312,21,Josh Manson,Colorado Avalanche,Defenseman,2,0.1,4,0.19,30,1.43,21,6,0.29,23,1.1,16.57,0.03,-0.07,0.02,-0.04,-0.36
+8471699,21,Andrew Cogliano,Colorado Avalanche,Center,5,0.14,3,0.09,47,1.34,35,8,0.23,22,0.63,13.44,-0.07,-0.22,-0.47,-0.29,0.1
+8473446,21,Erik Johnson,Colorado Avalanche,Defenseman,0,0.0,7,0.19,63,1.7,37,7,0.19,64,1.73,17.48,-0.07,-0.07,0.29,-0.14,0.27
+8476779,21,Brad Hunt,Colorado Avalanche,Defenseman,0,0.0,1,0.08,17,1.31,13,1,0.08,5,0.38,10.3,-0.07,-0.18,-0.1,-0.25,-1.08
+8477073,21,Kurtis MacDermid,Colorado Avalanche,Defenseman,0,0.0,1,0.06,5,0.31,16,1,0.06,2,0.12,5.36,-0.07,-0.2,-1.1,-0.27,-1.34
+8477456,21,J.T. Compher,Colorado Avalanche,Left Wing,7,0.19,15,0.41,70,1.89,37,22,0.59,34,0.92,20.12,-0.04,0.1,-0.05,0.05,0.48
+8477476,21,Artturi Lehkonen,Colorado Avalanche,Left Wing,9,0.26,17,0.5,83,2.44,34,26,0.76,27,0.79,21.24,0.03,0.19,0.5,0.22,0.35
+8477492,21,Nathan MacKinnon,Colorado Avalanche,Center,9,0.35,27,1.04,134,5.15,26,36,1.38,14,0.54,22.15,0.14,0.73,3.34,0.86,0.01
+8477501,21,Valeri Nichushkin,Colorado Avalanche,Right Wing,7,0.47,9,0.6,46,3.07,15,16,1.07,10,0.67,20.4,0.24,0.29,1.13,0.53,0.23
+8477971,21,Andreas Englund,Colorado Avalanche,Defenseman,0,0.0,2,0.1,7,0.35,20,2,0.1,11,0.55,11.34,-0.07,-0.16,-1.06,-0.23,-0.91
+8478038,21,Devon Toews,Colorado Avalanche,Defenseman,3,0.09,17,0.49,65,1.86,35,20,0.57,60,1.71,25.22,0.02,0.23,0.45,0.24,0.25
+8478420,21,Mikko Rantanen,Colorado Avalanche,Right Wing,26,0.7,22,0.59,140,3.78,37,48,1.3,18,0.49,23.07,0.47,0.28,1.84,0.76,0.05
+8478542,21,Evan Rodrigues,Colorado Avalanche,Center,9,0.35,7,0.27,78,3.0,26,16,0.62,8,0.31,18.57,0.14,-0.04,1.19,0.1,-0.22
+8478843,21,Denis Malgin,Colorado Avalanche,Center,2,0.07,3,0.1,59,1.97,30,5,0.17,5,0.17,11.59,-0.14,-0.21,0.16,-0.35,-0.36
+8479398,21,Samuel Girard,Colorado Avalanche,Defenseman,3,0.1,5,0.16,51,1.65,31,8,0.26,37,1.19,20.33,0.03,-0.1,0.24,-0.07,-0.27
+8479439,21,Jacob MacDonald,Colorado Avalanche,Defenseman,0,0.0,1,0.04,24,0.92,26,1,0.04,11,0.42,8.54,-0.07,-0.22,-0.49,-0.29,-1.04
+8480069,21,Cale Makar,Colorado Avalanche,Defenseman,9,0.24,26,0.7,119,3.22,37,35,0.95,51,1.38,27.14,0.17,0.44,1.81,0.62,-0.08
+8480822,21,Martin Kaut,Colorado Avalanche,Right Wing,1,0.04,2,0.09,21,0.91,23,3,0.13,4,0.17,9.31,-0.19,-0.22,-1.03,-0.41,-0.27
+8481186,21,Logan O'Connor,Colorado Avalanche,Right Wing,5,0.14,6,0.16,54,1.46,37,11,0.3,29,0.78,15.11,-0.09,-0.15,-0.48,-0.24,0.34
+8481618,21,Alex Newhook,Colorado Avalanche,Center,7,0.19,6,0.16,54,1.46,37,13,0.35,8,0.22,15.04,-0.02,-0.15,-0.35,-0.17,-0.31
+8483570,21,Ben Meyers,Colorado Avalanche,Center,1,0.06,0,0.0,15,0.88,17,1,0.06,4,0.24,12.21,-0.15,-0.31,-0.93,-0.46,-0.29
+8475169,22,Evander Kane,Edmonton Oilers,Left Wing,5,0.36,8,0.57,50,3.57,14,13,0.93,8,0.57,19.29,0.13,0.26,1.63,0.39,0.13
+8476850,22,Ryan Murray,Edmonton Oilers,Defenseman,0,0.0,3,0.23,8,0.62,13,3,0.23,12,0.92,13.07,-0.07,-0.03,-0.79,-0.1,-0.54
+8475197,22,Tyson Barrie,Edmonton Oilers,Defenseman,5,0.12,23,0.57,80,2.0,40,28,0.7,50,1.25,20.09,0.05,0.31,0.59,0.37,-0.21
+8475786,22,Zach Hyman,Edmonton Oilers,Left Wing,18,0.46,24,0.62,148,3.79,39,42,1.08,11,0.28,20.41,0.23,0.31,1.85,0.54,-0.16
+8476454,22,Ryan Nugent-Hopkins,Edmonton Oilers,Center,19,0.47,29,0.72,95,2.38,40,48,1.2,15,0.38,19.44,0.26,0.41,0.57,0.68,-0.15
+8476879,22,Cody Ceci,Edmonton Oilers,Defenseman,1,0.03,6,0.15,41,1.02,40,7,0.17,58,1.45,20.53,-0.04,-0.11,-0.39,-0.16,-0.01
+8476913,22,Devin Shore,Edmonton Oilers,Center,0,0.0,3,0.1,17,0.59,29,3,0.1,16,0.55,8.42,-0.21,-0.21,-1.22,-0.42,0.02
+8476967,22,Brett Kulak,Edmonton Oilers,Defenseman,2,0.05,7,0.17,49,1.23,40,9,0.23,61,1.52,18.13,-0.02,-0.09,-0.18,-0.1,0.06
+8477406,22,Mattias Janmark,Edmonton Oilers,Center,3,0.12,6,0.23,26,1.0,26,9,0.35,9,0.35,15.21,-0.09,-0.08,-0.81,-0.17,-0.18
+8477498,22,Darnell Nurse,Edmonton Oilers,Defenseman,6,0.15,14,0.35,101,2.52,40,20,0.5,75,1.88,23.59,0.08,0.09,1.11,0.17,0.42
+8477934,22,Leon Draisaitl,Edmonton Oilers,Center,22,0.58,38,1.0,127,3.34,38,60,1.58,28,0.74,22.15,0.37,0.69,1.53,1.06,0.21
+8477998,22,Warren Foegele,Edmonton Oilers,Left Wing,4,0.14,3,0.11,42,1.5,28,7,0.25,10,0.36,12.22,-0.09,-0.2,-0.44,-0.29,-0.08
+8478402,22,Connor McDavid,Edmonton Oilers,Center,33,0.82,42,1.05,154,3.85,40,75,1.88,24,0.6,22.46,0.61,0.74,2.04,1.36,0.07
+8478585,22,Derek Ryan,Edmonton Oilers,Center,5,0.13,4,0.1,40,1.03,39,9,0.23,22,0.56,10.35,-0.08,-0.21,-0.78,-0.29,0.03
+8479338,22,Markus Niemelainen,Edmonton Oilers,Defenseman,0,0.0,0,0.0,16,0.73,22,0,0.0,16,0.73,10.2,-0.07,-0.26,-0.68,-0.33,-0.73
+8479344,22,Jesse Puljujarvi,Edmonton Oilers,Right Wing,3,0.07,6,0.15,60,1.5,40,9,0.23,14,0.35,13.04,-0.16,-0.16,-0.44,-0.31,-0.09
+8479977,22,Kailer Yamamoto,Edmonton Oilers,Right Wing,3,0.11,7,0.25,36,1.29,28,10,0.36,10,0.36,16.43,-0.12,-0.06,-0.65,-0.18,-0.08
+8480011,22,Klim Kostin,Edmonton Oilers,Center,5,0.21,4,0.17,30,1.25,24,9,0.38,8,0.33,10.09,-0.0,-0.14,-0.56,-0.14,-0.2
+8480802,22,Ryan McLeod,Edmonton Oilers,Center,3,0.11,6,0.22,32,1.19,27,9,0.33,9,0.33,14.14,-0.1,-0.09,-0.62,-0.19,-0.2
+8480803,22,Evan Bouchard,Edmonton Oilers,Defenseman,3,0.07,11,0.28,82,2.05,40,14,0.35,37,0.93,18.23,-0.0,0.02,0.64,0.02,-0.53
+8481598,22,Philip Broberg,Edmonton Oilers,Defenseman,0,0.0,2,0.14,9,0.64,14,2,0.14,15,1.07,12.26,-0.07,-0.12,-0.77,-0.19,-0.39
+8482077,22,Dylan Holloway,Edmonton Oilers,Left Wing,2,0.06,3,0.08,25,0.69,36,5,0.14,9,0.25,8.53,-0.17,-0.23,-1.25,-0.4,-0.19
+8476871,23,Tanner Pearson,Vancouver Canucks,Left Wing,1,0.07,4,0.29,17,1.21,14,5,0.36,3,0.21,13.29,-0.16,-0.02,-0.73,-0.18,-0.23
+8481617,23,Vasily Podkolzin,Vancouver Canucks,Right Wing,0,0.0,3,0.19,18,1.12,16,3,0.19,7,0.44,12.34,-0.23,-0.12,-0.82,-0.35,-0.0
+8474568,23,Luke Schenn,Vancouver Canucks,Defenseman,2,0.05,8,0.21,49,1.29,38,10,0.26,66,1.74,17.2,-0.02,-0.05,-0.12,-0.07,0.28
+8474574,23,Tyler Myers,Vancouver Canucks,Defenseman,0,0.0,9,0.26,40,1.14,35,9,0.26,58,1.66,20.4,-0.07,0.0,-0.27,-0.07,0.2
+8475171,23,Oliver Ekman-Larsson,Vancouver Canucks,Defenseman,1,0.03,17,0.45,63,1.66,38,18,0.47,27,0.71,20.3,-0.04,0.19,0.25,0.14,-0.75
+8476468,23,J.T. Miller,Vancouver Canucks,Center,14,0.37,18,0.47,95,2.5,38,32,0.84,23,0.61,20.4,0.16,0.16,0.69,0.32,0.08
+8477335,23,Kyle Burroughs,Vancouver Canucks,Defenseman,2,0.12,0,0.0,15,0.88,17,2,0.12,36,2.12,17.31,0.05,-0.26,-0.53,-0.21,0.66
+8477500,23,Bo Horvat,Vancouver Canucks,Center,28,0.74,15,0.39,116,3.05,38,43,1.13,24,0.63,20.48,0.53,0.08,1.24,0.61,0.1
+8477508,23,Curtis Lazar,Vancouver Canucks,Center,1,0.04,1,0.04,33,1.18,28,2,0.07,34,1.21,12.36,-0.17,-0.27,-0.63,-0.45,0.68
+8478057,23,Dakota Joshua,Vancouver Canucks,Center,6,0.17,2,0.06,31,0.89,35,8,0.23,10,0.29,10.15,-0.04,-0.25,-0.92,-0.29,-0.24
+8478444,23,Brock Boeser,Vancouver Canucks,Right Wing,7,0.23,15,0.5,68,2.27,30,22,0.73,12,0.4,16.18,-0.0,0.19,0.33,0.19,-0.04
+8478451,23,Ethan Bear,Vancouver Canucks,Defenseman,2,0.07,6,0.21,31,1.11,28,8,0.29,39,1.39,18.3,-0.0,-0.05,-0.3,-0.04,-0.07
+8478856,23,Conor Garland,Vancouver Canucks,Right Wing,6,0.16,12,0.32,74,2.0,37,18,0.49,10,0.27,15.05,-0.07,0.01,0.06,-0.05,-0.17
+8479388,23,Riley Stillman,Vancouver Canucks,Defenseman,0,0.0,3,0.15,21,1.05,20,3,0.15,20,1.0,15.16,-0.07,-0.11,-0.36,-0.18,-0.46
+8480012,23,Elias Pettersson,Vancouver Canucks,Center,17,0.47,29,0.81,117,3.25,36,46,1.28,37,1.03,19.43,0.26,0.5,1.44,0.76,0.5
+8480021,23,Jack Studnicka,Vancouver Canucks,Center,2,0.1,1,0.05,27,1.35,20,3,0.15,9,0.45,10.1,-0.11,-0.26,-0.46,-0.37,-0.08
+8480326,23,Sheldon Dries,Vancouver Canucks,Center,4,0.18,4,0.18,38,1.73,22,8,0.36,13,0.59,11.19,-0.03,-0.13,-0.08,-0.16,0.06
+8480800,23,Quinn Hughes,Vancouver Canucks,Defenseman,1,0.03,30,0.88,66,1.94,34,31,0.91,33,0.97,24.56,-0.04,0.62,0.53,0.58,-0.49
+8481624,23,Ilya Mikheyev,Vancouver Canucks,Right Wing,12,0.34,12,0.34,71,2.03,35,24,0.69,12,0.34,17.08,0.11,0.03,0.09,0.15,-0.1
+8483808,23,Andrei Kuzmenko,Vancouver Canucks,Left Wing,17,0.46,17,0.46,66,1.78,37,34,0.92,11,0.3,15.56,0.23,0.15,-0.16,0.38,-0.14
+8474683,24,Derek Grant,Anaheim Ducks,Center,2,0.13,1,0.07,22,1.47,15,3,0.2,10,0.67,13.47,-0.08,-0.24,-0.34,-0.32,0.14
+8479368,24,Max Jones,Anaheim Ducks,Left Wing,2,0.07,3,0.11,39,1.39,28,5,0.18,4,0.14,11.47,-0.16,-0.2,-0.55,-0.36,-0.3
+8480806,24,Isac Lundestrom,Anaheim Ducks,Center,1,0.04,5,0.21,28,1.17,24,6,0.25,12,0.5,14.02,-0.17,-0.1,-0.64,-0.27,-0.03
+8474031,24,Kevin Shattenkirk,Anaheim Ducks,Defenseman,0,0.0,9,0.26,72,2.06,35,9,0.26,49,1.4,18.05,-0.07,0.0,0.65,-0.07,-0.06
+8474641,24,Adam Henrique,Anaheim Ducks,Center,12,0.32,8,0.21,77,2.03,38,20,0.53,33,0.87,18.26,0.11,-0.1,0.22,0.01,0.34
+8475164,24,Jakob Silfverberg,Anaheim Ducks,Right Wing,5,0.13,4,0.11,69,1.82,38,9,0.24,33,0.87,15.22,-0.1,-0.2,-0.12,-0.3,0.43
+8475179,24,Dmitry Kulikov,Anaheim Ducks,Defenseman,2,0.05,7,0.18,52,1.33,39,9,0.23,71,1.82,20.18,-0.02,-0.08,-0.08,-0.1,0.36
+8475764,24,Cam Fowler,Anaheim Ducks,Defenseman,4,0.1,14,0.36,60,1.54,39,18,0.46,41,1.05,24.12,0.03,0.1,0.13,0.13,-0.41
+8475842,24,Sam Carrick,Anaheim Ducks,Center,2,0.08,2,0.08,24,1.0,24,4,0.17,12,0.5,10.17,-0.13,-0.23,-0.81,-0.35,-0.03
+8475906,24,John Klingberg,Anaheim Ducks,Defenseman,4,0.12,7,0.22,46,1.44,32,11,0.34,39,1.22,21.15,0.05,-0.04,0.03,0.01,-0.24
+8476458,24,Ryan Strome,Anaheim Ducks,Center,9,0.23,10,0.26,63,1.62,39,19,0.49,14,0.36,17.02,0.02,-0.05,-0.19,-0.03,-0.17
+8476470,24,Nathan Beaulieu,Anaheim Ducks,Defenseman,0,0.0,3,0.14,10,0.45,22,3,0.14,36,1.64,13.14,-0.07,-0.12,-0.96,-0.19,0.18
+8477126,24,Jayson Megna,Anaheim Ducks,Center,0,0.0,2,0.08,10,0.38,26,2,0.08,10,0.38,8.2,-0.21,-0.23,-1.43,-0.44,-0.15
+8478366,24,Frank Vatrano,Anaheim Ducks,Right Wing,6,0.15,9,0.23,114,2.92,39,15,0.38,38,0.97,17.44,-0.08,-0.08,0.98,-0.16,0.53
+8478841,24,Colton White,Anaheim Ducks,Defenseman,0,0.0,1,0.06,10,0.62,16,1,0.06,13,0.81,12.35,-0.07,-0.2,-0.79,-0.27,-0.65
+8478873,24,Troy Terry,Anaheim Ducks,Right Wing,12,0.31,20,0.51,113,2.9,39,32,0.82,14,0.36,20.01,0.08,0.2,0.96,0.28,-0.08
+8480001,24,Urho Vaakanainen,Anaheim Ducks,Defenseman,0,0.0,1,0.08,12,0.92,13,1,0.08,15,1.15,16.54,-0.07,-0.18,-0.49,-0.25,-0.31
+8480031,24,Max Comtois,Anaheim Ducks,Left Wing,5,0.18,0,0.0,37,1.32,28,5,0.18,13,0.46,13.21,-0.05,-0.31,-0.62,-0.36,0.02
+8481122,24,Simon Benoit,Anaheim Ducks,Defenseman,0,0.0,1,0.03,34,0.97,35,1,0.03,60,1.71,18.33,-0.07,-0.23,-0.44,-0.3,0.25
+8481517,24,Brett Leason,Anaheim Ducks,Right Wing,3,0.09,1,0.03,26,0.79,33,4,0.12,12,0.36,11.17,-0.14,-0.28,-1.15,-0.42,-0.08
+8481533,24,Trevor Zegras,Anaheim Ducks,Center,10,0.26,19,0.49,95,2.44,39,29,0.74,13,0.33,19.49,0.05,0.18,0.63,0.22,-0.2
+8482745,24,Mason McTavish,Anaheim Ducks,Center,7,0.18,15,0.38,82,2.1,39,22,0.56,19,0.49,14.41,-0.03,0.07,0.29,0.04,-0.04
+8470600,25,Ryan Suter,Dallas Stars,Defenseman,0,0.0,9,0.23,49,1.23,40,9,0.23,58,1.45,21.07,-0.07,-0.03,-0.18,-0.1,-0.01
+8470794,25,Joe Pavelski,Dallas Stars,Center,12,0.3,26,0.65,98,2.45,40,38,0.95,31,0.78,17.25,0.09,0.34,0.64,0.43,0.25
+8473994,25,Jamie Benn,Dallas Stars,Left Wing,15,0.38,21,0.53,91,2.27,40,36,0.9,19,0.47,15.21,0.15,0.22,0.33,0.36,0.03
+8475794,25,Tyler Seguin,Dallas Stars,Center,9,0.23,17,0.42,93,2.33,40,26,0.65,14,0.35,16.34,0.02,0.11,0.52,0.13,-0.18
+8475825,25,Jani Hakanpää,Dallas Stars,Defenseman,4,0.1,4,0.1,39,0.97,40,8,0.2,65,1.62,18.56,0.03,-0.16,-0.44,-0.13,0.16
+8476525,25,Colin Miller,Dallas Stars,Defenseman,2,0.05,7,0.18,40,1.05,38,9,0.24,29,0.76,16.12,-0.02,-0.08,-0.36,-0.09,-0.7
+8476822,25,Luke Glendening,Dallas Stars,Center,2,0.05,2,0.05,34,0.85,40,4,0.1,32,0.8,12.13,-0.16,-0.26,-0.96,-0.42,0.27
+8476889,25,Radek Faksa,Dallas Stars,Center,3,0.07,4,0.1,31,0.78,40,7,0.17,35,0.88,13.1,-0.14,-0.21,-1.03,-0.35,0.35
+8476902,25,Esa Lindell,Dallas Stars,Defenseman,4,0.1,7,0.17,57,1.43,40,11,0.28,71,1.77,19.47,0.03,-0.09,0.02,-0.05,0.31
+8478449,25,Roope Hintz,Dallas Stars,Center,19,0.49,25,0.64,96,2.46,39,44,1.13,31,0.79,17.24,0.28,0.33,0.65,0.61,0.26
+8478495,25,Denis Gurianov,Dallas Stars,Right Wing,2,0.08,3,0.12,41,1.64,25,5,0.2,12,0.48,12.54,-0.15,-0.19,-0.3,-0.34,0.04
+8478975,25,Mason Marchment,Dallas Stars,Left Wing,9,0.23,12,0.3,99,2.48,40,21,0.53,19,0.47,15.49,-0.0,-0.01,0.54,-0.01,0.03
+8480027,25,Jason Robertson,Dallas Stars,Left Wing,26,0.65,29,0.72,162,4.05,40,55,1.38,7,0.17,18.35,0.42,0.41,2.11,0.84,-0.27
+8480036,25,Miro Heiskanen,Dallas Stars,Defenseman,6,0.16,24,0.65,101,2.73,37,30,0.81,46,1.24,25.24,0.09,0.39,1.32,0.48,-0.22
+8480848,25,Ty Dellandrea,Dallas Stars,Center,5,0.12,9,0.23,47,1.18,40,14,0.35,24,0.6,14.05,-0.09,-0.08,-0.63,-0.17,0.07
+8480878,25,Nils Lundkvist,Dallas Stars,Defenseman,3,0.08,8,0.22,59,1.59,37,11,0.3,43,1.16,17.31,0.01,-0.04,0.18,-0.03,-0.3
+8481641,25,Joel Kiviranta,Dallas Stars,Left Wing,5,0.12,0,0.0,53,1.32,40,5,0.12,14,0.35,12.19,-0.11,-0.31,-0.62,-0.42,-0.09
+8482740,25,Wyatt Johnston,Dallas Stars,Center,11,0.28,6,0.15,74,1.85,40,17,0.42,17,0.42,14.35,0.07,-0.16,0.04,-0.1,-0.11
+8481560,26,Arthur Kaliyev,Los Angeles Kings,Right Wing,9,0.26,10,0.29,79,2.32,34,19,0.56,8,0.24,12.18,0.03,-0.02,0.38,0.02,-0.2
+8471303,26,Alexander Edler,Los Angeles Kings,Defenseman,1,0.03,5,0.14,35,0.97,36,6,0.17,66,1.83,15.12,-0.04,-0.12,-0.44,-0.16,0.37
+8471685,26,Anze Kopitar,Los Angeles Kings,Center,11,0.26,20,0.48,84,2.0,42,31,0.74,50,1.19,20.21,0.05,0.17,0.19,0.22,0.66
+8474563,26,Drew Doughty,Los Angeles Kings,Defenseman,2,0.05,20,0.49,75,1.83,41,22,0.54,62,1.51,26.21,-0.02,0.23,0.42,0.21,0.05
+8476479,26,Phillip Danault,Los Angeles Kings,Center,13,0.31,17,0.4,82,1.95,42,30,0.71,43,1.02,18.15,0.1,0.09,0.14,0.19,0.49
+8477942,26,Kevin Fiala,Los Angeles Kings,Left Wing,10,0.24,29,0.69,125,2.98,42,39,0.93,14,0.33,17.4,0.01,0.38,1.04,0.39,-0.11
+8477960,26,Adrian Kempe,Los Angeles Kings,Right Wing,15,0.36,10,0.24,114,2.71,42,25,0.6,18,0.43,18.54,0.13,-0.07,0.77,0.06,-0.01
+8477962,26,Brendan Lemieux,Los Angeles Kings,Left Wing,0,0.0,3,0.17,16,0.89,18,3,0.17,7,0.39,9.04,-0.23,-0.14,-1.05,-0.37,-0.05
+8478042,26,Viktor Arvidsson,Los Angeles Kings,Right Wing,10,0.26,20,0.53,94,2.47,38,30,0.79,20,0.53,16.35,0.03,0.22,0.53,0.25,0.09
+8478911,26,Matt Roy,Los Angeles Kings,Defenseman,4,0.1,9,0.21,75,1.79,42,13,0.31,79,1.88,18.24,0.03,-0.05,0.38,-0.02,0.42
+8479336,26,Carl Grundstrom,Los Angeles Kings,Right Wing,6,0.17,4,0.11,53,1.47,36,10,0.28,9,0.25,11.08,-0.06,-0.2,-0.47,-0.26,-0.19
+8479675,26,Trevor Moore,Los Angeles Kings,Left Wing,7,0.19,12,0.32,115,3.11,37,19,0.51,12,0.32,17.39,-0.04,0.01,1.17,-0.03,-0.12
+8479994,26,Jaret Anderson-Dolan,Los Angeles Kings,Center,3,0.11,3,0.11,30,1.11,27,6,0.22,17,0.63,9.53,-0.1,-0.2,-0.7,-0.3,0.1
+8479998,26,Mikey Anderson,Los Angeles Kings,Defenseman,2,0.05,8,0.19,49,1.17,42,10,0.24,68,1.62,21.46,-0.02,-0.07,-0.24,-0.09,0.16
+8480014,26,Gabriel Vilardi,Los Angeles Kings,Right Wing,16,0.39,9,0.22,82,2.0,41,25,0.61,20,0.49,15.49,0.16,-0.09,0.06,0.07,0.05
+8480113,26,Alex Iafallo,Los Angeles Kings,Left Wing,6,0.32,9,0.47,38,2.0,19,15,0.79,9,0.47,16.17,0.09,0.16,0.06,0.25,0.03
+8480336,26,Sean Walker,Los Angeles Kings,Defenseman,2,0.06,6,0.17,45,1.29,35,8,0.23,45,1.29,14.52,-0.01,-0.09,-0.12,-0.1,-0.17
+8480434,26,Sean Durzi,Los Angeles Kings,Defenseman,5,0.13,17,0.44,56,1.44,39,22,0.56,75,1.92,20.09,0.06,0.18,0.03,0.23,0.46
+8480845,26,Rasmus Kupari,Los Angeles Kings,Center,3,0.12,3,0.12,20,0.77,26,6,0.23,15,0.58,10.04,-0.09,-0.19,-1.04,-0.29,0.05
+8481481,26,Blake Lizotte,Los Angeles Kings,Center,7,0.17,10,0.24,55,1.31,42,17,0.4,21,0.5,12.01,-0.04,-0.07,-0.5,-0.12,-0.03
+8482124,26,Quinton Byfield,Los Angeles Kings,Center,0,0.0,4,0.31,9,0.69,13,4,0.31,5,0.38,12.15,-0.21,0.0,-1.12,-0.21,-0.15
+8479316,28,Luke Kunin,San Jose Sharks,Center,5,0.16,8,0.26,58,1.87,31,13,0.42,27,0.87,15.25,-0.05,-0.05,0.06,-0.1,0.34
+8480160,28,Radim Simek,San Jose Sharks,Defenseman,1,0.03,1,0.03,31,1.0,31,2,0.06,52,1.68,14.43,-0.04,-0.23,-0.41,-0.27,0.22
+8471709,28,Marc-Edouard Vlasic,San Jose Sharks,Defenseman,1,0.03,9,0.23,31,0.79,39,10,0.26,60,1.54,18.21,-0.04,-0.03,-0.62,-0.07,0.08
+8474009,28,Nick Bonino,San Jose Sharks,Center,4,0.11,6,0.17,45,1.25,36,10,0.28,53,1.47,15.59,-0.1,-0.14,-0.56,-0.24,0.94
+8474053,28,Logan Couture,San Jose Sharks,Center,14,0.36,18,0.46,89,2.28,39,32,0.82,37,0.95,18.55,0.15,0.15,0.47,0.3,0.42
+8474578,28,Erik Karlsson,San Jose Sharks,Defenseman,13,0.33,40,1.03,108,2.77,39,53,1.36,38,0.97,25.12,0.26,0.77,1.36,1.03,-0.49
+8476442,28,Matt Nieto,San Jose Sharks,Left Wing,6,0.17,6,0.17,55,1.57,35,12,0.34,16,0.46,15.34,-0.06,-0.14,-0.37,-0.2,0.02
+8476449,28,Scott Harrington,San Jose Sharks,Defenseman,1,0.08,5,0.42,11,0.92,12,6,0.5,20,1.67,15.24,0.01,0.16,-0.49,0.17,0.21
+8476881,28,Tomas Hertl,San Jose Sharks,Center,13,0.35,23,0.62,91,2.46,37,36,0.97,26,0.7,19.31,0.14,0.31,0.65,0.45,0.17
+8476988,28,Matt Benning,San Jose Sharks,Defenseman,1,0.03,15,0.39,27,0.71,38,16,0.42,62,1.63,19.23,-0.04,0.13,-0.7,0.09,0.17
+8477034,28,Jaycob Megna,San Jose Sharks,Defenseman,0,0.0,9,0.25,35,0.97,36,9,0.25,48,1.33,18.33,-0.07,-0.01,-0.44,-0.08,-0.13
+8478067,28,Oskar Lindblom,San Jose Sharks,Left Wing,3,0.08,6,0.16,33,0.89,37,9,0.24,10,0.27,10.01,-0.15,-0.15,-1.05,-0.3,-0.17
+8478099,28,Kevin Labanc,San Jose Sharks,Right Wing,9,0.24,12,0.32,67,1.76,38,21,0.55,15,0.39,15.29,0.01,0.01,-0.18,0.01,-0.05
+8478414,28,Timo Meier,San Jose Sharks,Right Wing,21,0.54,17,0.44,178,4.56,39,38,0.97,14,0.36,20.1,0.31,0.13,2.62,0.43,-0.08
+8478431,28,Evgeny Svechnikov,San Jose Sharks,Left Wing,4,0.13,4,0.13,33,1.06,31,8,0.26,11,0.35,11.0,-0.1,-0.18,-0.88,-0.28,-0.09
+8478904,28,Steven Lorentz,San Jose Sharks,Center,3,0.08,3,0.08,49,1.32,37,6,0.16,16,0.43,11.09,-0.13,-0.23,-0.49,-0.36,-0.1
+8479393,28,Noah Gregor,San Jose Sharks,Center,2,0.11,0,0.0,36,1.89,19,2,0.11,11,0.58,11.58,-0.1,-0.31,0.08,-0.41,0.05
+8479591,28,Michael Eyssimont,San Jose Sharks,Center,1,0.05,4,0.21,26,1.37,19,5,0.26,7,0.37,10.11,-0.16,-0.1,-0.44,-0.26,-0.16
+8479981,28,Jonah Gadjovich,San Jose Sharks,Left Wing,2,0.09,1,0.05,22,1.0,22,3,0.14,3,0.14,8.52,-0.14,-0.26,-0.94,-0.4,-0.3
+8479983,28,Mario Ferraro,San Jose Sharks,Defenseman,1,0.03,4,0.14,30,1.03,29,5,0.17,57,1.97,22.27,-0.04,-0.12,-0.38,-0.16,0.51
+8481477,28,Nico Sturm,San Jose Sharks,Center,9,0.29,3,0.1,51,1.65,31,12,0.39,23,0.74,14.48,0.08,-0.21,-0.16,-0.13,0.21
+8482222,28,Alexander Barabanov,San Jose Sharks,Left Wing,6,0.18,17,0.5,68,2.0,34,23,0.68,23,0.68,18.06,-0.05,0.19,0.06,0.14,0.24
+8474161,29,Jakub Voracek,Columbus Blue Jackets,Right Wing,1,0.09,5,0.45,17,1.55,11,6,0.55,7,0.64,15.57,-0.14,0.14,-0.39,0.01,0.2
+8476432,29,Boone Jenner,Columbus Blue Jackets,Center,11,0.37,11,0.37,93,3.1,30,22,0.73,34,1.13,20.11,0.16,0.06,1.29,0.21,0.6
+8478460,29,Zach Werenski,Columbus Blue Jackets,Defenseman,3,0.23,5,0.38,41,3.15,13,8,0.62,24,1.85,23.35,0.16,0.12,1.74,0.29,0.39
+8479402,29,Jake Bean,Columbus Blue Jackets,Defenseman,1,0.07,5,0.36,16,1.14,14,6,0.43,21,1.5,15.42,-0.0,0.1,-0.27,0.1,0.04
+8482475,29,Yegor Chinakhov,Columbus Blue Jackets,Right Wing,4,0.13,9,0.3,44,1.47,30,13,0.43,17,0.57,13.15,-0.1,-0.01,-0.47,-0.11,0.13
+8474679,29,Gustav Nyquist,Columbus Blue Jackets,Left Wing,8,0.22,10,0.27,76,2.05,37,18,0.49,23,0.62,17.44,-0.01,-0.04,0.11,-0.05,0.18
+8475790,29,Erik Gudbranson,Columbus Blue Jackets,Defenseman,1,0.03,7,0.19,52,1.44,36,8,0.22,68,1.89,20.3,-0.04,-0.07,0.03,-0.11,0.43
+8476346,29,Johnny Gaudreau,Columbus Blue Jackets,Left Wing,11,0.3,27,0.73,100,2.7,37,38,1.03,8,0.22,19.33,0.07,0.42,0.76,0.49,-0.22
+8476374,29,Sean Kuraly,Columbus Blue Jackets,Center,7,0.2,4,0.11,57,1.63,35,11,0.31,26,0.74,14.1,-0.01,-0.2,-0.18,-0.21,0.21
+8478458,29,Jack Roslovic,Columbus Blue Jackets,Center,3,0.09,16,0.47,54,1.59,34,19,0.56,24,0.71,16.48,-0.12,0.16,-0.22,0.04,0.18
+8478882,29,Vladislav Gavrikov,Columbus Blue Jackets,Defenseman,2,0.05,7,0.19,42,1.14,37,9,0.24,69,1.86,22.31,-0.02,-0.07,-0.27,-0.09,0.4
+8479339,29,Patrik Laine,Columbus Blue Jackets,Left Wing,9,0.41,7,0.32,74,3.36,22,16,0.73,10,0.45,19.38,0.18,0.01,1.42,0.19,0.01
+8479369,29,Andrew Peeke,Columbus Blue Jackets,Defenseman,3,0.09,2,0.06,35,1.0,35,5,0.14,69,1.97,20.16,0.02,-0.2,-0.41,-0.19,0.51
+8479671,29,Mathieu Olivier,Columbus Blue Jackets,Right Wing,2,0.06,3,0.09,35,1.09,32,5,0.16,28,0.88,11.28,-0.17,-0.22,-0.85,-0.38,0.44
+8479945,29,Gavin Bayreuther,Columbus Blue Jackets,Defenseman,1,0.07,2,0.13,17,1.13,15,3,0.2,23,1.53,15.37,-0.0,-0.13,-0.28,-0.13,0.07
+8480205,29,Emil Bemstrom,Columbus Blue Jackets,Right Wing,4,0.36,4,0.36,27,2.45,11,8,0.73,2,0.18,13.49,0.13,0.05,0.51,0.19,-0.26
+8480762,29,Eric Robinson,Columbus Blue Jackets,Left Wing,3,0.09,7,0.21,47,1.38,34,10,0.29,15,0.44,13.45,-0.14,-0.1,-0.56,-0.25,-0.0
+8480853,29,Liam Foudy,Columbus Blue Jackets,Center,0,0.0,3,0.14,13,0.62,21,3,0.14,7,0.33,10.42,-0.21,-0.17,-1.19,-0.38,-0.2
+8480893,29,Kirill Marchenko,Columbus Blue Jackets,Right Wing,5,0.36,0,0.0,19,1.36,14,5,0.36,9,0.64,12.33,0.13,-0.31,-0.58,-0.18,0.2
+8481072,29,Tim Berni,Columbus Blue Jackets,Defenseman,0,0.0,0,0.0,21,1.5,14,0,0.0,18,1.29,18.36,-0.07,-0.26,0.09,-0.33,-0.17
+8482660,29,Kent Johnson,Columbus Blue Jackets,Center,8,0.24,8,0.24,45,1.32,34,16,0.47,14,0.41,13.45,0.03,-0.07,-0.49,-0.05,-0.12
+8482705,29,Cole Sillinger,Columbus Blue Jackets,Center,2,0.06,4,0.12,45,1.32,34,6,0.18,17,0.5,12.5,-0.15,-0.19,-0.49,-0.34,-0.03
+8483620,29,Marcus Bjork,Columbus Blue Jackets,Defenseman,3,0.13,7,0.3,25,1.09,23,10,0.43,40,1.74,19.19,0.06,0.04,-0.32,0.1,0.28
+8479520,30,Brandon Duhaime,Minnesota Wild,Right Wing,3,0.21,1,0.07,21,1.5,14,4,0.29,5,0.36,9.28,-0.02,-0.24,-0.44,-0.25,-0.08
+8471274,30,Alex Goligoski,Minnesota Wild,Defenseman,1,0.06,2,0.12,28,1.75,16,3,0.19,23,1.44,17.16,-0.01,-0.14,0.34,-0.14,-0.02
+8471817,30,Ryan Reaves,Minnesota Wild,Right Wing,0,0.0,4,0.13,13,0.43,30,4,0.13,9,0.3,9.31,-0.23,-0.18,-1.51,-0.41,-0.14
+8474716,30,Jared Spurgeon,Minnesota Wild,Defenseman,5,0.14,14,0.38,65,1.76,37,19,0.51,82,2.22,21.02,0.07,0.12,0.35,0.18,0.76
+8475220,30,Marcus Foligno,Minnesota Wild,Left Wing,3,0.1,9,0.31,38,1.31,29,12,0.41,13,0.45,15.05,-0.13,0.0,-0.63,-0.13,0.01
+8475692,30,Mats Zuccarello,Minnesota Wild,Right Wing,16,0.43,24,0.65,105,2.84,37,40,1.08,24,0.65,20.18,0.2,0.34,0.9,0.54,0.21
+8475750,30,Jon Merrill,Minnesota Wild,Defenseman,1,0.03,7,0.21,26,0.79,33,8,0.24,38,1.15,15.59,-0.04,-0.05,-0.62,-0.09,-0.31
+8476463,30,Jonas Brodin,Minnesota Wild,Defenseman,0,0.0,4,0.13,43,1.39,31,4,0.13,62,2.0,22.05,-0.07,-0.13,-0.02,-0.2,0.54
+8476856,30,Matt Dumba,Minnesota Wild,Defenseman,4,0.11,6,0.16,52,1.41,37,10,0.27,51,1.38,21.06,0.04,-0.1,0.0,-0.06,-0.08
+8477451,30,Ryan Hartman,Minnesota Wild,Right Wing,4,0.25,6,0.38,37,2.31,16,10,0.62,7,0.44,14.48,0.02,0.07,0.37,0.08,-0.0
+8477919,30,Frederick Gaudreau,Minnesota Wild,Center,9,0.24,8,0.22,72,1.95,37,17,0.46,25,0.68,15.54,0.03,-0.09,0.14,-0.06,0.15
+8478136,30,Jake Middleton,Minnesota Wild,Defenseman,2,0.06,4,0.11,31,0.86,36,6,0.17,69,1.92,18.13,-0.01,-0.15,-0.55,-0.16,0.46
+8478413,30,Jordan Greenway,Minnesota Wild,Left Wing,2,0.1,3,0.14,28,1.33,21,5,0.24,12,0.57,13.52,-0.13,-0.17,-0.61,-0.3,0.13
+8478493,30,Joel Eriksson Ek,Minnesota Wild,Center,13,0.35,16,0.43,112,3.03,37,29,0.78,25,0.68,19.23,0.14,0.12,1.22,0.26,0.15
+8478864,30,Kirill Kaprizov,Minnesota Wild,Left Wing,22,0.59,25,0.68,146,3.95,37,47,1.27,14,0.38,20.39,0.36,0.37,2.01,0.73,-0.06
+8479351,30,Sam Steel,Minnesota Wild,Center,7,0.19,10,0.27,52,1.41,37,17,0.46,6,0.16,14.13,-0.02,-0.04,-0.4,-0.06,-0.37
+8479972,30,Mason Shaw,Minnesota Wild,Center,4,0.13,7,0.23,50,1.67,30,11,0.37,11,0.37,11.42,-0.08,-0.08,-0.14,-0.15,-0.16
+8480884,30,Calen Addison,Minnesota Wild,Defenseman,3,0.08,16,0.44,41,1.14,36,19,0.53,22,0.61,16.35,0.01,0.18,-0.27,0.2,-0.85
+8480980,30,Connor Dewar,Minnesota Wild,Center,5,0.14,6,0.17,42,1.17,36,11,0.31,20,0.56,11.26,-0.07,-0.14,-0.64,-0.21,0.03
+8481557,30,Matt Boldy,Minnesota Wild,Left Wing,12,0.32,17,0.46,104,2.81,37,29,0.78,11,0.3,17.36,0.09,0.15,0.87,0.24,-0.14
+8477357,52,Saku Maenalanen,Winnipeg Jets,Right Wing,4,0.16,2,0.08,30,1.2,25,6,0.24,11,0.44,11.3,-0.07,-0.23,-0.74,-0.3,-0.0
+8478891,52,Mason Appleton,Winnipeg Jets,Center,1,0.07,5,0.36,23,1.64,14,6,0.43,3,0.21,16.34,-0.14,0.05,-0.17,-0.09,-0.32
+8471218,52,Blake Wheeler,Winnipeg Jets,Right Wing,9,0.31,17,0.59,66,2.28,29,26,0.9,14,0.48,17.49,0.08,0.28,0.34,0.36,0.04
+8474040,52,Sam Gagner,Winnipeg Jets,Center,7,0.2,5,0.14,63,1.8,35,12,0.34,12,0.34,13.02,-0.01,-0.17,-0.01,-0.18,-0.19
+8475455,52,Brenden Dillon,Winnipeg Jets,Defenseman,1,0.03,9,0.24,50,1.32,38,10,0.26,51,1.34,20.05,-0.04,-0.02,-0.09,-0.07,-0.12
+8476331,52,Dylan DeMelo,Winnipeg Jets,Defenseman,1,0.03,9,0.26,43,1.26,34,10,0.29,42,1.24,19.2,-0.04,0.0,-0.15,-0.04,-0.22
+8476392,52,Adam Lowry,Winnipeg Jets,Center,7,0.18,14,0.37,64,1.68,38,21,0.55,19,0.5,15.23,-0.03,0.06,-0.13,0.03,-0.03
+8476460,52,Mark Scheifele,Winnipeg Jets,Center,23,0.61,9,0.24,104,2.74,38,32,0.84,17,0.45,20.5,0.4,-0.07,0.93,0.32,-0.08
+8477220,52,Nate Schmidt,Winnipeg Jets,Defenseman,3,0.1,3,0.1,37,1.28,29,6,0.21,40,1.38,19.54,0.03,-0.16,-0.13,-0.12,-0.08
+8477504,52,Josh Morrissey,Winnipeg Jets,Defenseman,7,0.18,36,0.95,61,1.61,38,43,1.13,51,1.34,23.19,0.11,0.69,0.2,0.8,-0.12
+8478398,52,Kyle Connor,Winnipeg Jets,Left Wing,16,0.42,28,0.74,130,3.42,38,44,1.16,15,0.39,20.27,0.19,0.43,1.48,0.62,-0.05
+8478831,52,Kevin Stenlund,Winnipeg Jets,Center,2,0.18,1,0.09,19,1.73,11,3,0.27,6,0.55,13.48,-0.03,-0.22,-0.08,-0.25,0.02
+8479400,52,Pierre-Luc Dubois,Winnipeg Jets,Left Wing,17,0.45,24,0.63,96,2.53,38,41,1.08,27,0.71,18.19,0.22,0.32,0.59,0.54,0.27
+8479536,52,Axel Jonsson-Fjallby,Winnipeg Jets,Left Wing,2,0.06,4,0.12,41,1.24,33,6,0.18,13,0.39,11.02,-0.17,-0.19,-0.7,-0.36,-0.05
+8480049,52,Dylan Samberg,Winnipeg Jets,Defenseman,1,0.03,5,0.17,28,0.97,29,6,0.21,54,1.86,15.24,-0.04,-0.09,-0.44,-0.12,0.4
+8480145,52,Neal Pionk,Winnipeg Jets,Defenseman,6,0.16,10,0.26,63,1.66,38,16,0.42,65,1.71,21.54,0.09,0.0,0.25,0.09,0.25
+8480289,52,Morgan Barron,Winnipeg Jets,Center,3,0.11,6,0.21,44,1.57,28,9,0.32,22,0.79,14.12,-0.1,-0.1,-0.24,-0.2,0.26
+8480901,52,Karson Kuhlman,Winnipeg Jets,Center,1,0.04,4,0.17,23,1.0,23,5,0.22,11,0.48,11.38,-0.17,-0.14,-0.81,-0.3,-0.05
+8481019,52,David Gustafsson,Winnipeg Jets,Center,0,0.0,4,0.11,34,0.92,37,4,0.11,17,0.46,10.13,-0.21,-0.2,-0.89,-0.41,-0.07
+8482149,52,Cole Perfetti,Winnipeg Jets,Center,6,0.18,14,0.42,62,1.88,33,20,0.61,15,0.45,15.06,-0.03,0.11,0.07,0.09,-0.08
+8475178,53,Zack Kassian,Arizona Coyotes,Right Wing,1,0.05,0,0.0,11,0.55,20,1,0.05,4,0.2,9.46,-0.18,-0.31,-1.39,-0.49,-0.24
+8475747,53,Patrik Nemeth,Arizona Coyotes,Defenseman,0,0.0,3,0.09,22,0.69,32,3,0.09,43,1.34,15.42,-0.07,-0.17,-0.72,-0.24,-0.12
+8475760,53,Nick Bjugstad,Arizona Coyotes,Center,10,0.27,7,0.19,66,1.78,37,17,0.46,19,0.51,16.37,0.06,-0.12,-0.03,-0.06,-0.02
+8476329,53,Travis Boyd,Arizona Coyotes,Center,4,0.11,10,0.27,44,1.19,37,14,0.38,22,0.59,17.36,-0.1,-0.04,-0.62,-0.14,0.06
+8476906,53,Shayne Gostisbehere,Arizona Coyotes,Defenseman,9,0.24,17,0.46,80,2.16,37,26,0.7,49,1.32,22.17,0.17,0.2,0.75,0.37,-0.14
+8477070,53,Liam O'Brien,Arizona Coyotes,Center,1,0.04,4,0.14,16,0.57,28,5,0.18,15,0.54,12.01,-0.17,-0.17,-1.24,-0.34,0.01
+8477384,53,Josh Brown,Arizona Coyotes,Defenseman,3,0.09,2,0.06,29,0.88,33,5,0.15,62,1.88,16.39,0.02,-0.2,-0.53,-0.18,0.42
+8477941,53,Nick Ritchie,Arizona Coyotes,Left Wing,8,0.24,9,0.26,50,1.47,34,17,0.5,16,0.47,13.52,0.01,-0.05,-0.47,-0.04,0.03
+8477951,53,Nick Schmaltz,Arizona Coyotes,Center,7,0.33,11,0.52,41,1.95,21,18,0.86,10,0.48,18.34,0.12,0.21,0.14,0.34,-0.05
+8478432,53,Christian Fischer,Arizona Coyotes,Right Wing,7,0.19,6,0.16,61,1.65,37,13,0.35,22,0.59,15.29,-0.04,-0.15,-0.29,-0.19,0.15
+8478474,53,Lawson Crouse,Arizona Coyotes,Left Wing,14,0.39,8,0.22,68,1.89,36,22,0.61,29,0.81,17.42,0.16,-0.09,-0.05,0.07,0.37
+8479343,53,Clayton Keller,Arizona Coyotes,Right Wing,14,0.38,22,0.59,81,2.19,37,36,0.97,15,0.41,20.39,0.15,0.28,0.25,0.43,-0.03
+8479345,53,Jakob Chychrun,Arizona Coyotes,Defenseman,5,0.24,13,0.62,71,3.38,21,18,0.86,30,1.43,22.52,0.17,0.36,1.97,0.53,-0.03
+8479442,53,Troy Stecher,Arizona Coyotes,Defenseman,0,0.0,2,0.05,40,1.08,37,2,0.05,53,1.43,16.14,-0.07,-0.21,-0.33,-0.28,-0.03
+8479976,53,Juuso Valimaki,Arizona Coyotes,Defenseman,2,0.06,8,0.24,28,0.85,33,10,0.3,27,0.82,15.06,-0.01,-0.02,-0.56,-0.03,-0.64
+8480849,53,Barrett Hayton,Arizona Coyotes,Center,2,0.05,9,0.24,64,1.73,37,11,0.3,13,0.35,15.18,-0.16,-0.07,-0.08,-0.22,-0.18
+8480855,53,Jack McBain,Arizona Coyotes,Center,6,0.16,3,0.08,42,1.14,37,9,0.24,21,0.57,13.31,-0.05,-0.23,-0.67,-0.28,0.04
+8481711,53,Matias Maccelli,Arizona Coyotes,Left Wing,3,0.1,19,0.63,23,0.77,30,22,0.73,7,0.23,15.05,-0.13,0.32,-1.17,0.19,-0.21
+8482655,53,J.J. Moser,Arizona Coyotes,Defenseman,5,0.14,13,0.35,41,1.11,37,18,0.49,67,1.81,21.26,0.07,0.09,-0.3,0.16,0.35
+8474166,54,Alec Martinez,Vegas Golden Knights,Defenseman,0,0.0,5,0.14,33,0.89,37,5,0.14,132,3.57,19.38,-0.07,-0.12,-0.52,-0.19,2.11
+8476539,54,Jonathan Marchessault,Vegas Golden Knights,Center,14,0.4,13,0.37,121,3.46,35,27,0.77,6,0.17,16.42,0.19,0.06,1.65,0.25,-0.36
+8479353,54,Brett Howden,Vegas Golden Knights,Center,1,0.05,2,0.1,21,1.0,21,3,0.14,16,0.76,13.05,-0.16,-0.21,-0.81,-0.38,0.23
+8480727,54,Zach Whitecloud,Vegas Golden Knights,Defenseman,1,0.03,5,0.17,26,0.87,30,6,0.2,56,1.87,16.39,-0.04,-0.09,-0.54,-0.13,0.41
+8473548,54,Phil Kessel,Vegas Golden Knights,Center,7,0.17,9,0.22,76,1.85,41,16,0.39,10,0.24,12.2,-0.04,-0.09,0.04,-0.13,-0.29
+8474565,54,Alex Pietrangelo,Vegas Golden Knights,Defenseman,4,0.12,24,0.75,75,2.34,32,28,0.88,84,2.62,24.37,0.05,0.49,0.93,0.55,1.16
+8475188,54,Brayden McNabb,Vegas Golden Knights,Defenseman,1,0.02,12,0.29,58,1.41,41,13,0.32,96,2.34,20.11,-0.05,0.03,0.0,-0.01,0.88
+8475191,54,Reilly Smith,Vegas Golden Knights,Right Wing,18,0.44,11,0.27,104,2.54,41,29,0.71,16,0.39,17.21,0.21,-0.04,0.6,0.17,-0.05
+8475913,54,Mark Stone,Vegas Golden Knights,Right Wing,17,0.41,21,0.51,111,2.71,41,38,0.93,21,0.51,19.44,0.18,0.2,0.77,0.39,0.07
+8476448,54,William Karlsson,Vegas Golden Knights,Center,7,0.17,21,0.51,77,1.88,41,28,0.68,27,0.66,17.53,-0.04,0.2,0.07,0.16,0.13
+8476905,54,Chandler Stephenson,Vegas Golden Knights,Center,11,0.27,29,0.71,67,1.63,41,40,0.98,29,0.71,19.54,0.06,0.4,-0.18,0.46,0.18
+8477018,54,Ben Hutton,Vegas Golden Knights,Defenseman,1,0.08,1,0.08,27,2.08,13,2,0.15,11,0.85,14.16,0.01,-0.18,0.67,-0.18,-0.61
+8477447,54,Shea Theodore,Vegas Golden Knights,Defenseman,4,0.14,18,0.62,74,2.55,29,22,0.76,41,1.41,21.5,0.07,0.36,1.14,0.43,-0.05
+8477478,54,William Carrier,Vegas Golden Knights,Left Wing,10,0.25,4,0.1,84,2.1,40,14,0.35,16,0.4,12.26,0.02,-0.21,0.16,-0.19,-0.04
+8478020,54,Michael Amadio,Vegas Golden Knights,Center,6,0.22,5,0.19,42,1.56,27,11,0.41,9,0.33,11.36,0.01,-0.12,-0.25,-0.11,-0.2
+8478403,54,Jack Eichel,Vegas Golden Knights,Center,14,0.5,18,0.64,104,3.71,28,32,1.14,23,0.82,18.48,0.29,0.33,1.9,0.62,0.29
+8478434,54,Keegan Kolesar,Vegas Golden Knights,Right Wing,4,0.1,3,0.08,31,0.79,39,7,0.18,20,0.51,11.27,-0.13,-0.23,-1.15,-0.36,0.07
+8478462,54,Nicolas Roy,Vegas Golden Knights,Center,7,0.18,9,0.24,48,1.26,38,16,0.42,27,0.71,15.43,-0.03,-0.07,-0.55,-0.1,0.18
+8479980,54,Nicolas Hague,Vegas Golden Knights,Defenseman,2,0.05,7,0.17,56,1.4,40,9,0.23,69,1.73,17.56,-0.02,-0.09,-0.01,-0.1,0.27
+8479991,54,Jake Leschyshyn,Vegas Golden Knights,Center,0,0.0,0,0.0,23,1.05,22,0,0.0,8,0.36,9.35,-0.21,-0.31,-0.76,-0.52,-0.17
+8481032,54,Paul Cotter,Vegas Golden Knights,Center,5,0.22,3,0.13,32,1.39,23,8,0.35,10,0.43,11.42,0.01,-0.18,-0.42,-0.17,-0.1
+8482624,54,Daniil Miromanov,Vegas Golden Knights,Defenseman,2,0.14,4,0.29,22,1.57,14,6,0.43,13,0.93,17.02,0.07,0.03,0.16,0.1,-0.53
+8474586,55,Jordan Eberle,Seattle Kraken,Right Wing,8,0.22,20,0.54,82,2.22,37,28,0.76,9,0.24,16.17,-0.01,0.23,0.28,0.22,-0.2
+8474602,55,Justin Schultz,Seattle Kraken,Defenseman,3,0.09,16,0.46,50,1.43,35,19,0.54,39,1.11,18.28,0.02,0.2,0.02,0.21,-0.35
+8475768,55,Jaden Schwartz,Seattle Kraken,Center,9,0.25,12,0.33,76,2.11,36,21,0.58,9,0.25,17.46,0.04,0.02,0.3,0.06,-0.28
+8476457,55,Adam Larsson,Seattle Kraken,Defenseman,4,0.11,12,0.32,68,1.84,37,16,0.43,78,2.11,24.05,0.04,0.06,0.43,0.1,0.65
+8476467,55,Jamie Oleksiak,Seattle Kraken,Defenseman,5,0.17,4,0.13,23,0.77,30,9,0.3,51,1.7,19.01,0.1,-0.13,-0.64,-0.03,0.24
+8476826,55,Yanni Gourde,Seattle Kraken,Center,5,0.14,18,0.5,62,1.72,36,23,0.64,20,0.56,16.45,-0.07,0.19,-0.09,0.12,0.03
+8477369,55,Carson Soucy,Seattle Kraken,Defenseman,2,0.05,6,0.16,39,1.05,37,8,0.22,41,1.11,16.27,-0.02,-0.1,-0.36,-0.11,-0.35
+8477416,55,Oliver Bjorkstrand,Seattle Kraken,Right Wing,5,0.14,12,0.32,94,2.54,37,17,0.46,26,0.7,15.17,-0.09,0.01,0.6,-0.08,0.26
+8477444,55,Andre Burakovsky,Seattle Kraken,Left Wing,10,0.27,19,0.51,88,2.38,37,29,0.78,10,0.27,17.15,0.04,0.2,0.44,0.24,-0.17
+8477505,55,Alex Wennberg,Seattle Kraken,Center,8,0.22,10,0.27,49,1.32,37,18,0.49,30,0.81,19.1,0.01,-0.04,-0.49,-0.03,0.28
+8477955,55,Jared McCann,Seattle Kraken,Left Wing,18,0.53,8,0.24,67,1.97,34,26,0.76,8,0.24,15.13,0.3,-0.07,0.03,0.22,-0.2
+8477987,55,Ryan Donato,Seattle Kraken,Center,8,0.25,5,0.16,55,1.72,32,13,0.41,4,0.12,11.03,0.04,-0.15,-0.09,-0.11,-0.41
+8478407,55,Vince Dunn,Seattle Kraken,Defenseman,5,0.14,19,0.51,61,1.65,37,24,0.65,39,1.05,23.38,0.07,0.25,0.24,0.32,-0.41
+8478466,55,Daniel Sprong,Seattle Kraken,Right Wing,11,0.37,11,0.37,63,2.1,30,22,0.73,5,0.17,10.57,0.14,0.06,0.16,0.19,-0.27
+8478840,55,Will Borgen,Seattle Kraken,Defenseman,2,0.05,8,0.22,32,0.86,37,10,0.27,43,1.16,15.38,-0.02,-0.04,-0.55,-0.06,-0.3
+8479293,55,Brandon Tanev,Seattle Kraken,Left Wing,7,0.19,13,0.35,62,1.68,37,20,0.54,37,1.0,14.42,-0.04,0.04,-0.26,0.0,0.56
+8479987,55,Morgan Geekie,Seattle Kraken,Center,4,0.14,10,0.34,29,1.0,29,14,0.48,17,0.59,10.14,-0.07,0.03,-0.81,-0.04,0.06
+8480009,55,Eeli Tolvanen,Seattle Kraken,Right Wing,4,0.25,3,0.19,25,1.56,16,7,0.44,19,1.19,12.42,0.02,-0.12,-0.38,-0.1,0.75
+8482665,55,Matty Beniers,Seattle Kraken,Center,13,0.35,15,0.41,70,1.89,37,28,0.76,27,0.73,17.09,0.14,0.1,0.08,0.24,0.2
