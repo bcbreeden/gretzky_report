@@ -40,8 +40,8 @@ def get_team_data():
         for k, v in stats_all[1]['stat'].items():
             team_data[k.lower() + '_r'] = int(re.sub('\D', '', v))
 
-        team_data['pytha_exp'] = pytha_exp(team_data['goalsagainstpergame'], team_data['goalspergame'], team_data['gamesplayed']) * 100
-        team_data['win_perc'] = round((team_data['wins']/team_data['gamesplayed']), 3) * 100
+        team_data['pytha_exp'] = round(pytha_exp(team_data['goalsagainstpergame'], team_data['goalspergame'], team_data['gamesplayed']) * 100, 3)
+        team_data['win_perc'] = round((team_data['wins']/team_data['gamesplayed']) * 100, 3)
         team_data['win_pytha_diff'] = round((team_data['pytha_exp']- team_data['win_perc']) , 3)
         team_data_all.append(team_data)
     return(team_data_all)
