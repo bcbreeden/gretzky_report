@@ -2,13 +2,16 @@ import pandas as pd
 from script_utils import get_min_games
 from script_utils import get_data_path
 
-DATA = pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip')
+# DATA = pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip')
 
+def read_skater_data():
+    return(pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip'))
 
 '''
 Fetches skater data from the CSV file via a skater ids.
 '''
 def get_skater_data_by_id(player_id):
+    DATA  = read_skater_data()
     skater = DATA.loc[DATA['id']==int(player_id)]
     return(skater)
 
@@ -16,10 +19,12 @@ def get_skater_data_by_id(player_id):
 Fetches skater data from the CSV file via a list of team ids. The data is then returned in a list.
 '''
 def get_skaters_data_by_team_id(team_ids):
+    DATA  = read_skater_data()
     skaters = DATA.loc[DATA['teamid'].isin(team_ids)]
     return(skaters)
 
 def get_top_skaters(number, feature):
+    DATA  = read_skater_data()
     skaters = DATA.sort_values(by=[feature])
     return(skaters)
 
@@ -29,6 +34,7 @@ Calculates the nhl average for metrics: goals per game, assists per game, shots 
 These values are then added to the skater data. The skater data CSV file is opened, modified, and closed with the new data.
 '''
 def add_skater_averages_to_csv():
+    DATA  = read_skater_data()
 
     # Goals per game average. We dont want players with less than the min games because they can skew the averages.
     wing_data_gpg = DATA.loc[(DATA['games'] >= get_min_games()) & ((DATA['position'] == 'Left Wing') | (DATA['position'] == 'Right Wing'))]
