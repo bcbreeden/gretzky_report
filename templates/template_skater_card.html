@@ -74,6 +74,24 @@
                     </section>
                 {% endif %}
 
+                <!-- BPG -->
+                {% if skater['BPGDIF'] > 0 %}
+                    <section class="skater_card_positive skater_card">
+                        <h3>BPG</h3>
+                        <p class="player_card_white player_p">{{skater['BPG']}} <br /> ({{skater['BPGDIF']}})</p>
+                    </section>
+                {% elif skater['BPGDIF'] < 0 %}
+                    <section class="skater_card_negative skater_card">
+                        <h3>BPG</h3>
+                        <p class="player_card_p_negative player_p">{{skater['BPG']}} <br /> ({{skater['BPGDIF']}})</p>
+                    </section>
+                {% else %}
+                    <section class="skater_card_neutral skater_card">
+                        <h3 class="h3_neutral">BPG</h3>
+                        <p class="player_p">{{skater['BPG']}} <br /> ({{skater['BPGDIF']}})</p>
+                    </section>
+                {% endif %} 
+
                 <!-- PPG -->
                 {% if skater['PPGDIF'] > 0 %}
                     <section class="skater_card_positive skater_card">

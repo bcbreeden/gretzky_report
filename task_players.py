@@ -100,10 +100,10 @@ def get_player_stats():
                 # record['powerplaypoints'] = stats['powerPlayPoints']
                 # record['faceoffpct'] = stats['faceOffPct']
                 # record['plusminus'] = stats['plusMinus']
-                record['points'] = stats['points']
-                record['PPG'] = round(stats['points']/stats['games'], 2)
                 record['blocked'] = stats['blocked']
                 record['BPG'] = round(stats['blocked']/stats['games'], 2)
+                record['points'] = stats['points']
+                record['PPG'] = round(stats['points']/stats['games'], 2)
                 record['timeonicepergame'] = float(stats['timeOnIcePerGame'].replace(":", "." ))
 
             # No Stats (First NHL Game)
@@ -121,10 +121,10 @@ def get_player_stats():
                 # record['powerplaypoints'] = 0
                 # record['faceoffpct'] = 0
                 # record['plusminus'] = 0
-                record['points'] = 0
-                record['PPG'] = 0
                 record['blocked'] = 0
                 record['BPG'] = 0
+                record['points'] = 0
+                record['PPG'] = 0
                 record['timeonicepergame'] = 0
             # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
