@@ -68,6 +68,14 @@
                     <td class="avg">{{skater['SPG']}} ({{skater['SPGDIF']}})</td>
                 {% endif %}
 
+                {% if skater['BPGDIF'] > 0.0  %}
+                    <td class="above_avg">{{skater['BPG']}} ({{skater['BPGDIF']}})</td>
+                {% elif skater['BPGDIF'] < 0.0 %}
+                    <td class="below_avg">{{skater['BPG']}} ({{skater['BPGDIF']}})</td>
+                {% else %}
+                    <td class="avg">{{skater['BPG']}} ({{skater['BPGDIF']}})</td>
+                {% endif %}
+
                 {% if skater['PPGDIF'] > 0.0  %}
                     <td class="above_avg">{{skater['PPG']}} ({{skater['PPGDIF']}})</td>
                 {% elif skater['PPGDIF'] < 0.0 %}
@@ -76,15 +84,13 @@
                     <td class="avg">{{skater['PPG']}} ({{skater['PPGDIF']}})</td>
                 {% endif %}
 
-                {% if skater['BPGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['BPG']}} ({{skater['BPGDIF']}})</td>
-                {% elif skater['BPGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['BPG']}} ({{skater['BPGDIF']}})</td>
+                {% if skater['FPPGDIF'] > 0.0  %}
+                    <td class="above_avg">{{skater['FPPG']}} </td>
+                {% elif skater['FPPGDIF'] < 0.0 %}
+                    <td class="below_avg">{{skater['FPPG']}} </td>
                 {% else %}
-                    <td class="avg">{{skater['BPG']}} ({{skater['BPGDIF']}})</td>
+                    <td class="avg">{{skater['FPPG']}} </td>
                 {% endif %}
-                
-                <td class="non_stat_cell">{{skater['timeonicepergame']}}</td>
             </tr>
         {% endfor %}
     </tbody>

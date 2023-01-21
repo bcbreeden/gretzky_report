@@ -18,11 +18,11 @@ def index():
 @app.route('/skaters_today/')
 def skaters_today():
     SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-    features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'PPG', 'PPGDIF', 'BPG', 'BPGDIF', 'timeonicepergame', 'id']
+    features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id']
     view_data = SKATER_DATA[features]
     return render_template('skaters_today.html',
                             skaters = view_data,
-                            headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'BPGDIF', 'id', 'teamid'])) #We dont need these column headers
+                            headers = view_data.columns.drop(['GPGDIF', 'APGDIF', 'SPGDIF', 'PPGDIF', 'BPGDIF', 'FPPGDIF', 'id', 'teamid'])) #We dont need these column headers
 
 
 @app.route('/skater_card/', methods=('GET', 'POST'))

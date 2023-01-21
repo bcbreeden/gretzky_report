@@ -18,6 +18,7 @@ def get_player_ids():
 
         for player in team_roster_data['roster']:
             player_ids.append(player['person']['id'])
+
         
     return(player_ids)
 
@@ -104,6 +105,12 @@ def get_player_stats():
                 record['BPG'] = round(stats['blocked']/stats['games'], 2)
                 record['points'] = stats['points']
                 record['PPG'] = round(stats['points']/stats['games'], 2)
+                record['FPPG'] = round(get_skater_fantasy_ppg(
+                    record['GPG'],
+                    record['APG'],
+                    record['SPG'],
+                    record['BPG']
+                ), 2)
                 record['timeonicepergame'] = float(stats['timeOnIcePerGame'].replace(":", "." ))
 
             # No Stats (First NHL Game)
@@ -125,6 +132,7 @@ def get_player_stats():
                 record['BPG'] = 0
                 record['points'] = 0
                 record['PPG'] = 0
+                record['FPPG'] = 0
                 record['timeonicepergame'] = 0
             # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
@@ -193,3 +201,10 @@ def write_player_game_history_data():
     print('Skater game history file written successfully!', flush=True)
     goalie_df.to_csv(get_data_path('data_game_history_goalie.csv'), encoding='utf-8', index=False)
     print('Goalie game history file written successfully!', flush=True)
+
+def get_skater_fantasy_ppg(gpg, apg, spg, bpg):
+    goal_fpts = gpg * 8.5
+    assist_fpts = apg * 5
+    shots_fpts = spg * 1.5
+    block_fpts = bpg * 1.3
+    return (goal_fpts + assist_fpts + shots_fpts + block_fpts)
