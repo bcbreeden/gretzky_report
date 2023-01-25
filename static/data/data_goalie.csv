@@ -1,23 +1,23 @@
 id,currentteamid,fullname,currentteam,wins,losses,ties,shutouts,savepercentage,goalagainstaverage
 8473541,1,Jonathan Bernier,New Jersey Devils,0,0,0,0,0.0,0.0
-8477970,1,Vitek Vanecek,New Jersey Devils,19,5,0,2,0.91555,2.316437
+8477970,1,Vitek Vanecek,New Jersey Devils,20,5,0,2,0.916237,2.300681
 8478406,1,Mackenzie Blackwood,New Jersey Devils,6,3,0,0,0.896024,3.040087
 8473575,2,Semyon Varlamov,New York Islanders,8,5,0,1,0.908451,2.848275
 8478009,2,Ilya Sorokin,New York Islanders,15,16,0,3,0.921889,2.44432
 8470860,3,Jaroslav Halak,New York Rangers,5,6,0,0,0.901235,2.692281
 8478048,3,Igor Shesterkin,New York Rangers,21,8,0,1,0.917782,2.439505
 8478433,4,Felix Sandstrom,Philadelphia Flyers,1,7,0,0,0.885714,3.454273
-8479394,4,Carter Hart,Philadelphia Flyers,14,14,0,0,0.908829,2.93817
+8479394,4,Carter Hart,Philadelphia Flyers,14,14,0,0,0.908333,2.968318
+8474682,5,Dustin Tokarski,Pittsburgh Penguins,1,1,0,0,0.915254,2.674194
 8477465,5,Tristan Jarry,Pittsburgh Penguins,16,5,0,1,0.920993,2.652185
-8479193,5,Casey DeSmith,Pittsburgh Penguins,6,9,0,0,0.90404,3.206
+8479193,5,Casey DeSmith,Pittsburgh Penguins,7,9,0,0,0.900474,3.342618
 8476999,6,Linus Ullmark,Boston Bruins,25,2,0,2,0.938156,1.822942
-8480280,6,Jeremy Swayman,Boston Bruins,11,3,0,1,0.9161,2.260577
+8480280,6,Jeremy Swayman,Boston Bruins,12,3,0,1,0.915767,2.245574
 8467950,7,Craig Anderson,Buffalo Sabres,8,6,0,1,0.918478,2.731089
 8477480,7,Eric Comrie,Buffalo Sabres,4,8,0,0,0.882682,3.668211
-8480045,7,Ukko-Pekka Luukkonen,Buffalo Sabres,12,5,0,0,0.89916,3.308925
+8480045,7,Ukko-Pekka Luukkonen,Buffalo Sabres,13,5,0,0,0.898876,3.292779
 8474596,8,Jake Allen,Montréal Canadiens,10,16,0,0,0.89229,3.518736
-8478470,8,Sam Montembeault,Montréal Canadiens,10,8,0,0,0.910791,3.145079
-8480051,8,Cayden Primeau,Montréal Canadiens,0,0,0,0,0.857143,3.0
+8478470,8,Sam Montembeault,Montréal Canadiens,10,9,0,0,0.910097,3.142374
 8475660,9,Cam Talbot,Ottawa Senators,11,13,0,1,0.903183,2.953041
 8476341,9,Anton Forsberg,Ottawa Senators,8,10,0,1,0.899248,3.335085
 8476899,10,Matt Murray,Toronto Maple Leafs,11,5,0,1,0.910873,2.732199
@@ -26,48 +26,48 @@ id,currentteamid,fullname,currentteam,wins,losses,ties,shutouts,savepercentage,g
 8477293,12,Antti Raanta,Carolina Hurricanes,10,2,0,2,0.893671,2.628377
 8483122,13,Mack Guzda,Florida Panthers,0,0,0,0,0.0,0.0
 8475683,13,Sergei Bobrovsky,Florida Panthers,12,13,0,1,0.897143,3.244347
-8479312,13,Alex Lyon,Florida Panthers,2,1,0,0,0.878049,3.469545
+8479312,13,Alex Lyon,Florida Panthers,2,1,0,0,0.870229,4.303192
 8481519,13,Spencer Knight,Florida Panthers,9,7,0,1,0.906143,3.054236
 8470880,14,Brian Elliott,Tampa Bay Lightning,9,3,0,0,0.902632,3.072877
-8476883,14,Andrei Vasilevskiy,Tampa Bay Lightning,20,12,0,0,0.916168,2.552093
-8475311,15,Darcy Kuemper,Washington Capitals,14,12,0,5,0.916667,2.549262
+8476883,14,Andrei Vasilevskiy,Tampa Bay Lightning,21,12,0,0,0.917068,2.536229
+8475311,15,Darcy Kuemper,Washington Capitals,14,13,0,5,0.915767,2.567244
 8479292,15,Charlie Lindgren,Washington Capitals,11,6,0,0,0.907801,2.663593
 8471774,16,Alex Stalock,Chicago Blackhawks,6,6,0,1,0.918114,2.702395
-8475852,16,Petr Mrazek,Chicago Blackhawks,5,11,0,0,0.885522,3.87446
+8475852,16,Petr Mrazek,Chicago Blackhawks,5,12,0,0,0.887676,3.887689
 8483530,16,Jaxson Stauber,Chicago Blackhawks,1,0,0,0,0.90625,3.0
 8476433,17,Magnus Hellberg,Detroit Red Wings,3,3,0,0,0.896739,2.698225
-8478024,17,Ville Husso,Detroit Red Wings,15,11,0,3,0.900958,3.033873
-8477424,18,Juuse Saros,Nashville Predators,17,13,0,1,0.918873,2.753269
+8478024,17,Ville Husso,Detroit Red Wings,16,11,0,3,0.901961,3.000553
+8477424,18,Juuse Saros,Nashville Predators,18,13,0,1,0.920266,2.704056
 8480947,18,Kevin Lankinen,Nashville Predators,5,4,0,0,0.924119,2.642964
 8471306,19,Thomas Greiss,St. Louis Blues,5,6,0,1,0.912281,3.154781
-8476412,19,Jordan Binnington,St. Louis Blues,18,15,0,2,0.891473,3.25755
+8476412,19,Jordan Binnington,St. Louis Blues,18,16,0,2,0.890772,3.2824
 8474593,20,Jacob Markstrom,Calgary Flames,13,12,0,0,0.894545,2.822308
 8478435,20,Dan Vladar,Calgary Flames,10,4,0,0,0.904382,2.752644
-8480382,21,Alexandar Georgiev,Colorado Avalanche,18,11,0,2,0.917323,2.637662
+8480382,21,Alexandar Georgiev,Colorado Avalanche,19,11,0,2,0.918483,2.618248
 8480925,21,Pavel Francouz,Colorado Avalanche,7,6,0,1,0.9202,2.467179
 8475789,22,Jack Campbell,Edmonton Oilers,14,8,0,0,0.88685,3.347827
 8479973,22,Stuart Skinner,Edmonton Oilers,13,10,0,0,0.914773,2.918477
 8477967,23,Thatcher Demko,Vancouver Canucks,3,10,0,0,0.88309,3.931587
 8477484,23,Spencer Martin,Vancouver Canucks,11,12,0,0,0.87717,3.85614
-8480420,23,Collin Delia,Vancouver Canucks,4,3,0,0,0.897119,3.175611
+8480420,23,Collin Delia,Vancouver Canucks,5,3,0,0,0.894942,3.043111
 8476434,24,John Gibson,Anaheim Ducks,8,20,0,1,0.894552,4.105254
-8476932,24,Anthony Stolarz,Anaheim Ducks,3,6,0,0,0.889671,4.04079
+8476932,24,Anthony Stolarz,Anaheim Ducks,4,6,0,0,0.894624,3.879652
 8475809,25,Scott Wedgewood,Dallas Stars,7,6,0,1,0.91134,2.970069
 8479979,25,Jake Oettinger,Dallas Stars,21,7,0,4,0.92517,2.218754
 8471734,26,Jonathan Quick,Los Angeles Kings,8,11,0,1,0.883853,3.341635
-8477831,26,Pheonix Copley,Los Angeles Kings,13,3,0,0,0.896226,2.793158
-8473503,28,James Reimer,San Jose Sharks,8,14,0,1,0.89532,3.259272
+8477831,26,Pheonix Copley,Los Angeles Kings,14,3,0,0,0.896703,2.803134
+8473503,28,James Reimer,San Jose Sharks,8,14,0,1,0.896104,3.248864
 8478039,28,Kaapo Kahkonen,San Jose Sharks,5,9,0,1,0.869091,3.880007
 8476914,29,Joonas Korpisalo,Columbus Blue Jackets,7,8,0,0,0.9081,3.300392
 8478007,29,Elvis Merzlikins,Columbus Blue Jackets,5,13,0,0,0.868114,4.482764
-8470594,30,Marc-Andre Fleury,Minnesota Wild,14,9,0,1,0.901763,2.942625
+8470594,30,Marc-Andre Fleury,Minnesota Wild,14,10,0,1,0.902644,2.948701
 8479406,30,Filip Gustavsson,Minnesota Wild,11,7,0,1,0.922366,2.262457
-8476945,52,Connor Hellebuyck,Winnipeg Jets,23,12,0,3,0.923759,2.392692
+8476945,52,Connor Hellebuyck,Winnipeg Jets,23,13,0,3,0.924722,2.384285
 8479496,52,David Rittich,Winnipeg Jets,8,4,0,0,0.908012,2.62403
 8478872,53,Karel Vejmelka,Arizona Coyotes,12,17,0,2,0.903979,3.286427
-8478971,53,Connor Ingram,Arizona Coyotes,3,10,0,0,0.892544,3.697571
+8478971,53,Connor Ingram,Arizona Coyotes,3,11,0,0,0.893574,3.721039
 8478499,54,Adin Hill,Vegas Golden Knights,10,4,0,0,0.907449,2.645161
-8480313,54,Logan Thompson,Vegas Golden Knights,19,13,0,2,0.911558,2.710287
+8480313,54,Logan Thompson,Vegas Golden Knights,19,13,0,2,0.911736,2.713673
 8476904,55,Chris Driedger,Seattle Kraken,0,0,0,0,0.0,0.0
 8474889,55,Martin Jones,Seattle Kraken,22,6,0,3,0.893541,2.841005
 8475831,55,Philipp Grubauer,Seattle Kraken,4,8,0,0,0.892944,3.181553
