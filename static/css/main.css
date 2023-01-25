@@ -146,6 +146,10 @@ th, .team_table_label {
     text-align: center;
 }
 
+.pp_font {
+    color: var(--pink);
+}
+
 .skater_card{
     width: 140px;
     height: 140px;

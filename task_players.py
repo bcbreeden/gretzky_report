@@ -112,6 +112,7 @@ def get_player_stats():
                     record['BPG']
                 ), 2)
                 record['timeonicepergame'] = float(stats['timeOnIcePerGame'].replace(":", "." ))
+                record['powerPlayTimeOnIcePerGame'] = float(stats['powerPlayTimeOnIcePerGame'].replace(":", "." ))
 
             # No Stats (First NHL Game)
             except (IndexError, KeyError):
@@ -134,6 +135,7 @@ def get_player_stats():
                 record['PPG'] = 0
                 record['FPPG'] = 0
                 record['timeonicepergame'] = 0
+                record['powerPlayTimeOnIcePerGame'] = 0
             # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
             if record['games'] >= get_min_games():

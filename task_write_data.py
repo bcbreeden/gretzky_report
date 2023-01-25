@@ -7,14 +7,14 @@ if __name__ == "__main__":
     print('Player write in progress...', flush=True)
     write_player_data()
 
-    # print('Schedule write in progress...', flush=True)
-    # write_game_schedule()
+    print('Schedule write in progress...', flush=True)
+    write_game_schedule()
 
-    # print('Team write in progress...', flush=True)
-    # write_team_data()
+    print('Team write in progress...', flush=True)
+    write_team_data()
 
     print('Cleaning player data...', flush=True)
     add_skater_averages_to_csv()
 
-    # print('Writing player game history...', flush=True)
-    # write_player_game_history_data()
+    print('Writing player game history...', flush=True)
+    write_player_game_history_data()
