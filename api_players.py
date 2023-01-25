@@ -1,6 +1,6 @@
 import json
 import requests
-from task_teams import get_team_ids
+from api_teams import get_team_ids
 from script_utils import get_min_games
 from datetime import datetime
 import pandas as pd

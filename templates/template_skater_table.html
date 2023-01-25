@@ -20,12 +20,13 @@
                     <form target="_blank" action="{{ url_for('skater_card') }}" method="post">
                         <input class="hidden" type="checkbox" id="{{skater['id']}}" name="skater_id" value="{{skater['id']}}" checked>
                         <input class="hidden" type="checkbox" id="{{skater['teamid']}}" name="skater_team_id" value="{{skater['teamid']}}" checked>
+                        <input class="form_link" type="submit" value="{{skater['playername']}}">
                         {% if skater['powerPlayTimeOnIcePerGame'] >= 2 %}
-                            <input class="form_link" type="submit" value="{{skater['playername']}}"> <span class="pp_font">PP</span>
-                        {% else %}
-                            <input class="form_link" type="submit" value="{{skater['playername']}}">
+                            <span class="pp_font">PP</span>
                         {% endif %}
                         <p class="hidden">{{skater['playername']}}</p>
+                        <img src="{{ url_for('static', filename='img/fire.png') }}">
+                        <img src="{{ url_for('static', filename='img/ice.png') }}">
                     </form>
                 </td>
 

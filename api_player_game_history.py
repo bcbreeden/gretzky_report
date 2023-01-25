@@ -1,5 +1,5 @@
 from script_utils import get_data_path, get_current_season
-from task_players import get_player_ids
+from api_players import get_player_ids
 import pandas as pd
 import requests
 import json
