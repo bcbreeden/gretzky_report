@@ -179,7 +179,8 @@ def get_player_game_history():
                 record['goals'] = game['stat']['goals']
                 record['shots'] = game['stat']['shots']
                 record['PPTOI'] = game['stat']['powerPlayTimeOnIce']
-                record['blocked'] = game['stat']['blocked']
+                record['blocks'] = game['stat']['blocked']
+                record['fantasy_points'] = get_game_fantasy_points(record['goals'], record['assists'], record['shots'], record['blocks'])
                 player_game_history_skaters.append(record)
                 print('Skater record add for {} {}.'.format(player_id, record['date']), flush=True)
             except KeyError:
@@ -210,3 +211,11 @@ def get_skater_fantasy_ppg(gpg, apg, spg, bpg):
     shots_fpts = spg * 1.5
     block_fpts = bpg * 1.3
     return (goal_fpts + assist_fpts + shots_fpts + block_fpts)
+
+def get_game_fantasy_points(goals, assists, shots, blocks):
+    score = (goals * 8.5) + (assists * 5) + (shots * 1.5) + (blocks * 1.3)
+    score = (score + 3) if (goals >=3) else score #Hat Trick Bonus
+    score = (score + 3) if (shots >=5) else score #Shooter Bonus
+    score = (score + 3) if (blocks >=3) else score #Blocker Bonus
+    score = (score + 3) if ((goals + assists) >= 3) else score #Points Bonus
+    return score
