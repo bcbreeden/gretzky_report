@@ -49,53 +49,58 @@
                 </td>
                 {% endif %}
 
-
+                <!-- Goals Per Game -->
                 {% if skater['GPGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['GPG']}}</td>
+                    <td class="above_avg stat_cell">{{skater['GPG']}}</td>
                 {% elif skater['GPGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['GPG']}}</td>
+                    <td class="below_avg stat_cell">{{skater['GPG']}}</td>
                 {% else %}
-                    <td class="avg">{{skater['GPG']}}</td>
+                    <td class="avg stat_cell">{{skater['GPG']}}</td>
                 {% endif %}
 
+                <!-- Assists Per Game -->
                 {% if skater['APGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['APG']}}</td>
+                    <td class="above_avg stat_cell">{{skater['APG']}}</td>
                 {% elif skater['APGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['APG']}}</td>
+                    <td class="below_avg stat_cell">{{skater['APG']}}</td>
                 {% else %}
-                    <td class="avg">{{skater['APG']}}</td>
+                    <td class="avg stat_cell">{{skater['APG']}}</td>
                 {% endif %}
 
+                <!-- Shots Per Game -->
                 {% if skater['SPGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['SPG']}}</td>
+                    <td class="above_avg stat_cell">{{skater['SPG']}}</td>
                 {% elif skater['SPGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['SPG']}}</td>
+                    <td class="below_avg stat_cell">{{skater['SPG']}}</td>
                 {% else %}
-                    <td class="avg">{{skater['SPG']}}</td>
+                    <td class="avg stat_cell">{{skater['SPG']}}</td>
                 {% endif %}
 
+                <!-- Blocks Per Game -->
                 {% if skater['BPGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['BPG']}}</td>
+                    <td class="above_avg stat_cell">{{skater['BPG']}}</td>
                 {% elif skater['BPGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['BPG']}}</td>
+                    <td class="below_avg stat_cell">{{skater['BPG']}}</td>
                 {% else %}
-                    <td class="avg">{{skater['BPG']}}</td>
+                    <td class="avg stat_cell">{{skater['BPG']}}</td>
                 {% endif %}
 
+                <!-- Points Per Game -->
                 {% if skater['PPGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['PPG']}}</td>
+                    <td class="above_avg stat_cell">{{skater['PPG']}}</td>
                 {% elif skater['PPGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['PPG']}}</td>
+                    <td class="below_avg stat_cell">{{skater['PPG']}}</td>
                 {% else %}
-                    <td class="avg">{{skater['PPG']}}</td>
+                    <td class="avg stat_cell">{{skater['PPG']}}</td>
                 {% endif %}
 
+                <!-- Fantasy Points Per Game -->
                 {% if skater['FPPGDIF'] > 0.0  %}
-                    <td class="above_avg">{{skater['FPPG']}} </td>
+                    <td class="above_avg stat_cell">{{skater['FPPG']}} </td>
                 {% elif skater['FPPGDIF'] < 0.0 %}
-                    <td class="below_avg">{{skater['FPPG']}} </td>
+                    <td class="below_avg stat_cell">{{skater['FPPG']}} </td>
                 {% else %}
-                    <td class="avg">{{skater['FPPG']}} </td>
+                    <td class="avg stat_cell">{{skater['FPPG']}} </td>
                 {% endif %}
             </tr>
         {% endfor %}

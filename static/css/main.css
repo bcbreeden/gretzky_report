@@ -49,11 +49,13 @@ main {
     justify-content: center;
 }
 
+td {
+    text-align: center;
+}
+
 th, .team_table_label {
     color: var(--light_blue);
 }
-
-
 
 #skater_card_stats_container {
     display: flex;
@@ -80,8 +82,6 @@ th, .team_table_label {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 .above_avg {
     background-color: var(--light_blue);
@@ -164,8 +164,9 @@ th, .team_table_label {
     background-color: var(--red);
 }
 
-/* .skater_team_header{
-} */
+.stat_cell {
+    font-size: 18px;
+}
 
 .player_card_p_negative {
     color: var(--light_gray)
