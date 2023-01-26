@@ -35,17 +35,17 @@
 
                 <td class="non_stat_cell">
                     {% if skater['hot'] == 1 %}
-                        <img src="{{ url_for('static', filename='img/fire.png') }}">
+                        <img src="{{ url_for('static', filename='img/fire.png') }}" alt="This player is on a hot streak!">
                         <p class="hidden">hot</p>
                     {% endif %}
 
                     {% if skater['cold'] == 1 %}
-                        <img src="{{ url_for('static', filename='img/ice.png') }}">
+                        <img src="{{ url_for('static', filename='img/ice.png') }}" alt="This player is on a cold streak!">
                         <p class="hidden">cold</p>
                     {% endif %}
 
                     {% if skater['status'] == "I" %}
-                        <img src="{{ url_for('static', filename='img/plus.png') }}">
+                        <img src="{{ url_for('static', filename='img/plus.png') }}" alt="This player is potentially injured.">
                         <p class="hidden">injured</p>
                     {% endif %}
                 </td>
