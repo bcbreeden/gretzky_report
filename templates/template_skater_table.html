@@ -24,9 +24,19 @@
                         {% if skater['powerPlayTimeOnIcePerGame'] >= 2 %}
                             <span class="pp_font">PP</span>
                         {% endif %}
+
+                        {% if skater['hot'] == 1 %}
+                            <img src="{{ url_for('static', filename='img/fire.png') }}">
+                        {% endif %}
+
+                        {% if skater['cold'] == 1 %}
+                            <img src="{{ url_for('static', filename='img/ice.png') }}">
+                        {% endif %}
+
+                        {% if skater['status'] == "I" %}
+                            <img src="{{ url_for('static', filename='img/plus.png') }}">
+                        {% endif %}
                         <p class="hidden">{{skater['playername']}}</p>
-                        <img src="{{ url_for('static', filename='img/fire.png') }}">
-                        <img src="{{ url_for('static', filename='img/ice.png') }}">
                     </form>
                 </td>
 

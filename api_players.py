@@ -46,6 +46,8 @@ def get_player_stats():
             record['currentteamid'] = player_data['people'][0]['currentTeam']['id']
             record['fullname'] = player_data['people'][0]['fullName']
             record['currentteam'] = player_data['people'][0]['currentTeam']['name']
+            record['status'] = player_data['people'][0]['rosterStatus']
+            record['jerseynumber'] = player_data['people'][0]['primaryNumber']
             # record['primaryposition'] = player_data['people'][0]['primaryPosition']['name']
             
 
@@ -85,6 +87,8 @@ def get_player_stats():
             record['playername'] = player_data['people'][0]['fullName']
             record['currentteam'] = player_data['people'][0]['currentTeam']['name']
             record['position'] = player_data['people'][0]['primaryPosition']['name']
+            record['status'] = player_data['people'][0]['rosterStatus']
+            record['jerseynumber'] = player_data['people'][0]['primaryNumber']
 
             # Stats Info
             # Check for stats
