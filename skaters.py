@@ -1,6 +1,5 @@
 import pandas as pd
-from script_utils import get_min_games
-from script_utils import get_data_path
+from script_utils import get_min_games, get_data_path, get_hot_cold_dif
 
 # DATA = pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip')
 
@@ -137,3 +136,16 @@ def add_skater_averages_to_csv():
 
     # Write the new DF to the CSV file.
     data_add_df.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)
+
+def set_hot_cold():
+    skater_data_all = read_skater_data()
+    skater_game_history = pd.read_csv(get_data_path('data_game_history_skater.csv'), float_precision='round_trip')
+    for index, skater in skater_data_all.iterrows():
+        game_history = skater_game_history.loc[skater_game_history['player_id'] == skater['id']]
+        fantasy_avg_5_games = game_history['fantasy_points'].mean()
+        difference = (fantasy_avg_5_games - skater['FPPG'])
+        if difference >= get_hot_cold_dif():
+            skater_data_all.at[index,'hot'] = 1
+        elif difference <= (get_hot_cold_dif() - (get_hot_cold_dif() * 2)):
+            skater_data_all.at[index,'cold'] = 1
+    skater_data_all.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)

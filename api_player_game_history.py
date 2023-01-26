@@ -61,6 +61,3 @@ def get_game_fantasy_points(goals, assists, shots, blocks):
     score = (score + 3) if (blocks >=3) else score #Blocker Bonus
     score = (score + 3) if ((goals + assists) >= 3) else score #Points Bonus
     return score
-
-def set_hot_cold():
-    pass
