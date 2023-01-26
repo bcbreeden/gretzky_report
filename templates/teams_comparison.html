@@ -1,23 +1,32 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<form action="{{ url_for('compare_teams') }}" method="post">
-    <input type="checkbox" onClick="toggle(this)" /> Toggle All<br/><br/>
-    {% for _,team in teams_all.iterrows() %}
-        <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
-        <label for="team"> {{team['name']}}</label><br>
-    {% endfor %}
-    <input type="submit" value="Go!">
-</form>
+<section id="team_comparison_container">
+    <form id="team_selection_form" action="{{ url_for('compare_teams') }}" method="post">
+        <div class="team_form_item">
+            <input type="checkbox" onClick="toggle(this)" />
+            <label for="team">Select All</label>
+        </div>
+        <br />
+        {% for _,team in teams_all.iterrows() %}
+        <div class="team_form_item">
+            <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
+            <label for="team"> {{team['name']}}</label>
+        </div>
+        {% endfor %}
+        <br />
+        <input class="button_slide slide_right" type="submit" value="Go!">
+    </form>
 
-<script language="JavaScript">
-    function toggle(source) {
-        checkboxes = document.getElementsByName('team');
-        for(var i=0, n=checkboxes.length;i<n;i++) {
-        checkboxes[i].checked = source.checked;
+    <script language="JavaScript">
+        function toggle(source) {
+            checkboxes = document.getElementsByName('team');
+            for(var i=0, n=checkboxes.length;i<n;i++) {
+            checkboxes[i].checked = source.checked;
+            }
         }
-    }
-</script>
+    </script>
 
     {% include 'template_team_card.html' %}
+</section>
 {% endblock %}

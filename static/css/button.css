@@ -3,7 +3,8 @@
     color: #FFF;
     border: 2px solid var(--light_blue);
     border-radius: 0px;
-    padding: 18px 36px;
+    width: fit-content;
+    padding: 8px 12px;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 14px;
@@ -13,6 +14,7 @@
     -webkit-transition: ease-out 0.2s;
     -moz-transition: ease-out 0.2s;
     transition: ease-out 0.2s;
+    background-color: transparent;
   }
 
   .slide_right:hover {

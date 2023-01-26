@@ -2,7 +2,7 @@
     <div class="teams_container_all">
     </div>
 {% else %}
-    <div class="teams_container_all">
+    <!-- <div class="teams_container_all"> -->
         {% for _, team in teams.iterrows() %}
             <div class="team_container">
                 
@@ -72,5 +72,5 @@
                 </table>
             </div>
         {% endfor %}
-    </div>
+    <!-- </div> -->
 {% endif %}
