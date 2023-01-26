@@ -2,6 +2,8 @@
     <thead>
         <tr>
             <th>Player Name</th>
+            <th>PP Unit</th>
+            <th>Status</th>
             <th>Team</th>
             <th>Position</th>
             <th>Goals/Game</th>
@@ -21,23 +23,31 @@
                         <input class="hidden" type="checkbox" id="{{skater['id']}}" name="skater_id" value="{{skater['id']}}" checked>
                         <input class="hidden" type="checkbox" id="{{skater['teamid']}}" name="skater_team_id" value="{{skater['teamid']}}" checked>
                         <input class="form_link" type="submit" value="{{skater['playername']}}">
-                        {% if skater['powerPlayTimeOnIcePerGame'] >= 2 %}
-                            <span class="pp_font">PP</span>
-                        {% endif %}
-
-                        {% if skater['hot'] == 1 %}
-                            <img src="{{ url_for('static', filename='img/fire.png') }}">
-                        {% endif %}
-
-                        {% if skater['cold'] == 1 %}
-                            <img src="{{ url_for('static', filename='img/ice.png') }}">
-                        {% endif %}
-
-                        {% if skater['status'] == "I" %}
-                            <img src="{{ url_for('static', filename='img/plus.png') }}">
-                        {% endif %}
                         <p class="hidden">{{skater['playername']}}</p>
                     </form>
+                </td>
+
+                <td class="non_stat_cell">
+                    {% if skater['powerPlayTimeOnIcePerGame'] >= 2 %}
+                        <span class="pp_font">PP</span>
+                    {% endif %}
+                </td>
+
+                <td class="non_stat_cell">
+                    {% if skater['hot'] == 1 %}
+                        <img src="{{ url_for('static', filename='img/fire.png') }}">
+                        <p class="hidden">hot</p>
+                    {% endif %}
+
+                    {% if skater['cold'] == 1 %}
+                        <img src="{{ url_for('static', filename='img/ice.png') }}">
+                        <p class="hidden">cold</p>
+                    {% endif %}
+
+                    {% if skater['status'] == "I" %}
+                        <img src="{{ url_for('static', filename='img/plus.png') }}">
+                        <p class="hidden">injured</p>
+                    {% endif %}
                 </td>
 
                 <td class="non_stat_cell">{{skater['currentteam']}}</td>
