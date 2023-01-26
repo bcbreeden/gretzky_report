@@ -1,11 +1,11 @@
-from script_utils import get_data_path, get_current_season
+from script_utils import get_data_path, get_current_season, get_hot_cold_dif
 from api_players import get_player_ids
 import pandas as pd
 import requests
 import json
 
 def get_player_game_history():
-    GAMES_NEEDED = 5
+    # GAMES_NEEDED = 5
     player_ids = get_player_ids()
     # player_ids = [8477970]
 
@@ -16,7 +16,7 @@ def get_player_game_history():
         request_string = 'https://statsapi.web.nhl.com/api/v1/people/{}/stats?stats=gameLog&season={}'.format(player_id, get_current_season())
         player_game_history_data = json.loads(requests.get(request_string).text)
         games = player_game_history_data['stats'][0]['splits']
-        for game in games[:GAMES_NEEDED]:
+        for game in games[:5]: #last 5 games
             record= {}
             record['player_id'] = player_id
             record['date'] = game['date']
@@ -61,3 +61,6 @@ def get_game_fantasy_points(goals, assists, shots, blocks):
     score = (score + 3) if (blocks >=3) else score #Blocker Bonus
     score = (score + 3) if ((goals + assists) >= 3) else score #Points Bonus
     return score
+
+def set_hot_cold():
+    pass

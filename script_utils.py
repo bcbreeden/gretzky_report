@@ -1,6 +1,7 @@
-MIN_GAMES = 10
+MIN_GAMES = 5
 DEV = True
 CURRENT_SEASON = '20222023'
+HOT_COLD_DIF = 5
 
 '''
 Gets the minimum game requirement
@@ -25,3 +26,11 @@ Gets the current season as a string
 '''
 def get_current_season():
     return CURRENT_SEASON
+
+'''
+For a player to be on a hot streak: their average fantasy points over the last 5 games needs to be N points higher than their standing average.
+
+For a player to be on a cold streak: their average fantasy points over the last 5 games needs to be N points lower than their standing average.
+'''
+def get_hot_cold_dif():
+    return HOT_COLD_DIF

@@ -67,7 +67,9 @@ def get_player_stats():
                 record['shutouts'] = 0
                 record['savepercentage'] = 0
                 record['goalagainstaverage'] = 0
-            # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
+            record['hot'] = 0
+            record['cold'] = 0
+            record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
             player_stats_goalies.append(record)
             
 
@@ -136,7 +138,9 @@ def get_player_stats():
                 record['FPPG'] = 0
                 record['timeonicepergame'] = 0
                 record['powerPlayTimeOnIcePerGame'] = 0
-            # record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
+            record['hot'] = 0
+            record['cold'] = 0
+            record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
             if record['games'] >= get_min_games():
                 print('Player added:', player_data['people'][0]['fullName'], flush=True)
