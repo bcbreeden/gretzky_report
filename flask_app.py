@@ -3,6 +3,7 @@ import pandas as pd
 from skaters import get_skater_data_by_id, get_skaters_data_by_team_id, get_top_skaters
 from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
 from schedule import get_teams_playing_today
+from script_utils import get_skater_table_features
 
 app = Flask(__name__)
 
@@ -18,16 +19,16 @@ def index():
 @app.route('/skaters_today/')
 def skaters_today():
     SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-    features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
-    view_data = SKATER_DATA[features]
+    # features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
+    view_data = SKATER_DATA[get_skater_table_features()]
     return render_template('skaters_view.html',
                             skaters = view_data)
 
 @app.route('/skaters_all/')
 def skaters_all():
     SKATER_DATA = get_skaters_data_by_team_id(get_team_ids_all())
-    features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
-    view_data = SKATER_DATA[features]
+    # features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
+    view_data = SKATER_DATA[get_skater_table_features()]
     return render_template('skaters_view.html',
                             skaters = view_data)
 
