@@ -82,6 +82,7 @@ th, .team_table_label {
     flex-direction: row;
     flex-flow: wrap;
     justify-content: flex-start;
+    padding: 20px;
 }
 
 #team_selection_form {
@@ -198,8 +199,8 @@ th, .team_table_label {
     display: flex;
     flex-direction: column;
     width: 400px;
-    /* padding-top: 35px; */
     justify-content: center;
+    align-self: baseline;
 }
 
 .teams_container_all {
@@ -219,6 +220,7 @@ th, .team_table_label {
 
 .team_table_data {
     min-width: 100px;
+    text-align: left;
 }
 
 .team_table_label{
