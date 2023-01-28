@@ -9,6 +9,9 @@ app = Flask(__name__)
 
 app.config["DEBUG"] = True
 
+SKATER_TABLE_FEATURES = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
+
+
 '''
 Renders the index template.
 '''
@@ -19,17 +22,15 @@ def index():
 @app.route('/skaters_today/')
 def skaters_today():
     SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-    # features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
-    view_data = SKATER_DATA[get_skater_table_features()]
-    return render_template('skaters_view.html',
+    view_data = SKATER_DATA[SKATER_TABLE_FEATURES]
+    return render_template('skaters_today.html',
                             skaters = view_data)
 
 @app.route('/skaters_all/')
 def skaters_all():
     SKATER_DATA = get_skaters_data_by_team_id(get_team_ids_all())
-    # features = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
-    view_data = SKATER_DATA[get_skater_table_features()]
-    return render_template('skaters_view.html',
+    view_data = SKATER_DATA[SKATER_TABLE_FEATURES]
+    return render_template('skaters_all.html',
                             skaters = view_data)
 
 @app.route('/skater_card/', methods=('GET', 'POST'))

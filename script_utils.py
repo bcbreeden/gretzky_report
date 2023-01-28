@@ -36,5 +36,8 @@ For a player to be on a cold streak: their average fantasy points over the last 
 def get_hot_cold_dif():
     return HOT_COLD_DIF
 
+'''
+The skater table uses a subset of features. This is necessary due to the library that builds the table.
+'''
 def get_skater_table_features():
     return SKATER_TABLE_FEATURES
