@@ -1,8 +1,6 @@
 import pandas as pd
 from script_utils import get_min_games, get_data_path, get_hot_cold_dif
 
-# DATA = pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip')
-
 def read_skater_data():
     return(pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip'))
 

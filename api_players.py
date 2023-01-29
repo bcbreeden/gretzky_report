@@ -55,6 +55,7 @@ def get_player_stats():
             # Check for stats
             try:
                 stats = player_data['people'][0]['stats'][0]['splits'][0]['stat']
+                record['games'] = stats['games']
                 record['wins'] = stats['wins']
                 record['losses'] = stats['losses']
                 record['ties'] = stats['ties']
@@ -63,6 +64,7 @@ def get_player_stats():
                 record['goalagainstaverage'] = stats['goalAgainstAverage']
             # No Stats (Rookie or First NHL Game)
             except (IndexError, KeyError):
+                record['games'] = 0
                 record['wins'] = 0
                 record['losses'] = 0
                 record['ties'] = 0
@@ -72,7 +74,11 @@ def get_player_stats():
             record['hot'] = 0
             record['cold'] = 0
             record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
-            player_stats_goalies.append(record)
+            if record['games'] >= get_min_games():
+                print('Player added:', player_data['people'][0]['fullName'], flush=True)
+                player_stats_goalies.append(record)
+            else:
+                print('Not enough games for:', player_data['people'][0]['fullName'], flush=True)
             
 
         else:

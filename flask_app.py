@@ -1,16 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
-from skaters import get_skater_data_by_id, get_skaters_data_by_team_id, get_top_skaters
+from skaters import get_skater_data_by_id, get_skaters_data_by_team_id
+from goalies import get_goalies_data_by_team_id
 from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
 from schedule import get_teams_playing_today
-from script_utils import get_skater_table_features
 
 app = Flask(__name__)
-
 app.config["DEBUG"] = True
-
-SKATER_TABLE_FEATURES = ['playername', 'teamid', 'currentteam', 'position', 'GPG', 'GPGDIF', 'APG', 'APGDIF', 'SPG', 'SPGDIF', 'BPG', 'BPGDIF', 'PPG', 'PPGDIF', 'FPPG', 'FPPGDIF', 'id', 'powerPlayTimeOnIcePerGame', 'hot', 'cold', 'status']
-
 
 '''
 Renders the index template.
@@ -22,16 +18,14 @@ def index():
 @app.route('/skaters_today/')
 def skaters_today():
     SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-    view_data = SKATER_DATA[SKATER_TABLE_FEATURES]
     return render_template('skaters_today.html',
-                            skaters = view_data)
+                            skaters = SKATER_DATA)
 
 @app.route('/skaters_all/')
 def skaters_all():
     SKATER_DATA = get_skaters_data_by_team_id(get_team_ids_all())
-    view_data = SKATER_DATA[SKATER_TABLE_FEATURES]
     return render_template('skaters_all.html',
-                            skaters = view_data)
+                            skaters = SKATER_DATA)
 
 @app.route('/skater_card/', methods=('GET', 'POST'))
 def skater_card():
@@ -76,3 +70,9 @@ def compare_teams():
         return render_template('teams_comparison.html',
                         teams_all = teams_data_all
         )
+
+@app.route('/goalies_all/')
+def goalies_all():
+    GOALIES_DATA = get_goalies_data_by_team_id(get_team_ids_all())
+    return render_template('goalies_all.html',
+                            goalies = GOALIES_DATA)
