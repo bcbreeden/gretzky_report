@@ -1,150 +1,154 @@
-<table id="skaters" class="display">
-    <thead>
-        <tr>
-            <th>Player Name</th>
-            <th>PP Unit</th>
-            <th>Status</th>
-            <th>Team</th>
-            <th>Position</th>
-            <th>Goals</th>
-            <th>Assists</th>
-            <th>Shots</th>
-            <th>Blocks</th>
-            <th>Points</th>
-            <th>+ / -</th>
-            <th>Fantasy Avg</th>
-        </tr>
-    </thead>
+{% if skaters is not defined %}
 
-    <tbody>
-        {% for _, skater in skaters.iterrows() %}
+{% else %}
+    <table id="skaters" class="display">
+        <thead>
             <tr>
-                <td class="non_stat_cell">
-                    <form target="_blank" action="{{ url_for('skater_card') }}" method="post">
-                        <input class="hidden" type="checkbox" id="{{skater['id']}}" name="skater_id" value="{{skater['id']}}" checked>
-                        <input class="hidden" type="checkbox" id="{{skater['teamid']}}" name="skater_team_id" value="{{skater['teamid']}}" checked>
-                        <input class="form_link" type="submit" value="{{skater['playername']}}">
-                        <p class="hidden">{{skater['playername']}}</p>
-                    </form>
-                </td>
-
-                <td class="non_stat_cell">
-                    {% if skater['powerPlayTimeOnIcePerGame'] >= 2 %}
-                        <span class="pp_font">PP</span>
-                    {% endif %}
-                </td>
-
-                <td class="non_stat_cell">
-                    {% if skater['hot'] == 1 %}
-                        <img src="{{ url_for('static', filename='img/fire.png') }}" alt="This player is on a hot streak!">
-                        <p class="hidden">hot</p>
-                    {% endif %}
-
-                    {% if skater['cold'] == 1 %}
-                        <img src="{{ url_for('static', filename='img/ice.png') }}" alt="This player is on a cold streak!">
-                        <p class="hidden">cold</p>
-                    {% endif %}
-
-                    {% if skater['status'] == "I" %}
-                        <img src="{{ url_for('static', filename='img/plus.png') }}" alt="This player is potentially injured.">
-                        <p class="hidden">injured</p>
-                    {% endif %}
-                </td>
-
-                <td class="non_stat_cell">{{skater['currentteam']}}</td>
-
-                {% if skater['position'] == "Defenseman" %}
-                    <td class="non_stat_cell icon_cell">
-                        <p class="hidden">Defense</p>
-                        <img src="{{ url_for('static', filename='img/shield.png') }}">
-                    </td>
-                {% elif skater['position'] == "Right Wing" %}
-                <td class="non_stat_cell icon_cell">
-                    <p class="hidden">Right Wing</p>
-                    <img src="{{ url_for('static', filename='img/wing-r.png') }}">
-                </td>
-                {% elif skater['position'] == "Left Wing" %}
-                <td class="non_stat_cell icon_cell">
-                    <p class="hidden">Left Wing</p>
-                    <img src="{{ url_for('static', filename='img/wing-l.png') }}">
-                </td>                   
-                {% else %}
-                <td class="non_stat_cell icon_cell">
-                    <p class="hidden">Center</p>
-                    <img src="{{ url_for('static', filename='img/sticks.png') }}">
-                </td>
-                {% endif %}
-
-                <!-- Goals Per Game -->
-                <!-- {% if skater['GPGDIF'] > 0.0  %}
-                    <td class="above_avg stat_cell">{{skater['GPG']}}</td>
-                {% elif skater['GPGDIF'] < 0.0 %}
-                    <td class="below_avg stat_cell">{{skater['GPG']}}</td>
-                {% else %}
-                    <td class="avg stat_cell">{{skater['GPG']}}</td>
-                {% endif %} -->
-
-                <td class="stat_cell">{{skater['goals']}}</td>
-
-                <!-- Assists Per Game -->
-                <!-- {% if skater['APGDIF'] > 0.0  %}
-                    <td class="above_avg stat_cell">{{skater['APG']}}</td>
-                {% elif skater['APGDIF'] < 0.0 %}
-                    <td class="below_avg stat_cell">{{skater['APG']}}</td>
-                {% else %}
-                    <td class="avg stat_cell">{{skater['APG']}}</td>
-                {% endif %} -->
-                <td class="stat_cell">{{skater['assists']}}</td>
-
-                <!-- Shots Per Game -->
-                <!-- {% if skater['SPGDIF'] > 0.0  %}
-                    <td class="above_avg stat_cell">{{skater['SPG']}}</td>
-                {% elif skater['SPGDIF'] < 0.0 %}
-                    <td class="below_avg stat_cell">{{skater['SPG']}}</td>
-                {% else %}
-                    <td class="avg stat_cell">{{skater['SPG']}}</td>
-                {% endif %} -->
-                <td class="stat_cell">{{skater['shots']}}</td>
-
-                <!-- Blocks Per Game -->
-                <!-- {% if skater['BPGDIF'] > 0.0  %}
-                    <td class="above_avg stat_cell">{{skater['BPG']}}</td>
-                {% elif skater['BPGDIF'] < 0.0 %}
-                    <td class="below_avg stat_cell">{{skater['BPG']}}</td>
-                {% else %}
-                    <td class="avg stat_cell">{{skater['BPG']}}</td>
-                {% endif %} -->
-                <td class="stat_cell">{{skater['blocked']}}</td>
-
-                <!-- Points Per Game -->
-                <!-- {% if skater['PPGDIF'] > 0.0  %}
-                    <td class="above_avg stat_cell">{{skater['PPG']}}</td>
-                {% elif skater['PPGDIF'] < 0.0 %}
-                    <td class="below_avg stat_cell">{{skater['PPG']}}</td>
-                {% else %}
-                    <td class="avg stat_cell">{{skater['PPG']}}</td>
-                {% endif %} -->
-                <td class="stat_cell">{{skater['points']}}</td>
-
-                <!-- Fantasy Points Per Game -->
-                <!-- {% if skater['FPPGDIF'] > 0.0  %}
-                    <td class="above_avg stat_cell">{{skater['FPPG']}} </td>
-                {% elif skater['FPPGDIF'] < 0.0 %}
-                    <td class="below_avg stat_cell">{{skater['FPPG']}} </td>
-                {% else %}
-                    <td class="avg stat_cell">{{skater['FPPG']}} </td>
-                {% endif %} -->
-                <td class="stat_cell">{{skater['plusminus']}}</td>
-                <td class="stat_cell">{{skater['FPPG']}}</td>
+                <th>Player Name</th>
+                <th>PP Unit</th>
+                <th>Status</th>
+                <th>Team</th>
+                <th>Position</th>
+                <th>Goals</th>
+                <th>Assists</th>
+                <th>Shots</th>
+                <th>Blocks</th>
+                <th>Points</th>
+                <th>+ / -</th>
+                <th>Fantasy Avg</th>
             </tr>
-        {% endfor %}
-    </tbody>
- 
-</table>
+        </thead>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
-<script>
-    $(document).ready( function () {
-        $('#skaters').DataTable();
-    } );
-</script>
+        <tbody>
+            {% for _, skater in skaters.iterrows() %}
+                <tr>
+                    <td class="non_stat_cell">
+                        <form target="_blank" action="{{ url_for('skater_card') }}" method="post">
+                            <input class="hidden" type="checkbox" id="{{skater['id']}}" name="skater_id" value="{{skater['id']}}" checked>
+                            <input class="hidden" type="checkbox" id="{{skater['teamid']}}" name="skater_team_id" value="{{skater['teamid']}}" checked>
+                            <input class="form_link" type="submit" value="{{skater['playername']}}">
+                            <p class="hidden">{{skater['playername']}}</p>
+                        </form>
+                    </td>
+
+                    <td class="non_stat_cell">
+                        {% if skater['powerPlayTimeOnIcePerGame'] >= 2 %}
+                            <span class="pp_font">PP</span>
+                        {% endif %}
+                    </td>
+
+                    <td class="non_stat_cell">
+                        {% if skater['hot'] == 1 %}
+                            <img src="{{ url_for('static', filename='img/fire.png') }}" alt="This player is on a hot streak!">
+                            <p class="hidden">hot</p>
+                        {% endif %}
+
+                        {% if skater['cold'] == 1 %}
+                            <img src="{{ url_for('static', filename='img/ice.png') }}" alt="This player is on a cold streak!">
+                            <p class="hidden">cold</p>
+                        {% endif %}
+
+                        {% if skater['status'] == "I" %}
+                            <img src="{{ url_for('static', filename='img/plus.png') }}" alt="This player is potentially injured.">
+                            <p class="hidden">injured</p>
+                        {% endif %}
+                    </td>
+
+                    <td class="non_stat_cell">{{skater['currentteam']}}</td>
+
+                    {% if skater['position'] == "Defenseman" %}
+                        <td class="non_stat_cell icon_cell">
+                            <p class="hidden">Defense</p>
+                            <img src="{{ url_for('static', filename='img/shield.png') }}">
+                        </td>
+                    {% elif skater['position'] == "Right Wing" %}
+                    <td class="non_stat_cell icon_cell">
+                        <p class="hidden">Right Wing</p>
+                        <img src="{{ url_for('static', filename='img/wing-r.png') }}">
+                    </td>
+                    {% elif skater['position'] == "Left Wing" %}
+                    <td class="non_stat_cell icon_cell">
+                        <p class="hidden">Left Wing</p>
+                        <img src="{{ url_for('static', filename='img/wing-l.png') }}">
+                    </td>                   
+                    {% else %}
+                    <td class="non_stat_cell icon_cell">
+                        <p class="hidden">Center</p>
+                        <img src="{{ url_for('static', filename='img/sticks.png') }}">
+                    </td>
+                    {% endif %}
+
+                    <!-- Goals Per Game -->
+                    <!-- {% if skater['GPGDIF'] > 0.0  %}
+                        <td class="above_avg stat_cell">{{skater['GPG']}}</td>
+                    {% elif skater['GPGDIF'] < 0.0 %}
+                        <td class="below_avg stat_cell">{{skater['GPG']}}</td>
+                    {% else %}
+                        <td class="avg stat_cell">{{skater['GPG']}}</td>
+                    {% endif %} -->
+
+                    <td class="stat_cell">{{skater['goals']}}</td>
+
+                    <!-- Assists Per Game -->
+                    <!-- {% if skater['APGDIF'] > 0.0  %}
+                        <td class="above_avg stat_cell">{{skater['APG']}}</td>
+                    {% elif skater['APGDIF'] < 0.0 %}
+                        <td class="below_avg stat_cell">{{skater['APG']}}</td>
+                    {% else %}
+                        <td class="avg stat_cell">{{skater['APG']}}</td>
+                    {% endif %} -->
+                    <td class="stat_cell">{{skater['assists']}}</td>
+
+                    <!-- Shots Per Game -->
+                    <!-- {% if skater['SPGDIF'] > 0.0  %}
+                        <td class="above_avg stat_cell">{{skater['SPG']}}</td>
+                    {% elif skater['SPGDIF'] < 0.0 %}
+                        <td class="below_avg stat_cell">{{skater['SPG']}}</td>
+                    {% else %}
+                        <td class="avg stat_cell">{{skater['SPG']}}</td>
+                    {% endif %} -->
+                    <td class="stat_cell">{{skater['shots']}}</td>
+
+                    <!-- Blocks Per Game -->
+                    <!-- {% if skater['BPGDIF'] > 0.0  %}
+                        <td class="above_avg stat_cell">{{skater['BPG']}}</td>
+                    {% elif skater['BPGDIF'] < 0.0 %}
+                        <td class="below_avg stat_cell">{{skater['BPG']}}</td>
+                    {% else %}
+                        <td class="avg stat_cell">{{skater['BPG']}}</td>
+                    {% endif %} -->
+                    <td class="stat_cell">{{skater['blocked']}}</td>
+
+                    <!-- Points Per Game -->
+                    <!-- {% if skater['PPGDIF'] > 0.0  %}
+                        <td class="above_avg stat_cell">{{skater['PPG']}}</td>
+                    {% elif skater['PPGDIF'] < 0.0 %}
+                        <td class="below_avg stat_cell">{{skater['PPG']}}</td>
+                    {% else %}
+                        <td class="avg stat_cell">{{skater['PPG']}}</td>
+                    {% endif %} -->
+                    <td class="stat_cell">{{skater['points']}}</td>
+
+                    <!-- Fantasy Points Per Game -->
+                    <!-- {% if skater['FPPGDIF'] > 0.0  %}
+                        <td class="above_avg stat_cell">{{skater['FPPG']}} </td>
+                    {% elif skater['FPPGDIF'] < 0.0 %}
+                        <td class="below_avg stat_cell">{{skater['FPPG']}} </td>
+                    {% else %}
+                        <td class="avg stat_cell">{{skater['FPPG']}} </td>
+                    {% endif %} -->
+                    <td class="stat_cell">{{skater['plusminus']}}</td>
+                    <td class="stat_cell">{{skater['FPPG']}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    
+    </table>
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#skaters').DataTable();
+        } );
+    </script>
+{% endif %}

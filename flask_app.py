@@ -15,17 +15,22 @@ Renders the index template.
 def index():
     return render_template('index.html')                        
 
-@app.route('/skaters_today/')
-def skaters_today():
-    SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-    return render_template('skaters_today.html',
-                            skaters = SKATER_DATA)
-
-@app.route('/skaters_all/')
-def skaters_all():
-    SKATER_DATA = get_skaters_data_by_team_id(get_team_ids_all())
-    return render_template('skaters_all.html',
-                            skaters = SKATER_DATA)
+@app.route('/skaters/', methods=('GET', 'POST'))
+def skaters():
+    if request.method == 'POST':
+        selection = request.form['skater_selection']
+        if selection == "All Skaters":
+            SKATER_DATA = get_skaters_data_by_team_id(get_team_ids_all())
+            return render_template('skaters.html',
+                                    skaters = SKATER_DATA)
+        elif selection == "Skaters Today":
+            SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
+            return render_template('skaters.html',
+                                    skaters = SKATER_DATA)
+        else: 
+            return render_template('skaters.html')
+    else:
+        return render_template('skaters.html')
 
 @app.route('/skater_card/', methods=('GET', 'POST'))
 def skater_card():
@@ -55,7 +60,6 @@ Renders the comparison page for teams.
 '''
 @app.route('/compare_teams/', methods=('GET', 'POST'))
 def compare_teams():
-
     if request.method == 'POST':
         team_ids_get = request.form.getlist('team') # returned as strings
         team_ids = list(map(int, team_ids_get)) # cast to integer
