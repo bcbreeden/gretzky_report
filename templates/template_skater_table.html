@@ -15,6 +15,7 @@
                 <th>Blocks</th>
                 <th>Points</th>
                 <th>+ / -</th>
+                <th>TOI</th>
                 <th>Fantasy Avg</th>
             </tr>
         </thead>
@@ -59,85 +60,32 @@
                     {% if skater['position'] == "Defenseman" %}
                         <td class="non_stat_cell icon_cell">
                             <p class="hidden">Defense</p>
-                            <img src="{{ url_for('static', filename='img/shield.png') }}">
+                            <!-- <img src="{{ url_for('static', filename='img/shield.png') }}"> -->
+                            <p>D</p>
                         </td>
                     {% elif skater['position'] == "Right Wing" %}
                     <td class="non_stat_cell icon_cell">
                         <p class="hidden">Right Wing</p>
-                        <img src="{{ url_for('static', filename='img/wing-r.png') }}">
+                        <p>RW</p>
                     </td>
                     {% elif skater['position'] == "Left Wing" %}
                     <td class="non_stat_cell icon_cell">
                         <p class="hidden">Left Wing</p>
-                        <img src="{{ url_for('static', filename='img/wing-l.png') }}">
+                        <p>LW</p>
                     </td>                   
                     {% else %}
                     <td class="non_stat_cell icon_cell">
                         <p class="hidden">Center</p>
-                        <img src="{{ url_for('static', filename='img/sticks.png') }}">
+                        <p>C</p>
                     </td>
                     {% endif %}
-
-                    <!-- Goals Per Game -->
-                    <!-- {% if skater['GPGDIF'] > 0.0  %}
-                        <td class="above_avg stat_cell">{{skater['GPG']}}</td>
-                    {% elif skater['GPGDIF'] < 0.0 %}
-                        <td class="below_avg stat_cell">{{skater['GPG']}}</td>
-                    {% else %}
-                        <td class="avg stat_cell">{{skater['GPG']}}</td>
-                    {% endif %} -->
-
                     <td class="stat_cell">{{skater['goals']}}</td>
-
-                    <!-- Assists Per Game -->
-                    <!-- {% if skater['APGDIF'] > 0.0  %}
-                        <td class="above_avg stat_cell">{{skater['APG']}}</td>
-                    {% elif skater['APGDIF'] < 0.0 %}
-                        <td class="below_avg stat_cell">{{skater['APG']}}</td>
-                    {% else %}
-                        <td class="avg stat_cell">{{skater['APG']}}</td>
-                    {% endif %} -->
                     <td class="stat_cell">{{skater['assists']}}</td>
-
-                    <!-- Shots Per Game -->
-                    <!-- {% if skater['SPGDIF'] > 0.0  %}
-                        <td class="above_avg stat_cell">{{skater['SPG']}}</td>
-                    {% elif skater['SPGDIF'] < 0.0 %}
-                        <td class="below_avg stat_cell">{{skater['SPG']}}</td>
-                    {% else %}
-                        <td class="avg stat_cell">{{skater['SPG']}}</td>
-                    {% endif %} -->
                     <td class="stat_cell">{{skater['shots']}}</td>
-
-                    <!-- Blocks Per Game -->
-                    <!-- {% if skater['BPGDIF'] > 0.0  %}
-                        <td class="above_avg stat_cell">{{skater['BPG']}}</td>
-                    {% elif skater['BPGDIF'] < 0.0 %}
-                        <td class="below_avg stat_cell">{{skater['BPG']}}</td>
-                    {% else %}
-                        <td class="avg stat_cell">{{skater['BPG']}}</td>
-                    {% endif %} -->
                     <td class="stat_cell">{{skater['blocked']}}</td>
-
-                    <!-- Points Per Game -->
-                    <!-- {% if skater['PPGDIF'] > 0.0  %}
-                        <td class="above_avg stat_cell">{{skater['PPG']}}</td>
-                    {% elif skater['PPGDIF'] < 0.0 %}
-                        <td class="below_avg stat_cell">{{skater['PPG']}}</td>
-                    {% else %}
-                        <td class="avg stat_cell">{{skater['PPG']}}</td>
-                    {% endif %} -->
                     <td class="stat_cell">{{skater['points']}}</td>
-
-                    <!-- Fantasy Points Per Game -->
-                    <!-- {% if skater['FPPGDIF'] > 0.0  %}
-                        <td class="above_avg stat_cell">{{skater['FPPG']}} </td>
-                    {% elif skater['FPPGDIF'] < 0.0 %}
-                        <td class="below_avg stat_cell">{{skater['FPPG']}} </td>
-                    {% else %}
-                        <td class="avg stat_cell">{{skater['FPPG']}} </td>
-                    {% endif %} -->
                     <td class="stat_cell">{{skater['plusminus']}}</td>
+                    <td class="stat_cell">{{skater['timeonicepergame']}}</td>
                     <td class="stat_cell">{{skater['FPPG']}}</td>
                 </tr>
             {% endfor %}

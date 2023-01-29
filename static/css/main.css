@@ -98,16 +98,6 @@ th, .team_table_label {
     align-items: center;
 }
 
-.above_avg {
-    background-color: var(--light_blue);
-    color: var(--midnight_blue) !important;
-}
-
-.below_avg {
-    background-color: var(--red);
-    color: var(--light_gray) !important;
-}
-
 .dataTables_info{
     color: var(--blue) !important;
 }
