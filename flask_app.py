@@ -32,15 +32,15 @@ def skaters():
     else:
         return render_template('skaters.html')
 
-@app.route('/skater_card/', methods=('GET', 'POST'))
-def skater_card():
+@app.route('/skater_details/', methods=('GET', 'POST'))
+def skater_details():
     if request.method == 'POST':
         skater_id = request.form['skater_id']
         skater_team_id = request.form['skater_team_id']
         print(skater_team_id)
         skater_team_data = get_team_data_by_id(skater_team_id)
         skater_data = get_skater_data_by_id(skater_id)
-        return render_template('skater.html',
+        return render_template('skater_details.html',
                                 skater = skater_data,
                                 teams = skater_team_data)
     else:
