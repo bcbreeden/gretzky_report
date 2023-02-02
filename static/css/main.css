@@ -84,6 +84,13 @@ th, .team_table_label {
     max-width:400px;
 }
 
+#player_detail_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: baseline;
+}
+
 #team_comparison_container {
     display: flex;
     flex-direction: row;
@@ -190,14 +197,6 @@ th, .team_table_label {
 
 .skater_card_neutral {
     background-color: var(--dark_gray);
-}
-
-.team_container {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    justify-content: center;
-    align-self: baseline;
 }
 
 .teams_container_all {
