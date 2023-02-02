@@ -272,9 +272,6 @@ table.dataTable tfoot td {
   padding: 10px 10px 6px 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-table.dataTable tbody tr {
-  background-color: transparent;
-}
 table.dataTable tbody tr.selected > * {
   box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.9);
   color: white;

@@ -1,8 +1,9 @@
 :root {
-    --midnight_blue: #050d21;
-    --light_gray: #f0f0f0;
+    --dark_gray: #1a1a1b;
+    --dark_gray_alt: #2a2a2a;
+    --light_gray: #d4d4d4;
     --red: #a60037;
-    --light_blue: #479af7;
+    --light_blue: #4fbcff;
     --yellow: #f9d548;
     --pink: #eb4795;
     --teal: #6eeffc;
@@ -13,7 +14,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: var(--midnight_blue);
+    background: var(--dark_gray);
     font-family: 'Inconsolata', monospace;
     font-weight: bold;
   }
@@ -73,6 +74,12 @@ th, .team_table_label {
     text-align: center;
 }
 
+#skaters_selection_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #skater_stats_container_all {
     max-width:400px;
 }
@@ -128,6 +135,10 @@ th, .team_table_label {
     text-align: center;
 }
 
+.odd {
+    background-color: var(--dark_gray_alt);
+}
+
 .player_card_white {
     color: var(--white);
 }
@@ -140,10 +151,6 @@ th, .team_table_label {
     max-width: 600px;
     align-items: center;
     justify-content: center;
-}
-
-.player_container, .team_container {
-    /* padding-top: 15px; */
 }
 
 .player_p {
@@ -182,7 +189,7 @@ th, .team_table_label {
 }
 
 .skater_card_neutral {
-    background-color: var(--midnight_blue);
+    background-color: var(--dark_gray);
 }
 
 .team_container {

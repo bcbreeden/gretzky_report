@@ -1,13 +1,24 @@
+:root {
+  --dark_gray: #1a1a1b;
+  --light_gray: #d4d4d4;
+  --red: #a60037;
+  --light_blue: #4fbcff;
+  --yellow: #f9d548;
+  --pink: #eb4795;
+  --teal: #6eeffc;
+}
+
 /* Button Animation */
 .button_slide {
     color: #FFF;
     border: 2px solid var(--light_blue);
-    border-radius: 0px;
-    width: fit-content;
+    border-radius: 18px;
+    width: 150px;
     padding: 8px 12px;
     display: inline-block;
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 14px;
+    text-align: center;
     letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 var(--light_blue);
@@ -15,11 +26,11 @@
     -moz-transition: ease-out 0.2s;
     transition: ease-out 0.2s;
     background-color: transparent;
+    margin: 15px;
   }
 
   .slide_right:hover {
-    box-shadow: inset 400px 0 0 0 var(--teal);
-    border: 2px solid var(--teal);
-    color: var(--midnight_blue);
+    box-shadow: inset 400px 0 0 0 var(--dark_gray);
+    border: 2px solid var(--dark_gray);
   }
 /* End Button Animation */
