@@ -34,7 +34,6 @@ label, input, select, option{
 h1 {
     color: var(--light_gray);
     margin: 0;
-    font-family: 'Karla', sans-serif;
 }
 
 h3 {
@@ -56,6 +55,13 @@ td {
 
 th, .team_table_label {
     color: var(--light_blue);
+}
+
+#player_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #skater_card_stats_container {
@@ -169,34 +175,13 @@ th, .team_table_label {
     color: var(--pink);
 }
 
-.skater_card{
-    width: 140px;
-    height: 140px;
-    padding: 5px;
-}
-
-.skater_card_icon{
-    width: fit-content;
-}
-
-.skater_card_positive {
-    background-color: var(--light_blue);
-}
-
-.skater_card_negative {
-    background-color: var(--red);
-}
-
 .stat_cell {
     font-size: 18px;
 }
 
-.player_card_p_negative {
-    color: var(--light_gray)
-}
-
-.skater_card_neutral {
-    background-color: var(--dark_gray);
+.super_bold {
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 82px;
 }
 
 .teams_container_all {

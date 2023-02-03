@@ -6,9 +6,16 @@
     <div id="player_detail_container">
     
         {% for _, skater in skater.iterrows() %}
-                <h1>{{skater['playername']}}</h1>
-                <h3 class="skater_team_header">{{skater['currentteam']}}</h3>
-                <h3 class="skater_team_header">{{skater['position']}}</h3>
+            <section id="player_info">
+                <section id="player_info_number">
+                    <h1 class="super_bold">{{skater['jerseynumber']}}</h1>
+                </section>
+                <section id="player_details">
+                    <h1>{{skater['playername']}}</h1>
+                    <h3 class="skater_team_header">{{skater['currentteam']}}</h3>
+                    <h3 class="skater_team_header">{{skater['position']}}</h3>
+                </section>
+            </section>
             <table id="skater_details_table">
                 <tr>
                     <th>Games</th>
