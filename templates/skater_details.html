@@ -49,6 +49,33 @@
                 </tr>
             </table>
         {% endfor %}
+        
+        <table id="skater_history">
+            <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>G</th>
+                <th>A</th>
+                <th>S</th>
+                <th>B</th>
+                <th>PP TOI</th>
+                <th>TOI</th>
+                <th>FP</th>
+            </tr>
+            {% for _, row in skater_history.iterrows() %}
+            <tr>
+                <td class="stat_cell">{{row['date']}}</td>
+                <td class="stat_cell">{{row['opp_id']}}</td>
+                <td class="stat_cell">{{row['goals']}}</td>
+                <td class="stat_cell">{{row['assists']}}</td>
+                <td class="stat_cell">{{row['shots']}}</td>
+                <td class="stat_cell">{{row['blocks']}}</td>
+                <td class="stat_cell">{{row['PPTOI']}}</td>
+                <td class="stat_cell">{{row['TOI']}}</td>
+                <td class="stat_cell">{{row['fantasy_points']}}</td>
+            </tr>
+            {% endfor %}
+        </table>
     </div>
 
 
