@@ -80,6 +80,10 @@ th, .team_table_label {
     text-align: center;
 }
 
+#skater_history_table {
+    width: 80%;
+}
+
 #skaters_selection_form {
     display: flex;
     flex-direction: row;
@@ -88,6 +92,12 @@ th, .team_table_label {
 
 #skater_stats_container_all {
     max-width:400px;
+}
+
+#skater_tables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #player_detail_container {
