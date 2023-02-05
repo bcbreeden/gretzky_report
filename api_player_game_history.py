@@ -1,14 +1,13 @@
-from script_utils import get_data_path, get_current_season, get_hot_cold_dif
+from script_utils import get_data_path, get_current_season
 from api_players import get_player_ids
+from teams import read_teams_data
 import pandas as pd
 import requests
 import json
 
 def get_player_game_history():
-    # GAMES_NEEDED = 5
     player_ids = get_player_ids()
-    # player_ids = [8477970]
-
+    team_data = read_teams_data()
     player_game_history_skaters = []
     player_game_history_goalies = []
     for player_id in player_ids:
@@ -17,11 +16,16 @@ def get_player_game_history():
         player_game_history_data = json.loads(requests.get(request_string).text)
         games = player_game_history_data['stats'][0]['splits']
         for game in games[:5]: #last 5 games
+            opponent_record = team_data.loc[team_data['id'] == game['opponent']['id']]
+            # print(type(opponent_record.iloc[0]['abbreviation']))
             record= {}
             record['player_id'] = player_id
             record['date'] = game['date']
-            record['opp_id'] = game['opponent']['id']
             record['home_game'] = game['isHome']
+            if game['isHome'] == True:
+                record['opp'] = opponent_record.iloc[0]['abbreviation']
+            else:
+                record['opp'] = '@' + opponent_record.iloc[0]['abbreviation']
             record['TOI'] = game['stat']['timeOnIce']
             try:
                 record['assists'] = game['stat']['assists']

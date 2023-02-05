@@ -14,7 +14,7 @@
                     <h3 class="skater_team_header">{{skater['position']}}</h3>
                 </section>
             </section>
-            
+
             <section id="skater_tables">
                 <table id="skater_details_table">
                     <tr>
@@ -67,7 +67,7 @@
                 {% for _, row in skater_history.iterrows() %}
                 <tr>
                     <td class="stat_cell">{{row['date']}}</td>
-                    <td class="stat_cell">{{row['opp_id']}}</td>
+                    <td class="stat_cell">{{row['opp']}}</td>
                     <td class="stat_cell">{{row['goals']}}</td>
                     <td class="stat_cell">{{row['assists']}}</td>
                     <td class="stat_cell">{{row['shots']}}</td>
