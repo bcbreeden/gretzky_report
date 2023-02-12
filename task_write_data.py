@@ -17,8 +17,8 @@ if __name__ == "__main__":
     print('Writing player game history...', flush=True)
     write_player_game_history_data()
 
-    print('Cleaning player data...', flush=True)
-    add_skater_averages_to_csv()
+   # print('Cleaning player data...', flush=True)
+   # add_skater_averages_to_csv()
 
     print('Who is hot, who is cold? Lets find out...', flush=True)
     set_hot_cold()
