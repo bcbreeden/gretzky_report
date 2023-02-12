@@ -4,7 +4,7 @@ from skaters import get_skater_data_by_id, get_skaters_data_by_team_id
 from goalies import get_goalies_data_by_team_id
 from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
 from schedule import get_teams_playing_today
-from skater_game_history import get_skater_history_by_id
+from skater_game_history import get_skater_history_by_id, get_skater_plot_data
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -38,12 +38,15 @@ def skater_details():
     if request.method == 'POST':
         skater_id = request.form['skater_id']
         skater_team_id = request.form['skater_team_id']
-        print(skater_team_id)
         skater_data = get_skater_data_by_id(skater_id)
         skater_history_data = get_skater_history_by_id(skater_id)
+        skater_history_plot_data = get_skater_plot_data(skater_history_data)
+        print(skater_history_plot_data[0])
         return render_template('skater_details.html',
                                 skater = skater_data,
-                                skater_history = skater_history_data)
+                                skater_history = skater_history_data,
+                                plot_opponents = skater_history_plot_data[0],
+                                plot_fantasy_points = skater_history_plot_data[1])
     else:
         return redirect(url_for('index'))
 

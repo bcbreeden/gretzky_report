@@ -2,6 +2,7 @@
 
 {% block content %}
 <main>
+    <script src="https://cdn.plot.ly/plotly-2.18.0.min.js"></script>
 
     <div id="player_detail_container">
     
@@ -51,7 +52,8 @@
                     </tr>
                 </table>
             {% endfor %}
-            
+
+            <div id="skater_graph" style="width:600px;height:250px;"></div>            
             <table id="skater_history_table">
                 <tr>
                     <th>Date</th>
@@ -81,6 +83,17 @@
         </section>
     </div>
 
+    <script>
+        var trace1 = {
+             x: {{plot_opponents|safe}}.reverse(),
+             y: {{plot_fantasy_points|safe}}.reverse(),
+             type: 'scatter'
+            };
 
+var data = [trace1];
+
+Plotly.newPlot('skater_graph', data);
+
+    </script>
 </main>
 {% endblock %}
