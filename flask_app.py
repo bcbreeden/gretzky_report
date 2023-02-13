@@ -41,7 +41,6 @@ def skater_details():
         skater_data = get_skater_data_by_id(skater_id)
         skater_history_data = get_skater_history_by_id(skater_id)
         skater_history_plot_data = get_skater_plot_data(skater_history_data)
-        print(skater_history_plot_data[0])
         return render_template('skater_details.html',
                                 skater = skater_data,
                                 skater_history = skater_history_data,
