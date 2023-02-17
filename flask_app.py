@@ -3,7 +3,7 @@ import pandas as pd
 from skaters import get_skater_data_by_id, get_skaters_data_by_team_id
 from goalies import get_goalies_data_by_team_id
 from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
-from schedule import get_teams_playing_today
+from schedule import get_teams_playing_today, get_next_opponent
 from skater_game_history import get_skater_history_by_id, get_skater_plot_data
 
 app = Flask(__name__)
@@ -37,7 +37,10 @@ def skaters():
 def skater_details():
     if request.method == 'POST':
         skater_id = request.form['skater_id']
-        skater_team_id = request.form['skater_team_id']
+        skater_team_id = int(request.form['skater_team_id'])
+        opponent_team_id = get_next_opponent(skater_team_id)
+        
+        teams_data_by_id = get_teams_data_by_team_ids([skater_team_id, opponent_team_id])
         skater_data = get_skater_data_by_id(skater_id)
         skater_history_data = get_skater_history_by_id(skater_id)
         skater_history_plot_data = get_skater_plot_data(skater_history_data)
@@ -45,7 +48,8 @@ def skater_details():
                                 skater = skater_data,
                                 skater_history = skater_history_data,
                                 plot_opponents = skater_history_plot_data[0],
-                                plot_fantasy_points = skater_history_plot_data[1])
+                                plot_fantasy_points = skater_history_plot_data[1],
+                                teams = teams_data_by_id)
     else:
         return redirect(url_for('index'))
 
