@@ -81,9 +81,12 @@
                 {% endfor %}
             </table>
         </section>
-        <div class="teams_container_all">
-            {% include 'template_team_card.html'  %}
-        </div>
+        <section id='player_details_matchup'>
+            <h1>Next Matchup</h1>
+            <div class="teams_container_all teams_container_player_details">
+                {% include 'template_team_card.html'  %}
+            </div>
+        </section>
         
     </div>
 
