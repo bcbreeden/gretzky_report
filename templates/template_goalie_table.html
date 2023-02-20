@@ -10,6 +10,7 @@
             <th>Shutouts</th>
             <th>Save %</th>
             <th>GAA</th>
+            <th>FPPG</th>
         </tr>
     </thead>
 
@@ -20,7 +21,7 @@
                     <form target="_blank" action="{{ url_for('skater_details') }}" method="post">
                         <input class="hidden" type="checkbox" id="{{goalie['id']}}" name="goalie_id" value="{{goalie['id']}}" checked>
                         <input class="hidden" type="checkbox" id="{{goalie['teamid']}}" name="goalie_team_id" value="{{goalie['teamid']}}" checked>
-                        <input class="form_link" type="submit" value="{{goalie['fullname']}}">
+                        <input class="form_link" type="submit" value="{{goalie['playername']}}">
                         <p class="hidden">{{goalie['playername']}}</p>
                     </form>
                 </td>
@@ -50,6 +51,7 @@
                 <td class="stat_cell">{{goalie['shutouts']}}</td>
                 <td class="stat_cell">{{goalie['savepercentage']}}</td>
                 <td class="stat_cell">{{goalie['goalagainstaverage']}}</td>
+                <td class=""stat_cell">{{goalie['FPPG']}}</td>
             </tr>
         {% endfor %}
     </tbody>
