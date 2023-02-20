@@ -62,6 +62,9 @@ def get_player_stats():
                 record['shutouts'] = stats['shutouts']
                 record['savepercentage'] = stats['savePercentage']
                 record['goalagainstaverage'] = stats['goalAgainstAverage']
+                record['saves'] = stats['saves']
+                record['ot'] = stats['ot']
+                record['FPPG'] = get_goalie_fantasy_ppg(record['games'], record['wins'], record['saves'], record['goalagainstaverage'], record['shutouts'], record['ot'])
             # No Stats (Rookie or First NHL Game)
             except (IndexError, KeyError):
                 record['jerseynumber'] = 0
@@ -72,6 +75,9 @@ def get_player_stats():
                 record['shutouts'] = 0
                 record['savepercentage'] = 0
                 record['goalagainstaverage'] = 0
+                record['saves'] = 0
+                record['ot'] = 0
+                record['FPPG'] = 0 
             record['hot'] = 0
             record['cold'] = 0
             record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
@@ -177,3 +183,17 @@ def get_skater_fantasy_ppg(gpg, apg, spg, bpg):
     shots_fpts = spg * 1.5
     block_fpts = bpg * 1.3
     return (goal_fpts + assist_fpts + shots_fpts + block_fpts)
+
+def get_goalie_fantasy_ppg(games, wins, saves, gaa, shutouts, ot):
+    wins_per_game = (wins / games)
+    saves_per_game = (saves / games)
+    so_per_game = (shutouts / games)
+    ot_per_game = (ot / games)
+
+    wins_fpts = (wins_per_game * 6)
+    saves_fpts = (saves_per_game * 0.7)
+    gaa_fpts = (gaa * (-3.5))
+    so_fpts = (so_per_game * 4)
+    ot_fpts = (ot_per_game * 2)
+
+    return(wins_fpts + saves_fpts + gaa_fpts + so_fpts + ot_fpts)
