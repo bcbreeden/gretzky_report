@@ -14,12 +14,20 @@
                     <h3 class="skater_team_header">{{skater['position']}}</h3>
                 </section>
             </section>
-            
+
             <section id="skater_tables">
-            {% include 'skater_details_table.html' %}
+                {% if position == 's' %}
+                    {% include 'skater_details_table.html' %}
+                {% else %}
+                    <p>Goalie table goes here eventually</p>
+                {% endif %}
         {% endfor %}
-            <div id="skater_graph" style="width:700px;height:300px;"></div>
-            {% include 'skater_history_table.html' %}
+                <div id="skater_graph" style="width:700px;height:300px;"></div>
+                {% if position == 's' %}
+                    {% include 'skater_history_table.html' %}
+                {% else %}
+                    <p>Goalie table goes here eventually</p>
+                {% endif %}
             </section>
 
         <section id='player_details_matchup'>
