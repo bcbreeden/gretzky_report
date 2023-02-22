@@ -47,6 +47,7 @@ def get_player_stats():
             record['playername'] = player_data['people'][0]['fullName']
             record['currentteam'] = player_data['people'][0]['currentTeam']['name']
             record['status'] = player_data['people'][0]['rosterStatus']
+            record['position'] = 'Goalie'
             # record['primaryposition'] = player_data['people'][0]['primaryPosition']['name']
             
 
