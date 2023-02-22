@@ -5,7 +5,6 @@
     <script src="https://cdn.plot.ly/plotly-2.18.0.min.js"></script>
 
     <div id="player_detail_container">
-    
         {% for _, skater in skater.iterrows() %}
             <section id="player_info">
                 <h1 class="super_bold" id="player_number">{{skater['jerseynumber']}}</h1>
@@ -15,72 +14,14 @@
                     <h3 class="skater_team_header">{{skater['position']}}</h3>
                 </section>
             </section>
-
+            
             <section id="skater_tables">
-                <table id="skater_details_table">
-                    <tr>
-                        <th>GP</th>
-                        <th>G</th>
-                        <th>A</th>
-                        <th>P</th>
-                        <th>S</th>
-                        <th>+/-</th>
-                        <th>PIM</th>
-                        <th>HITS</th>
-                        <th>GPG</th>
-                        <th>APG</th>
-                        <th>SPG</th>
-                        <th>PP TOI</th>
-                        <th>TOI</th>
-                        <th>FPPG</th>
-                    </tr>
-                    <tr>
-                        <td class="stat_cell">{{skater['games']}}</td>
-                        <td class="stat_cell">{{skater['goals']}}</td>
-                        <td class="stat_cell">{{skater['assists']}}</td>
-                        <td class="stat_cell">{{skater['points']}}</td>
-                        <td class="stat_cell">{{skater['shots']}}</td>
-                        <td class="stat_cell">{{skater['plusminus']}}</td>
-                        <td class="stat_cell">{{skater['pim']}}</td>
-                        <td class="stat_cell">{{skater['hits']}}</td>
-                        <td class="stat_cell">{{skater['GPG']}}</td>
-                        <td class="stat_cell">{{skater['APG']}}</td>
-                        <td class="stat_cell">{{skater['SPG']}}</td>
-                        <td class="stat_cell">{{skater['powerPlayTimeOnIcePerGame']}}</td>
-                        <td class="stat_cell">{{skater['timeonicepergame']}}</td>
-                        <td class="stat_cell">{{skater['FPPG']}}</td>
-                    </tr>
-                </table>
-            {% endfor %}
+            {% include 'skater_details_table.html' %}
+        {% endfor %}
+            <div id="skater_graph" style="width:700px;height:300px;"></div>
+            {% include 'skater_history_table.html' %}
+            </section>
 
-            <div id="skater_graph" style="width:700px;height:300px;"></div>            
-            <table id="skater_history_table">
-                <tr>
-                    <th>Date</th>
-                    <th>Opponent</th>
-                    <th>G</th>
-                    <th>A</th>
-                    <th>S</th>
-                    <th>B</th>
-                    <th>PP TOI</th>
-                    <th>TOI</th>
-                    <th>FP</th>
-                </tr>
-                {% for _, row in skater_history.iterrows() %}
-                <tr>
-                    <td class="stat_cell">{{row['date']}}</td>
-                    <td class="stat_cell">{{row['opp']}}</td>
-                    <td class="stat_cell">{{row['goals']}}</td>
-                    <td class="stat_cell">{{row['assists']}}</td>
-                    <td class="stat_cell">{{row['shots']}}</td>
-                    <td class="stat_cell">{{row['blocks']}}</td>
-                    <td class="stat_cell">{{row['PPTOI']}}</td>
-                    <td class="stat_cell">{{row['TOI']}}</td>
-                    <td class="stat_cell">{{row['fantasy_points']}}</td>
-                </tr>
-                {% endfor %}
-            </table>
-        </section>
         <section id='player_details_matchup'>
             <h1>Next Matchup</h1>
             <div class="teams_container_all teams_container_player_details">
