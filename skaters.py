@@ -5,7 +5,7 @@ def read_skater_data():
     return(pd.read_csv(get_data_path('data_skater.csv'), float_precision='round_trip'))
 
 '''
-Fetches skater data from the CSV file via a skater ids.
+Fetches skater data from the CSV file via a skater id.
 '''
 def get_skater_data_by_id(player_id):
     DATA  = read_skater_data()
