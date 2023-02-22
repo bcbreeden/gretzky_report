@@ -48,7 +48,7 @@ def player_details():
             skater_history_data = get_skater_history_by_id(player_id)
             skater_history_plot_data = get_skater_plot_data(skater_history_data)
             return render_template('player_details.html',
-                                    skater = skater_data,
+                                    player = skater_data,
                                     skater_history = skater_history_data,
                                     plot_opponents = skater_history_plot_data[0],
                                     plot_fantasy_points = skater_history_plot_data[1],
@@ -59,7 +59,14 @@ def player_details():
             goalie_data = get_goalie_data_by_id(player_id)
             goalie_history_data = get_goalie_history_by_id(player_id)
             goalie_history_plot_data = get_goalie_plot_data(goalie_history_data)
-            return redirect(url_for('index'))
+            return render_template('player_details.html',
+                                    player = goalie_data,
+                                    goalie_history = goalie_history_data,
+                                    plot_opponents = goalie_history_plot_data[0],
+                                    plot_fantasy_points = goalie_history_plot_data[1],
+                                    teams = teams_data_by_id,
+                                    position = position)
+            # return redirect(url_for('index'))
         else:
             return redirect(url_for('index'))
     else:
