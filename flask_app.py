@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
 from skaters import get_skater_data_by_id, get_skaters_data_by_team_id
-from goalies import get_goalies_data_by_team_id
+from goalies import get_goalies_data_by_team_id, get_goalie_data_by_id
 from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
 from schedule import get_teams_playing_today, get_next_opponent
-from skater_game_history import get_skater_history_by_id, get_skater_plot_data
+from player_game_history import get_skater_history_by_id, get_skater_plot_data, get_goalie_history_by_id, get_goalie_plot_data
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -33,8 +33,8 @@ def skaters():
     else:
         return render_template('skaters.html')
 
-@app.route('/skater_details/', methods=('GET', 'POST'))
-def skater_details():
+@app.route('/player_details/', methods=('GET', 'POST'))
+def player_details():
     if request.method == 'POST':
         player_id = request.form['player_id']
         player_team_id = int(request.form['player_team_id'])
@@ -47,7 +47,7 @@ def skater_details():
             skater_data = get_skater_data_by_id(player_id)
             skater_history_data = get_skater_history_by_id(player_id)
             skater_history_plot_data = get_skater_plot_data(skater_history_data)
-            return render_template('skater_details.html',
+            return render_template('player_details.html',
                                     skater = skater_data,
                                     skater_history = skater_history_data,
                                     plot_opponents = skater_history_plot_data[0],
@@ -56,6 +56,9 @@ def skater_details():
                                     position = position)
         # Goalie
         elif position == 'g':
+            goalie_data = get_goalie_data_by_id(player_id)
+            goalie_history_data = get_goalie_history_by_id(player_id)
+            goalie_history_plot_data = get_goalie_plot_data(goalie_history_data)
             return redirect(url_for('index'))
         else:
             return redirect(url_for('index'))
