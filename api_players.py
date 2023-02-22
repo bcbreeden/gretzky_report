@@ -43,7 +43,7 @@ def get_player_stats():
             print(log_string, flush=True)
 
             record['id'] = player_data['people'][0]['id']
-            record['currentteamid'] = player_data['people'][0]['currentTeam']['id']
+            record['teamid'] = player_data['people'][0]['currentTeam']['id']
             record['playername'] = player_data['people'][0]['fullName']
             record['currentteam'] = player_data['people'][0]['currentTeam']['name']
             record['status'] = player_data['people'][0]['rosterStatus']

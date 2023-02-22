@@ -36,16 +36,16 @@ def skaters():
 @app.route('/skater_details/', methods=('GET', 'POST'))
 def skater_details():
     if request.method == 'POST':
-        skater_id = request.form['skater_id']
-        skater_team_id = int(request.form['skater_team_id'])
+        player_id = request.form['player_id']
+        player_team_id = int(request.form['player_team_id'])
         position = request.form['position']
-        opponent_team_id = get_next_opponent(skater_team_id)
-        teams_data_by_id = get_teams_data_by_team_ids([skater_team_id, opponent_team_id])
+        opponent_team_id = get_next_opponent(player_team_id)
+        teams_data_by_id = get_teams_data_by_team_ids([player_team_id, opponent_team_id])
 
         # Skater
         if position == 's':
-            skater_data = get_skater_data_by_id(skater_id)
-            skater_history_data = get_skater_history_by_id(skater_id)
+            skater_data = get_skater_data_by_id(player_id)
+            skater_history_data = get_skater_history_by_id(player_id)
             skater_history_plot_data = get_skater_plot_data(skater_history_data)
             return render_template('skater_details.html',
                                     skater = skater_data,

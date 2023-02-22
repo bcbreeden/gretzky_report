@@ -6,7 +6,7 @@ def read_goalie_data():
 
 def get_goalies_data_by_team_id(team_ids):
     DATA  = read_goalie_data()
-    goalies = DATA.loc[DATA['currentteamid'].isin(team_ids)]
+    goalies = DATA.loc[DATA['teamid'].isin(team_ids)]
     return(goalies)
 
 '''

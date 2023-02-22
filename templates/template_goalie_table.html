@@ -19,8 +19,9 @@
             <tr>
                 <td class="non_stat_cell">
                     <form target="_blank" action="{{ url_for('skater_details') }}" method="post">
-                        <input class="hidden" type="checkbox" id="{{goalie['id']}}" name="goalie_id" value="{{goalie['id']}}" checked>
-                        <input class="hidden" type="checkbox" id="{{goalie['teamid']}}" name="goalie_team_id" value="{{goalie['teamid']}}" checked>
+                        <input class="hidden" type="checkbox" id="{{goalie['id']}}" name="player_id" value="{{goalie['id']}}" checked>
+                        <input class="hidden" type="checkbox" id="{{goalie['teamid']}}" name="player_team_id" value="{{goalie['teamid']}}" checked>
+                        <input class="hidden" type="checkbox" name="position" value="g" checked>
                         <input class="form_link" type="submit" value="{{goalie['playername']}}">
                         <p class="hidden">{{goalie['playername']}}</p>
                     </form>
