@@ -1,0 +1,24 @@
+<table id="player_history_table">
+    <tr>
+        <th>Date</th>
+        <th>Opponent</th>
+        <th>Save %</th>
+        <th>Shots</th>
+        <th>Saves</th>
+        <th>Goals</th>
+        <th>Outcome</th>
+        <th>FP</th>
+    </tr>
+    {% for _, row in goalie_history.iterrows() %}
+    <tr>
+        <td class="stat_cell">{{row['date']}}</td>
+        <td class="stat_cell">{{row['opp']}}</td>
+        <td class="stat_cell">{{row['save_perc']}}</td>
+        <td class="stat_cell">{{row['shots_against']}}</td>
+        <td class="stat_cell">{{row['saves']}}</td>
+        <td class="stat_cell">{{row['goals_against']}}</td>
+        <td class="stat_cell">{{row['decision']}}</td>
+        <td class="stat_cell">{{row['fantasy_points']}}</td>
+    </tr>
+    {% endfor %}
+</table>
