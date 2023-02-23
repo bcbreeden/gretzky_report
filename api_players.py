@@ -65,6 +65,7 @@ def get_player_stats():
                 record['goalagainstaverage'] = stats['goalAgainstAverage']
                 record['saves'] = stats['saves']
                 record['ot'] = stats['ot']
+                record['gamesstarted'] = stats['gamesStarted']
                 record['FPPG'] = get_goalie_fantasy_ppg(record['games'], record['wins'], record['saves'], record['goalagainstaverage'], record['shutouts'], record['ot'])
             # No Stats (Rookie or First NHL Game)
             except (IndexError, KeyError):
@@ -78,6 +79,7 @@ def get_player_stats():
                 record['goalagainstaverage'] = 0
                 record['saves'] = 0
                 record['ot'] = 0
+                record['gamesstarted'] = 0
                 record['FPPG'] = 0 
             record['hot'] = 0
             record['cold'] = 0

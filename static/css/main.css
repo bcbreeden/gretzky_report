@@ -86,7 +86,7 @@ th, .team_table_label {
     margin: 20px;
 }
 
-#skater_details_table {
+#player_details_table {
     border: 1px;
     border-color: var(--blue);
     border-style: solid;
