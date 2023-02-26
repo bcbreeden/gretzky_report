@@ -1,9 +1,11 @@
 from script_utils import get_data_path, get_current_season
 from api_players import get_player_ids
-from teams import read_teams_data
 import pandas as pd
 import requests
 import json
+
+def read_teams_data():
+    return(pd.read_csv(get_data_path('data_teams.csv'), float_precision='round_trip'))
 
 def get_player_game_history():
     player_ids = get_player_ids()
