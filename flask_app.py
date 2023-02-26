@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
-from skaters import get_skater_data_by_id, get_skaters_data_by_team_id
-from goalies import get_goalies_data_by_team_id, get_goalie_data_by_id
-from teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
-from schedule import get_teams_playing_today, get_next_opponent
-from player_game_history import get_skater_history_by_id, get_skater_plot_data, get_goalie_history_by_id, get_goalie_plot_data
+from data_skaters import get_skater_data_by_id, get_skaters_data_by_team_id
+from data_goalies import get_goalies_data_by_team_id, get_goalie_data_by_id
+from data_teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
+from data_schedule import get_teams_playing_today, get_next_opponent
+from data_player_game_history import get_skater_history_by_id, get_skater_plot_data, get_goalie_history_by_id, get_goalie_plot_data
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
