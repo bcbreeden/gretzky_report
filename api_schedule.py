@@ -1,8 +1,6 @@
 import json
 import requests
-import pandas as pd
 from datetime import datetime, timedelta
-from script_utils import get_data_path
 
 '''
 Calls the api and formats a list of dictionaries containing the game schedule.
@@ -23,13 +21,6 @@ def get_game_schedule():
             game_data['awayid'] = game['teams']['away']['team']['id']
             games_data_all.append(game_data)
     return(games_data_all)
-
-'''
-Writes the schedule data to a csv. This file will be used by the front end to develop views.
-'''
-def write_game_schedule():
-    df = pd.DataFrame(get_game_schedule())
-    df.to_csv(get_data_path('data_schedule.csv'), encoding='utf-8', index=False)
 
 '''
 Returns the date and time in a list.

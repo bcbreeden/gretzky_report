@@ -2,8 +2,6 @@ import json
 import requests
 from datetime import datetime
 import re
-import pandas as pd
-from script_utils import get_data_path
 
 '''
 Returns a list of active team ids.
@@ -45,13 +43,6 @@ def get_team_data():
         team_data['win_pytha_diff'] = round((team_data['pytha_exp']- team_data['win_perc']) , 3)
         team_data_all.append(team_data)
     return(team_data_all)
-
-'''
-Writes the teams data to a csv. This file will be used by the front end to develop views.
-'''
-def write_team_data():
-    df = pd.DataFrame(get_team_data())
-    df.to_csv(get_data_path('data_teams.csv'), encoding='utf-8', index=False)
 
 '''
 Pythagorean expectation is a sports analytics formula devised by Bill James to estimate the percentage of games a baseball team "should" have won based on the number of runs they scored and allowed. Comparing a team's actual and Pythagorean winning percentage can be used to make predictions and evaluate which teams are over-performing and under-performing.

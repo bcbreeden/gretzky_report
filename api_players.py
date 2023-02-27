@@ -2,8 +2,6 @@ import json
 import requests
 from api_teams import get_team_ids
 from datetime import datetime
-import pandas as pd
-from script_utils import get_data_path, get_min_games
 
 '''
 Calls the nhl team api and returns a list of all active player ids.
@@ -26,7 +24,7 @@ Makes a request for each player and records the player statistics.
 
 Returns two lists of player records: [player_stats_skaters, player_stats_goalies]
 '''
-def get_player_stats():
+def get_player_stats(min_games):
     player_stats_skaters = []
     player_stats_goalies = []
 
@@ -83,7 +81,7 @@ def get_player_stats():
             record['hot'] = 0
             record['cold'] = 0
             record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
-            if record['games'] >= get_min_games():
+            if record['games'] >= min_games:
                 print('Player added:', player_data['people'][0]['fullName'], flush=True)
                 player_stats_goalies.append(record)
             else:
@@ -162,22 +160,12 @@ def get_player_stats():
             record['cold'] = 0
             record['lastupdated'] = datetime.utcnow().strftime("%m/%d/%Y, %H:%M:%S")
 
-            if record['games'] >= get_min_games():
+            if record['games'] >= min_games:
                 print('Player added:', player_data['people'][0]['fullName'], flush=True)
                 player_stats_skaters.append(record)
             else:
                 print('Not enough games for:', player_data['people'][0]['fullName'], flush=True)
     return(player_stats_skaters, player_stats_goalies)
-
-'''
-Takes in player data and writes the data to a csv file. One for skater and another for goalies (they have different features which dictates we need two seperate files.)
-'''
-def write_player_data():
-    data_all = get_player_stats()
-    skater_df = pd.DataFrame(data_all[0])
-    goalie_df = pd.DataFrame(data_all[1])
-    skater_df.to_csv(get_data_path('data_skater.csv'), encoding='utf-8', index=False)
-    goalie_df.to_csv(get_data_path('data_goalie.csv'), encoding='utf-8', index=False)
 
 def get_skater_fantasy_ppg(gpg, apg, spg, bpg):
     goal_fpts = gpg * 8.5
