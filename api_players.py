@@ -1,10 +1,9 @@
 import json
 import requests
 from api_teams import get_team_ids
-from script_utils import get_min_games
 from datetime import datetime
 import pandas as pd
-from script_utils import get_data_path, get_current_season
+from script_utils import get_data_path, get_min_games
 
 '''
 Calls the nhl team api and returns a list of all active player ids.
