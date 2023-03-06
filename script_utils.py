@@ -19,7 +19,7 @@ def get_data_path(file_name):
     if DEV == True:
         return('static/data/{}'.format(file_name))
     else:
-        return('/home/breedenb/pyhl-io/static/data/{}'.format(file_name))
+        return('/home/breedenb/gretzky_report/static/data/{}'.format(file_name))
 
 '''
 Gets the current season as a string
