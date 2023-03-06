@@ -15,7 +15,6 @@ def get_player_game_history(current_season):
         games = player_game_history_data['stats'][0]['splits']
         for game in games[:5]: #last 5 games
             opponent_record = team_data.loc[team_data['id'] == game['opponent']['id']]
-            # print(type(opponent_record.iloc[0]['abbreviation']))
             record= {}
             record['player_id'] = player_id
             record['date'] = game['date']

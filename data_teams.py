@@ -1,8 +1,6 @@
 import pandas as pd
 from script_utils import get_data_path
 
-# DATA = pd.read_csv(get_data_path('data_teams.csv'), float_precision='round_trip')
-
 def read_teams_data():
     return(pd.read_csv(get_data_path('data_teams.csv'), float_precision='round_trip'))
 

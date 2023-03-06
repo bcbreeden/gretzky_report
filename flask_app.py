@@ -66,7 +66,6 @@ def player_details():
                                     plot_fantasy_points = goalie_history_plot_data[1],
                                     teams = teams_data_by_id,
                                     position = position)
-            # return redirect(url_for('index'))
         else:
             return redirect(url_for('index'))
     else:
