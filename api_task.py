@@ -1,7 +1,7 @@
-from api_players import get_player_stats
-from api_schedule import get_game_schedule
-from api_teams import get_team_data
-from api_player_game_history import get_player_game_history
+from api.api_players import get_player_stats
+from api.api_schedule import get_game_schedule
+from api.api_teams import get_team_data
+from api.api_player_game_history import get_player_game_history
 from data_skaters import set_hot_cold
 from script_utils import get_data_path, get_min_games, get_current_season
 import pandas as pd

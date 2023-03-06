@@ -1,6 +1,6 @@
 import json
 import requests
-from api_teams import get_team_ids
+from api.api_teams import get_team_ids
 from datetime import datetime
 
 '''

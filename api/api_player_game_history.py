@@ -1,4 +1,4 @@
-from api_players import get_player_ids
+from api.api_players import get_player_ids
 from data_teams import read_teams_data
 import requests
 import json
