@@ -3,7 +3,7 @@ import pandas as pd
 from data_skaters import get_skater_data_by_id, get_skaters_data_by_team_id
 from data_goalies import get_goalies_data_by_team_id, get_goalie_data_by_id
 from data_teams import get_team_data_all, get_team_data_by_id, get_teams_data_by_team_ids, get_team_ids_all
-from data_schedule import get_teams_playing_today, get_next_opponent
+from data_schedule import get_teams_playing_today, get_next_opponent, get_last_opponent
 from data_player_game_history import get_skater_history_by_id, get_skater_plot_data, get_goalie_history_by_id, get_goalie_plot_data
 
 app = Flask(__name__)
@@ -36,10 +36,16 @@ def skaters():
 @app.route('/player_details/', methods=('GET', 'POST'))
 def player_details():
     if request.method == 'POST':
+        offseason = False
         player_id = request.form['player_id']
         player_team_id = int(request.form['player_team_id'])
         position = request.form['position']
-        opponent_team_id = get_next_opponent(player_team_id)
+        try:
+            opponent_team_id = get_next_opponent(player_team_id)
+        except IndexError:
+            print('There is not a game coming up, using last opponent.', flush=True)
+            offseason = True
+            opponent_team_id = get_last_opponent(player_team_id)
         teams_data_by_id = get_teams_data_by_team_ids([player_team_id, opponent_team_id])
 
         # Skater
@@ -53,7 +59,8 @@ def player_details():
                                     plot_opponents = skater_history_plot_data[0],
                                     plot_fantasy_points = skater_history_plot_data[1],
                                     teams = teams_data_by_id,
-                                    position = position)
+                                    position = position,
+                                    offseason = offseason)
         # Goalie
         elif position == 'g':
             goalie_data = get_goalie_data_by_id(player_id)
@@ -65,7 +72,8 @@ def player_details():
                                     plot_opponents = goalie_history_plot_data[0],
                                     plot_fantasy_points = goalie_history_plot_data[1],
                                     teams = teams_data_by_id,
-                                    position = position)
+                                    position = position,
+                                    offseason = offseason)
         else:
             return redirect(url_for('index'))
     else:

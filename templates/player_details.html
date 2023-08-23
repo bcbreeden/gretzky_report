@@ -31,7 +31,11 @@
             </section>
 
         <section id='player_details_matchup'>
-            <h1>Next Matchup</h1>
+            {% if offseason %}
+                <h1>Previous Matchup</h1>
+            {% else %}
+                <h1>Next Matchup</h1>
+            {% endif %}
             <div class="teams_container_all teams_container_player_details">
                 {% include 'template_team_card.html'  %}
             </div>
