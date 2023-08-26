@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<main>
+<section id="player_details_container">
     <script src="https://cdn.plot.ly/plotly-2.18.0.min.js"></script>
 
     <div id="player_detail_container">
@@ -42,7 +42,8 @@
         </section>
         
     </div>
-
+    <!-- This creates the graph/plot for the player details page. Errors are expected 
+        at the level of the IDE but the rendering should be fine -->
     <script>
         var trace1 = {
             x: {{plot_opponents|safe}}.reverse(),
@@ -90,5 +91,5 @@
         Plotly.newPlot('skater_graph', data, layout, config);
 
     </script>
-</main>
+</section>
 {% endblock %}

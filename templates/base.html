@@ -16,7 +16,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Coda+Caption&display=swap" rel="stylesheet">
 </head>
 <body>
-    {% block content %} {% endblock %}
+    <ul class="horizontal-menu">
+        <li><a href="#" class="form_link">Home</a></li>
+        <li><a href="#" class="form_link">Skaters</a></li>
+        <li><a href="#" class="form_link">Teams</a></li>
+    </ul>
+    <main>
+        {% block content %} {% endblock %}
+    </main>
 </body>
 
 

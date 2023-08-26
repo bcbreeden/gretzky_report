@@ -23,6 +23,11 @@ input[type=submit]:hover{
     cursor:pointer;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 p, td {
     color: var(--light_gray);
 }
@@ -41,20 +46,20 @@ h3 {
     margin: 0px;
 }
 
-main {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 td {
     text-align: center;
 }
 
 th, .team_table_label {
     color: var(--light_blue);
+}
+
+#player_details_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #player_details_matchup {
@@ -236,3 +241,19 @@ th, .team_table_label {
     font-weight: bold;
     text-align: end;
 }
+
+/* Menu */
+ul.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+  ul.horizontal-menu li {
+    display: inline-block;
+    margin-right: 15px; /* Adjust spacing between menu items */
+}
+
+  ul.horizontal-menu li:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+  }
