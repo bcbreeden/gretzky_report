@@ -17,9 +17,10 @@
 </head>
 <body>
     <ul class="horizontal-menu">
-        <li><a href="#" class="form_link">Home</a></li>
-        <li><a href="#" class="form_link">Skaters</a></li>
-        <li><a href="#" class="form_link">Teams</a></li>
+        <li><a href="{{ url_for('index') }}" class="form_link">Home</a></li>
+        <li><a href="{{ url_for('skaters') }}" class="form_link">Skaters</a></li>
+        <li><a href="{{ url_for('goalies_all') }}" class="form_link">Goalies</a></li>
+        <li><a href="{{ url_for('compare_teams') }}" class="form_link">Teams</a></li>
     </ul>
     <main>
         {% block content %} {% endblock %}
