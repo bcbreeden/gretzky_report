@@ -16,12 +16,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Coda+Caption&display=swap" rel="stylesheet">
 </head>
 <body>
-    <ul class="horizontal-menu">
+
+    <ul>
         <li><a href="{{ url_for('index') }}" class="form_link">Home</a></li>
-        <li><a href="{{ url_for('skaters') }}" class="form_link">Skaters</a></li>
-        <li><a href="{{ url_for('goalies_all') }}" class="form_link">Goalies</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="form_link dropbtn" id="skater_menu">Skaters</a>
+            <div class="dropdown-content">
+                <a href="#" class="form_link">All Skaters</a>
+                <a href="#" class="form_link">Skaters Playing Today</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Goalies</a>
+            <div class="dropdown-content">
+                <a href="#" class="form_link">All Goalies</a>
+                <a href="#" class="form_link">Goalies Playing Today</a>
+            </div>
+        </li>
         <li><a href="{{ url_for('compare_teams') }}" class="form_link">Teams</a></li>
     </ul>
+    
     <main>
         {% block content %} {% endblock %}
     </main>
