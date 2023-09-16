@@ -2,19 +2,21 @@
 
 {% block content %}
 <section id="team_comparison_container">
-    <form id="team_selection_form" action="{{ url_for('compare_teams') }}" method="post">
-        <div class="team_form_item">
-            <input type="checkbox" onClick="toggle(this)" />
-            <label for="team">Select All</label>
+    <form action="{{ url_for('compare_teams') }}" method="post">
+        <div id="team_selection_form">
+            <div class="team_form_item">
+                <input type="checkbox" onClick="toggle(this)" />
+                <label for="team">Select All</label>
+            </div>
+            <br />
+            {% for _,team in teams_all.iterrows() %}
+            <div class="team_form_item">
+                <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
+                <label for="team"> {{team['name']}}</label>
+            </div>
+            {% endfor %}
+            <br />
         </div>
-        <br />
-        {% for _,team in teams_all.iterrows() %}
-        <div class="team_form_item">
-            <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
-            <label for="team"> {{team['name']}}</label>
-        </div>
-        {% endfor %}
-        <br />
         <input class="button_slide slide_right" type="submit" value="Go!">
     </form>
 

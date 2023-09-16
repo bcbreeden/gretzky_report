@@ -19,6 +19,12 @@ body, html {
     font-weight: bold;
   }
 
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 input[type=submit]:hover{
     cursor:pointer;
 }
@@ -132,14 +138,14 @@ th, .team_table_label {
     flex-direction: row;
     flex-flow: wrap;
     justify-content: flex-start;
-    padding: 20px;
 }
 
 #team_selection_form {
     display: flex;
     flex-flow: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-content: flex-start;
+    padding: 25px;
 }
 
 #player_number {
@@ -221,6 +227,10 @@ th, .team_table_label {
 
 .teams_container_player_details {
     padding-top: 20px;
+}
+
+.team_form_item{
+    width: 220px;
 }
 
 .team_logo_container {

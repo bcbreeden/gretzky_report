@@ -18,20 +18,17 @@ def index():
 
 @app.route('/skaters/', methods=('GET', 'POST'))
 def skaters():
+    teams_data_all = get_team_data_all()
     if request.method == 'POST':
-        selection = request.form['skater_selection']
-        if selection == "All Skaters":
-            SKATER_DATA = get_skaters_data_by_team_id(get_team_ids_all())
-            return render_template('skaters.html',
-                                    skaters = SKATER_DATA)
-        elif selection == "Skaters Today":
-            SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
-            return render_template('skaters.html',
-                                    skaters = SKATER_DATA)
-        else: 
-            return render_template('skaters.html')
+        team_ids_get = request.form.getlist('team') # returned as strings
+        team_ids = list(map(int, team_ids_get)) # cast to integer
+        SKATER_DATA = get_skaters_data_by_team_id(team_ids)
+        return render_template('skaters.html',
+                                skaters = SKATER_DATA,
+                                teams_all = teams_data_all)
     else:
-        return render_template('skaters.html')
+        return render_template('skaters.html',
+                                teams_all = teams_data_all)
 
 @app.route('/player_details/', methods=('GET', 'POST'))
 def player_details():
