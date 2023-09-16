@@ -20,12 +20,20 @@ def index():
 def skaters():
     teams_data_all = get_team_data_all()
     if request.method == 'POST':
-        team_ids_get = request.form.getlist('team') # returned as strings
-        team_ids = list(map(int, team_ids_get)) # cast to integer
-        SKATER_DATA = get_skaters_data_by_team_id(team_ids)
-        return render_template('skaters.html',
-                                skaters = SKATER_DATA,
-                                teams_all = teams_data_all)
+        quick_report = request.form.get('quick_report')
+        if quick_report == "Skaters Today":
+            print('quick report path')
+            SKATER_DATA = get_skaters_data_by_team_id(get_teams_playing_today())
+            return render_template('skaters.html',
+                                    skaters = SKATER_DATA,
+                                    teams_all = teams_data_all)
+        else:
+            team_ids_get = request.form.getlist('team') # returned as strings
+            team_ids = list(map(int, team_ids_get)) # cast to integer
+            SKATER_DATA = get_skaters_data_by_team_id(team_ids)
+            return render_template('skaters.html',
+                                    skaters = SKATER_DATA,
+                                    teams_all = teams_data_all)
     else:
         return render_template('skaters.html',
                                 teams_all = teams_data_all)

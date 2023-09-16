@@ -2,10 +2,9 @@
 
 {% block content %}
     <h1>Skaters</h1>
-    <!-- <form id="skaters_selection_form" action="{{ url_for('skaters') }}" method="post">
-        <input class="button_slide slide_right" name="skater_selection" type="submit" value="All Skaters">
-        <input class="button_slide slide_right" name="skater_selection" type="submit" value="Skaters Today">
-    </form> -->
+    <form id="skaters_selection_form" action="{{ url_for('skaters') }}" method="post">
+        <input class="button_slide slide_right" name="quick_report" type="submit" value="Skaters Today">
+    </form>
 
     <form action="{{ url_for('skaters') }}" method="post">
         <div id="team_selection_form">
