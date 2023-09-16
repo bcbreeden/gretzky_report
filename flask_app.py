@@ -108,8 +108,8 @@ def compare_teams():
                         teams_all = teams_data_all
         )
 
-@app.route('/goalies_all/')
-def goalies_all():
+@app.route('/goalies/')
+def goalies():
     GOALIES_DATA = get_goalies_data_by_team_id(get_team_ids_all())
-    return render_template('goalies_all.html',
+    return render_template('goalies.html',
                             goalies = GOALIES_DATA)
