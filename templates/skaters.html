@@ -2,9 +2,12 @@
 
 {% block content %}
     <h1>Skaters</h1>
-    <form id="skaters_selection_form" action="{{ url_for('skaters') }}" method="post">
-        <input class="button_slide slide_right" name="quick_report" type="submit" value="Skaters Today">
-    </form>
+    <h2>Getting Started</h2>
+    <p>Select a team from the list below or run a quick report to populate the table with players. Sorting is available on all columns and results can be filtered further via the search box.</p>
+    <h2>Quick Reports</h2>
+        <form class="quick_report_form" action="{{ url_for('skaters') }}" method="post">
+            <input class="form_link" name="quick_report" type="submit" value="Skaters Today"><p>- Fetches all skaters that are playing a regular season game today.</p>
+        </form>
 
     <form action="{{ url_for('skaters') }}" method="post">
         <div id="team_selection_form">
