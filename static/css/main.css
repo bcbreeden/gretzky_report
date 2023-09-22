@@ -49,7 +49,7 @@ h1 {
 }
 
 h2 {
-    color: var(--pink)
+    color: var(--light_blue);
 }
 
 h3 {
@@ -216,7 +216,11 @@ th, .team_table_label {
 
 .quick_report_form {
     align-items: start;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.quick_report_link {
+    padding: 0;
 }
 
 .stat_cell {
