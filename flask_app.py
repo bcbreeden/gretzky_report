@@ -20,8 +20,7 @@ def index():
 @app.route('/skaters/', methods=('GET', 'POST'))
 def skaters():
     teams_data_all = get_team_data_all()
-    # team_ids_playing_today = get_teams_playing_today()
-    team_ids_playing_today = [1, 3, 5]
+    team_ids_playing_today = get_teams_playing_today()
     team_ids_all = get_team_ids_all()
     if request.method == 'POST':
         quick_report = request.form.get('quick_report')
