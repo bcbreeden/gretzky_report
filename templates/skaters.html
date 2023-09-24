@@ -12,10 +12,13 @@
     <form action="{{ url_for('skaters') }}" method="post">
         <div id="team_selection_form">
             <div class="team_form_item">
-                <input type="checkbox" onClick="toggle(this)" />
-                <label for="team">Select All</label>
+                <input type="checkbox" id="all_teams_checkbox" onClick="toggle_all(this)" />
+                <label for="all_teams">Select All</label>
+
+                <input type="checkbox" id="playing_today_checkbox" onClick="check_teams_today(this)" />
+                <label for="teams_today">Playing Today</label>
             </div>
-            <br />
+            <br /><br /><br />
             {% for _,team in teams_all.iterrows() %}
             <div class="team_form_item">
                 <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
@@ -28,12 +31,46 @@
     </form>
 
     <script language="JavaScript">
-        function toggle(source) {
-            checkboxes = document.getElementsByName('team');
-            for(var i=0, n=checkboxes.length;i<n;i++) {
-            checkboxes[i].checked = source.checked;
+        var teamIdsAll = JSON.parse('{{ team_ids_all | safe }}');
+        function toggle_all(source) {
+            var allTeamsCheckbox = document.getElementById("all_teams_checkbox");
+            if (allTeamsCheckbox.checked) {
+                teamIdsAll.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = true;
+                }
+                });
+            } else {
+                teamIdsAll.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = false;
+                }
+                });
             }
         }
+        
+        var teamsPlayingToday = JSON.parse('{{ team_ids_playing_today | safe }}');
+        function check_teams_today(source) {
+            var playingTodayCheckbox = document.getElementById("playing_today_checkbox");
+            if (playingTodayCheckbox.checked) {
+                teamsPlayingToday.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = true;
+                }
+                });
+            } else {
+                teamsPlayingToday.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = false;
+                }
+                });
+            }
+        }
+
     </script>
 
     {% include 'template_skater_table.html' %}
