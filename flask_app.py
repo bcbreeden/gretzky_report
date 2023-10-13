@@ -84,15 +84,6 @@ def player_details():
         return redirect(url_for('index'))
 
 '''
-Renders a template with the skater team selection form.
-'''
-@app.route('/skater_form/')
-def skater_form():
-    TEAMS_DATA = get_team_data_all()
-    return render_template("skater_form.html",
-                            teams = TEAMS_DATA)
-
-'''
 Renders the comparison page for teams.
 '''
 @app.route('/compare_teams/', methods=('GET', 'POST'))
