@@ -2,13 +2,6 @@
 
 {% block content %}
     <h1>Skaters</h1>
-    
-    <h2>Quick Reports</h2>
-        <form class="quick_report_form" action="{{ url_for('skaters') }}" method="post">
-            <input class="form_link quick_report_link" name="quick_report" type="submit" value="Skaters Today">
-            <p>Fetches all skaters that are playing a regular season game today.</p>
-        </form>
-
     <form action="{{ url_for('skaters') }}" method="post">
         <div id="team_selection_form">
             <div class="team_form_item">
