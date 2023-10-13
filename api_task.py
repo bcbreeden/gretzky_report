@@ -34,7 +34,7 @@ if __name__ == "__main__":
     write_player_data(get_player_stats(get_min_games()))
 
     print('Schedule write in progress...', flush=True)
-    write_schedule_data(get_game_schedule())
+    write_schedule_data(get_game_schedule(get_current_season()))
 
     print('Team write in progress...', flush=True)
     write_team_data(get_team_data())

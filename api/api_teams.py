@@ -38,9 +38,14 @@ def get_team_data():
         for k, v in stats_all[1]['stat'].items():
             team_data[k.lower() + '_r'] = int(re.sub('\D', '', v))
 
-        team_data['pytha_exp'] = round(pytha_exp(team_data['goalsagainstpergame'], team_data['goalspergame'], team_data['gamesplayed']) * 100, 3)
-        team_data['win_perc'] = round((team_data['wins']/team_data['gamesplayed']) * 100, 3)
-        team_data['win_pytha_diff'] = round((team_data['pytha_exp']- team_data['win_perc']) , 3)
+        if team_data['gamesplayed'] == 0:
+            team_data['pytha_exp'] = 0
+            team_data['win_perc'] = 0
+            team_data['win_pytha_diff'] = 0
+        else:
+            team_data['pytha_exp'] = round(pytha_exp(team_data['goalsagainstpergame'], team_data['goalspergame'], team_data['gamesplayed']) * 100, 3)
+            team_data['win_perc'] = round((team_data['wins']/team_data['gamesplayed']) * 100, 3)
+            team_data['win_pytha_diff'] = round((team_data['pytha_exp']- team_data['win_perc']) , 3)
         team_data_all.append(team_data)
     return(team_data_all)
 
@@ -53,9 +58,12 @@ def pytha_exp(goals_allowed_per_game, goals_scored_per_game, total_games_played)
     EXPO = 2.1
     goals_allowed = goals_allowed_per_game * total_games_played
     goals_scored = goals_scored_per_game * total_games_played
-
-    return(
-       round(
-         (goals_scored ** EXPO) / ((goals_scored ** EXPO) + (goals_allowed ** EXPO)) , 3
-       )
-    )
+    
+    if goals_scored == 0:
+        return 0
+    else:
+        return(
+            round(
+                (goals_scored ** EXPO) / ((goals_scored ** EXPO) + (goals_allowed ** EXPO)) , 3
+            )
+        )

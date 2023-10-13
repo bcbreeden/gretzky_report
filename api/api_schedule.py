@@ -5,9 +5,9 @@ from datetime import datetime, timedelta
 '''
 Calls the api and formats a list of dictionaries containing the game schedule.
 '''
-def get_game_schedule():
+def get_game_schedule(season):
     games_data_all = []
-    request_string = 'https://statsapi.web.nhl.com/api/v1/schedule?season=20222023'
+    request_string = 'https://statsapi.web.nhl.com/api/v1/schedule?season={}'.format(season)
     schedule_data = json.loads(requests.get(request_string).text)
     dates = schedule_data['dates']
     for date in dates:
