@@ -3,24 +3,7 @@
 {% block content %}
     <h1>Skaters</h1>
     <form action="{{ url_for('skaters') }}" method="post">
-        <div id="team_selection_form">
-            <div class="team_form_item">
-                <input type="checkbox" id="all_teams_checkbox" onClick="toggle_all(this)" />
-                <label for="all_teams">Select All</label>
-
-                <input type="checkbox" id="playing_today_checkbox" onClick="check_teams_today(this)" />
-                <label for="teams_today">Playing Today</label>
-            </div>
-            <br /><br /><br />
-            {% for _,team in teams_all.iterrows() %}
-            <div class="team_form_item">
-                <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
-                <label for="team"> {{team['name']}}</label>
-            </div>
-            {% endfor %}
-            <br />
-        </div>
-        <input class="button_slide slide_right" type="submit" value="Go!">
+        {% include 'element_team_selection_form.html' %}
     </form>
 
     <script language="JavaScript">
@@ -43,7 +26,6 @@
                 });
             }
         }
-        
         var teamsPlayingToday = JSON.parse('{{ team_ids_playing_today | safe }}');
         function check_teams_today(source) {
             var playingTodayCheckbox = document.getElementById("playing_today_checkbox");
@@ -63,8 +45,7 @@
                 });
             }
         }
-
-    </script>
+    </script> 
 
     {% include 'template_skater_table.html' %}
 {% endblock %}
