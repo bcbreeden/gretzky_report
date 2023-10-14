@@ -19,12 +19,6 @@ body, html {
     font-weight: bold;
   }
 
-form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 input[type=submit]:hover{
     cursor:pointer;
 }
@@ -145,10 +139,16 @@ th, .team_table_label {
     justify-content: flex-start;
 }
 
+#team_selection_all_teams {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
+}
+
 #team_selection_form {
     display: flex;
     flex-flow: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-content: flex-start;
     padding: 25px;
 }
