@@ -1,67 +1,72 @@
-<table id="goalies" class="display">
-    <thead>
-        <tr>
-            <th>Player Name</th>
-            <th>Status</th>
-            <th>Team</th>
-            <th>Wins</th>
-            <th>Losses</th>
-            <th>Ties</th>
-            <th>Shutouts</th>
-            <th>Save %</th>
-            <th>GAA</th>
-            <th>FPPG</th>
-        </tr>
-    </thead>
+{% if goalies is not defined %}
 
-    <tbody>
-        {% for _, goalie in goalies.iterrows() %}
+
+{% else %}
+    <table id="goalies" class="display">
+        <thead>
             <tr>
-                <td class="non_stat_cell">
-                    <form target="_blank" action="{{ url_for('player_details') }}" method="post">
-                        <input class="hidden" type="checkbox" id="{{goalie['id']}}" name="player_id" value="{{goalie['id']}}" checked>
-                        <input class="hidden" type="checkbox" id="{{goalie['teamid']}}" name="player_team_id" value="{{goalie['teamid']}}" checked>
-                        <input class="hidden" type="checkbox" name="position" value="g" checked>
-                        <input class="form_link" type="submit" value="{{goalie['playername']}}">
-                        <p class="hidden">{{goalie['playername']}}</p>
-                    </form>
-                </td>
-
-
-                <td class="non_stat_cell">
-                    {% if goalie['hot'] == 1 %}
-                        <img src="{{ url_for('static', filename='img/fire.png') }}" alt="This player is on a hot streak!">
-                        <p class="hidden">hot</p>
-                    {% endif %}
-
-                    {% if goalie['cold'] == 1 %}
-                        <img src="{{ url_for('static', filename='img/ice.png') }}" alt="This player is on a cold streak!">
-                        <p class="hidden">cold</p>
-                    {% endif %}
-
-                    {% if goalie['status'] == "I" %}
-                        <img src="{{ url_for('static', filename='img/plus.png') }}" alt="This player is potentially injured.">
-                        <p class="hidden">injured</p>
-                    {% endif %}
-                </td>
-
-                <td class="non_stat_cell">{{goalie['currentteam']}}</td>
-                <td class="stat_cell">{{goalie['wins']}}</td>
-                <td class="stat_cell">{{goalie['losses']}}</td>
-                <td class="stat_cell">{{goalie['ties']}}</td>
-                <td class="stat_cell">{{goalie['shutouts']}}</td>
-                <td class="stat_cell">{{goalie['savepercentage']}}</td>
-                <td class="stat_cell">{{goalie['goalagainstaverage']}}</td>
-                <td class=""stat_cell">{{goalie['FPPG']}}</td>
+                <th>Player Name</th>
+                <th>Status</th>
+                <th>Team</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Ties</th>
+                <th>Shutouts</th>
+                <th>Save %</th>
+                <th>GAA</th>
+                <th>FPPG</th>
             </tr>
-        {% endfor %}
-    </tbody>
- 
-</table>
+        </thead>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
-<script>
-    $(document).ready( function () {
-        $('#goalies').DataTable();
-    } );
-</script>
+        <tbody>
+            {% for _, goalie in goalies.iterrows() %}
+                <tr>
+                    <td class="non_stat_cell">
+                        <form target="_blank" action="{{ url_for('player_details') }}" method="post">
+                            <input class="hidden" type="checkbox" id="{{goalie['id']}}" name="player_id" value="{{goalie['id']}}" checked>
+                            <input class="hidden" type="checkbox" id="{{goalie['teamid']}}" name="player_team_id" value="{{goalie['teamid']}}" checked>
+                            <input class="hidden" type="checkbox" name="position" value="g" checked>
+                            <input class="form_link" type="submit" value="{{goalie['playername']}}">
+                            <p class="hidden">{{goalie['playername']}}</p>
+                        </form>
+                    </td>
+
+
+                    <td class="non_stat_cell">
+                        {% if goalie['hot'] == 1 %}
+                            <img src="{{ url_for('static', filename='img/fire.png') }}" alt="This player is on a hot streak!">
+                            <p class="hidden">hot</p>
+                        {% endif %}
+
+                        {% if goalie['cold'] == 1 %}
+                            <img src="{{ url_for('static', filename='img/ice.png') }}" alt="This player is on a cold streak!">
+                            <p class="hidden">cold</p>
+                        {% endif %}
+
+                        {% if goalie['status'] == "I" %}
+                            <img src="{{ url_for('static', filename='img/plus.png') }}" alt="This player is potentially injured.">
+                            <p class="hidden">injured</p>
+                        {% endif %}
+                    </td>
+
+                    <td class="non_stat_cell">{{goalie['currentteam']}}</td>
+                    <td class="stat_cell">{{goalie['wins']}}</td>
+                    <td class="stat_cell">{{goalie['losses']}}</td>
+                    <td class="stat_cell">{{goalie['ties']}}</td>
+                    <td class="stat_cell">{{goalie['shutouts']}}</td>
+                    <td class="stat_cell">{{goalie['savepercentage']}}</td>
+                    <td class="stat_cell">{{goalie['goalagainstaverage']}}</td>
+                    <td class=""stat_cell">{{goalie['FPPG']}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    
+    </table>
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#goalies').DataTable();
+        } );
+    </script>
+{% endif %}

@@ -103,8 +103,22 @@ def compare_teams():
                         teams_all = teams_data_all
         )
 
-@app.route('/goalies/')
+@app.route('/goalies/', methods=('GET', 'POST'))
 def goalies():
-    GOALIES_DATA = get_goalies_data_by_team_id(get_team_ids_all())
-    return render_template('goalies.html',
-                            goalies = GOALIES_DATA)
+    teams_data_all = get_team_data_all()
+    team_ids_playing_today = get_teams_playing_today()
+    team_ids_all = get_team_ids_all()
+    if request.method == 'POST':
+        team_ids_get = request.form.getlist('team') # returned as strings
+        team_ids = list(map(int, team_ids_get)) # cast to integer
+        GOALIE_DATA = get_goalies_data_by_team_id(team_ids)
+        return render_template('goalies.html',
+                                goalies = GOALIE_DATA,
+                                teams_all = teams_data_all,
+                                team_ids_playing_today = json.dumps(team_ids_playing_today),
+                                team_ids_all = json.dumps(team_ids_all))
+    else:
+        return render_template('goalies.html',
+                                teams_all = teams_data_all,
+                                team_ids_playing_today = json.dumps(team_ids_playing_today),
+                                team_ids_all = json.dumps(team_ids_all))
