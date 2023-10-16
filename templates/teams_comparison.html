@@ -3,31 +3,53 @@
 {% block content %}
 <section id="team_comparison_container">
     <form action="{{ url_for('compare_teams') }}" method="post">
-        <div id="team_selection_form">
-            <div class="team_form_item">
-                <input type="checkbox" onClick="toggle(this)" />
-                <label for="team">Select All</label>
-            </div>
-            <br />
-            {% for _,team in teams_all.iterrows() %}
-            <div class="team_form_item">
-                <input type="checkbox" id="{{team['id']}}" name="team" value="{{team['id']}}">
-                <label for="team"> {{team['name']}}</label>
-            </div>
-            {% endfor %}
-            <br />
-        </div>
-        <input class="button_slide slide_right" type="submit" value="Go!">
+        <h1>Skaters</h1>
+        <form action="{{ url_for('skaters') }}" method="post">
+            {% include 'element_team_selection_form.html' %}
+        </form>
     </form>
 
     <script language="JavaScript">
-        function toggle(source) {
-            checkboxes = document.getElementsByName('team');
-            for(var i=0, n=checkboxes.length;i<n;i++) {
-            checkboxes[i].checked = source.checked;
+        var teamIdsAll = JSON.parse('{{ team_ids_all | safe }}');
+        function toggle_all(source) {
+            var allTeamsCheckbox = document.getElementById("all_teams_checkbox");
+            if (allTeamsCheckbox.checked) {
+                teamIdsAll.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = true;
+                }
+                });
+            } else {
+                teamIdsAll.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = false;
+                }
+                });
+            }
+        }
+        var teamsPlayingToday = JSON.parse('{{ team_ids_playing_today | safe }}');
+        function check_teams_today(source) {
+            var playingTodayCheckbox = document.getElementById("playing_today_checkbox");
+            if (playingTodayCheckbox.checked) {
+                teamsPlayingToday.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = true;
+                }
+                });
+            } else {
+                teamsPlayingToday.forEach(function(value) {
+                var checkbox = document.getElementById(value);
+                if (checkbox) {
+                    checkbox.checked = false;
+                }
+                });
             }
         }
     </script>
+
     <div class="teams_container_all">
         {% include 'template_team_card.html' %}
     </div>

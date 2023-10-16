@@ -88,6 +88,9 @@ Renders the comparison page for teams.
 '''
 @app.route('/compare_teams/', methods=('GET', 'POST'))
 def compare_teams():
+    teams_data_all = get_team_data_all()
+    team_ids_playing_today = get_teams_playing_today()
+    team_ids_all = get_team_ids_all()
     if request.method == 'POST':
         team_ids_get = request.form.getlist('team') # returned as strings
         team_ids = list(map(int, team_ids_get)) # cast to integer
@@ -95,13 +98,15 @@ def compare_teams():
         teams_data_all = get_team_data_all()
         return render_template('teams_comparison.html',
                         teams_all = teams_data_all,
-                        teams = teams_data_by_id
-        )
+                        teams = teams_data_by_id,
+                        team_ids_playing_today = json.dumps(team_ids_playing_today),
+                        team_ids_all = json.dumps(team_ids_all))
     else:
         teams_data_all = get_team_data_all()
         return render_template('teams_comparison.html',
-                        teams_all = teams_data_all
-        )
+                        teams_all = teams_data_all,
+                        team_ids_playing_today = json.dumps(team_ids_playing_today),
+                        team_ids_all = json.dumps(team_ids_all))
 
 @app.route('/goalies/', methods=('GET', 'POST'))
 def goalies():
