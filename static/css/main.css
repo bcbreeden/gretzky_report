@@ -59,6 +59,18 @@ th, .team_table_label {
     color: var(--light_blue);
 }
 
+#logo {
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
 #player_details_container {
     height: 100%;
     width: 100%;
@@ -289,7 +301,7 @@ li a, .dropbtn {
 }
   
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: var(--dark_gray);
+    /* background-color: var(--dark_gray); */
 }
   
 li.dropdown {
