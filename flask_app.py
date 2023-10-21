@@ -71,7 +71,7 @@ def player_details():
         elif position == 'g':
             goalie_data = get_goalie_data_by_id(player_id)
             goalie_history_data = get_goalie_history_by_id(player_id)
-            max_y_plot_value = goalie_history_data['fantasy_points'].max()
+            max_y_plot_value = int(goalie_history_data['fantasy_points'].max()+5)
             goalie_history_plot_data = get_goalie_plot_data(goalie_history_data)
             return render_template('player_details.html',
                                     player = goalie_data,
