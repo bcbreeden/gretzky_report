@@ -56,6 +56,7 @@ def player_details():
         if position == 's':
             skater_data = get_skater_data_by_id(player_id)
             skater_history_data = get_skater_history_by_id(player_id)
+            max_y_plot_value = int(skater_history_data['fantasy_points'].max()+5)
             skater_history_plot_data = get_skater_plot_data(skater_history_data)
             return render_template('player_details.html',
                                     player = skater_data,
@@ -64,11 +65,13 @@ def player_details():
                                     plot_fantasy_points = skater_history_plot_data[1],
                                     teams = teams_data_by_id,
                                     position = position,
-                                    offseason = offseason)
+                                    offseason = offseason,
+                                    max_y_plot_value = max_y_plot_value)
         # Goalie
         elif position == 'g':
             goalie_data = get_goalie_data_by_id(player_id)
             goalie_history_data = get_goalie_history_by_id(player_id)
+            max_y_plot_value = goalie_history_data['fantasy_points'].max()
             goalie_history_plot_data = get_goalie_plot_data(goalie_history_data)
             return render_template('player_details.html',
                                     player = goalie_data,
@@ -77,7 +80,8 @@ def player_details():
                                     plot_fantasy_points = goalie_history_plot_data[1],
                                     teams = teams_data_by_id,
                                     position = position,
-                                    offseason = offseason)
+                                    offseason = offseason,
+                                    max_y_plot_value = max_y_plot_value)
         else:
             return redirect(url_for('index'))
     else:
