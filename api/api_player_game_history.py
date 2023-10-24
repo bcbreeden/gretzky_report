@@ -36,12 +36,12 @@ def get_player_game_history(current_season):
             except KeyError:
                 try:
                     record['saves'] = game['stat']['saves']
-                    record['save_perc'] = game['stat']['savePercentage']
+                    record['save_perc'] = round(game['stat']['savePercentage'], 3)
                     record['goals_against'] = game['stat']['goalsAgainst']
                     record['shots_against'] = game['stat']['shotsAgainst']
                     record['decision'] = game['stat']['decision']
                     record['shutout'] = game['stat']['shutouts']
-                    record['save_pctg'] = game['stat']['savePercentage']
+                    record['save_pctg'] = round(game['stat']['savePercentage'], 3)
                     record['ot'] = game['stat']['ot']
                     record['fantasy_points'] = get_goalie_fantasy_points(
                         record['decision'],
@@ -63,11 +63,11 @@ def get_skater_fantasy_points(goals, assists, shots, blocks):
     score = (score + 3) if (shots >=5) else score #Shooter Bonus
     score = (score + 3) if (blocks >=3) else score #Blocker Bonus
     score = (score + 3) if ((goals + assists) >= 3) else score #Points Bonus
-    return score
+    return round(score, 2)
 
 def get_goalie_fantasy_points(decision, saves, goals_against, shutout, ot):
     score = (saves * 0.7) + (goals_against * (-3.5))
     score = (score + 6) if (decision == 'W') else score
     score = (score + 4) if (shutout == 1) else score
     score = (score + 2) if (ot == 1) else score
-    return score
+    return round(score, 2)

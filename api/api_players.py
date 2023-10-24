@@ -57,12 +57,19 @@ def get_player_stats(min_games):
                 record['losses'] = stats['losses']
                 record['ties'] = stats['ties']
                 record['shutouts'] = stats['shutouts']
-                record['savepercentage'] = stats['savePercentage']
-                record['goalagainstaverage'] = stats['goalAgainstAverage']
+                record['savepercentage'] = round(stats['savePercentage'], 3)
+                record['goalagainstaverage'] = round(stats['goalAgainstAverage'], 3)
                 record['saves'] = stats['saves']
                 record['ot'] = stats['ot']
                 record['gamesstarted'] = stats['gamesStarted']
-                record['FPPG'] = get_goalie_fantasy_ppg(record['games'], record['wins'], record['saves'], record['goalagainstaverage'], record['shutouts'], record['ot'])
+                record['FPPG'] = round(
+                    get_goalie_fantasy_ppg(record['games'],
+                        record['wins'],
+                        record['saves'],
+                        record['goalagainstaverage'],
+                        record['shutouts'],
+                        record['ot']),
+                    2)
             # No Stats (Rookie or First NHL Game)
             except (IndexError, KeyError):
                 record['jerseynumber'] = 0
