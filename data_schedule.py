@@ -10,7 +10,6 @@ Returns the ids of all teams playing today.
 '''
 def get_teams_playing_today():
     DATA = read_schedule_data()
-
     today = date.today().strftime('%Y-%m-%d')
     schedule_today = DATA.loc[DATA['gamedate']==today]
     ids = []
@@ -18,6 +17,20 @@ def get_teams_playing_today():
         ids.append(game['homeid'])
         ids.append(game['awayid'])
     return(ids)
+
+'''
+Returns the match ups for today.
+
+List of match ups: [away team id, home team id]
+'''
+def get_matchups_today():
+    DATA = read_schedule_data()
+    today = date.today().strftime('%Y-%m-%d')
+    schedule_today = DATA.loc[DATA['gamedate']==today]
+    match_ups = []
+    for _, game in schedule_today.iterrows():
+        match_ups.append([game['awayid'], game['homeid']])
+    return(match_ups)
 
 '''
 Given a team id, returns the next team id they played against.
