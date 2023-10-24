@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Today's Match Ups</h1>
+
+    {% if matches is not defined %}
+        <h3>No Matches Today</h3>
+    {% else %}
+        {% for match in matches %}
+            {{ match[0] }}
+            {{ match[1] }}
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}
