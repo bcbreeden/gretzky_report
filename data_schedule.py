@@ -26,7 +26,7 @@ List of match ups: [away team id, home team id]
 def get_matchups_today():
     DATA = read_schedule_data()
     today = date.today().strftime('%Y-%m-%d')
-    schedule_today = DATA.loc[DATA['gamedate']=='2023-10-24'] #TODO change back to today
+    schedule_today = DATA.loc[DATA['gamedate']==today] #TODO change back to today
     match_ups = []
     for _, game in schedule_today.iterrows():
         match_ups.append([game['awayid'], game['homeid']])

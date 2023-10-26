@@ -199,6 +199,16 @@ th, .team_table_label {
     text-align: center;
 }
 
+.match_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+    border: 2.5px solid var(--light_blue);
+    border-radius: 10px;
+    margin: 15px;
+}
+
 .odd {
     background-color: var(--dark_gray_alt);
 }
@@ -244,11 +254,18 @@ th, .team_table_label {
     font-size: 82px;
 }
 
-.teams_container_all {
+.team_container {
+    margin: 7px;
+}
+
+.match_container_all {
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .teams_container_player_details {
