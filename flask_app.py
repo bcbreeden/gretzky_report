@@ -135,5 +135,8 @@ def goalies():
 @app.route('/match_ups')
 def match_ups():
     matches = get_matchups_today()
+    teams_data_all_matches = []
+    for match in matches:
+        teams_data_all_matches.append(get_teams_data_by_team_ids([match[0], match[1]]))
     return render_template('match_ups.html',
-                            matches = matches)
+                            matches_data = teams_data_all_matches)

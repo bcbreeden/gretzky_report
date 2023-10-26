@@ -3,12 +3,82 @@
 {% block content %}
     <h1>Today's Match Ups</h1>
 
-    {% if matches is not defined %}
+    {% if matches_data is not defined %}
         <h3>No Matches Today</h3>
     {% else %}
-        {% for match in matches %}
-            {{ match[0] }}
-            {{ match[1] }}
+        {% for match in matches_data %}
+            {% for _, team in match.iterrows() %}
+                <div class="team_container">
+                    
+                    <section id="player_header">
+                        <h1>{{team['name']}}</h1>
+                        <h3 class="skater_team_header">{{team['division']}}</h3>
+                        <h3 class="skater_team_header">{{team['gamesplayed']}} Games Played</h3>
+                    </section>
+                    <section class="team_logo_container">
+                        <img class="skater_card_icon" src="{{ url_for('static', filename='img/' + team['id']|string + '.png') }}">
+                    </section>
+
+
+                    <table class="team_details_table">
+                        <tr>
+                            <td class="team_table_label">Wins</td><td class="team_table_data">{{team['wins']}} (Rank - {{team['wins_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">Losses</td><td class="team_table_data">{{team['losses']}} (Rank - {{team['losses_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">OTs</td><td class="team_table_data">{{team['ot']}} (Rank - {{team['ot_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">PTS</td><td class="team_table_data">{{team['pts']}} (Rank - {{team['pts_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">Goals/G</td><td class="team_table_data">{{team['goalspergame']}} (Rank - {{team['goalspergame_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">Goals Against/G</td><td class="team_table_data">{{team['goalsagainstpergame']}} (Rank - {{team['goalsagainstpergame_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">PP %</td><td class="team_table_data">{{team['powerplaypercentage']}} (Rank - {{team['powerplaypercentage_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">PP Goals</td><td class="team_table_data">{{team['powerplaygoals']}} (Rank - {{team['powerplaygoals_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">PP Goals Against</td><td class="team_table_data">{{team['powerplaygoalsagainst']}} (Rank - {{team['powerplaygoalsagainst_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">PP Opportunities</td><td class="team_table_data">{{team['powerplayopportunities']}} (Rank - {{team['powerplayopportunities_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">PK %</td><td class="team_table_data">{{team['penaltykillpercentage']}} (Rank - {{team['penaltykillpercentage_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">Shots/G</td><td class="team_table_data">{{team['shotspergame']}} (Rank - {{team['shotspergame_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td class="team_table_label">Shots Allowed/G</td><td class="team_table_data">{{team['shotsallowed']}} (Rank - {{team['shotsallowed_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td  class="team_table_label">Faceoff Win %</td><td class="team_table_data">{{team['faceoffwinpercentage']}} (Rank - {{team['faceoffwinpercentage_r']}})</td>
+                        </tr>
+                        <tr>
+                            <td  class="team_table_label">Win %</td><td class="team_table_data">{{team['win_perc']}}</td>
+                        </tr>
+                        <tr>
+                            <td  class="team_table_label">Pytha Exp %</td><td class="team_table_data">{{team['pytha_exp']}}</td>
+                        </tr>
+                        <tr>
+                            <td  class="team_table_label">Pytha/Win Diff</td><td class="team_table_data">{{team['win_pytha_diff']}}</td>
+                        </tr>
+
+                    </table>
+                </div>
+            {% endfor %}
+            <br />
+            ---------
+            <br />
         {% endfor %}
     {% endif %}
 
