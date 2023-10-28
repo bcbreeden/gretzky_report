@@ -24,8 +24,7 @@ def get_team_data_all():
 Locate and return data for multiple teams by a list of ids.
 '''
 def get_teams_data_by_team_ids(team_ids):
-    DATA = read_teams_data() 
-    #teams = DATA.loc[DATA['id'].isin(team_ids)] #ordered by team id
+    DATA = read_teams_data()
     teams = DATA.set_index('id').loc[team_ids].reset_index() #ordered by the values passed in
     return(teams)
 

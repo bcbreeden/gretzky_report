@@ -268,10 +268,6 @@ th, .team_table_label {
     margin-top: 30px;
 }
 
-.teams_container_player_details {
-    padding-top: 20px;
-}
-
 .team_form_item{
     width: 220px;
 }
@@ -315,10 +311,6 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-  
-li a:hover, .dropdown:hover .dropbtn {
-    /* background-color: var(--dark_gray); */
 }
   
 li.dropdown {
